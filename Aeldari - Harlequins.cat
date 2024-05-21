@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3e2db9b6-267b-4c75-877d-bb63dd2008b1" name="Aeldari - Harlequins" revision="74" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FarseerV" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="246" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="7530ae62-73fa-40bb-b959-c0a122f4284b" name="Death Jester" hidden="false" collective="false" import="true" targetId="5af1bd36-1a54-40ae-9f29-3b52401c618a" type="selectionEntry"/>
+    <entryLink id="2390bae7-74e2-46d9-a3ea-9d4d9a67b691" name="Troupe Master" hidden="false" collective="false" import="true" targetId="513ad583-12c2-4d47-9783-030f9a48c74e" type="selectionEntry"/>
+    <entryLink id="31e6403d-416b-43f1-b996-0854209f685c" name="Solitaire" hidden="false" collective="false" import="true" targetId="e85726c6-50be-4528-8083-f2e85088dda3" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="363adbd0-0e72-4d7a-ae16-8c429d14608a">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11f3ad64-8939-48f1-944f-f238e6f562df" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="793e7645-dfab-4da6-949e-61eaeb69f8aa" name="Voidweavers" hidden="false" collective="false" import="true" targetId="ea67a6c5-d813-4f88-bbfe-c3f0853d49fc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11f3ad64-8939-48f1-944f-f238e6f562df" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2cb9a441-b287-4da2-9f70-8d20573c191e" name="Starweaver" hidden="false" collective="false" import="true" targetId="8329f99d-2bc1-4df9-84c3-94d7e0e0d201" type="selectionEntry"/>
+    <entryLink id="f7435bda-c241-4ccb-b272-6eef3b109777" name="Skyweavers" hidden="false" collective="false" import="true" targetId="03c423ae-f85d-427e-a347-8e79e8a97578" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11f3ad64-8939-48f1-944f-f238e6f562df" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="697cef71-0969-4efe-8337-9372ed6e3e94" name="Shadowseer" hidden="false" collective="false" import="true" targetId="910ac6bf-3d01-40d4-9a71-c18d5b5e100e" type="selectionEntry"/>
+    <entryLink id="986455d5-e0f7-4a26-92cb-8e49bdeb773a" name="Saedath Characterisation" hidden="false" collective="false" import="true" targetId="fc76c911-6d2a-4bd2-81b9-4634708e05c9" type="selectionEntry"/>
+    <entryLink id="30af9e11-539c-4a5c-986d-f9420ea2fab6" name="Troupe V2" hidden="false" collective="false" import="true" targetId="ad32e0fd-fbe3-44c8-9b21-f4a9bf462b18" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="eaf394cb-f32e-4c55-8376-8d578cd633f9" name="Aeldari - Aeldari Library" targetId="7f36caeb-14e5-4cb2-bd13-5523935fdb7f" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

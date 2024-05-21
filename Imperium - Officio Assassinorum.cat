@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="12a8f9c0-5a14-47ee-b526-84b61823daf1" name="Imperium - Officio Assassinorum" revision="31" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="db48897e-ff88-4322-b4c2-2905d50c590b" name="Codex: Officio Assassinorum"/>
+  </publications>
+  <categoryEntries>
+    <categoryEntry id="393325c3-ff1c-4ad8-ad3b-d79473ae5038" name="Vindicare Assassin" hidden="false"/>
+    <categoryEntry id="467392a9-5419-4425-bca4-ffe2c79bc4ee" name="Callidus Assassin" hidden="false"/>
+    <categoryEntry id="df94b629-92e5-4d76-9aad-c5c384de6e7a" name="Culexus Assassin" hidden="false"/>
+    <categoryEntry id="eda8542e-aae9-4982-b454-9320ed8609c2" name="Eversor Assassin" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="6b16d905-4f29-45b8-942c-d25b40023782" name="Callidus Assassin" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="2a806b42-a4db-4b7b-ad9a-035f89719e1a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="821dffae-838c-4068-998a-eb7516c88c93" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a806b42-a4db-4b7b-ad9a-035f89719e1a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7cb7c065-ff78-4658-ab28-0001cfce09be" name="Callidus Assassin" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3ede4320-526e-4e7b-a0ac-73fb1ce95ae2" name="Hit and Run" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This model can shoot and charge in a turn in which it Fell Back.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f11f16b3-ff61-4d8e-83ce-f4726b916d39" name="Reign of Confusion" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">If you have any models with this ability in your army, then in the first battle round, roll one D6 each time your opponent spends Command Points (CPs) to use a Stratagem. On a 4+ your opponent must spend one additional CP to use that Stratagem, or else it has no effect (any CPs spent so far are lost). This ability cannot affect Stratagems used before the battle.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4145c18b-f402-4af4-9303-fcf5b1d413e6" name="Polymorphine" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">During deployment, you can set up this model in disguise instead of placing it on the battlefield.  At the end of any of your Movement phases this model can revert to its true form - set it up anywhere on the battlefield that is more than D6+3&quot; away from any enemy models.  For example if you roll a 4, the model can be set up anywhere that is more than 7&quot; from any enemy model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18e97ea8-df66-4aa3-b556-3ad85828a398" name="Lightning Reflexes" hidden="false" targetId="19e7d1f4-1837-496f-8e94-ed18d92b402c" type="profile"/>
+        <infoLink id="48e93ee3-ce3e-49b1-960d-18e16499ad37" name="Independent Operative" hidden="false" targetId="d9806e9c-de05-4ed7-9d29-56a2af607afb" type="rule"/>
+        <infoLink id="ab49b351-b51e-4267-ba40-b1eb8400a72b" name="Execution Force" hidden="false" targetId="3ce53365-a6d8-4b5a-beec-5e5bd022062e" type="rule"/>
+        <infoLink id="a1352cb9-f874-41b0-a46f-2dd904c598cc" name="Agents of the Imperium" hidden="false" targetId="93cbed7a-ebbd-4e9a-aa7e-debe4d6b7c98" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3b709cbf-33eb-4327-aaa1-161b6844b45c" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="2ed00e61-5f22-4157-88d3-147b73c9bafe" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="7dcbf26b-fda0-4d16-abb0-0aa957ecf6f5" name="New CategoryLink" hidden="false" targetId="faf19d3b-c728-47a9-8d60-f04458afb471" primary="false"/>
+        <categoryLink id="50f5c304-d747-4dc5-a17c-391384873156" name="New CategoryLink" hidden="false" targetId="467392a9-5419-4425-bca4-ffe2c79bc4ee" primary="false"/>
+        <categoryLink id="9c25c1a7-55f9-42ee-b318-f211ca3235fe" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="3ae279e9-ba6f-4f2d-a373-d1afcbe744d9" name="Faction: Agents of the Imperium" hidden="false" targetId="c49f5a78-0916-4576-97a2-f4695b17fcce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bc0a0961-e6a4-49de-949c-253a5ac0766b" name="Neural Shredder" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66f75246-82b8-4625-a6a3-91f92d1135a5" name="Neural Shredder" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">9&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">*</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">*</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">*</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack with this weapon, if a hit is scored, do not make a wound roll: instead roll 3D6; if the result is equal to or greater than the target unit’s highest Leadership characteristic, it suffers D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0787fb3c-53a1-4e91-82c9-689bf24e63ae" name="Phase Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9662e3ae-ed3a-4ee8-9de5-e3d5e393e890" name="Phase Sword" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack made with this weapon, an invulnerable saving throw cannot be made.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19f57555-9c36-4b29-af73-0247bdf0fd12" name="Poison Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="073e3d89-cd6b-4af2-8243-29af626309b8" name="Poison Blades" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">2</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When the bearer fights, it makes 1 additional attack with this weapon. Attacks made with this weapon wound on a 3+ unless the target is a VEHICLE unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="679ee15f-2b4b-454d-9a2e-55784d6395b4" name="Culexus Assassin" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="41482f6b-a813-4571-99b1-c448656f380e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="821dffae-838c-4068-998a-eb7516c88c93" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41482f6b-a813-4571-99b1-c448656f380e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="15a34911-3d47-43cc-886e-90c7c3a69bf1" name="Culexus Assassin" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6037ca9f-8159-41d5-b0e5-0328d60bf2d0" name="Etherium" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack that targets this model, the attacking model is treated as having a Weapon Skill and Ballistic Skill characteristic of 6+.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="01295913-31f4-43ec-ab63-b51aee138a18" name="Life Drain" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack made with a melee weapon by this model, saving throws and Daemonic saving throws cannot be made unless it is an invulnerable saving throw.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1a0f517e-8028-4c2c-9965-fdba60197ec2" name="Abomination" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This model can never be targeted or affected by psychic powers in any way. PSYKER units that are within 18&quot; of any CULEXUS ASSASSINS must subtract 2 from Psychic tests and Deny the Witch tests they take.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="caae5d59-02da-428e-95e1-96465055e0d3" name="Psychic Assassin" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time you select a target for a ranged weapon this model is making an attack with, you can ignore the Look Out, Sir rule if you select a Psyker Character unit. In addition, this model can shoot with its psyk-out grenades in the same phase that it shoots with its animus speculum.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cc15cb9d-d052-4581-980d-f7c6c1de4e2e" name="Independent Operative" hidden="false" targetId="d9806e9c-de05-4ed7-9d29-56a2af607afb" type="rule"/>
+        <infoLink id="ea77c527-fdb1-42c4-a3c5-71bebba34836" name="Execution Force" hidden="false" targetId="3ce53365-a6d8-4b5a-beec-5e5bd022062e" type="rule"/>
+        <infoLink id="05cb2b25-7739-4c4a-ba1c-fd816d3bf1bd" name="Lightning Reflexes" hidden="false" targetId="19e7d1f4-1837-496f-8e94-ed18d92b402c" type="profile"/>
+        <infoLink id="9a12dc56-8b6e-4bd2-9300-c14dd516863f" name="Agents of the Imperium" hidden="false" targetId="93cbed7a-ebbd-4e9a-aa7e-debe4d6b7c98" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fabd360e-4769-4d72-a852-4c4934f4ae60" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="a401ef79-e719-4b89-91a8-da3ae1d25c48" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="1ed3a856-b490-4555-b1bf-b4b17b162f5e" name="New CategoryLink" hidden="false" targetId="faf19d3b-c728-47a9-8d60-f04458afb471" primary="false"/>
+        <categoryLink id="f3b95d67-9d37-43cb-b74e-1f1a8db08141" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="be856fd5-5cab-4d01-af35-fe3be0ebf6e5" name="Culexus Assassin" hidden="false" targetId="df94b629-92e5-4d76-9aad-c5c384de6e7a" primary="false"/>
+        <categoryLink id="f4bdfe8e-ca18-4efa-9de1-dbc469232846" name="Faction: Agents of the Imperium" hidden="false" targetId="c49f5a78-0916-4576-97a2-f4695b17fcce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="db055302-5a6b-4019-8a3b-35a65761a05a" name="Animus Speculum" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1943cd13-1874-4244-8487-6269fe1c346f" name="Animus Speculum" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D3</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Whilst there are any enemy PSYKER units within 18&quot; of the bearer, change this weapon’s Type characteristic to Assault D6.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05c8fc13-4979-4a5e-a750-398090ec47c5" name="Psyk-out Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b3509213-5abf-457e-af94-bcd735eec5d9" name="Psyk-out Grenades" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">6&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Grenade D3</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">2</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. When resolving an attack made with this weapon against a PSYKER or DAEMON unit, an unmodified hit roll of 6 inflicts 1 mortal wound on the target and the attack sequence ends. Blast.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f930d39-1957-483d-bc17-06398314a5aa" name="Eversor Assassin" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="79968fe6-1bfb-4ce0-956f-ea6cf2da258a" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="821dffae-838c-4068-998a-eb7516c88c93" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79968fe6-1bfb-4ce0-956f-ea6cf2da258a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="11c98630-c565-4e1a-ac41-e32f758081c4" name="Eversor Assassin" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0c836323-f2c1-4c71-b999-b138040c7873" name="Frenzon" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When making a charge roll for this model, roll 3D6 rather than 2D6. In addition, add 2 to this model’s Attacks characteristic if it charged or made a Heroic Intervention this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02cd61ac-4465-4135-b0fd-1dc1463ba57f" name="Sentinel Array" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an enemy unit Falls Back whilst within 1&quot; of this model, before moving any models, this model can shoot as if it were its Shooting phase. These attacks must target the unit that is Falling Back.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="445ed2b7-0e3c-4395-86d9-3653acd9979a" name="Bio-meltdown" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">If this model is destroyed, before removing the model from the battlefield, roll one D6 for each enemy unit that is within 6&quot; of this model. On a 4+ that enemy unit suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa3b8b1f-9a8a-43dd-9fa9-5c1d78556b07" name="Killing Rampage" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a model in an enemy unit is destroyed as the result of an attack made with a melee weapon by this model, you can immediately make one additional attack with a melee weapon this model is equipped with against the same unit. These additional attacks cannot themselves generate further attacks. In addition, this model can consolidate up to 6&quot; instead of up to 3&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="57684a01-5645-4efe-997c-aa857e9dab4b" name="Independent Operative" hidden="false" targetId="d9806e9c-de05-4ed7-9d29-56a2af607afb" type="rule"/>
+        <infoLink id="b822a052-1ecf-42c3-96ee-4f2918b425ba" name="Execution Force" hidden="false" targetId="3ce53365-a6d8-4b5a-beec-5e5bd022062e" type="rule"/>
+        <infoLink id="2f9eb63b-c591-43f7-a751-578b75c0e69c" name="Lightning Reflexes" hidden="false" targetId="19e7d1f4-1837-496f-8e94-ed18d92b402c" type="profile"/>
+        <infoLink id="ec9616b4-e59b-4150-b55a-ff5b60ea5943" name="Agents of the Imperium" hidden="false" targetId="93cbed7a-ebbd-4e9a-aa7e-debe4d6b7c98" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="10d60d48-0ff6-4668-baaa-f9ed3e510f65" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="8bbbd5d9-37a7-4caa-a3b6-0cdc0915130b" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="50d2a528-5c63-438b-9b31-a330ee88a262" name="New CategoryLink" hidden="false" targetId="faf19d3b-c728-47a9-8d60-f04458afb471" primary="false"/>
+        <categoryLink id="6b5d7f50-c001-4a91-88aa-6e8770f8f10d" name="New CategoryLink" hidden="false" targetId="eda8542e-aae9-4982-b454-9320ed8609c2" primary="false"/>
+        <categoryLink id="ae113c95-dc58-40d2-8a3f-b533891575f4" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="19413e31-6dce-4753-b19b-8667ed876636" name="Faction: Agents of the Imperium" hidden="false" targetId="c49f5a78-0916-4576-97a2-f4695b17fcce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6601425d-8180-4af4-b2e0-bbd137943133" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fbb6c88c-04be-4f92-ad29-ab1187643a48" name="Power sword" hidden="false" targetId="6171927a-cd05-4f95-948c-49fed170063c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="493a3d92-b12c-4271-92e3-c94e7cd8a1c1" name="Melta bombs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb9539ed-0923-43ef-86ec-ef6a1894fb26" name="Melta bombs" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">4&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Grenade 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">You can re-roll failed wound rolls for attacks made with this weapon if the target is VEHICLE units.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="997930da-e9d0-41b2-94b2-ab294635a6e0" name="Executioner Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5670641b-6b32-492e-8944-07d751b8b523" name="Executioner Pistol" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 4</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">You can re-roll wound rolls for attacks made with this weapon that target INFANTRY units.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cfca9a50-0840-49f1-8212-4dbc4323266f" name="Neuro-gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0ac80dd1-4e93-46bd-8d64-75a61fa4e2d8" name="Neuro-gauntlet" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">You can re-roll wound rolls for attacks made with this weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d78ab10a-47dc-4e75-a7d1-451d6d0fcab5" name="Vindicare Assassin" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="9cdb2039-6c25-44a6-aa19-ec02fb5aa684" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="821dffae-838c-4068-998a-eb7516c88c93" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9cdb2039-6c25-44a6-aa19-ec02fb5aa684" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="98aaeb7a-76e8-4ac6-aac2-6086e062c647" name="Spymask" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack made with a ranged weapon by this model, the target does not receive the benefit of Light cover.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8cf1ee3a-205b-47ac-9ee6-e6dbcad6bec2" name="Stealth Suit" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack made with a ranged weapon against this model, subtract 1 from the hit roll. If this model is on or in a terrain feature, subtract 2 from the hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4269549f-5613-476d-aadd-c979da23a7b2" name="Deadshot" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time you make a ranged attack, you can ignore the Look Out, Sir rule. In addition, on an unmodified wound roll of 6 for an attack made with an exitus pistol or exitus rifle, change the Damage characteristic of that weapon to D6 for that attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b8c7d1d0-2d40-4626-92f1-4bd0d94c91f7" name="Vindicare Assassin" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f2203c22-1503-484d-8fbd-6adfdcb54066" name="Faultless Aim" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Attacks made with ranged weapons by this model always hit on a 2+ if this model did not move this turn (hit rolls of 6 are still required when firing Overwatch).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a0e849be-92e0-4b1c-845f-8bd196810564" name="Head Shot" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">If, after resolving an attack with an exitus pistol or exitus rifle by this model, a model in an enemy unit lost any wounds as a result of that attack but was not destroyed, roll one D6; on a 3+ that model suffers 1 mortal wound and, if that model is not destroyed, you can roll one more D6. This time, that model suffers 1 mortal wound on a 4+. Keep rolling one D6, increasing the result required to cause a mortal wound by 1 each time, until the model in the enemy unit being rolled for is destroyed or the roll is failed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9935c752-eeea-44ec-9643-9f053e9fee4d" name="Independent Operative" hidden="false" targetId="d9806e9c-de05-4ed7-9d29-56a2af607afb" type="rule"/>
+        <infoLink id="48c31b4a-2d42-46ee-b31a-258bdcfff56d" name="Execution Force" hidden="false" targetId="3ce53365-a6d8-4b5a-beec-5e5bd022062e" type="rule"/>
+        <infoLink id="41fa8514-248d-4f04-b954-aac56765dfdb" name="Lightning Reflexes" hidden="false" targetId="19e7d1f4-1837-496f-8e94-ed18d92b402c" type="profile"/>
+        <infoLink id="464d716c-f439-4130-a1a0-80e2340545db" name="Agents of the Imperium" hidden="false" targetId="93cbed7a-ebbd-4e9a-aa7e-debe4d6b7c98" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="320f1799-ea19-4e4e-aeaa-3acf38f6fd2b" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="cfd96519-6401-43cc-a8cb-bc62854e1b5f" name="New CategoryLink" hidden="false" targetId="393325c3-ff1c-4ad8-ad3b-d79473ae5038" primary="false"/>
+        <categoryLink id="c3e31e87-963d-4171-8776-0ae1f38f97ba" name="New CategoryLink" hidden="false" targetId="faf19d3b-c728-47a9-8d60-f04458afb471" primary="false"/>
+        <categoryLink id="320de8dc-8302-43e1-87ff-bcc16c63df32" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="6e7755b2-4906-4375-a1a7-055864f44951" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="a3add52d-d8ca-4632-ae7d-1d554ac81c8a" name="Faction: Agents of the Imperium" hidden="false" targetId="c49f5a78-0916-4576-97a2-f4695b17fcce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f41a6756-3c38-47e0-a7e9-23b20af6ceb0" name="Blind Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8d601351-3dae-4046-ba49-88f91be0d676" name="Blind Grenades" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Grenade D6</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">*</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">*</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">*</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">This weapon does not inflict any damage (do not make any wound rolls). Instead, if a unit is hit by any blind grenades, subtract 1 from all hit rolls for attacks made by that unit until the end of the turn. Blast.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1ca71a94-8331-4cde-b7c8-a8a13836cf2b" name="Exitus Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="154fccbb-64e1-41db-b8e8-d919f96d7c4c" name="Exitus Rifle" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">72&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack made with this weapon, an invulnerable saving throw cannot be made. Attacks made with this weapon wound INFANTRY units on a 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d46c4882-8940-43b6-a804-3e04201113a6" name="Exitus Pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f3c20bad-de36-493f-b6c4-13e4985d88a4" name="Exitus Pistol" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack made with this weapon, an invulnerable saving throw cannot be made. Attacks made with this weapon wound INFANTRY units on a 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="d9806e9c-de05-4ed7-9d29-56a2af607afb" name="Independent Operative" publicationId="db48897e-ff88-4322-b4c2-2905d50c590b" hidden="false">
+      <description>-This unit can never have a Warlord Trait.
+- During deployment, you can set up this unit in concealment instead of placing it on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</description>
+    </rule>
+    <rule id="3ce53365-a6d8-4b5a-beec-5e5bd022062e" name="Execution Force" page="" hidden="true">
+      <description>If your Warlord has the IMPERIUM keyword (excluding FALLEN), you can include this unit in your army as part of a Vanguard Detachment even if that Detachment contains no HQ units. If you do so, that Detachment’s Command Benefits are changed to ‘None’ and its Restrictions are changed to ‘This Detachment cannot include the same datasheet more than once.’</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="19e7d1f4-1837-496f-8e94-ed18d92b402c" name="Lightning Reflexes" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This model has a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

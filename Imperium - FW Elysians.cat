@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c67722b0-706c-4273-9688-898fcda741f8" name="Imperium - Elysian Drop Troops" revision="105" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="4b0365f8-2663-4a38-bb8f-90ebfd5dc8b2" name="Codex: Astra Militarum"/>
+    <publication id="43d16ce9-fba5-434b-9ba2-f470e58a4113" name="Codex: Genestealer Cults"/>
+  </publications>
+  <profileTypes>
+    <profileType id="e8afff57-26e9-4505-8f2b-987800e37172" name="Wound Track (M,BS)">
+      <characteristicTypes>
+        <characteristicType id="0433a979-3a71-4f3c-884c-67c1dc9f39ef" name="Remaining W"/>
+        <characteristicType id="96ac509e-3dd7-4836-ba9e-1749745d1ec6" name="M"/>
+        <characteristicType id="45138151-5d1c-4919-b7b1-91902e0ae75a" name="BS"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="2b5d14f2-7e2c-4e70-a2b0-ab81989cafc3" name="Officio Prefectus" hidden="false"/>
+    <categoryEntry id="605a5030-abc0-4ee1-85bc-682dd36dcbd5" name="Elysian Drop Sentinels" hidden="false"/>
+    <categoryEntry id="ff618868-e1dc-4d4f-9565-2c0d53581c03" name="Elysian Sniper Squad" hidden="false"/>
+    <categoryEntry id="b38edfec-a35c-4dfa-8431-eda9a564bdc0" name="Valkyrie Sky Talon" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="a00d3592-c686-4869-84f8-53ac7b3ce26c" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" targetId="1a51667a-60b9-4d27-8991-1dd6d537a55b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2890289d-b10b-4ae0-8540-de9c833716f3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5801f433-fb2a-45c8-8863-d8e0911bb159" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="11f3ad64-8939-48f1-944f-f238e6f562df" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7540ecf1-35e8-4117-8ced-d8521b2e3959" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="fcb98052-0172-406e-b36b-6310b0bdd1d0" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4552195b-d2ec-4d74-8337-12ea068c1e1e" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" targetId="68f21abf-2243-4599-a853-89676607e1af" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5801f433-fb2a-45c8-8863-d8e0911bb159" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2890289d-b10b-4ae0-8540-de9c833716f3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7540ecf1-35e8-4117-8ced-d8521b2e3959" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="81e00ebd-794c-4c1b-8b20-36f50d229e30" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a321586f-ac7b-4683-ba11-d543b93ae736" name="Valkyrie Sky Talon [Legends]" hidden="false" collective="false" import="true" targetId="93cc1a37-ee48-4642-b964-f7cc1080abf2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5801f433-fb2a-45c8-8863-d8e0911bb159" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2890289d-b10b-4ae0-8540-de9c833716f3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7540ecf1-35e8-4117-8ced-d8521b2e3959" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0e78c28f-297a-4360-8f99-7d8f0c88baff" name="New CategoryLink" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="1a51667a-60b9-4d27-8991-1dd6d537a55b" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b873d9-3837-49d1-b0c4-c9b317c1ee04" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8f628124-100b-47f6-a78d-221371d30f24" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="803a7e02-5f71-4c7e-86e2-0fa59d689994" name="Astra Militarum" hidden="false" targetId="b186d7bc-45a0-47b4-8861-f49cc1d44d07" primary="false"/>
+        <categoryLink id="bed660c1-7f17-46e5-9555-ed1897fae3b5" name="Faction: Elysian Drop Troops" hidden="false" targetId="17e7486a-ecff-46ce-afcd-ae48540a36a8" primary="false"/>
+        <categoryLink id="5cbd4f60-cb31-4edc-a4b7-06e1a36c2edf" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+        <categoryLink id="805e2ca1-d062-4a46-8473-6a0a91818abb" name="Elysian Drop Sentinels" hidden="false" targetId="605a5030-abc0-4ee1-85bc-682dd36dcbd5" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f1bcc0a6-34c6-4787-b4bd-5e3bd4d4e50b" name="Drop Sentinel" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6577eb63-4345-4781-a52f-7839820ebe7e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b53c448-452a-4e75-94f4-de17735f423e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e147abff-e92a-4874-9c99-0ccd8bc85d31" name="Drop Sentinel" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">9&quot;</characteristic>
+                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
+                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
+                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
+                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
+                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1812e748-9556-4d61-addf-e197c7a6cdc8" name="Aerial Drop" hidden="false" targetId="2335f654-37a7-4f85-a5ad-526cf3354db6" type="profile"/>
+            <infoLink id="256248a3-abaf-4619-9534-4a36d1207bfe" name="Smoke Launchers" hidden="false" targetId="1b98cd21-cbc1-46d9-aa0f-6038a524f1fb" type="profile"/>
+            <infoLink id="f1239c8a-d309-4b9b-8f1a-d559b76e47ae" name="Explodes (6+/3&quot;/1)" hidden="false" targetId="75494db8-26c1-4e87-9cae-738e49e2ed94" type="profile"/>
+            <infoLink id="a4569ed2-bc25-4d58-acad-fce68c3169d9" name="Scout Vehicle" hidden="false" targetId="0c40332c-cba5-4d27-bc57-4a2d73c16d34" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="34e0fba8-5081-4f31-8c6d-229b31734d79" name="Heavy Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="c9324221-8d57-46c7-a691-3ed13d387389">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb2c518-9880-448b-8069-b79aecbdbe48" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce3e62e5-636f-4af4-8a31-d7f3a3873b25" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ed6ca200-1ee4-4cbc-89e1-d7ae82accd63" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="5b401905-fe75-4b09-aaf8-d6272248f030" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="53621eb7-8ff6-46de-b7b0-ec58f00dda4c" name="Multi-melta" hidden="false" collective="false" import="true" targetId="898d5257-fd57-4dd5-8744-88ceaa62aab3" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c9324221-8d57-46c7-a691-3ed13d387389" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="dd5556d4-c36c-4cbb-8647-a705d5818920" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="4acfe9e2-05fe-4151-8f1e-881717dd1c9c" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="1222f547-054e-4735-afbd-bf5943155cd9" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8a76fe-e546-4ffa-84b2-0430595501ff" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e561427-d8d3-4261-9e45-43ca3a9966c6" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="c679b7c8-06b0-402f-8213-2f775afc5b74" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="3.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="68f21abf-2243-4599-a853-89676607e1af" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b873d9-3837-49d1-b0c4-c9b317c1ee04" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="c250b936-7ab4-4fc7-a7e6-a3f834b056eb" name="Weapons Team" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">For the purposes of embarking within TRANSPORTS, models in this unit are considered to be Heavy Weapons Team models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="041d7a01-ea7d-440d-a879-4ca4e9c1415d" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="dfc98944-21c7-42bd-971f-63c289bd6123" name="Astra Militarum" hidden="false" targetId="b186d7bc-45a0-47b4-8861-f49cc1d44d07" primary="false"/>
+        <categoryLink id="4212c29b-0e74-4c54-9ce1-4054b0a59f00" name="Faction: Elysian Drop Troops" hidden="false" targetId="17e7486a-ecff-46ce-afcd-ae48540a36a8" primary="false"/>
+        <categoryLink id="13b08321-f682-4585-a3b0-a2fff772713c" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="5ffd3f9b-b0be-4f3a-b506-f9bccc21ea4c" name="Elysian Sniper Squad" hidden="false" targetId="ff618868-e1dc-4d4f-9565-2c0d53581c03" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="69b780df-5ac6-4720-9330-9208dd85d5fc" name="Sniper Team" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5c08d5-afcb-45d7-a0da-1cefe88a1a1e" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa550f81-cb06-4fc6-96a5-8f886bbf6d1e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dea810c3-d7ba-4376-9c95-92a354b5dd43" name="Sniper Team" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
+                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
+                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
+                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="4df7d720-9696-4110-80a2-a32f18eea137" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="04aff4ba-153b-4a9d-a7d6-67fff7c8203d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f79fa1-dce3-4f1b-b0ce-fc9d7a536ead" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="273981ac-92a1-43f5-9314-4647fa14b490" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8c98d108-84f7-4731-ae5c-1852700a56b1" name="Sniper rifle" hidden="false" collective="false" import="true" targetId="06d13c73-bc44-44e8-82d8-b8a09d10f42e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="464b3eab-45c8-4afd-b96c-78beb42a9fae" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ce5cb4-2980-4991-ad32-5466d2065c60" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5d2d2fad-aa13-4cfd-9a1c-b4a11d50c62c" name="Lasgun" hidden="false" collective="false" import="true" targetId="8c80a8d7-e340-4546-b86c-347023466d50" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da701bfc-4bc2-4866-b481-71660ebac7c6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192f0089-1e38-45a4-b008-4fe434bd9f57" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ac9d9eac-e760-40f5-8b74-6e5703c631ff" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="c679b7c8-06b0-402f-8213-2f775afc5b74" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="1.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93cc1a37-ee48-4642-b964-f7cc1080abf2" name="Valkyrie Sky Talon [Legends]" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c9b873d9-3837-49d1-b0c4-c9b317c1ee04" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="13414455-c112-4665-b847-b199332a3d80" name="Valkyrie Sky Talon [1] (7-14+ wounds remaining)" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">20-45&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">6+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">14</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df53b062-148b-4c7b-ae56-3c098288e4fd" name="Valkyrie Sky Talon [2] (4-6 wounds remaining)" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">20-30&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">6+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">5+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="585dbd8b-a60f-4047-8418-232782097467" name="Valkyrie Sky Talon [3] (1-3 wounds remaining)" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">20-25&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">6+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">6+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="840d9e05-792a-455a-aaf0-15f58360cc40" name="Valkyrie Sky Talon" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="4e411e65-e260-4f2e-aa22-cec59986b5bb">This model has a transport capacity of 1 ELYSIAN TAUROS model or 2 ELYSIAN DROP SENTINEL models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62432601-c0ce-451a-a461-373cbce7981c" name="Explodes (6+/6&quot;/D3)" hidden="false" targetId="2b5066f9-00b2-46b3-a323-12d967fa8b7c" type="profile"/>
+        <infoLink id="45668d19-d46c-4fa3-bfb5-66e2e09d4a3f" name="Hard to Hit" hidden="false" targetId="0c42b83d-02e5-459e-9c31-725328879471" type="profile"/>
+        <infoLink id="c16b4c9a-6306-42cc-ac3b-66dd84169de6" name="Airborne" hidden="false" targetId="8608724a-896b-4089-804c-93c46a2296f2" type="profile"/>
+        <infoLink id="99478f63-7f9b-461e-9b20-6a6bbd37cb99" name="Supersonic" hidden="false" targetId="62d2a12c-2049-470c-a0a8-f0f4d4263a5e" type="profile"/>
+        <infoLink id="8968519e-e01f-44e3-85c1-abbf5f75afed" name="Hover Jet" hidden="false" targetId="d9a7ca99-0412-4f8e-ba09-310a2b9bf4d5" type="profile"/>
+        <infoLink id="5c2d87bf-7d3d-48ed-a90d-3f14e59c16bc" name="Grav Chute Insertion" hidden="false" targetId="2651fb39-a862-4ac4-818e-fab29e435297" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d0992878-9f0a-4282-a593-a85f9dc88ab7" name="Aircraft" hidden="false" targetId="16ee33e2-dc17-4b75-8f65-3509d0fa2f2f" primary="false"/>
+        <categoryLink id="f54fd303-aae1-4055-9712-e41aae80ca40" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="988a62e9-3593-4ac2-8e39-de663a1ed970" name="Faction: Astra Militarum" hidden="false" targetId="b186d7bc-45a0-47b4-8861-f49cc1d44d07" primary="false"/>
+        <categoryLink id="176286e2-ee14-43f4-be72-542aa286ca02" name="Faction: Elysian Drop Troops" hidden="false" targetId="17e7486a-ecff-46ce-afcd-ae48540a36a8" primary="false"/>
+        <categoryLink id="3d71f3fc-3435-4af0-9836-bc1581dcd217" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+        <categoryLink id="1fb5e4b2-3bfc-427c-bf64-b5d939982ef0" name="Fly" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
+        <categoryLink id="8d54091e-83a2-46e7-9895-eb2595809f97" name="Transport" hidden="false" targetId="86cd9df6-4e0f-4108-955d-5085da349ff3" primary="false"/>
+        <categoryLink id="e453c31e-0a87-466c-aa4f-9a1f8aa6a13d" name="Valkyrie Sky Talon" hidden="false" targetId="b38edfec-a35c-4dfa-8431-eda9a564bdc0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="37275105-f833-4b1d-9882-eb70845a9c35" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1538bed9-7602-4d11-8448-a06b84fdd7da">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21e1770f-a0b1-4598-8810-ab1e22d66370" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea45be5b-f2d6-400b-a411-5343bb90df1f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1538bed9-7602-4d11-8448-a06b84fdd7da" name="2x Hellstrike Missiles" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7ed2db7-f004-4e5e-99b9-27539c656832" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="73079496-dc70-4616-b1e0-e101b98dc03e" name="Hellstrike Missile" hidden="false" targetId="762b34ea-6bd5-4da2-b5a5-ccdbb6b1101f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="600a287c-f1b3-405e-bb62-fbed32555978" name="2x Multiple Rocket Pods" page="0" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="85f4e893-98e6-4adc-972c-2b1d7c0b14e8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="88d5596b-8270-48f5-888c-df2a4c6db318" name="Multiple Rocket Pod" hidden="false" targetId="dcce12c6-328a-4fea-8e25-956b8dcc93f2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="683b1573-15df-40f0-a02b-668ab11322f4" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="dd5556d4-c36c-4cbb-8647-a705d5818920" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6404ac99-0dc5-4d41-8584-31331bb8131b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7faaf27a-86b4-43e0-ae3f-877ba1b24b13" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6e14860c-9088-432b-8b20-3cf3874f12d0" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="c679b7c8-06b0-402f-8213-2f775afc5b74" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="6.0"/>
+        <cost name="pts" typeId="points" value="115.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="599e1256-cf76-49c8-afec-7211e6e0dea5" name="Voice of Command" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This unit may issue orders to those under their command at the start of any of their Shooting phases. Orders may only be issued to INFANTRY units within 6&quot; of this unit that have the ELYSIAN DROP TROOPS keyword. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="09cf6e1a-fc3c-411d-b36f-1f99ec58727d" name="Iron Discipline" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">​Any friendly ELYSIAN DROP TROOPS units within 6&quot; of this model may re-roll failed Morale tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7c10581-6fc1-41bf-9f11-1421f4cb45aa" name="Aura of Discipline" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">All friendly ELYSIAN DROP TROOPS units within 6&quot; of a COMMISSAR can use his Leadership instead of their own.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6d134d2-4f9d-4ada-a107-999b71098336" name="Summary Execution" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">The first time an Astra Militarum unit fails a Morale test during the Morale phase whilst it is within 6&quot; of any friendly Commissars, you can execute a model. If you do, one model of your choice in that unit is slain and the Morale test is re- rolled (do not include this slain model when re-rolling the Morale test).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="77614476-7cde-4c0d-a8f7-25dfa36c4e20" name="Refractor Field" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">​This model has a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0f28b224-e707-4a1c-8888-4a0e7fe303a4" name="Guardsman" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="74" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="86d4d7ec-095d-4b72-8870-e2da46d2a87f" name="Sergeant" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2fa657e3-648c-485a-847a-4603195b4890" name="Vox-caster" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">If a friendly OFFICER is within 3&quot; of a unit with a vox-caster when using their Voice of Command ability, you may extend the range of the order to 18&quot; if the target unit also contains a vox-caster.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="39d6c236-d465-4e14-aec4-d840aac11448" name="Veteran Sergeant" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a15d16f-dfeb-4eb7-a61a-ddc7be0c063e" name="Veteran Weapons Team" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="748561b3-7653-420c-a9a7-aa8d1dbf1b3c" name="Veteran Guardsmen" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5e9f83e3-87ef-41e5-88dc-5aec157b9912" name="Medi-pack" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the end of any of your Movement phases, a model with a medi-pack can attempt to heal a single model.  Select a friendly ASTRA MILITARUM INFANTRY unit within 3&quot; and roll a D6.  On a roll of a 4+, one model in the unit recovers a wound it lost earlier in the battle (if the model has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead).  A unit can only be the target of this ability once in each turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eb4a3cf9-5ff0-4f38-bd28-c98712e92635" name="Hold the Line" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Hold the Line! The ordered unit ignores models killed during the Shooting phase or Fight phase when taking Morale tests until the start of the next Movement phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16660ba5-b927-4fac-8d4e-3415a7bc4706" name="First Rank Fire Second Rank Fire" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">First Rank, Fire! Second Rank, Fire! All lasguns and hot-shot lasguns in the ordered unit change their Type to Rapid Fire 2 until the end of the phase. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="53e62ec5-296b-41e7-9867-4dc53105db32" name="Bring it Down" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Bring it Down! Re-roll wound rolls of a 1 for all models in the ordered unit until the end of the phase. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dd4e6cc8-d0b8-435f-aad9-627e5fbd3356" name="Move and Fire" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Move and Fire! All INFANTRY models in the ordered units count their weapons as being Assault weapons until the end of the turn. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56dbad1c-01c1-453e-9189-7e6a3b9a6355" name="Get Back in the Fight" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Get Back in the Fight! The ordered unit can shoot this phase even if it Fell Back in its Movement phase. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0146a485-5ac2-4527-bf4c-00867507c073" name="Move Move Move" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Move! Move! Move! Instead of shooting this phase, the ordered unit immediately moves as if it were the Movement phase. it must Advance as part of this move, and cannot declare a charge during this turn. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a5b7f789-a415-4852-b3a7-0855864f4a2f" name="Take Aim" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Take Aim! Re-roll hit rolls of 1 for all models in the ordered unit until the end of the phase. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2335f654-37a7-4f85-a5ad-526cf3354db6" name="Aerial Drop" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17e7486a-ecff-46ce-afcd-ae48540a36a8" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">During deployment, you can set up this unit in a high altitude transport instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="11687402-a190-47cc-bf24-4abef55e1305" name="Imperium - Inquisition" targetId="f6197211-bfe8-4c67-bfc7-38769d0b2edc" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="47304598-8853-4ed4-a231-d3f912bc18a5" name="Imperium - Astra Militarum - Library" targetId="35faa7d9-b44a-418f-b900-a67c90bf9bb5" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="23917734-6396-40b4-8dcd-c925c8629d8e" name="Imperium - Officio Assassinorum" targetId="12a8f9c0-5a14-47ee-b526-84b61823daf1" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

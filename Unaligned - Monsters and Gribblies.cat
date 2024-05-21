@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f6e23fdb-48ce-43a6-ae69-664ab04ad6b8" name="Unaligned - Monsters and Gribblies" revision="11" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="249" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="366528d4-b3ec-4779-b322-46b61c2ad5ae" name="Blackstone Fortress"/>
+  </publications>
+  <categoryEntries>
+    <categoryEntry id="3663d2be-f4cc-4d23-8622-9a8fa5b3324c" name="Faction: Zoat" hidden="false"/>
+    <categoryEntry id="4395b734-18cf-41ae-b840-27b18fcbe470" name="The Archivist" hidden="false"/>
+    <categoryEntry id="3d4d3933-8bce-47f6-8f83-fa78e7db3a5b" name="Faction: Blackstone Construct" hidden="false"/>
+    <categoryEntry id="88e97c78-be63-4078-b990-547d9671296d" name="Guardian Drone" hidden="false"/>
+    <categoryEntry id="e00e9685-003a-42ae-a62a-f2631f5902bf" name="Spindle Drones" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="fdd88ccc-b24e-48a7-b6af-67b4f7844550" name="Ambull" hidden="false" collective="false" import="true" targetId="f7f40a0d-8f02-4b8c-bbf4-1662879b412e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="99a56c53-1a66-424e-85e6-401f095053b9" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="abf31766-6f05-4be1-92bf-a29602681826" name="Borewyrm Infestations" hidden="false" collective="false" import="true" targetId="0d6c76c4-73ac-4b4d-bef0-dfba4a907d64" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6ef499ea-87af-431b-8251-8c44210d6765" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fae1fec1-6b90-4df4-ac3d-eb7416b0ba2a" name="Guardian Drone" hidden="false" collective="false" import="true" targetId="13b0b6b8-db10-4b25-9cd1-53f59ed153d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ff7c428-3c65-49c2-a4c1-3f7ffccc864f" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77ab6b25-9a72-4709-9f3e-d8dbb751a53e" name="The Archivist" hidden="false" collective="false" import="true" targetId="e36b9dfa-46c7-4207-8512-2cb0c999b9e6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a6ff77f-0221-476d-b0aa-be7191706141" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="611cee69-874b-443a-b648-a4d737ebff69" name="Spindle Drones" hidden="false" collective="false" import="true" targetId="9cd345ab-0b59-425d-b47c-3346e7cd8eac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6fef0780-2f75-412a-8366-efe84ae5dca3" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f7f40a0d-8f02-4b8c-bbf4-1662879b412e" name="Ambull" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f6231fe4-7f0b-40f5-9691-bc455667a060" name="Ambull" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">6+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60542981-d067-449b-af7b-1bfa6df06792" name="Rad-maggot Symbiosis" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the start of each battle round this model gains D3 lost wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3b6d0d71-9e96-4e9d-b513-7a0d50d0eedd" name="Rapid Tunnelling" hidden="false" targetId="41755383-1203-4641-848d-31938df48b17" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b76efadc-1437-4532-96d8-03f713584621" name="Faction: Unaligned" hidden="false" targetId="57fc3647-b2c2-4647-b505-0a5898622b22" primary="false"/>
+        <categoryLink id="88cd8387-6333-4a2e-be13-c96d2dd06c5f" name="Faction: Dreaded Ambull" hidden="false" targetId="8b7398ba-e750-4020-a3a6-cd03a996ccbe" primary="false"/>
+        <categoryLink id="6473db3a-578d-4280-ab28-8fbbe299e4d6" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="cac5aedc-b2c5-485d-8147-b0eb168d8b17" name="Ambull" hidden="false" targetId="6d757b8e-665e-437f-8b18-42178948f09c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e175a3a3-7345-48d3-9c75-c94feb3c541a" name="Enormous claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c453c2-ab96-44d4-ac65-798bdf1b9c19" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d1827ba-932b-4ddf-a416-364a5e321d5e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3b7607dd-da7a-4c16-a642-a57660a547b7" name="Enormous claws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="4.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d6c76c4-73ac-4b4d-bef0-dfba4a907d64" name="Borewyrm Infestations" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="70c408df-bc27-4e06-abe4-6a2eaf3e7d08" name="Faction: Unaligned" hidden="false" targetId="57fc3647-b2c2-4647-b505-0a5898622b22" primary="false"/>
+        <categoryLink id="0fd5b508-43be-43ba-bbf4-0dd1c1ba5ae1" name="Faction: Dreaded Ambull" hidden="false" targetId="8b7398ba-e750-4020-a3a6-cd03a996ccbe" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4ee73ce4-0243-453f-9e1a-62d208e34b4c" name="Borewyrm Infestation" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8bcbfe9-aab0-463f-8bce-980ba84bbc65" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc07e06e-7b80-42e2-8507-61ee722dab6d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e07e7ae7-80b1-4541-b816-a12c9ce38e14" name="Borewyrm Infestation" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">4&quot;</characteristic>
+                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
+                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">6+</characteristic>
+                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
+                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
+                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
+                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">5</characteristic>
+                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6defa881-2805-4cd4-af0c-180ead0392cd" name="Hard to Hit" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Your opponent must subtract 1 from hit rolls for ranged weapons that target this unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c2488ffe-5edf-4007-8046-db9caa5f75a3" name="Rapid Tunnelling" hidden="false" targetId="41755383-1203-4641-848d-31938df48b17" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f3dbbc49-98ee-4469-b65c-9095ae1655f3" name="Swarm" hidden="false" targetId="9d01d8d9-dc07-4b4f-8b73-18f6d0fa89d2" primary="false"/>
+            <categoryLink id="8a09af2d-7e68-4c52-a9d0-827515999d0c" name="Bonewyrm Infestation" hidden="false" targetId="51bc1e19-c896-447d-bc49-2a88259877c4" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="bc48ae2f-7ca9-442f-873f-420c8bdd10d1" name="Vicious jaws" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1cdbadc-f307-4f2d-a63e-4f4f9058b0b7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29379e65-cbc5-4516-9e85-be350ef8d564" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="81908670-6ef0-4061-b3de-edd92f6eed94" name="Vicious jaws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time you make a wound roll of 6+ for this model, that hit is resolved at AP -2 instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cd345ab-0b59-425d-b47c-3346e7cd8eac" name="Spindle Drones" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1956bae3-3373-4066-b800-8daf9f972547" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c20d80aa-86a8-4023-9da7-1278353ea166" name="Threat Level Rising" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Improve the Strength, Armour Penetration and Damage characteristics of a model&apos;s drone pulse by 1 for each model in its unit that has either lost wounds or been destroyed. For example, if two models in a unit of Spindle Drones have been destroyed, and another has lost 1 wound, the two remaining models&apos; drone pulses would have a Strength characteristic of 6, an AP characteristic of -3 and a Damage characteristic of 4.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7b3c6d7b-bb85-4d91-9e5a-b46fa29ba3b7" name="Faction: Unaligned" hidden="false" targetId="57fc3647-b2c2-4647-b505-0a5898622b22" primary="false"/>
+        <categoryLink id="631f3c00-c2be-4d4a-9f87-a383592afb0d" name="Faction: Blackstone Construct" hidden="false" targetId="3d4d3933-8bce-47f6-8f83-fa78e7db3a5b" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8bf1bd36-d215-45d2-b684-3ee270d1171c" name="Spindle Drone" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27a4b8ff-9980-4c62-a494-17762acc1ba4" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48fc6349-c1e4-4819-b9ee-8d77bd8fb1d7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8d463c0f-4782-406e-9d35-ad5763311a84" name="Spindle Drone" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
+                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
+                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
+                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
+                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f2c4828a-9062-4ebe-ac4f-75d65debd1b7" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+            <categoryLink id="eed470ba-6ee4-4341-8363-217506d3b12d" name="Spindle Drones" hidden="false" targetId="e00e9685-003a-42ae-a62a-f2631f5902bf" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="070f2ed8-ad90-4e1e-8a58-3d44a9e4c04d" name="Drone pulse" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77761c38-5952-4048-b4db-befd0f9844b7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81be18e7-2567-4ee7-a524-a43a539b8bfc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e6655a73-83e9-49e1-a443-acde32adf7c3" name="Drone pulse" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">3</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="3.0"/>
+        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e36b9dfa-46c7-4207-8512-2cb0c999b9e6" name="The Archivist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f8d06ae6-ecbb-4443-bb7b-49d086ecf8d1" name="The Archivist" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="87412639-59da-4095-bea8-2d0e459130c5" name="Disruptive Influence" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083"> Subtract 1 from the Leadership characteristic of enemy and friendly units whilst they are within 3&quot; of any model with this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1a31d8ed-8822-483f-962e-c94c94e53a29" name="Faction: Unaligned" hidden="false" targetId="57fc3647-b2c2-4647-b505-0a5898622b22" primary="false"/>
+        <categoryLink id="cb6ffa62-f5e7-42d7-9d73-41a2feca7620" name="Faction: Zoat" hidden="false" targetId="3663d2be-f4cc-4d23-8622-9a8fa5b3324c" primary="false"/>
+        <categoryLink id="f660e8ac-dc43-4074-8ed2-912a59de6ce4" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="2f815004-4e02-419d-b010-7fdbe8b30d1b" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="7029ad35-ec78-47e6-a16d-5c4bdc6e8b9a" name="The Archivist" hidden="false" targetId="4395b734-18cf-41ae-b840-27b18fcbe470" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5cb1d120-9701-478a-9144-bb616843d45e" name="Atomic dissassembler" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f976c22e-6014-42bf-8db7-90abc46a053c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067a7fc4-4b6f-439a-9d73-981ef2b2bef9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="261d23ff-72db-4bdb-844e-ce9684941953" name="Atomic dissassembler" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack made with this weapon the target does not receive the benefit of cover to its saving throw.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="93ef6782-240e-4535-9a2a-c1f74ae97177" name="Eradicator glove" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a45aad-f780-4085-9496-72b18d1d1235" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f275ce7-a803-4943-8e48-792965ee5f32" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="df736cfb-5850-426a-bbe4-9498d0871a2d" name="Eradicator glove" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When resolving an attack made with this weapon, subtract 1 from the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb36e2af-a3a2-400f-8a64-9943390250a5" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1231899b-3937-442f-bff4-3482ec251083" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1a9f82a2-462e-46a2-9b7f-64cf5f40e190" name="Warlord" hidden="false" targetId="7c140cc7-85ba-4d22-9747-fd25d58de033" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13b0b6b8-db10-4b25-9cd1-53f59ed153d1" name="Guardian Drone" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="63f6418f-c93b-4ebb-8831-8f7c3fe09384" name="Guardian Drone" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="552b7e3d-58be-462b-8785-f3c99069d88d" name="Hover Drones" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model would lose a wound, roll one D6; on a 5+ that wound is not lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dc38a8b2-55cf-4a70-9172-4bd24d921f7b" name="Drone Commander" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Whilst a Spindle Drone unit is within 6&quot; of any models with this ability, their Threat Level Rising ability has no effect.  Instead, add 3 to the Strength, Armour Penetration and Damage characteristics of that unit&apos;s drone pulse whilst it is within 6&quot; of any models with this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f3ea4bec-b87a-4709-9e70-871d06cfaa9b" name="Faction: Blackstone Construct" hidden="false" targetId="3d4d3933-8bce-47f6-8f83-fa78e7db3a5b" primary="false"/>
+        <categoryLink id="239bba68-b75a-4514-bb61-461426e8692c" name="Faction: Unaligned" hidden="false" targetId="57fc3647-b2c2-4647-b505-0a5898622b22" primary="false"/>
+        <categoryLink id="06d68e6a-4420-4ef2-829b-7134d241d265" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="d77025d7-f8f9-4e9b-8906-9ba2b1704e6e" name="Guardian Drone" hidden="false" targetId="88e97c78-be63-4078-b990-547d9671296d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0be75e10-f4bf-491b-918c-f5fa958058c4" name="Guardian Salvo Launchers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fab90cb-915e-4d7f-9d2c-7be9d48920be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf659d8-ceab-47fd-b4ce-8c0c068867b8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="401c4051-5dcd-472b-92fc-0fa43f9e6863" name="Guardian Salvo Launchers" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">24&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3aad55e-700c-4f72-b345-3bca4513aff6" name="Destroyer Pulse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd146b2-e771-4179-97bb-cbed8a8ed27f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038b76dc-28e9-444c-abf3-49570978f8b8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8dc3cf23-9c69-463c-acb8-736c1976fd34" name="Destroyer Pulse" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">9</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">4</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b8a78fd-b4ee-41d4-bc9e-c91f58478529" name="Manipulator Limbs" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae00482-4b10-4c8b-b08b-6d7c5e6f3636" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ebcb8f6-9004-48aa-b16c-79380755f388" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="dadddb44-1089-44a8-8e8d-439afa6d1e0d" name="Manipulator Limbs" publicationId="366528d4-b3ec-4779-b322-46b61c2ad5ae" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

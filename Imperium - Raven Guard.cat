@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1de53365-6e9b-4bba-a3bf-da6cd9d067dc" name="Imperium - Adeptus Astartes - Raven Guard" revision="60" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Acebaur" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="4cfb57bc-2d06-44b1-b580-7f8ef147abb7" name="Kayvaan Shrike [Legends]" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8875fc4c-975e-43cf-9e43-bd5e15ca544a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5801f433-fb2a-45c8-8863-d8e0911bb159" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ef835477-fefd-4ba9-afa1-a08c6d564049" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d0098fb-8678-4dd1-a323-34feb183217f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b246007-062c-4bb0-ab2a-91bd652b08af" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="412635b9-c54f-4f21-8726-7d6509058957" name="Kayvaan Shrike" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">12&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9824906-3f7f-4293-a6cf-a52d74b94b4f" name="Winged Deliverance" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">You can re-roll charge rolls made for RAVEN GUARD JUMP PACK  units if they are within 6&quot; of this model when the roll is made.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c1c26a0-3eba-4afc-a228-e78922530623" name="Angels of Death" hidden="false" targetId="d5386bf1-2f2c-4867-b732-1fd2eb58aa8c" type="rule"/>
+        <infoLink id="476daa53-d657-46d6-9637-4a81170fb6b0" name="Chapter Master" hidden="false" targetId="e2ee2260-e96a-485e-853d-d9c43267bfd2" type="profile"/>
+        <infoLink id="dbc88212-37a3-4c6d-b193-f2529cc06be2" name="Iron Halo" hidden="false" targetId="c659aef2-4e33-410d-a376-abb32154a2b1" type="profile"/>
+        <infoLink id="63e11c78-cae2-4bdd-8fe4-727ca51a8a95" name="Jump Pack Assault" hidden="false" targetId="729862f4-3526-473b-96e7-a72c1a22483e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d763d580-2412-4312-9cae-2b46291a9b96" name="New CategoryLink" hidden="false" targetId="85513717-dacb-4880-8d79-5b99d4ab3381" primary="false"/>
+        <categoryLink id="92aff436-b117-49aa-a0db-9234a51c6ed9" name="New CategoryLink" hidden="false" targetId="0e9ce190-8062-46c2-ab2d-cf6c9f924a30" primary="false"/>
+        <categoryLink id="78b732f3-4d87-4e8f-8462-4ae37a7a79f3" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="53057325-4423-4453-8328-ac995429eac9" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="940fdd89-6e78-481f-b521-52b1d047950d" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="4733db56-7612-46f9-beaa-bd86fb6875c5" name="New CategoryLink" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
+        <categoryLink id="e1a22358-cd17-46b3-9a7c-630506f774ae" name="New CategoryLink" hidden="false" targetId="f5791281-1ee9-461b-93b2-3fc55f090c10" primary="false"/>
+        <categoryLink id="712f24a2-8c0d-4493-85ad-3cd6ac0bd3f7" name="New CategoryLink" hidden="false" targetId="8778ed19-ce0e-4eb3-9a96-83cb56a3d2ce" primary="false"/>
+        <categoryLink id="e96253d4-532f-4cb0-bf75-c884602f283e" name="New CategoryLink" hidden="false" targetId="a19fec2d-bc09-49ce-9924-12abd6c6893b" primary="false"/>
+        <categoryLink id="6136db6f-c500-4b69-a465-eea9e0cd5b21" name="Phobos" hidden="false" targetId="26f9567f-c92a-469a-a47f-b7ccab309ebc" primary="false"/>
+        <categoryLink id="6b69657f-c80b-4b14-89bb-f2869b5dc8eb" name="Primaris" hidden="false" targetId="1fac5308-c187-43f7-b246-2f5c766132f5" primary="false"/>
+        <categoryLink id="c7e7e7f6-0327-4ecd-9259-6cca5d01f0f3" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1ba2fbb6-98f1-4485-8957-be3e841fcd85" name="Raven&apos;s Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e938642f-dfd9-4af8-b6ef-6cd4ea27df2d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b650060-0fb3-42e3-b098-496a9e7690fd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ac87e82b-e921-4615-b92d-39d7f077c211" name="Raven&apos;s Talons" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">You can re-roll failed wound rolls for this weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b35c0849-7be4-4683-b1ef-4c4e6bf8c00a" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="04aff4ba-153b-4a9d-a7d6-67fff7c8203d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa0c74b4-451b-4fed-94a2-fe9b87498059" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06eb9364-ff32-4ecd-940d-ec5752ad8e46" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="70468174-a3dd-4a0a-a392-dd86d780c0bd" name="Warlord" hidden="false" collective="false" import="true" targetId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="selectionEntry"/>
+        <entryLink id="44ab569b-497d-405b-91e1-a20132f126ec" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="4e41fbca-97ef-41f1-baea-594ccee62765" type="selectionEntry"/>
+        <entryLink id="d294d8ef-f560-4bce-961c-29ec67d883e0" name="Shadowmaster" hidden="false" collective="false" import="true" targetId="c7009ba7-df00-43ce-9d39-1f65704e1395" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="4cfb57bc-2d06-44b1-b580-7f8ef147abb7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="30723bbb-da3e-433e-9ec9-35c2274760f9" value="1.0">
+              <conditions>
+                <condition field="selections" scope="4cfb57bc-2d06-44b1-b580-7f8ef147abb7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30723bbb-da3e-433e-9ec9-35c2274760f9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="39eab8f1-6986-43e5-8ed0-3259a427a1e8" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1a149204-38b4-4750-80c2-fbf78c904b15" value="1.0">
+              <conditions>
+                <condition field="selections" scope="4cfb57bc-2d06-44b1-b580-7f8ef147abb7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a149204-38b4-4750-80c2-fbf78c904b15" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
+        <cost name="pts" typeId="points" value="150.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="681161ee-c10b-4db0-95a2-73aa69cd53b2" name="Kayvaan Shrike" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8875fc4c-975e-43cf-9e43-bd5e15ca544a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8d17467a-2ef9-4449-95b2-300676a84975" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f484c6d-5a33-4b44-8af1-caef01f2202e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9c6c00e6-469b-42ca-8693-c9f7b151cab8" name="Kayvaan Shrike" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">14&quot;</characteristic>
+            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
+            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
+            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
+            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
+            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
+            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
+            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
+            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1cbbd108-3b7b-4f43-a338-e2316dcab413" name="Winged Deliverance (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">You can re-roll charge rolls made for RAVEN GUARD JUMP PACK and RAVEN GUARD PHOBOS units if they are within 6&quot; of this model when the roll is made.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4ad8f2f3-df4e-4ace-87f1-6827c2543473" name="Diving Charge" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">After this model finishes a charge move, you can select one enemy unit within Engagement Range of it and roll one D6: on a 4+, that enemy unit suffers 1 mortal wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25bb85d2-b85d-4c70-b178-114f482d52a9" name="Angels of Death" hidden="false" targetId="d5386bf1-2f2c-4867-b732-1fd2eb58aa8c" type="rule"/>
+        <infoLink id="4b2dd983-2238-4a56-81cc-ecfbc8523b05" name="Chapter Master" hidden="false" targetId="e2ee2260-e96a-485e-853d-d9c43267bfd2" type="profile"/>
+        <infoLink id="29ab878e-537f-4a11-aadc-787beb8ba5ba" name="Iron Halo" hidden="false" targetId="c659aef2-4e33-410d-a376-abb32154a2b1" type="profile"/>
+        <infoLink id="4ba7c5cb-5e1d-4e0f-b8f8-f0ad3125cea9" name="Rites of Battle" hidden="false" targetId="354918c0-0ba1-421f-a535-64593ed01e0a" type="profile"/>
+        <infoLink id="79fe8332-91ca-407a-a5c9-e515fa30e5f1" name="Death from Above" hidden="false" targetId="37adebdf-dc87-4830-b036-e0df99723437" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="325222ca-65e9-4624-b073-ae1ca99230a7" name="New CategoryLink" hidden="false" targetId="85513717-dacb-4880-8d79-5b99d4ab3381" primary="false"/>
+        <categoryLink id="d04bdf2c-a8f4-4c82-93e6-ef6c80e834b0" name="New CategoryLink" hidden="false" targetId="0e9ce190-8062-46c2-ab2d-cf6c9f924a30" primary="false"/>
+        <categoryLink id="2e046775-ac2b-49a6-be75-e8113d5f1a2a" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="54b9ef06-f482-46ee-a89c-227d5b7a9d52" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="16683c33-ad18-4c00-80b7-f995ff0df7df" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="98556fe1-95f2-4f13-a18c-4db4ada2ab44" name="New CategoryLink" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
+        <categoryLink id="812403f5-cce7-4290-b65e-0e4b6f1f232b" name="New CategoryLink" hidden="false" targetId="f5791281-1ee9-461b-93b2-3fc55f090c10" primary="false"/>
+        <categoryLink id="ce68719c-6a6f-490d-84de-ba644f2f5c98" name="New CategoryLink" hidden="false" targetId="8778ed19-ce0e-4eb3-9a96-83cb56a3d2ce" primary="false"/>
+        <categoryLink id="df6c24df-8bd4-4812-93ce-23eb7c896811" name="New CategoryLink" hidden="false" targetId="a19fec2d-bc09-49ce-9924-12abd6c6893b" primary="false"/>
+        <categoryLink id="5f367740-a21b-4a7a-9f45-1815c76e8826" name="Phobos" hidden="false" targetId="26f9567f-c92a-469a-a47f-b7ccab309ebc" primary="false"/>
+        <categoryLink id="4ef6d670-f99c-4a5e-8959-af3b0ecf44e6" name="Primaris" hidden="false" targetId="1fac5308-c187-43f7-b246-2f5c766132f5" primary="false"/>
+        <categoryLink id="a84301f1-65af-4288-8258-ebbe3a659799" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0515a5d5-34f0-40cf-abc1-380c676e7757" name="Raven&apos;s Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="795d7684-59e8-42a5-9fc8-c2bc2590d3da" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66d999b-9f77-4a61-945e-947d21bd8fed" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e4b2552d-ca14-4c21-9dd3-147ae5a192d3" name="Raven&apos;s Talons" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">You can re-roll failed wound rolls for this weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c490901a-9ef1-4bf5-91ef-86b5bdbb355d" name="Blackout" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05f9f942-bcc4-45e0-bee1-23ac02becae2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db66aafe-fd6e-46e6-8847-af42987805dd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e699b022-92fb-40f8-8e1d-2a7f8f161acb" name="Blackout" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 2</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. When resolving an attack made with this weapon, a wound roll of 6+ inflicts 1 mortal wound on the target in addition to any other damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e3320cf1-f49b-4131-b87a-072bc27a64d9" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="04aff4ba-153b-4a9d-a7d6-67fff7c8203d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b183ed11-0240-408f-9947-f948491c96cd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec846be-2818-429d-b2c3-1d4614154dce" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b2c2c767-4afc-4d8f-9351-865be578817c" name="Warlord" hidden="false" collective="false" import="true" targetId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="selectionEntry"/>
+        <entryLink id="8c520868-6110-4544-ae43-15a41403d0fb" name="Shadowmaster" hidden="false" collective="false" import="true" targetId="c7009ba7-df00-43ce-9d39-1f65704e1395" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="681161ee-c10b-4db0-95a2-73aa69cd53b2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d5758ef6-8a0b-485b-ad9e-31f8b5393160" value="1.0">
+              <conditions>
+                <condition field="selections" scope="681161ee-c10b-4db0-95a2-73aa69cd53b2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="equalTo"/>
+                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5758ef6-8a0b-485b-ad9e-31f8b5393160" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="52c8a0c5-a0c6-463a-b412-4aa82ed64fbe" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="24087f42-6ce3-481b-aac4-fa1fc8ba322e" value="1.0">
+              <conditions>
+                <condition field="selections" scope="681161ee-c10b-4db0-95a2-73aa69cd53b2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="24087f42-6ce3-481b-aac4-fa1fc8ba322e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
+        <cost name="pts" typeId="points" value="120.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="dcefd86b-6547-4228-9ebe-0a89c21a194e" name="Apothecary" hidden="false" collective="false" import="true" targetId="1197d83f-469f-47d3-a4c0-96479432b38d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4dc89b44-d099-4b15-9db0-264e891309f8" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2c598172-a1ed-4107-8850-837457053ca0" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="146d291c-08c1-4190-9189-e72eb4cd3219" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="134bb836-f55d-4a8d-9afa-4a784164a67a" name="Apothecary on Bike [Legends]" hidden="false" collective="false" import="true" targetId="4be1bc1d-3ca2-486a-b4dd-1efcc49f3f26" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="78e61899-5367-492f-8b2e-d49ae411c662" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2f3bd777-7710-4b1f-bfd2-d773d340c917" name="Assault Squad" hidden="false" collective="false" import="true" targetId="2788e591-f782-496b-b327-5aae636138bf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="145cbcc7-e033-4be2-8344-6261ac5ea1d4" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9158c60f-2364-4b3e-b98c-9aa3db1ebfba" name="Astraeus Super-heavy Tank" hidden="false" collective="false" import="true" targetId="54ff6e3b-008e-4654-9a19-c3110a727f76" type="selectionEntry"/>
+    <entryLink id="53c0eb9c-fadd-4b97-a634-1f850b4a1342" name="Librarian" hidden="false" collective="false" import="true" targetId="60b0c606-b703-4834-8f3f-ea1766a275d5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0175f6d5-f03d-48f0-85ee-df25d563c78d" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="47e081d9-f08d-4fc0-be0b-cb318137fef4" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+        <entryLink id="461c622d-4ef2-4e71-b38e-1900c1141dbf" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="e83af108-73ef-4a1f-80df-0bebbf643ce2" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a673d639-7518-41f2-b02e-12d23947d29b" name="**Chapter Selector**" hidden="false" collective="false" import="true" targetId="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b8757c64-ecad-4ca9-91ba-50dbb8fc2ac0" name="New CategoryLink" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4993240-a287-4eb8-bd32-be710cd9f794" name="Aggressor Squad" hidden="false" collective="false" import="true" targetId="75d9ce08-3a07-43e3-8a1f-0210d8639b4e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2ff445ec-b6be-4a16-b21d-6f7132092add" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e103c660-4cf6-40f5-8f6f-f3462eeebbca" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ffc4203e-3bf5-44d9-b3ad-7505dc75c15f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0bb377ff-386e-440a-b94c-466a283e39d8" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="63d22fbd-1768-4aa1-b73c-137cf602a262" name="Bike Squad" hidden="false" collective="false" import="true" targetId="39d51682-41b7-4b92-b3ce-de020a08e592" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="33ae4df8-2a33-42d7-b628-54136be17c3f" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a58f19a3-0381-4ea8-bcb4-76c6ceac315d" name="Caestus Assault Ram [Legends]" hidden="false" collective="false" import="true" targetId="df54224f-cf40-4751-922e-d6b2506fc200" type="selectionEntry"/>
+    <entryLink id="dbb86853-d191-4bba-b383-bed110c19d0f" name="Captain" hidden="false" collective="false" import="true" targetId="b7fe3335-92f4-4851-b37f-4f0312c50064" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa6da287-2740-4cbf-824f-957de649d4e5" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e1730ed4-d17f-4ac8-b4fe-10df111c9b35" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="30a9be84-f2ba-47b1-877d-8c397f8ddd28" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e6923da8-1742-4bc2-9861-f42838753555" name="New EntryLink" hidden="false" collective="false" import="true" targetId="9eea5b75-ab87-428d-87b9-313395408ae8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1c2de88e-5f74-4f77-901a-4fb313488df5" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7be4fc14-7fe5-4e48-9664-3895c8d45107" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="0d8465a9-4258-4025-8666-3ef3b20945ea" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9d656b0c-5a5a-4f5b-b660-ef7e7a77fdb3" name="Captain in Phobos Armour" hidden="false" collective="false" import="true" targetId="c1166ad2-e05d-4c96-8a80-ff1fa504c13b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="af8d6e65-af08-48fb-8d52-1d35cbb4e45b" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dfdd936f-0dda-4e5e-bf9d-83aa4f5cacd2" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="b168cd22-8054-4edf-b5fb-994d2e2d1f6b" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="36d85632-1ef4-43f6-8340-26f486315cd3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a5651625-3853-4030-979d-74eb9c296c4b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f931f09c-09c2-41ab-b438-d811cd31452c" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e150f2ad-28d1-4c3a-9c72-2df345aa972c" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="f66f87a6-fe85-4c3d-98fd-15872e221900" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="219b64df-7a2b-4eaf-aa97-0b2052093e6f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f5f82777-275d-4dfc-a978-dcc71bb319ab" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6f56865b-a444-435a-9e47-e2be33543e9b" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ef44d7b2-c273-4ab6-bacd-00a557fe0ce8" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="5cb4dc72-0509-4ce2-b880-95d569d4c5eb" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0efbf25d-3b4a-4db6-8d99-c1d998ddf042" name="Relic Terminator Squad" hidden="false" collective="false" import="true" targetId="861781fb-3f12-4a9c-b9e3-b4d3a0f10cf1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="18d3f97b-5c28-4ffc-9753-add4fd1d043a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="746aee96-1e9d-4f85-8046-62913bee6554" name="Centurion Assault Squad" hidden="false" collective="false" import="true" targetId="017ce7f4-968f-47ec-928d-b995be4c4137" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="70de294f-f031-4ab1-b785-ddfe8ecdf909" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e7065397-d23b-4052-9a16-1d3a64e78cf8" name="New EntryLink" hidden="false" collective="false" import="true" targetId="cee32ccb-15d0-4e32-a5e2-2a680e16fc50" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a75909ba-bb43-424d-83ae-b9aa55919386" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d0473cc6-a954-4590-96a2-08b3fe7f1787" name="Chaplain" hidden="false" collective="false" import="true" targetId="7e885bc7-94d3-48bc-a0f2-f6c2e1ff34c2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a42ce98-443c-4155-805c-b921783b911d" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="19cfdc6e-fb67-47f8-af6c-79b2fd029b1b" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="6364b9a3-bcf5-4ef9-83c8-0283d6222b78" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="53b0ee43-c917-4670-a660-4eb11ccaba0a" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4a11e95b-07fb-4d51-9d22-bf8da97d0b85" name="Chaplain in Terminator Armor" hidden="false" collective="false" import="true" targetId="10678a8a-7ffe-4f26-92dd-bee746b6e09c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e63754c3-d28e-4e48-9f59-e850ed6f4bd7" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c164d258-7756-46a9-b184-97f13368c60b" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="97dbbdac-d8ed-4742-9724-ee72662fa5ec" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="61c9c72e-f1db-42dc-a900-4bf929cbe72c" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9a74bc11-bb03-4d19-b6c3-7fbe0120fe39" name="Chaplain on Bike [Legends]" hidden="false" collective="false" import="true" targetId="d1e642eb-0369-4261-a7ed-3b531d11c6da" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6f8881f2-7a91-4edb-8a52-880bad965f77" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c7c6d166-bf58-43fc-af47-be0e9e9d67e0" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="eec464c8-f116-427b-8e18-72f50d347ee5" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="1176eb53-db23-46ae-9435-8a178d8e24a0" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="42aa03f3-4af2-4c8d-8edc-1847e95a56d3" name="Chaplain Venerable Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="a72ca275-508d-464c-86a7-f50255c8d3ba" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="39a82aa6-f48f-4c8c-8fdc-24e094e902b6" name="Warlord" hidden="false" collective="false" import="true" targetId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="selectionEntry"/>
+        <entryLink id="65323c72-7919-44da-b72d-6d909caff7ac" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="89da2039-de84-4767-9386-ad0313085f7a" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+        <entryLink id="e9e19f0f-6592-4376-8da6-015d95412cc6" name="Stratagems" hidden="false" collective="false" import="true" targetId="4d7d795f-4d75-46cd-bddb-c2214b03e412" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1aa95fbf-ed22-417d-b300-2190d7d442f7" name="Company Ancient" hidden="false" collective="false" import="true" targetId="65701bad-89b4-4944-81bd-d83d3ed8489f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a59591f-f35c-4b0c-8f5c-e216c22052fc" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e44d2c1a-9be8-4b27-be1e-50876f951231" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="53ae5100-8f03-4046-be65-e7119301b6b7" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4e15c246-cc53-4312-a911-9a46ba9737ee" name="New EntryLink" hidden="false" collective="false" import="true" targetId="6e9c4b92-04b3-4732-b32d-0347b983c199" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="71da34fa-fd26-431b-8942-b9edb72acff5" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e2aaa0e0-8b7f-482d-92ee-30aa68fe3837" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="1ae4e29b-86f8-4433-9cdf-fc8c24d06543" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f178c988-5403-4b07-ae0a-187209bc8d38" name="New EntryLink" hidden="false" collective="false" import="true" targetId="9aa70007-8c30-4caf-b7cd-fa9fce50e843" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b2571d2b-37a4-47a3-bf60-1a68879c00e4" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="abd628fa-e31b-41d4-905e-ccb35027d3c3" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="edaa9273-38f5-4efc-b8ed-61ca478623ef" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="839f540b-e22d-45c9-8b56-df16660e9020" name="New EntryLink" hidden="false" collective="false" import="true" targetId="48a25508-6de1-4b85-a6d2-ac81046b6b6f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5bf6239c-c77a-43d0-85c9-9b3cd87146a3" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a315a50d-10d0-4ff0-a417-0a9980e9ddce" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="06bcb205-5fef-4191-a66f-9b6bb06e1df2" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4212ba6f-dd01-472f-8bd3-efdf414c64bc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="7e540e3b-1ab0-4b7a-9658-fac2cfa5dd8f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1ddd4f8c-cd6d-4823-8d06-6eba56f62f60" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1e7c56a4-4750-4323-8580-b035c29aaa1f" name="Company Veterans on Bikes" hidden="false" collective="false" import="true" targetId="9df6270d-1700-4c2b-b7a2-fc05084abe7d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2f6479cf-3642-437b-92ae-43e8bc49943f" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a53528be-97ca-4916-beda-6f0dbc5710c0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ea3da448-c94b-41ac-81aa-8a9aee114e37" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c06eb2-9491-4623-82ea-b4a70839851b" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="adf621db-b819-432a-8c11-3b0847ea7b72" name="Contemptor Mortis Dreadnought" hidden="false" collective="false" import="true" targetId="8b0c1ef0-ba97-459b-9f67-bd3a917eac1e" type="selectionEntry"/>
+    <entryLink id="17032c09-9950-4319-9d8a-b451538b074d" name="Damocles Command Rhino" hidden="false" collective="false" import="true" targetId="ea92614b-5a9a-4148-ac28-44a38a0dd85a" type="selectionEntry"/>
+    <entryLink id="961c91c7-bbe4-4511-a943-f8cafa1bf165" name="Deathstorm Drop Pod" hidden="false" collective="false" import="true" targetId="c76c325f-90bb-49cb-b8d2-b884a9dc030f" type="selectionEntry"/>
+    <entryLink id="fddaf06e-592a-4b60-a284-c732618daaf5" name="Deimos Pattern Relic Predator [Legends]" hidden="false" collective="false" import="true" targetId="2447ac25-cdee-4ba2-8a1d-f3f739205ba4" type="selectionEntry"/>
+    <entryLink id="b64ea815-3d40-4ea2-a49d-009bd149cb51" name="Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="08b0eda7-d6fa-44f8-98cf-7e69c1d0f53b" type="selectionEntry"/>
+    <entryLink id="08f88da4-4dde-427e-aa2e-adca02c45708" name="Devastator Squad" hidden="false" collective="false" import="true" targetId="7b38327b-f7ba-4a8a-8574-032c97cf6830" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b40fe7c6-5b90-4ca7-b5d7-7f18b7c67289" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="28fa7f6f-0d85-445a-8228-0f53a57e93a3" name="New EntryLink" hidden="false" collective="false" import="true" targetId="0367624d-697b-44f8-baa7-4fbf28b15b9d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a02e72c-5085-4439-997c-afb272fc339c" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f1d5f908-5ea5-4c98-9e91-34319b5c5d61" name="Drop Pod" hidden="false" collective="false" import="true" targetId="70987fa7-0f80-439b-b1a3-ded4722bc87b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f8135234-296e-45ba-8565-f880d6f26190" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="390dc608-4051-4d4d-956d-6fbfd48600a2" name="Eliminator Squad" hidden="false" collective="false" import="true" targetId="280d3098-5ed8-4a87-979b-555c137f6f51" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="21c4fbcc-ae31-43d0-a86a-c21b5d32b6fe" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="01028291-da89-451f-87b4-910d631e5514" name="Fire Raptor Gunship" hidden="false" collective="false" import="true" targetId="dca9a8e2-3e50-4196-b3f8-525d0de04845" type="selectionEntry"/>
+    <entryLink id="833b48c5-83fa-48a0-b183-bdb713d4c09e" name="Hellblaster Squad" hidden="false" collective="false" import="true" targetId="9afb896c-095b-4623-a223-89464c1e4ced" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e0103303-96ab-4635-bb11-3e2331ebf127" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51f1f136-571a-460c-98a5-c48a1769c67c" name="Honour Guard" hidden="false" collective="false" import="true" targetId="111b0574-f6de-4fad-b35c-017e1468d247" type="selectionEntry"/>
+    <entryLink id="76cc63e8-0d8b-48fb-bbd6-3b2ae38abc50" name="New EntryLink" hidden="false" collective="false" import="true" targetId="e28d90da-030e-4ab6-a0bc-d7c2c0566a3b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3d9e3d41-2ec3-4dde-89da-9d3674d15b55" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c908d2a4-4e17-4543-9521-1f81b0b4535a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="d41cb804-2090-4717-83f8-ca5b719ca7e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eec52bfe-f57c-41eb-979c-a72a35550f2a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="190215e5-292a-45bd-a3cc-975373e215b8" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="008ae0df-001b-4997-8e93-cfc2c3f0e415" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0b68c1d8-1890-467e-bc50-843c760105f2" name="Impulsor" hidden="false" collective="false" import="true" targetId="2d464714-eb34-48a8-8c20-c3ae38bd35e6" type="selectionEntry"/>
+    <entryLink id="80726498-3d9d-480f-bff2-931902993c1a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="dfdaa27a-05c7-4793-9ffb-58b53c993041" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="680f9633-cfa8-433a-b37b-6f576a7111a7" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c71d620b-a2f3-4663-ac35-488f347f6c78" name="Infiltrator Squad" hidden="false" collective="false" import="true" targetId="6f2ff79d-889c-4537-a9cb-54c301cd8467" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="97795648-b3ee-4d13-bed1-5384f99fd4ac" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c2d3348-54eb-4feb-ac5d-839a1ef9b1db" name="Intercessor Squad" hidden="false" collective="false" import="true" targetId="e8685eb3-7e59-48fa-bdb6-ce51d2347bb3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="34695100-8372-4a06-a7ff-1dea4b7d28a7" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="19769687-720a-4683-aadd-6a7b9a30975c" name="Invictor Tactical Warsuit" hidden="false" collective="false" import="true" targetId="ab49966e-1bfb-4c7e-87e9-9233f1214721" type="selectionEntry"/>
+    <entryLink id="1fa2132c-eb6d-4516-b54c-98be45bb1bbb" name="Ironclad Dreadnought" hidden="false" collective="false" import="true" targetId="f98bd2a8-0cf4-41f6-9940-3067061c7092" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="060bc8ec-7f3d-418a-9ec6-b462b2e688b6" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="73910e67-931f-40ff-98d1-82a5cb2396c9" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3edef382-1ea0-4526-a1d2-f535172aec13" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4c8ce27b-a7e6-45ff-a77f-2ab1fa2b6da7" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2683ef8c-8cb0-4cb3-8b93-8133103ab8ba" name="Land Raider Achilles" hidden="false" collective="false" import="true" targetId="206ec103-36a6-4df6-a2ac-efe43da3f6ca" type="selectionEntry"/>
+    <entryLink id="e75477ad-26a1-4186-bb80-07e517c2ab84" name="Land Raider Crusader" hidden="false" collective="false" import="true" targetId="02ee7c63-0d28-4739-ac2a-cd58b29591b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2583ac9e-c3be-471e-b170-b7fc15d97395" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d7d7cbc7-d90a-4b04-bbff-d186e94e524f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="504c7b8c-f301-44cc-8a4c-ea2f4f2a2f83" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="103b0a46-5642-4b23-ab8c-ea693bc66b41" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f02715a2-137c-44a2-b0d4-5987a02404ad" name="Land Raider Helios [Legends]" hidden="false" collective="false" import="true" targetId="99349943-240a-4708-8814-a8a43323ad9b" type="selectionEntry"/>
+    <entryLink id="71947d13-e8e1-4aa7-af77-68212843ee5e" name="Land Raider Prometheus [Legends]" hidden="false" collective="false" import="true" targetId="518bab5c-e542-4a18-b4d5-2930b01700c6" type="selectionEntry"/>
+    <entryLink id="b348b82e-5b03-4c3c-9f02-d0d396abdbc4" name="Land Raider Redeemer" hidden="false" collective="false" import="true" targetId="38fad54e-d05e-4338-96f2-8c07adb1332a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="819f0c7d-771d-48aa-add2-9a52a5421e58" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="85c2da5f-b1f2-4194-973b-9c4b36f2bd3f" name="Land Raider Variant (Open Play)" hidden="false" collective="false" import="true" targetId="7975e52d-aeeb-41f2-9089-47af5499e81c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b354de6d-fae7-403e-8af5-a492d44458eb" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="cf8c95fb-1ee0-4245-b981-6f447f95328f" name="New CategoryLink" hidden="false" targetId="85513717-dacb-4880-8d79-5b99d4ab3381" primary="false"/>
+        <categoryLink id="5e208800-18be-4dcb-897f-5e0e02a3f2ef" name="New CategoryLink" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
+        <categoryLink id="5d4863ed-73c3-43b7-b715-f1c8dc48a4f2" name="New CategoryLink" hidden="false" targetId="6ffd578d-efd3-4cc5-9022-e1cd6179deb3" primary="false"/>
+        <categoryLink id="92f04257-409e-4055-9785-3f5c5ed7e0f7" name="New CategoryLink" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="true"/>
+        <categoryLink id="449baacc-5609-4859-901d-63a9297e1323" name="New CategoryLink" hidden="false" targetId="86cd9df6-4e0f-4108-955d-5085da349ff3" primary="false"/>
+        <categoryLink id="37eef1de-939d-4178-b62a-15672b4faab0" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f72b0a52-d4e7-4780-82ad-85d456b4c8ad" name="Land Speeder Storm" hidden="false" collective="false" import="true" targetId="beb9096a-3862-407f-a092-a481eee8c46c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a22f627-701d-44ce-91b2-3d6e08149f12" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="705efefc-1a74-4a12-84e6-d91e14f70278" name="Land Speeder Tempest" hidden="false" collective="false" import="true" targetId="0c509333-4bbb-4d49-a8a6-c9bbacdd3d56" type="selectionEntry"/>
+    <entryLink id="3ef69193-1472-419f-9cc6-5e2d53c065c5" name="Land Speeders" hidden="false" collective="false" import="true" targetId="3dd9b374-13c0-4df8-8ee2-f8791c107cfb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="79d3a9c2-3517-4e2f-a602-da045376fe64" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a9a438d-ad03-45f7-b034-02407b484cca" name="Librarian in Phobos Armour" hidden="false" collective="false" import="true" targetId="ac0958d4-9ea3-4c99-813f-5e44a3cfc7ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b776b74d-a0da-4037-a601-dfe747d3e85c" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1e1bd92d-08a4-46a2-831e-e556cd258459" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="9dea507b-cd21-46fa-81d7-a312629d9341" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="4b9f5fcc-b415-4c7d-9228-c894290ac817" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3b2b90f3-52ff-4650-ae10-b4c5618f8aac" name="New EntryLink" hidden="false" collective="false" import="true" targetId="5dfc4b85-0cac-4940-846e-1b52943683f4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="da780ec7-da32-41a7-a737-f7370552c9d5" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2af95d79-0e11-4579-a791-e3ad350b179c" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="e2fbb7a4-b1cf-4a5b-a034-6ba752819c17" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="e62e41bc-4853-410a-9801-a0568ca61f19" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="47617ea4-2f1f-4823-a28d-f2dd7a9aea06" name="Librarian on Bike [Legends]" hidden="false" collective="false" import="true" targetId="ed49fa96-d4a8-46a7-9480-9a75e030af72" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="862388b0-a021-4427-b089-953184274aee" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eb9ee633-4387-4e51-bda8-c26287b9f0e6" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="23afff63-9f64-4821-b4b7-8ed794daa5ff" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="bad31f67-37d4-494c-bb71-14f37fe5da32" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6f185c03-ce53-4c56-898e-5b40ad3cea2e" name="Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="84c215af-6f18-4dde-ab2f-b45d2c0fcae3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7bdd1d4d-834b-4593-af6a-ef7b668dccff" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="292fc3a1-eff1-478d-8726-e5c44149e80c" name="Mortis Dreadnought [Legends]" hidden="false" collective="false" import="true" targetId="93203c81-7f0a-46d1-a6cb-48739d9b96d0" type="selectionEntry"/>
+    <entryLink id="3af93037-d65f-4efb-b869-7d0738e8ca8d" name="Predator Annihilator" hidden="false" collective="false" import="true" targetId="1bde1e78-660a-45e9-a0ee-12f23f12fa18" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="91e207d3-a722-4865-9323-b34deb9944c8" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4cf7f05d-9ad9-4bdf-9131-8b42541fb926" name="New EntryLink" hidden="false" collective="false" import="true" targetId="4e6a8938-a523-4044-a7df-d6ff0a8b7663" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="72c2dbfc-87b2-4561-bf09-5aa6de9d2245" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="347ef59a-971e-4f7f-8518-ae14d6b4c337" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="3fbd0774-351c-4f3c-88ff-3cc18f41a9a3" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5aad7be7-e5b0-4a94-9c07-97b0e7cb8393" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="a3f6d939-6e58-4f85-8d24-02cde009c7f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8636b89f-e386-4e6e-907e-d82d4672957e" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="74ed1db6-2987-46b4-8217-26e92b520ea7" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="8e06c1ce-0d9c-43da-8ed1-38f6b5dff1c5" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="81730643-fe47-49f8-ad42-e341966b3d13" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="2142995b-ca3b-4f96-aaeb-0ebbc137a359" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8326544b-a5ed-4b05-a43d-97a76c1c054c" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="43910c41-edf6-41b1-b3fa-651fb40a57e3" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="329e5610-1b1c-4952-80c2-f0168faefd9a" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e71799ad-795c-49d3-8e60-1c90a56d674f" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="88f36585-f19f-41e7-a21f-ce9b69c87f3d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5743f9e9-d935-47e9-b916-58a541d149ea" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fdd87a6b-77aa-45c3-af3f-8522e7843833" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="5d9e917d-632b-4a3c-b32b-67e77e93c596" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="521215bb-bcc5-4383-8f86-81b5e9efad10" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c93a423a-7faf-4c12-895f-9b83586009f0" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="b252ab61-a065-43c1-b4b0-ec8b81fea77d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ac3e468e-108e-42d9-be26-3365b21d4858" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="faad52e6-257b-4f6e-bca0-b1fff0245849" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="9341e163-c024-490c-853a-8e406deacb2a" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+        <entryLink id="93b343bf-56ab-41e0-81c0-b2418127373f" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0ed609b3-5adb-4e9f-aba2-6e183b4bf105" name="Rapier Carrier" hidden="false" collective="false" import="true" targetId="ea0f4a81-6bb4-4086-922a-1b83b3f0ed34" type="selectionEntry"/>
+    <entryLink id="15f0beb8-f203-4228-bb69-b866355ee70b" name="Razorback" hidden="false" collective="false" import="true" targetId="fa3723d2-21c1-4e0d-9174-c0f408e76ba2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ce22107d-9c53-418f-bfab-3e013b6730e6" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bbe1f030-2942-49e0-8785-8a30930cfeae" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" targetId="a10a1ed2-9dab-46b8-b676-4917c13a85f8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bb004abc-1615-4bf7-ab5b-3930a19f3511" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e022864e-9532-4442-891d-2e6e580f6d0c" name="Reiver Squad" hidden="false" collective="false" import="true" targetId="eca5710d-c990-4061-b85d-04148c6fb864" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a2493f84-b9e0-4c2c-998d-ad8e57b1cc3e" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e29c488-f1e9-4f4d-ab26-102b5c260035" name="Cerberus" hidden="false" collective="false" import="true" targetId="82bc9cf4-11ee-436b-afbd-6a0355378b51" type="selectionEntry"/>
+    <entryLink id="d1c32dfb-eb16-4865-a56f-2d1713e86ffb" name="Relic Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="31199a11-e744-48f3-95b9-64427dc82972" type="selectionEntry"/>
+    <entryLink id="5859f9fc-f15d-4cc8-99d1-b4f37aa0a9bc" name="Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="ee01bdd9-282b-47ce-847a-d05a7931e784" type="selectionEntry"/>
+    <entryLink id="e938b2eb-2201-4e9b-a587-bab52ab5ac7c" name="Falchion" hidden="false" collective="false" import="true" targetId="cfda929b-7fab-4663-8b13-05290164a3a5" type="selectionEntry"/>
+    <entryLink id="a25b7eda-734e-46f6-b34f-54289b69f85f" name="Fellblade" hidden="false" collective="false" import="true" targetId="138edc20-0f51-420e-86a9-b75b2bf42a3d" type="selectionEntry"/>
+    <entryLink id="326ac0fc-4e8b-42c2-aa38-0b05a4e4ad82" name="Javelin Attack Speeder" hidden="false" collective="false" import="true" targetId="99ef6d04-2e7c-48f9-9462-54b3317600e9" type="selectionEntry"/>
+    <entryLink id="2881761c-4443-459c-bb72-e442ef9d3e83" name="Land Raider Proteus" hidden="false" collective="false" import="true" targetId="2de382a7-2c98-4698-bace-4a69a0b9c1ea" type="selectionEntry"/>
+    <entryLink id="5452ddac-9d37-4bed-968e-aabbfd93afdf" name="Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="adf40143-3eb0-4536-86b6-b6a81ca39a42" type="selectionEntry"/>
+    <entryLink id="7e3efb13-5cc3-421d-933b-cb4b118294d0" name="Mastadon" hidden="false" collective="false" import="true" targetId="a10f8d3b-9848-4a76-aa3f-78f732dbaae2" type="selectionEntry"/>
+    <entryLink id="8ecc32ae-a303-421d-a521-8652facbf3d6" name="Sicaran Arcus" hidden="false" collective="false" import="true" targetId="cc3cde18-0b6d-4bdc-ab01-cd189a67f7ea" type="selectionEntry"/>
+    <entryLink id="852e656e-f2f6-46ca-8711-0d2158919eb9" name="Sicaran Battle Tank" hidden="false" collective="false" import="true" targetId="7b3dbfb5-4839-4688-ac1c-259f39f99d68" type="selectionEntry"/>
+    <entryLink id="cffedb75-e833-4189-9de4-b76ae5d90bfc" name="Sicaran Omega" hidden="false" collective="false" import="true" targetId="13d8436a-729d-4629-afd3-697915620eb7" type="selectionEntry"/>
+    <entryLink id="7c9afd75-a23c-4645-8e60-b1429deeb388" name="Sicaran Punisher" hidden="false" collective="false" import="true" targetId="24ee8e11-fc41-4490-917c-284ebcd994de" type="selectionEntry"/>
+    <entryLink id="c7ed8bbf-3b39-4b71-b392-e648ef528ab7" name="Sicaran Venator" hidden="false" collective="false" import="true" targetId="6b053e9d-5c63-4863-b8fa-74704c6c65cd" type="selectionEntry"/>
+    <entryLink id="684abf33-369c-4a0a-aabd-b4ef22455b84" name="Spartan" hidden="false" collective="false" import="true" targetId="5ff1e081-9898-4e94-a7b1-4044b7bfdefe" type="selectionEntry"/>
+    <entryLink id="f5e3d6ba-0e05-44aa-96d9-241b67881c1f" name="Typhon" hidden="false" collective="false" import="true" targetId="5a9901bd-a48d-42ef-b34f-12b9020602b5" type="selectionEntry"/>
+    <entryLink id="0e13fa1c-3fed-41aa-a8d0-d739952863d4" name="Whirlwind Scorpius" hidden="false" collective="false" import="true" targetId="b793316c-ff90-4652-b7aa-99d3b283bfa5" type="selectionEntry"/>
+    <entryLink id="a6034a67-3379-44ef-979f-8f6fdcae5ddc" name="Repulsor" hidden="false" collective="false" import="true" targetId="b9554378-10ff-49c8-96e8-f21c4166dbb1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e1104f4a-8772-448c-8fcf-b1418050254a" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="98135e40-035a-496a-8101-2489406e63e1" name="Repulsor Executioner" hidden="false" collective="false" import="true" targetId="dd455d7d-406c-486f-b926-de4f280f968d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="35c3bd88-1926-468c-b71b-9aa8168c3321" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f1dd8568-269d-47aa-8e80-6f409c2375d0" name="New EntryLink" hidden="false" collective="false" import="true" targetId="52bfa6e0-484f-4c01-8f4e-7ee137896ec2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a1cf4d65-db78-44ed-9949-c358e333ecc3" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e523d006-746c-406f-861b-3a846c89fe6e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="18f28e2b-ab02-4f0d-bb64-c2e778b422f2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c6b4feb8-828e-4113-b832-3f8b78306ca7" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="69d0ad52-f7ee-44ff-b794-525d9b4a5e9a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="08156c3f-2079-4af1-89b1-30b97d5e100b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="83ca0a10-abd7-4d9d-bf1f-68a4f730ddc4" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8814fac2-294a-40c9-8c84-b90be93356ac" name="Scout Squad" hidden="false" collective="false" import="true" targetId="afaf99f6-25ed-4fae-a1bc-48e7b979ef1c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="510c2d17-72d9-4b62-a6f5-1db45e418df4" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4de4bb59-3930-4aa2-a530-f09a572da6b6" name="New EntryLink" hidden="false" collective="false" import="true" targetId="834e5126-c52e-42ab-b7e1-a66276651929" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="23c07178-00b2-4ed0-b19e-b33b1df31d80" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="16862a18-1eab-46a2-83e8-16dc0868baf0" name="Sokar Pattern Stormbird" hidden="false" collective="false" import="true" targetId="aac0008e-f6cf-4f5e-b472-9194a70d5474" type="selectionEntry"/>
+    <entryLink id="20eb86e5-7e5e-46f0-98b4-6f8a61f4b2bb" name="New EntryLink" hidden="false" collective="false" import="true" targetId="369119d2-6772-4166-aabe-a294efabed5b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b5ba509-e996-42f4-96c2-6e9419204bc6" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6dce36f9-fb8d-49a2-ba9f-77c52c499662" name="New EntryLink" hidden="false" collective="false" import="true" targetId="54c7a90a-fe13-474a-8676-39f0f70d7c3e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c4ffce22-1f45-4731-ba1a-bb55140b8fc3" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a19631c3-cd6e-490c-83db-091ed283ba96" name="Storm Eagle Gunship" hidden="false" collective="false" import="true" targetId="dc26e4c5-3fbc-4343-aeab-918e9b2788e3" type="selectionEntry"/>
+    <entryLink id="f3344156-cc9a-4f84-89e5-2b89af311518" name="New EntryLink" hidden="false" collective="false" import="true" targetId="f1a9c3dd-ce01-4339-9fb0-6d1c7cade84e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="02f066e8-9274-4611-8ac8-e0c575ee0d87" name="New CategoryLink" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e6b5be2c-a039-489f-b39f-2c96e15c1a4d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="89746f0b-4764-49c5-8ee8-658e635a9007" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="16d7292b-ce6e-48b5-a03f-31261cc4c46b" name="New CategoryLink" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8ee642f2-f4d8-4136-9968-662a94db4695" name="Stormtalon Gunship" hidden="false" collective="false" import="true" targetId="16d751cf-18c5-44aa-89e3-02b491730d87" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="723831fe-0c3b-40b3-8929-4a2f435eef8c" name="New CategoryLink" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fc211bc7-88a0-4f57-9ba2-94a9984f47d3" name="Suppressor Squad" hidden="false" collective="false" import="true" targetId="fb9d4033-7a84-4e54-9a36-30aa1e71b9bc" type="selectionEntry"/>
+    <entryLink id="17f5828c-57e7-4623-b20b-c3407e5fc56a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="19a66e26-b8b7-4072-9a5d-70b5c0d9712e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1ad6a0a4-be67-456c-a040-a36dccb3d41d" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fec5d879-c403-4197-8cdb-3fb9919a962f" name="Tarantula Air Defence Battery [Legends]" hidden="false" collective="false" import="true" targetId="c33dd0f2-9177-42fd-a5f2-441f06435d19" type="selectionEntry"/>
+    <entryLink id="54f16be6-5c75-4892-94eb-d0009b685ff7" name="Tarantula Sentry Battery" hidden="false" collective="false" import="true" targetId="fb624e9b-ef24-40c9-849e-55934502d311" type="selectionEntry"/>
+    <entryLink id="ae9b7d41-468f-45c9-ae39-11b3706c0291" name="Techmarine" hidden="false" collective="false" import="true" targetId="b86ff8bb-4a6b-496e-a0eb-1943319dd024" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="797dad90-7f12-4ab0-b153-38ca613ca3d0" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4d6a8f41-0bba-42bc-b05b-3667e848d4d5" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="54397549-6733-4ba8-b7d4-c208bdcf7d07" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="26d26a88-7289-4100-a427-1eab3af177c5" name="New EntryLink" hidden="false" collective="false" import="true" targetId="8e2bc252-2bec-474f-bf3c-d1ced250bc27" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5caeaaae-b97b-4e29-b2ae-4ffcb6bdcc3a" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c24b1594-86b9-4c69-9fea-93a4ce12f6ea" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="68725350-8168-4360-b09f-0e5c04472693" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1c0b0089-ffa9-4046-bb34-b0e312fc6134" name="New EntryLink" hidden="false" collective="false" import="true" targetId="ef5d0915-303e-4e2e-90bc-631e98ec5ede" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e4ca6da6-17e9-471a-b4a2-d53022c77fc9" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="61d484ce-9c0d-463d-b767-e35e7e10c4fe" name="New EntryLink" hidden="false" collective="false" import="true" targetId="97cc9593-3c7a-4b5a-b914-73568d00755e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="73e10d8a-6beb-4dfe-b01d-97308a34399a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c72e4023-cf2d-4f8c-89f6-c7da17e8879f" name="New EntryLink" hidden="false" collective="false" import="true" targetId="a3e6c633-bdae-4c8c-a3a5-1898548d8161" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1d935404-47d2-4d3c-aa9c-3101f97f7ae7" name="New CategoryLink" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="279512bc-bfe1-4bd2-8d17-5bd4b3c9dcce" name="Terrax-Pattern Termite" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" hidden="false" collective="false" import="true" targetId="f9bfb35f-8915-4779-b30e-cdf96ceac8de" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8ce298c6-9db8-4ff4-9ec7-0d8f2d286129" name="&lt;Chapter&gt;" hidden="false" targetId="bcebe84a-f91f-4c7b-aa4c-2b0dde8624f2" primary="false"/>
+        <categoryLink id="f5b2c128-912b-4471-9c40-0633976e05b8" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
+        <categoryLink id="33a1b533-5abd-481e-a518-5a1fc7c1549f" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ffdd8cd0-f9ac-4760-bd4c-d659a20aae46" name="Thunderfire Cannon" hidden="false" collective="false" import="true" targetId="0c1ff3da-7515-451d-adda-f8568ae37db9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="34be5374-6e8f-488d-ba52-21d06ab751e1" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cb9d22fc-d0d6-4c61-b451-1ee28be078aa" name="Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="8c2c0574-b87e-480e-ba8f-5cdfa8834656" type="selectionEntry"/>
+    <entryLink id="bfc7c592-c216-4ddc-a5fe-437d05a73e9c" name="Thunderhawk Transporter" hidden="false" collective="false" import="true" targetId="ce0a7d1b-fe95-4258-bf92-a5a922de1e17" type="selectionEntry"/>
+    <entryLink id="06ad0371-091d-49c0-a2dd-fb1a1306eb3a" name="Vanguard Veteran Squad" hidden="false" collective="false" import="true" targetId="b5873bd9-9035-4972-bc69-942d77790078" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec35a4b1-8649-4cd8-90b4-116deba75cc4" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="934e2f69-5576-4e25-8aec-8148edbbc79d" name="New EntryLink" hidden="false" collective="false" import="true" targetId="784f5c6e-c59f-45e9-885b-bad1fca1abe5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="be70254e-3f69-4a6d-8e44-ae776a5952f0" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cd5bae1b-9ca9-4a7d-b4b0-05901e12355a" name="New EntryLink" hidden="false" collective="false" import="true" targetId="1348b442-c95c-466a-9480-f6e940e91f9a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d2d3491a-58a0-4e48-9831-9ba43f143d0e" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="190e2a95-244a-4d7d-982d-0919ed02f45c" name="Whirlwind" hidden="false" collective="false" import="true" targetId="50f34ed4-9483-4fb9-9d37-273b2313de36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d2ceb927-a0cb-474d-8ad0-97a21b3b3c07" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8d609cf8-dcdf-4185-8eb6-ec207851a752" name="Whirlwind Hyperios [Legends]" hidden="false" collective="false" import="true" targetId="31c52154-4f48-43e8-b75d-6c528bfeab7b" type="selectionEntry"/>
+    <entryLink id="27765a3e-fe5f-4194-ae2b-2ce35c19f1af" name="Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="f5f1d67b-4ddd-4f76-a03d-948c91749d7c" type="selectionEntry"/>
+    <entryLink id="4ebbd62a-a819-4e74-8c5a-96dd119714ee" name="Castellum Stronghold" hidden="false" collective="false" import="true" targetId="f2534d1b-22d1-4ee6-81fd-ca6bb34c3f3d" type="selectionEntry"/>
+    <entryLink id="06b38e28-442d-476e-86f1-8326cb97295c" name="Lord High Commander Carab Culln [Legends]" hidden="false" collective="false" import="true" targetId="ae7df763-10f2-489d-ad09-d0ba670361a7" type="selectionEntry"/>
+    <entryLink id="8a2a12cf-e137-48d5-aec8-0ab884bf5e2a" name="Lugft Huron" hidden="false" collective="false" import="true" targetId="cc19c3b4-3d91-4113-a77e-28e0c304ed0f" type="selectionEntry"/>
+    <entryLink id="5146c23a-4521-4fd4-86f6-aca5b7d536d1" name="Sevrin Loth" hidden="false" collective="false" import="true" targetId="7a46d46e-3c6e-4ea2-bcb1-f2b80aca484e" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="37cddf06-a89d-44d0-a3e7-d9911353b217" name="Disciplines" hidden="false" collective="false" import="true" targetId="b4403e05-12ba-4244-907a-43dd703abf03" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0dcba874-3c59-4ceb-92ab-8ce84d10316b" name="Malakim Phoros [Legends]" hidden="false" collective="false" import="true" targetId="da0435f7-a5c0-48fd-9782-82b4cee8e856" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="82ed7c39-6947-46c2-8b4d-9ced9e272e3c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6f4a085a-3b31-457c-aabe-1912de14c583" name="Armenneus Valthex" hidden="false" collective="false" import="true" targetId="68d78349-24d8-433e-8893-32a7d4965094" type="selectionEntry"/>
+    <entryLink id="bac6556b-a322-4269-8c09-7df480fec002" name="Corien Sumatris [Legends]" hidden="false" collective="false" import="true" targetId="d0ef9bb5-9aa5-4e5b-8c6d-26a75626bfc8" type="selectionEntry"/>
+    <entryLink id="73c38682-21a4-4749-8a86-03620f1b1488" name="Asterion Moloc" hidden="false" collective="false" import="true" targetId="a9f89e38-a7f9-4f2a-90a0-7f4153dac519" type="selectionEntry"/>
+    <entryLink id="8de24b09-0575-4132-9370-c41002847711" name="Storm Eagle Assault Gunship - ROC Pattern" hidden="false" collective="false" import="true" targetId="991b2f62-d8c7-4808-9a2d-4449fff29ad4" type="selectionEntry"/>
+    <entryLink id="f4831d48-8348-4f7d-9449-f49d30bd4c57" name="Ivanus Enkomi" hidden="false" collective="false" import="true" targetId="289d6d6c-32fb-4ca8-ad59-1e4173a3abb7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="86fc7b88-f262-4158-8b57-56ef1b5f9fb4" name="Priest" hidden="false" targetId="3328e8f2-e7b4-43e0-b79e-d58c5ba94d2f" primary="false"/>
+        <categoryLink id="b6c5332f-f8fb-4090-a5f0-141c059c1990" name="Master of Sanctity" hidden="false" targetId="faeff806-afe2-419c-aa32-38d835a591e9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="62e9a21a-948f-4e48-b8ad-d2c24ec3e18d" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f96cad42-c455-46a6-ad29-5f8ecd4037ff" name="Tyberos the Red Wake" hidden="false" collective="false" import="true" targetId="40d18f00-c86b-4632-80a2-ffebdaa032fd" type="selectionEntry"/>
+    <entryLink id="58d739dd-325e-4f95-8759-445c8c2e6a4b" name="Silas Alberec [Legends]" hidden="false" collective="false" import="true" targetId="e3d6dace-df46-43ff-b3cd-a0a73165fab5" type="selectionEntry"/>
+    <entryLink id="2fb1bb22-e2c1-41a6-9969-37a7c1c26297" name="Zhrukhal Androcles [Legends]" hidden="false" collective="false" import="true" targetId="eabbe61b-81b0-43ce-bd6c-c7682d46a3a3" type="selectionEntry"/>
+    <entryLink id="57589990-ff94-4c90-80de-d52944a3eb7b" name="Lias Issodon [Legends]" hidden="false" collective="false" import="true" targetId="210bb6a5-87e8-4872-a2bc-9dbc102046e3" type="selectionEntry"/>
+    <entryLink id="af11eacd-44e6-45b9-9e68-befca281e51f" name="Gabriel Angelos" hidden="false" collective="false" import="true" targetId="4d331769-2e19-46f0-a72e-98056cff71ab" type="selectionEntry"/>
+    <entryLink id="c43a17a4-b198-4c72-80ad-ebd7a5068c8a" name="Hecaton Aiakos" hidden="false" collective="false" import="true" targetId="0f667456-6c6d-4275-9b63-2df068b3d3aa" type="selectionEntry"/>
+    <entryLink id="55568272-ede1-4fc8-8fc6-044e56b9b483" name="Carab Culln the Risen" hidden="false" collective="false" import="true" targetId="493b7162-f278-451c-87f0-aeeb9e78d0f7" type="selectionEntry"/>
+    <entryLink id="15e6888b-ff09-4266-ab2f-dde518451540" name="Sirae Karagon" hidden="false" collective="false" import="true" targetId="d1dd0103-52d1-4b4f-bca7-4d6ab9b34586" type="selectionEntry"/>
+    <entryLink id="95206200-dae5-4d43-98f7-d953fc44bb3f" name="Casan Sabius" hidden="false" collective="false" import="true" targetId="c20be865-4cf9-47e2-aff5-d146a8bd7ef8" type="selectionEntry"/>
+    <entryLink id="a100535e-593e-4faf-97b1-8108170f1033" name="Stratagem: Shadow Assignment" hidden="false" collective="false" import="true" targetId="67120a5e-b79e-4072-869a-a7fd97d836f4" type="selectionEntry"/>
+    <entryLink id="6b9d3f01-aa9d-415f-aae8-5d9ef00a305d" name="Ancient in Terminator Armour" hidden="false" collective="false" import="true" targetId="ff59f908-0be1-4952-ac37-96c66532bdd1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="71890261-e64c-485d-8ea6-ed09cab30cc8" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7b626cb6-77d7-4c56-b7d6-5bf363c9c7f6" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="2d9a33b6-3a26-48c0-bfd0-b13a0a2d5921" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c4a07e81-1520-4bdb-b92a-b147a7b96f9c" name="Bladeguard Ancient" hidden="false" collective="false" import="true" targetId="c3b571c6-62c6-44e3-b744-23d551da6f3e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="604fe081-809d-4575-8c30-1fe92aaa9f8a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="70febe75-b8f4-4acf-97e5-afd83d9b5996" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="f7dd31e4-f300-40dd-9bda-379c59501fcf" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="405aedf1-ae99-4d14-ad0c-821e7d6c8d56" name="Judiciar" hidden="false" collective="false" import="true" targetId="a9346ab3-4e6a-4f33-8a03-472c9c4c0161" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="19888d8b-1ce1-4487-bccd-08c9b07e02e8" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23f259cc-5d61-4a15-996a-ab054b3b50c2" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="b6a8ae1e-91e4-4f16-8db1-da43e2b58fa7" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a632172a-7505-453a-b3a3-0fe743286c02" name="Assault Intercessor Squad" hidden="false" collective="false" import="true" targetId="3c410e34-a552-44e7-9f77-bb534c7b81ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="aa0d71ba-75c9-4c6e-ad51-aaf453ff5b9a" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dc02eb1e-e230-45e5-9a25-16c2c08d0ac8" name="Bladeguard Veteran Squad" hidden="false" collective="false" import="true" targetId="ab960172-211a-45c3-be76-c2f6c8a585d2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8fd01ca9-5192-4e8f-9a9e-435e5778a795" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="279c9b3e-66cd-40f7-8a3f-df1aa97b5dd0" name="Eradicator Squad" hidden="false" collective="false" import="true" targetId="b039955c-0d56-4da1-bc81-e234eba4318d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4e643e3d-0791-49c6-b39f-eb4a5e9a3b44" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f96dba77-4f3f-493e-a49d-2025921fa7a3" name="Outrider Squad" hidden="false" collective="false" import="true" targetId="089250fb-5ba6-4a9c-be22-bca408b9887f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5baa2979-e51f-4467-882d-ad8e29c41de4" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0cbc707-9031-4298-95b1-db7437e1b5f1" name="Captain with Master-crafted Heavy bolt rifle" hidden="false" collective="false" import="true" targetId="63713542-3eea-454b-89f3-dd002decb6a6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a44b13ec-b39b-4f62-9315-7bf0a2ea237a" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7865c1a1-37ea-4621-a18f-63dd7d071f85" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="c5c7a528-05b8-4823-8e68-ab10e27343bd" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f379a708-6c91-47f9-beb6-37d3960d153e" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="2d58a472-4af3-452b-9a7d-6af264fc3d30" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1015381a-47b6-4b7e-9515-129f5dfc8b5f" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f827a557-6a77-4b17-a355-d6428ab21bc5" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="010d7179-f60c-4394-85a2-222e73707f0d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="695bc0b0-b8c2-4270-8216-20beca60a860" name="Primaris Chaplain on Bike" hidden="false" collective="false" import="true" targetId="81e7b3d3-2dda-4a9e-95ee-eb4023c8225c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8f9f033f-b093-43f4-aa54-7fd5bc284bc2" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a5abf94-02a1-4a87-83df-139302e3ca73" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="26a68a6c-298e-490a-a03b-cc4497aa9536" name="Litanies" hidden="false" collective="false" import="true" targetId="809befa4-aa88-45dc-ad02-b6b8cc56ca3c" type="selectionEntryGroup"/>
+        <entryLink id="51a84c76-ad56-4504-bc12-30deb04754fe" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="103bbc4e-f266-4ada-9790-a80c657edd68" name="Heavy Intercessor Squad" hidden="false" collective="false" import="true" targetId="b383a104-1036-4766-a3e7-91a11bace40b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="73b2ef17-3deb-4a11-a985-750a5d4e692f" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4bde4699-0233-4bad-b357-4ddfbf2e4c99" name="Veteran Intercessor Squad" hidden="false" collective="false" import="true" targetId="156f5827-a33e-42cc-b147-b4aaf8b90d21" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c76eb1fb-ba96-46c9-a4c7-012670bc155d" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0e5cd790-15b9-48ab-a236-db4fa43ea825" name="Storm Speeder Hailstrike" hidden="false" collective="false" import="true" targetId="69d5ebb6-d630-4bd1-899e-68b726d04ba1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ab39baee-8056-4374-9be2-7c14b1aabafe" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="80a27959-ac72-42f1-a5fd-65a725ddf37b" name="Storm Speeder Hammerstrike " hidden="false" collective="false" import="true" targetId="fee52caa-0e71-4f14-b33e-3d718c848dd8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="701bc973-c7e8-483f-9398-86d57336ce02" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9d2f526f-9c2f-4d7c-83ef-c715558278dc" name="Storm Speeder Thunderstrike" hidden="false" collective="false" import="true" targetId="1be356c5-0c24-4e16-8681-6ba534fdf3ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="54c2ab3e-d64f-4e98-b5c4-41608c03ebdb" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e7a39a4-3f79-4107-9aee-62989bb6c8dd" name="Land Speeder Tornadoes" hidden="false" collective="false" import="true" targetId="c4a5cda6-6267-4fdc-8008-e62fd149915e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="520eeb02-1c6f-4517-9344-57255336929d" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="12267403-b8de-4b93-bd92-2c72d2036878" name="Land Speeder Typhoons" hidden="false" collective="false" import="true" targetId="25b50a8a-bfc7-4aea-a90a-0a28a69f4173" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a32bbeba-5e31-411c-832d-5b7d6bd92c73" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ff3f4da7-a3b2-4a71-a976-1736f5461879" name="Predator Destructor" hidden="false" collective="false" import="true" targetId="0a663eb6-929c-454e-bea2-7818dfc230c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dce6358a-c31b-4a88-be6b-361cdad2b346" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7043d955-58c4-4721-a5ea-1cf79f12a232" name="Gladiator Lancer" hidden="false" collective="false" import="true" targetId="53bff64a-3437-4268-aeff-576447eb5ff8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a74bdf0-fe78-45a7-9e4d-f127a629822e" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3cee16a0-dda5-4ea2-9bee-aa222fc9c96a" name="Gladiator Valiant " hidden="false" collective="false" import="true" targetId="f1fca3ff-007c-419a-8454-310240521611" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f948d8e7-b9e3-41b3-b3f7-c5ddb79cced9" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a734cbbf-cd54-4b77-9ddb-4bc909a6b522" name="Gladiator Reaper" hidden="false" collective="false" import="true" targetId="ed7efa5e-779c-4b7b-9faa-1537d3e4f547" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="368677bb-d56a-4e7a-b7a6-41b8e79b2094" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d34a8124-d78d-4a2a-9b35-1658d53e4225" name="Hammerfall Bunker" hidden="false" collective="false" import="true" targetId="d5d63d6f-e8ab-4c87-92df-03a6ad59bf81" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c142bf30-d083-445f-9ee5-c6bf8e0f0725" name="New CategoryLink" hidden="false" targetId="f1a721c4-6c2a-47cb-a600-e55f1dac842f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4163559d-6604-415a-a942-19e0b5e77332" name="Apothecary" hidden="false" collective="false" import="true" targetId="1197d83f-469f-47d3-a4c0-96479432b38d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e540e3b-1ab0-4b7a-9658-fac2cfa5dd8f" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="759897cd-55e9-4d1e-9011-166465201118" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e540e3b-1ab0-4b7a-9658-fac2cfa5dd8f" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="759897cd-55e9-4d1e-9011-166465201118" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1bee8bfe-88b6-448b-926d-f3f463da4267" name="No Force Org Slot" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="83ccd485-242a-485d-902c-2c5d9c1aea1f" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="362847a2-fa12-4efc-86b2-39030d5619d7" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b65377ac-b7f2-416e-a3f3-45e2fb1d3681" name="Company Ancient" hidden="false" collective="false" import="true" targetId="65701bad-89b4-4944-81bd-d83d3ed8489f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24dc9b75-2015-45ac-82c9-2e103fd46019" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="3ce85b8b-7894-4150-b5cb-5b782972103c" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24dc9b75-2015-45ac-82c9-2e103fd46019" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce85b8b-7894-4150-b5cb-5b782972103c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="11c74c32-c89b-4db1-80ca-a97e272fb605" name="New CategoryLink" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fe509bab-87d2-4f57-84c6-277b8d1a7711" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="bdeeeefd-8ffe-4954-b66d-4e096f7c91b9" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="eb0a38ff-9fed-453d-a3c9-bc65b82f91a1" name="Company Champion" hidden="false" collective="false" import="true" targetId="9aa70007-8c30-4caf-b7cd-fa9fce50e843" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="d13f2a28-7369-4967-8212-16d729aa10e5" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24dc9b75-2015-45ac-82c9-2e103fd46019" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24dc9b75-2015-45ac-82c9-2e103fd46019" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d13f2a28-7369-4967-8212-16d729aa10e5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c42890d1-e2bd-4750-8dd8-45d4bc2f7078" name="New CategoryLink" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="22563f46-8f4f-4c2e-8f35-66a38e3f4aa9" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="d308c4fe-9e72-4dc5-9b59-df5c6965d62d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a6253bf0-e6ac-4dae-b112-e9642660c610" name="Company Veterans" hidden="false" collective="false" import="true" targetId="7e540e3b-1ab0-4b7a-9658-fac2cfa5dd8f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0d1de94-adc5-4dba-8c87-4a947f231954" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0d1de94-adc5-4dba-8c87-4a947f231954" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="452e2294-3f8d-47f1-92b4-37e148a46ece" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a0d1de94-adc5-4dba-8c87-4a947f231954" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452e2294-3f8d-47f1-92b4-37e148a46ece" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="29533d80-a67b-47b8-afde-5e034587a887" name="New CategoryLink" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="93bdb049-597d-4eaa-8b50-e2e7a57e9506" name="Servitors" hidden="false" collective="false" import="true" targetId="834e5126-c52e-42ab-b7e1-a66276651929" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="517e82b0-5cc8-44c4-b7b8-4463ca01480e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b30b211-60f0-4460-b676-7be914b6354d" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b30b211-60f0-4460-b676-7be914b6354d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="517e82b0-5cc8-44c4-b7b8-4463ca01480e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c48f2245-9a87-4cb4-967a-02c8c4e343d9" name="New CategoryLink" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c2219ee-26ec-4966-8de5-8705a077660e" name="Incursor Squad" hidden="false" collective="false" import="true" targetId="4109ca7d-d5c1-4390-8e34-33247503a34a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fdb815ea-4b0b-4386-ad0d-b96d6abc3723" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="db03b2fc-57a9-4478-b6c3-5553b51c9cb3" name="Invader ATV Squad" hidden="false" collective="false" import="true" targetId="54b33d56-778f-4318-9ac7-3a1510e018a5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4f71b707-67fb-4e58-ae20-9689a20f309d" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="229c52c1-a5da-4afe-a978-52d42e27a078" name="Firestrike Servo-Turrets" hidden="false" collective="false" import="true" targetId="b98c9281-8f26-4cd5-a8de-687a1cd09c45" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a908c254-efc5-4a30-ba3c-6a707b754cc7" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="758a1e95-c306-4d88-bb9c-3768faa3a86d" name="Unit Filter" hidden="false" collective="false" import="true" targetId="63ce7a05-f9a9-4ae4-bcbf-9f77ef1528b8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c915e008-73a1-4c6e-9b34-700b844b8a38" name="New CategoryLink" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bd1350de-dd96-4e68-a516-f7317a34417c" name="Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="84c215af-6f18-4dde-ab2f-b45d2c0fcae3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea3da448-c94b-41ac-81aa-8a9aee114e37" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f98bd2a8-0cf4-41f6-9940-3067061c7092" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="784f5c6e-c59f-45e9-885b-bad1fca1abe5" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0367624d-697b-44f8-baa7-4fbf28b15b9d" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31199a11-e744-48f3-95b9-64427dc82972" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a72ca275-508d-464c-86a7-f50255c8d3ba" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93203c81-7f0a-46d1-a6cb-48739d9b96d0" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b0c1ef0-ba97-459b-9f67-bd3a917eac1e" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f667456-6c6d-4275-9b63-2df068b3d3aa" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d479bcd-63fc-4fa8-8130-d7b4c5ad26f3" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="493b7162-f278-451c-87f0-aeeb9e78d0f7" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="af2f38b8-444e-40ee-b7b3-5458f580d5a1" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f98bd2a8-0cf4-41f6-9940-3067061c7092" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b0c1ef0-ba97-459b-9f67-bd3a917eac1e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0367624d-697b-44f8-baa7-4fbf28b15b9d" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93203c81-7f0a-46d1-a6cb-48739d9b96d0" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea3da448-c94b-41ac-81aa-8a9aee114e37" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b0c1ef0-ba97-459b-9f67-bd3a917eac1e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a72ca275-508d-464c-86a7-f50255c8d3ba" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31199a11-e744-48f3-95b9-64427dc82972" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="784f5c6e-c59f-45e9-885b-bad1fca1abe5" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="493b7162-f278-451c-87f0-aeeb9e78d0f7" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f667456-6c6d-4275-9b63-2df068b3d3aa" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af2f38b8-444e-40ee-b7b3-5458f580d5a1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="752280b8-dc3e-44b3-871f-7a7a02f8a7d3" name="New CategoryLink" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b7815cb1-ffef-4f91-ab45-e30d512a320a" name="Carnac Commodus" hidden="false" collective="false" import="true" targetId="19a4067d-a339-4cae-993f-22fa117a9c5f" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96568aa6-5efe-48a8-acea-6c1eb513bab0" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8deee19d-4121-439d-ba01-d8d7e267f996" name="Tactical Precision" hidden="false" targetId="032574aa-716f-4c44-a862-955f464d698e" type="profile"/>
+        <infoLink id="5f0f9b34-7610-4466-a21a-f40d6e27502e" name="Company Heroes" hidden="false" targetId="d79d0582-754a-43c7-81c4-423b377596a7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="203d11b2-b5b7-4446-8e8b-3fd6eaa4b524" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6aa5ea2e-5feb-413a-b92d-3de84ceac1df" name="Lieutenant" hidden="false" collective="false" import="true" targetId="02d60ba1-0c31-476a-adf1-9de1fc13b93b" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="814450ba-62a3-49d7-8002-2d41706f4264" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b0cb57a2-2ec6-45ba-b0e2-42422dfa8048" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="052070f8-4add-4830-83df-e07539d9cc7d" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="dae6a6a1-25ce-4865-9b74-c735bc96c3d1" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="dc0b0e55-7c15-4eb7-8d3d-6c7a9b25ef72" name="Lieutenant in Phobos Armour" hidden="false" collective="false" import="true" targetId="04aac781-d60b-4728-8bb7-aaf4af26ce68" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa785a40-d943-4037-848e-ad281612eb95" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="694d969d-698a-4c3a-858c-f2f8c55dc45e" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="bcbcf863-3644-4e37-9e48-835513176392" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e39485e4-b827-41f3-a8be-844561ad9fba" name="Lieutenant in Reiver Armour" hidden="false" collective="false" import="true" targetId="6aa783df-6f47-4d63-95fa-7872828571b8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e424e62a-4ff9-42ee-b4ac-c54b43da7f3e" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3299b32f-28a3-4ed7-9716-76197a06147a" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="033cde01-32aa-4f87-8f53-2d24c9f41f01" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3ee0ca04-8e89-45d0-a8ba-1b4310558f17" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="50a8fedf-32d5-4872-bdc7-442449d30362" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8b264d43-c43a-4b21-9a83-ebb417c12de1" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="544beca8-a023-442f-a747-78d1c10a745f" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="c86d4fb8-dc8b-4762-8ac7-61227e9bbc3f" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="be5ad655-c4d3-4531-8c34-05ac8bdd6fe4" name="Army of Renown - Vanguard Spearhead" hidden="false" collective="false" import="true" targetId="4d0098fb-8678-4dd1-a323-34feb183217f" type="selectionEntry"/>
+    <entryLink id="a879af8a-a128-4d67-8ef8-82c45ae48ed1" name="Primaris Company Champion [Legends]" hidden="false" collective="false" import="true" targetId="1f828767-c143-4f2f-a585-bd75d7147265" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1eab82c9-9490-4c9d-a3af-0d8d370d65cc" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cd5976f0-27ff-457b-a346-71acccca4aca" name="Chapter Relics" hidden="false" collective="false" import="true" targetId="f483f812-53ad-46fa-9e9b-b14088632270" type="selectionEntryGroup"/>
+        <entryLink id="7a14047c-aad6-48c9-983f-39541d053bb3" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7b572b60-d9ae-4ea7-98a8-37090892bc80" name="Kratos" hidden="false" collective="false" import="true" targetId="a7f056a5-60fa-4e9a-80ff-e0cca7af154e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f058061-4cc5-48c5-80bf-be2ddee910b5" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="618eaaad-2b54-4638-8e9c-d6e3a0e62c3b" name="Stratagem: Heroic Support" hidden="false" collective="false" import="true" targetId="fe05246b-a296-4a56-947e-f2df71e9a67f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1484635a-ae5d-4ad7-a391-500357ddf465" name="New CategoryLink" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b9a361e-ed5c-4b4b-ab74-57f24d484ee0" name="Roboute Guilliman" hidden="false" collective="false" import="true" targetId="9ab8be3f-0488-4cf4-bd73-115aefcd2d19" type="selectionEntry"/>
+    <entryLink id="2f8fc150-c801-4c62-a25e-3c1faae57d86" name="Brutalis Dreadnought" hidden="false" collective="false" import="true" targetId="4867b8e3-cd15-43c2-a142-b8ad3749fe48" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cfaf985a-d358-427e-bb6b-d9690ea6b741" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e0571e9-25e2-473c-ba0b-3554841a438a" name="Desolation Squad" hidden="false" collective="false" import="true" targetId="1ef7682c-e4b5-432d-bb5d-191d83dfb533" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="952fabe9-3de0-4d7e-a58e-d94ab67c0238" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3f6a7b06-621c-4f0a-a13f-f3ecc7a3c52f" name="Lion El&apos;Jonson" hidden="false" collective="false" import="true" targetId="da53ca6f-1c2d-42fe-a0cf-570acfc8d004" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c7009ba7-df00-43ce-9d39-1f65704e1395" name="Shadowmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa5833a-5ceb-4f04-b234-0d15db3ea972" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="67da9681-2283-47d1-a9e0-e7d10c6759b2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3a5dca12-ea6d-4dbe-bf44-9312bca23cc0" name="Silent Stalker" hidden="false" targetId="5288b76b-d687-41da-8a93-e83757081968" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" name="**Chapter Selector**" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21423e51-a233-4ac4-b026-35855099b62d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8b5124-43cd-4960-baed-e99244744781" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2fa6daf6-9d86-48ad-9669-1c743f13c28a" name="PC: RG" hidden="false" targetId="bf5609bf-37cc-4455-af59-05c8efe3d2d2" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3be4d750-8f01-454e-8175-7c1707883406" name="Chapter" hidden="false" collective="false" import="true" defaultSelectionEntryId="8875fc4c-975e-43cf-9e43-bd5e15ca544a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcdc98b2-aeb4-4760-9c65-ee423ef95894" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df924f4a-399b-4fd4-bd9d-54107ace8701" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8875fc4c-975e-43cf-9e43-bd5e15ca544a" name="Raven Guard" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="de60a5e1-97f5-42b6-bb6f-d7d67c66937f" name="Shadow Masters" hidden="false">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d0098fb-8678-4dd1-a323-34feb183217f" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <description>- Each time a ranged attack is made against a unit with this tactic, if the attacker is more than 18&quot; away, then the unit with this tactic is treated as having the benefits of light cover against that attack.
+- Each time a ranged attack is made against an INFANTRY unit with this tactic that is entrirely on or within a terrain feature, if the attacker is more than 12&quot; away, then the unit with this tactic is treated as having the benefits of dense cover against that attack.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b1fe162-276d-4cf9-96be-1d6e5feec3a2" name="Raven Guard Successor" hidden="false" collective="false" import="true" type="upgrade">
+              <categoryLinks>
+                <categoryLink id="a2b1c92a-b39e-46de-b3f2-856660b4dd99" name="PC: RG Successor" hidden="false" targetId="a095de69-d53b-451d-b222-6a2a07c3f0fd" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d1d495b-d814-4f14-bd81-89dc777f3c1e" name="Successor Chapters" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b1fe162-276d-4cf9-96be-1d6e5feec3a2" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2c905438-a70f-4f65-8130-3789d2378e50" value="1.0">
+              <conditions>
+                <condition field="selections" scope="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9b1fe162-276d-4cf9-96be-1d6e5feec3a2" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0eb90eb-00e8-432f-bc79-542fe71688a2" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c905438-a70f-4f65-8130-3789d2378e50" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7936db4c-faa8-4546-a3af-9d75c341b541" name="Custom Chapter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ade5b76-3298-437b-92ce-9d91a85c5da8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="83bb052e-d28e-423f-b2c0-f1d8e517b576" name="Forge World Chapters" hidden="false" collective="false" import="true" targetId="448cb9af-5f29-4d61-8dd5-544c9a3cf002" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1273b253-26e3-4b31-8223-bf93efded26e" name="Tactics" hidden="false" collective="false" import="true" targetId="600046e6-0bda-4af6-9362-da45c7453e2c" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="448cb9af-5f29-4d61-8dd5-544c9a3cf002" type="equalTo"/>
+                    <condition field="selections" scope="a6718e11-0094-44cf-ac8b-bac9dfd29bdc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7936db4c-faa8-4546-a3af-9d75c341b541" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4d0098fb-8678-4dd1-a323-34feb183217f" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b4403e05-12ba-4244-907a-43dd703abf03" name="Disciplines" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="increment" field="80464518-cede-42a6-bee6-97703cba736c" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30401c5b-d7cc-466a-ac97-9a6a3a5f1c70" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="80464518-cede-42a6-bee6-97703cba736c" value="1.0"/>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80464518-cede-42a6-bee6-97703cba736c" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="46e6fe2a-7b6e-49a9-b471-93c1e9fc6d3e" name="Umbramancy Discipline" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="c5b9222e-6548-421f-a5dc-c2dc900ace91" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="380433c9-526c-414e-b281-ad5cde7be25e" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6bdf150-6f5e-4a47-8065-111998a2a76e" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b9222e-6548-421f-a5dc-c2dc900ace91" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8216d16c-7d34-4e9e-bec1-ab0e4648d7e1" name="6) The Darkness Within" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad4db28-30c4-4be7-a870-3a0665d20421" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="26b06092-9de8-43c1-9af6-064158cb9a51" name="6) The Darkness Within" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">6</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">The Darkness Within has a warp charge value of 6. If manifested, select up to three enemy units within 18&quot; of this psyker. Roll one D6 for each of those units, adding 1 to the result if the result of the Psychic test was more than 10; on a 4+ that unit suffers 1 mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d49b86d-3785-4838-aa1f-ec2195e10c4f" name="5) The Abyss" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8812c752-023b-41d4-a059-e2e087f6ba0e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="65c8051d-524e-4cd2-8007-76f66d015f4c" name="5) The Abyss" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">6</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">The Abyss has a warp charge value of 6. If manifested, select one enemy unit within 18&quot; of and visible to this psyker.Roll three D6; for each roll of 4+ that unit suffers 1 mortal wound. If any models in that unit are destroyed as a result of this psychic power, subtract 1 from the Leadership characteristic of models in that unit until the end of this turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c458a5d0-6e35-424d-ad91-9d20497d950b" name="4) Shadowstep" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb560c56-14f4-42e0-8302-35c2a0aef17f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="20efe5e1-4853-4039-bdd6-7e6868ab133b" name="4) Shadowstep" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">7</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">Shadowstep has a warp charge value of 7. If manifested, select one RAVEN GUARD CHARACTER unit from your army within 18&quot; of this psyker. Remove that unit from the battlefield and set it up anywhere on the battlefield that is more than 9&quot; from any enemy models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1bc491e-1033-4254-a2cd-cae069ebfa86" name="3) Spectral Blade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ca26f7-54b7-4174-8ca5-4b5fdf09d8eb" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a195adab-ed0f-408c-ac8e-a98f34e42d1d" name="3) Spectral Blade" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">5</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">-</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">Spectral Blade has a warp charge value of 5. If manifested, until the start of your next Psychic phase this psyker’s Strength characteristic is equal to their Leadership characteristic. In addition, until the start of your next Psychic phase, when resolving an attack made with a melee weapon by this psyker against a unit whose highest Leadership characteristic is lower than this psyker’s, that weapon has an Armour Penetration characteristic of -4 for that attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b83f676-bec1-4213-a550-a5eb333e9638" name="2) Enveloping Darkness" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2efd5227-ab1e-415e-80ec-fc77a426546c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d5bd09e4-7b14-4343-8a01-ec35b90e9936" name="2) Enveloping Darkness" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">7</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">Enveloping Darkness has a warp charge value of 7. If manifested, select one enemy unit within 18&quot; of and visible to this psyker. Until the start of your next Psychic phase, that unit cannot fire Overwatch, and when resolving an attack made by that unit, subtract 1 from the hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74c5a2cb-7dfc-4bcf-a808-57bc343381c6" name="1) Umbral Form" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8eca2e-a942-4ae9-bbe6-d26cda056a11" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6cba3881-bbb7-43bd-b38d-ab1c6ccd53ab" name="1) Umbral Form" hidden="false" typeId="72f7407c-89c1-4cb9-b851-61662233e6e4" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="2a2a5581-f6c7-438a-bf73-045fe1fd579c">5</characteristic>
+                    <characteristic name="Range" typeId="af41ec4b-8ff3-4b2d-9b53-ca4c5695d19d">-</characteristic>
+                    <characteristic name="Details" typeId="89e687a8-876f-4b87-9d82-859425675a23">Umbral Form has a warp charge value of 5. If manifested, until the start of your next Psychic phase this psyker has a 4+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5ef6d97e-226b-410c-b40a-aa06e51a2cea" name="Librarius Discipline" hidden="false" collective="false" import="true" targetId="e6bdf150-6f5e-4a47-8065-111998a2a76e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26f9567f-c92a-469a-a47f-b7ccab309ebc" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb3a5a1-7e8e-4c72-97e4-a46fb1e311ce" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8baa32e2-fc61-4a6f-b6cb-729b2f4e2e4a" name="Obscuration Discipline" hidden="false" collective="false" import="true" targetId="380433c9-526c-414e-b281-ad5cde7be25e" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="26f9567f-c92a-469a-a47f-b7ccab309ebc" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d549c005-4569-4ea1-8dac-8eaad215eb4f" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46e6fe2a-7b6e-49a9-b471-93c1e9fc6d3e" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d549c005-4569-4ea1-8dac-8eaad215eb4f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7fe7eb4d-f4cc-4313-ad1d-5f01f39299e2" name="Warlord Traits" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="2b761d65-b6f7-419d-be06-59cd5dd01da9" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c468c121-e6d5-4cc2-a308-dafc5ab7d96b" type="atLeast"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3341a523-9037-4bbb-af64-ebd6d2986872" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="greaterThan"/>
+                            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b761d65-b6f7-419d-be06-59cd5dd01da9" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e5781a4-81e9-49b5-82d7-6be2ca292450" name="Warlord Traits (Raven Guard)" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53420dac-ac95-4068-b858-753f3c3a0dea" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9dae96bd-fc64-4cd3-9c4e-273a90a35dfc" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c468c121-e6d5-4cc2-a308-dafc5ab7d96b" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dae96bd-fc64-4cd3-9c4e-273a90a35dfc" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7a14effc-526f-4e28-a13c-9eeea7cfbb3a" name="Echo of the Ravenspire" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36bbc791-2462-4475-97a4-e7327c127781" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0389110-65ab-46c5-87e4-89942910cfa7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c7ea0d65-01bc-4fba-ae59-0f5716deacee" name="Echo of the Ravenspire" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Once per battle, at the end of your Movement phase, this Warlord can vanish into the gloom if they are more than 6&quot; from any enemy models. When it does, remove it from the battlefield; you then set this Warlord up again at the end of your next Movement phase anywhere that is more than 9&quot; from any enemy models. If the battle ends and this Warlord is not on the battlefield, it is destroyed</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d821e894-a099-4561-b81b-cb41bf92ba38" name="Feigned Flight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9218c23-ae06-4333-8e16-dce6a4969068" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89e1d2c2-89a7-43ef-8f61-1a2910168a51" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ec4abefb-ab6e-4ce7-a315-9224e3a812a2" name="Feigned Flight" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this Warlord Falls Back, they can move across models and terrain as if the models and terrain were not there. In addition, this Warlord can shoot and charge in a turn in which they Fell Back</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0dab9d26-488c-4f8d-a225-77c8ecd7f59f" name="Master of Vigilance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21bc1995-9145-494b-83e3-2b657c2b34d3" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7696ccda-68fd-4a6a-8a3f-eda3c524bf5a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4b01f331-a860-4708-8599-d07e179956d3" name="Master of Vigilance" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack made with a melee weapon by this Warlord, an unmodified hit roll of 6 inflicts 1 mortal wound on the target in addition to any other damage</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="245c9238-187a-4b2f-acad-5307bbe50556" name="Swift and Deadly" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7dbee6-83b1-453f-a00e-3085efdb1893" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="539a1cc3-caaa-4387-b7ed-d3772f81336f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="36a7eea3-b2af-4c95-9a0a-2d111642535e" name="Swift and Deadly (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly RAVEN GUARD CORE or RAVEN GUARD CHARACTER unit is within 6&quot; of this Warlord, that unit is eligible to declare a charge within a turn in which it Advanced.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="063729e9-be38-42f9-ace0-70eed6933177" name="Master of Ambush" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f5c739-c5cf-43af-824a-3377a8c1a70f" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2dbed14-b698-4fc1-9bba-918806941f49" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="82959f5a-2ba3-45f3-a08a-cc68cb51f412" name="Master of Ambush" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the start of the first battle round, before the first turn begins, if this Warlord is on the battlefield you can select one other friendly Raven Guard Infantry unit (excluding a Centurion unit) on the battlefield. Remove that unit and this Warlord (if it is also Infantry) from the battlefield, and set them up anywhere on the battlefield that is more than 9&quot; from the enemy deployment zone and more than 9&quot; from any enemy models (if both players have abilities that redeploy units before the first turn begins, roll off; the winner chooses who redeploys their units first).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="098d8e03-256d-418a-9b7a-c6446a9f21ee" name="Shadowmaster" hidden="false" collective="false" import="true" targetId="c7009ba7-df00-43ce-9d39-1f65704e1395" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3c23e7d6-039c-4e2d-b09c-438219e7409f" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="bfb814bd-1a08-4dd8-bd10-015aec6c1600" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53420dac-ac95-4068-b858-753f3c3a0dea" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b532c585-7b60-482b-97cc-1f9bade2e37c" name="Warlord Traits (Chapter Ancient)" hidden="false" collective="false" import="true" targetId="e71228b7-5606-4cfc-a135-adb8fa781d1f" type="selectionEntryGroup"/>
+        <entryLink id="18788dbe-4a09-42fc-a190-4f3fda090d9f" name="Warlord Traits (Chief Apothecary)" hidden="false" collective="false" import="true" targetId="00ef4e98-e6e9-4389-9a79-cef268e5ab85" type="selectionEntryGroup"/>
+        <entryLink id="41b8b293-a875-416b-9e1e-5ae872fbaa73" name="Warlord Traits (Chief Librarian)" hidden="false" collective="false" import="true" targetId="33789f99-c0f2-4b35-aded-24b64123f567" type="selectionEntryGroup"/>
+        <entryLink id="3cc2c483-a419-4df9-86e3-98f3d75501b8" name="Warlord Traits (Codex)" hidden="false" collective="false" import="true" targetId="8e6087c9-1974-4fd1-898a-2b0dfb91292f" type="selectionEntryGroup"/>
+        <entryLink id="20b3ea57-90c8-43d7-8543-5151eafcd08d" name="Warlord Traits (Master of Sanctity)" hidden="false" collective="false" import="true" targetId="0a5b69f7-9ba5-4fcc-8082-baaccff50493" type="selectionEntryGroup"/>
+        <entryLink id="c9a7f2f5-27de-40df-af7a-e508c652ba62" name="Warlord Traits (Master of the Forge)" hidden="false" collective="false" import="true" targetId="835e383a-9336-43f6-a260-b3d82f1dedff" type="selectionEntryGroup"/>
+        <entryLink id="392e4c91-8050-446f-b88f-586f53906052" name="Warlord Traits (Vanguard)" hidden="false" collective="false" import="true" targetId="35d7e9bb-0028-4308-b5be-412fc3848665" type="selectionEntryGroup"/>
+        <entryLink id="744029b8-dea4-46b5-a7bc-841f98089734" name="Warlord Traits (Chapter Champion)" hidden="false" collective="false" import="true" targetId="6be6aadb-03d1-4b55-8fad-238077c3a44e" type="selectionEntryGroup"/>
+        <entryLink id="45627d84-46b1-4932-a5aa-bb0dc4c55d22" name="Warlord Traits (Chapter Master)" hidden="false" collective="false" import="true" targetId="128daaee-8d25-4975-944a-84586b1d53a1" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f483f812-53ad-46fa-9e9b-b14088632270" name="Chapter Relics" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="6e5bd4d2-b058-4348-b1c2-42dcfa3777e9" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="6e5bd4d2-b058-4348-b1c2-42dcfa3777e9" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f0a8305-e167-4e35-8de4-2eea1c685fc2" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="53eb7edc-9a26-43f0-9840-03ef80be328e" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f0a8305-e167-4e35-8de4-2eea1c685fc2" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a53ac39-5efe-429e-b8bb-4ffaf73a80fd" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c53a637-10f1-4a86-b7b7-d0a2738c34fd" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f0a8305-e167-4e35-8de4-2eea1c685fc2" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fa9f7bf-4cb4-405d-9f7f-c2adec326bce" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3a53ac39-5efe-429e-b8bb-4ffaf73a80fd" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a1a009b3-bc2c-4f42-9863-caaaf2830a74" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e5bd4d2-b058-4348-b1c2-42dcfa3777e9" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d934f2d-3390-4022-b252-e18cd6977023" name="Relics of the Ravenspire" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8875fc4c-975e-43cf-9e43-bd5e15ca544a" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cea50e1a-6dd4-4972-8abe-301f9be97dbf" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="af9d56c0-a5e2-4979-9a28-67c250517fb8" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8875fc4c-975e-43cf-9e43-bd5e15ca544a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ed74904-961d-408b-95fd-59b0508eae3e" type="max"/>
+            <constraint field="selections" scope="roster" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af9d56c0-a5e2-4979-9a28-67c250517fb8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5efc12c8-acbc-41d0-942c-47c37e4328df" name="Raven&apos;s Fury" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5791281-1ee9-461b-93b2-3fc55f090c10" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="113288c9-db02-4a2c-8ad2-34faffb3ca07" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9621b98f-bc6d-4670-af96-e1d89acbd77a" name="Raven&apos;s Fury" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">JUMP PACK model only. A model from your army with this Relic can be chosen to charge with even if they Advanced this turn.When a charge roll is made for that model, you can re-roll the dice. In addition, after that model finishes a charge move, you can select one enemy unit within 1&quot; of that model and roll one D6; on a 4+ that enemy unit suffers 1 mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cbf2bd5b-a5c2-420d-9122-f5c7d632a080" name="Oppressor&apos;s End" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c5112f81-6204-4a5f-a338-26651bb3dfb9" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a134bcce-e48c-4b4a-9174-8b5f28c0dcee" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="14c84ce8-4ca0-429e-98e7-99d5c39441d5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="19aff218-dff9-40b1-95eb-e6ee866413a5" name="Oppressor&apos;s End" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When the bearer fights, it makes 1 additional attack with this weapon. In addition, when resolving an attack made with this weapon against a CHARACTER unit, this weapon has a Damage characteristic of 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f214228e-4297-45da-ba43-135076700ada" name="Ex Tenebris" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86f09070-d33c-4d0c-b185-12b1f9f6c771" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="718359aa-899c-4247-87e9-de6b972eea7b" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b22d64e-42b8-471b-add4-a50d97f5c063" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6f2c1240-3147-4413-af3f-408daae2be43" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="94cebebb-c9bc-4453-a92f-134085312fb4" name="Ex Tenebris" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 3</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. When resolving an attack made with this weapon, you can add 1 to the hit roll.In addition, when resolving an attack made with this weapon, the target does not receive the benefit of cover to its saving throw.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd19f506-1d7c-466c-ac0e-27c41d887ded" name="The Raven Skull of Korvaad" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ffb8ea7-85f1-40a5-9b18-bdd97f39871a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1f5c7d7e-216a-45c9-919d-cff5d56a8da0" name="The Raven Skull of Korvaad" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Once per turn, when resolving an attack made by a model from your army with this Relic, you can re-roll the hit roll, wound roll or damage roll. In addition, if a model from your army with this Relic is destroyed as a result of an attack made by an enemy unit, then until the end of the battle, when resolving an attack made by a friendly RAVEN GUARDunit against that enemy unit, add 1 to the hit roll</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3190edf9-7547-4414-ae04-8ddda8a43c7d" name="The Armor of Shadows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="48fb18e0-acdd-43b1-8308-10923b9e8676" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f08a7d96-d476-4704-8a1c-913d323553f3" name="The Armor of Shadows" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When resolving an attack made with a weapon that has an Armour Penetration characteristic of -1 against a model from your army with this Relic, that weapon is treated as having an Armour Penetration characteristic of 0. In addition, when resolving an attack against a model from your army with this Relic, an unmodified hit roll of 1, 2 or 3 always fails.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf822398-7dbf-41e2-bb4f-77c92effa33a" name="The Ebonclaws" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="31177cce-e95b-48e7-9ad2-f583b945199e" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a004e20-552f-4659-bf15-73f85a504cab" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="15e59c63-ce51-4382-a23c-f7644e35d042" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="05a55019-5b83-4cd9-a9a9-43b1ff5dabda" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1fee000a-f059-4d0b-9447-25d29528630c" name="The Ebonclaws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time the bearer fights, it makes 2 additional attacks with this weapon. In addition, when resolving an attack made with this weapon, you can re-roll the wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="91b84852-67b9-424a-a294-ead73d796475" name="Special-Issue Wargear" hidden="false" collective="false" import="true" targetId="4f53f424-d531-4589-9318-f752bfb72a52" type="selectionEntryGroup"/>
+        <entryLink id="eb4b8170-13e5-4e59-ae40-98dbdc6b958a" name="Chapter Ancient Relics" hidden="false" collective="false" import="true" targetId="1df9faf7-7c1f-4e31-8ae6-411ccb224088" type="selectionEntryGroup"/>
+        <entryLink id="45eda60c-615a-4037-8386-92d899ff5d2b" name="Chapter Champion Relics" hidden="false" collective="false" import="true" targetId="5953182d-5617-44b3-b913-3e76f903bc5e" type="selectionEntryGroup"/>
+        <entryLink id="6cb2929d-81a9-4699-94b8-e49490a1af81" name="Chief Apothecary Relics" hidden="false" collective="false" import="true" targetId="dfae2b77-e8b8-4824-9213-2769f27c5aa5" type="selectionEntryGroup"/>
+        <entryLink id="3b6b2f7d-461f-4812-8161-b3448bc5fe2d" name="Master of the Forge Relics" hidden="false" collective="false" import="true" targetId="c53b4e4d-0285-4c5f-b268-57bad390e889" type="selectionEntryGroup"/>
+        <entryLink id="10fdad17-58c8-47d4-a87e-e50a550530dd" name="Master of Sanctity Relics" hidden="false" collective="false" import="true" targetId="1c1ff041-c60e-44a5-8c85-b238b4aea402" type="selectionEntryGroup"/>
+        <entryLink id="158eda7e-3c15-4a3b-a2e1-43698aaced33" name="Chief Librarian Relics" hidden="false" collective="false" import="true" targetId="831916a7-1e09-4bb4-bb9f-e9bbd853d60d" type="selectionEntryGroup"/>
+        <entryLink id="f2923026-d059-43de-b792-349362664b82" name="Codex Relics" hidden="false" collective="false" import="true" targetId="792076cd-aa91-432e-92bc-f51a3e9c6927" type="selectionEntryGroup"/>
+        <entryLink id="97ff5523-547c-4720-a6d7-919e4849ed58" name="Chapter Master Relics" hidden="false" collective="false" import="true" targetId="f5932c7e-96bc-4dd9-9112-01893ce1c146" type="selectionEntryGroup"/>
+        <entryLink id="10996f80-6850-41c7-8e19-bd50216c452d" name="Vanguard Spearhead Relics" hidden="false" collective="false" import="true" targetId="5e511052-7dd8-4c7c-a965-f3697c7966ed" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="77aa78eb-4c87-4f01-9a3f-a86ed7878fa3" name="Imperium - Space Marines" targetId="c087c1cf-3b22-42c9-91ee-142e81bbd9e7" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="9e5aa22d-2213-4ea7-ad9a-08d9e546ab34" name="Imperium - Inquisition" targetId="f6197211-bfe8-4c67-bfc7-38769d0b2edc" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="0b66883d-cbe4-4fd1-bf19-a48a0029bfc2" name="Imperium - Officio Assassinorum" targetId="12a8f9c0-5a14-47ee-b526-84b61823daf1" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
