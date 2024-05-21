@@ -1,4 +1,4 @@
-# Warhammer 40,000 9th Edition - Kenosis Edition
+# Warhammer 40,000 - Kenosis Edition
 
 [![GitHub release](https://img.shields.io/github/release/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/releases/latest)
 ![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k/latest.svg?style=flat-square)
