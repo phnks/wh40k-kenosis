@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="159" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="249" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="160" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="258" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -479,9 +479,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="bd75160e-9dd5-45eb-8c41-64903d8c2817" name="Putrid Explosion" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2757,9 +2758,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">11</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="01e40387-af22-4c90-bfc9-841ccdaf6409" name="Chaos Predator Destructor 2 (3-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -2770,9 +2772,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="55233a13-12bb-4cfb-b36a-706c037f4407" name="Chaos Predator Destructor 3 (1-2 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -2783,9 +2786,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3016,9 +3020,10 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2D3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2D3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3195,9 +3200,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="7279d4c5-cf42-4a1a-9d3d-1feed890cf0f" name="Death Guard Daemon Prince" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -3454,9 +3460,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">14</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="97b02959-d463-4c13-bfd2-b52e356df125" name="Infernal Regeneration" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3472,9 +3479,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="c9140ed5-354c-4fe2-a926-55c9da060912" name="Defiler 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -3485,9 +3493,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3714,9 +3723,10 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">4</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">7+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">4</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">7+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3818,9 +3828,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">-</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="19dffeca-8878-4da2-82e2-f6eabbf20102" name="Putrid Explosion" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4046,9 +4057,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4221,9 +4233,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="91756bf1-5281-41b1-a0ab-8fd71ca39acd" name="Lord of Nurgle" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4413,9 +4426,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="e8c22cb3-785e-45b0-87aa-589f1f99719b" name="Death Guard Sorcerer in Terminator Armour" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -4711,9 +4725,10 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4815,9 +4830,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="d1589ac1-3cfe-48d2-b1e0-202d853ed12c" name="Monstrous Resilience" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5024,9 +5040,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">10</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="58486ca3-2f4f-4998-ba29-844db0c3af54" name="Chaos Rhino" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -5042,9 +5059,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="9b860174-2933-4740-8dd6-f1a44a7ba902" name="Chaos Rhino 3 (1-2 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -5055,9 +5073,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="8f447b9d-18af-42d3-85c1-4c45166dc071" name="Explodes" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5140,9 +5159,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="513ec40a-b588-4802-ae9d-d42bc590140a" name="Typhus" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5478,9 +5498,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">2+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5686,9 +5707,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="172fde06-9edc-4ea1-bcf7-3c4720987595" name="Pestilential Fallout" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5880,9 +5902,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">5</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">5</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5910,9 +5933,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6189,9 +6213,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="344857c1-b727-430d-84b8-94cb63b5c9ec" name="Tocsin of Misery (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6348,9 +6373,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="8015d10c-8f8b-4b4a-bd70-941ee518cb16" name="Chaos Land Raider" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -6366,9 +6392,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="278259d4-8cf1-4075-bf1e-0f2baaa67474" name="Chaos Land Raider 3 (1-4 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -6379,9 +6406,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6598,9 +6626,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">18</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">7</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">7</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="2801845e-1744-403e-a6e1-2b1d661259e9" name="Host of Plagues" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6634,9 +6663,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="e5ce860d-2eda-4312-90c8-55751f7bc96e" name="Mortarion 3 (1-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -6647,9 +6677,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="20422b65-ffe5-484c-91c1-5469b70f9175" name="Daemon Primarch" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -7220,9 +7251,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7290,9 +7322,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7400,9 +7433,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="6a11dc18-b6dc-40d8-a7af-730ca71a58ee" name="Vectors of Death" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -7445,9 +7479,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8382,9 +8417,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">2+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8468,9 +8504,10 @@ plague companies in the same Detachment, without preventing other units in that 
                     <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                     <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                     <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                    <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                    <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                    <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                    <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+                    <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                    <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                    <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8632,9 +8669,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">-</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="c7ef5d6e-32ae-4894-b93b-34b02b970bae" name="Foul Stench" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8871,9 +8909,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">-</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler 2 (3-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -8884,9 +8923,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">-</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler 3 (1-2 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -8897,9 +8937,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">-</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9238,9 +9279,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1281f399-45a1-49b3-8d96-19ef8119ec9d" name="Blight Racks (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9452,9 +9494,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="e44068ae-762c-41e4-989b-ed39c0b65b5a" name="Tainted Narthecium (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9634,9 +9677,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="a69fca4c-8030-4cbd-bf75-52e6a97aa8f9" name="The Seven-fold Chant" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9809,9 +9853,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">3</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
         <profile id="ec42608e-7f4b-48d4-b945-704f38a2d418" name="Putrefying Stink" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -10032,9 +10077,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="a82f7784-a81d-47ab-901a-2205b31dad89" name="Necrosius the Undying" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -10345,9 +10391,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10660,9 +10707,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -10831,9 +10879,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">11</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="d015ca72-3031-4a3e-883f-e79b6227fe82" name="Chaos Predator Annihilator 2 (3-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -10844,9 +10893,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="162f8fd2-daf2-4d09-aa51-51d31aaf37fc" name="Chaos Predator Annihilator 3 (1-2 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -10857,9 +10907,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11021,9 +11072,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">-</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">-</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
             <profile id="f04d59c7-bda3-46c0-bc2a-290336c563ef" name="Miasmic Malignifier 2 (4-6 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -11034,9 +11086,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">-</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">-</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
             <profile id="d298fe97-330e-4192-92c0-341afffcbce8" name="Miasmic Malignifier 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -11047,9 +11100,10 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">-</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">-</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>

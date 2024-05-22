@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="257" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="258" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -88,9 +88,10 @@
         <characteristicType id="c1bd6ca3-4a02-4ea3-b452-da8861988acf" name="S"/>
         <characteristicType id="500b9200-c69e-46a7-b836-330800d4a326" name="T"/>
         <characteristicType id="c50846f3-9cc3-48e6-b135-c14e8eec7996" name="W"/>
-        <characteristicType id="6416c46a-d4a5-44ed-95c2-228b8095868d" name="A"/>
-        <characteristicType id="c17577db-203d-4e79-beb6-21fb86a90f0e" name="Ld"/>
-        <characteristicType id="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f" name="Save"/>
+        <characteristicType id="544a-d749-139e-bdda" name="I"/>
+        <characteristicType id="783e-1ae9-091f-635a" name="A"/>
+        <characteristicType id="fbde-b96c-5e80-90b4" name="Ld"/>
+        <characteristicType id="e655-150c-c1ae-1d31" name="Sv"/>
       </characteristicTypes>
     </profileType>
     <profileType id="cc469dfb-1f9b-415c-b048-eb2bc029f68e" name="Stat Damage - BS">
@@ -2526,9 +2527,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">4</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2591,9 +2593,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">30</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4464be46-40b5-411d-bee9-3c422fb6d755" name="Containment Failure" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2719,9 +2722,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="82bc8316-68aa-4f1e-8237-cdd7ddcf9be5" name="Firestorm Redoubt" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -2790,9 +2794,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">30</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="aa1971c1-4e42-4344-b5d9-d24562e6fd11" name="Fortress of Redemption" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="67" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -2808,9 +2813,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="79bff081-833c-4adc-8df4-6227a0a80ada" name="Fortress of Redemption [3] (1-8 Wounds Remaining)" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="67" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -2821,9 +2827,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="bdedc95f-aa78-41cc-a6c4-8a5c19435ed6" name="Wrecked (Fortress of Redemption)" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="67" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2940,9 +2947,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">18</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4efde0c8-4caf-46de-8653-3117971e39f9" name="Bastion" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="68" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -2966,9 +2974,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="2ec732ce-8f60-4337-9ed9-3d7d06b3709d" name="Bastion [3] (1-5 Wounds Remaining)" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="68" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -2979,9 +2988,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4ed7c535-7a63-4f24-b21b-7e879710cfc9" name="Automated Weapons (Bastion)" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="68" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3084,9 +3094,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="898a10e3-7a2c-4773-97b8-0cde030b4e38" name="Imperial Bunker" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -3207,9 +3218,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="64386b81-939a-4f03-b6a3-bdbb3dd65eaa" name="Plasma Obliterator" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -3323,9 +3335,10 @@ Each AIRCRAFT model can only perform this action once during a battle.</characte
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">10</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3389,9 +3402,10 @@ Each AIRCRAFT model can only perform this action once during a battle.</characte
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="3c34587d-e181-4a11-b226-575fedb9d17d" name="Projected Void Shields (Aura)" publicationId="0949c639-6d36-4b22-bcaa-fe4593f56ed7" page="69" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4926,9 +4940,10 @@ Remaining Wounds | Aura Range
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">10</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4972,9 +4987,10 @@ Remaining Wounds | Aura Range
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">10</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
             <profile id="141d9a5c-f1c7-428d-abe3-538603b182f2" name="Gate Tower Section" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -5022,9 +5038,10 @@ Remaining Wounds | Aura Range
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">10</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5062,9 +5079,10 @@ Remaining Wounds | Aura Range
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">10</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
             <profile id="a9d60489-66a9-4781-b0f4-027609aa9fac" name="Tower Section" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -5147,9 +5165,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="bb0aa340-b06f-412e-8740-f71217c6287b" name="Automated Weapons" publicationId="8da67f21-bbf7-4671-824c-3b90af6fbb5e" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5698,9 +5717,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">*</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="388e7f7b-3072-4b70-a441-5ec9814fa66c" name="Daemonic Machine Spirit" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6091,9 +6111,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">14</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">*</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="5465b6e1-9c16-4c9e-933c-94e7351eee81" name="Terrax-Pattern Termite Assault Drill 1" hidden="false" typeId="287b7eb4-e694-4e0e-8904-134c046feab8" typeName="Wound Track">
@@ -6998,9 +7019,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="d0e98012-bcf3-47f8-a0fd-8fab5fc4600c" name="Imperial Bastion" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -7086,9 +7108,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">30</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7168,9 +7191,10 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">10</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">30</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -10177,9 +10201,10 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
         <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">-</characteristic>
         <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
         <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">-</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+        <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+        <characteristic name="A" typeId="783e-1ae9-091f-635a"/>
+        <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4"/>
+        <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
       </characteristics>
     </profile>
     <profile id="5b9d3e7e-439e-4106-b780-19efff3769b7" name="Gun Emplacement (Details)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">

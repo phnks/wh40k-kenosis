@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="148" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="149" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="258" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -1911,9 +1911,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="f1c8f345-3707-4d0f-947c-bb3b55cb068c" name="Blood Throne" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2039,9 +2040,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2077,9 +2079,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2159,9 +2162,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2193,9 +2197,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2279,9 +2284,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2311,9 +2317,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2406,9 +2413,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2451,9 +2459,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2536,9 +2545,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="6561ad3d-0ad7-4110-afe9-bc4afa9912a6" name="Bloodmaster" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2585,6 +2595,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -2608,9 +2623,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="38c193c6-d215-4821-b052-98f8379fca6a" name="Brass Collar of Bloody Vengeance" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2742,9 +2758,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="15dffb6b-9d8d-41f1-b70c-c6757255d870" name="Lord of Change" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -2763,9 +2780,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="d9e12689-7d0c-42ac-b144-737f08e6f000" name="Lord of Change 3 (1-5 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -2776,9 +2794,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="f0443128-f6bf-4b13-8615-af6ab660fef4" name="Master of Magicians" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3065,9 +3084,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">2</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/5+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">6+/5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3179,9 +3199,10 @@
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3249,9 +3270,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">22</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ea69c16c-09cd-4338-a28f-06f2db2fe50d" name="Rage Embodied (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3270,9 +3292,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">9</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">9</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="9f4665e5-98bc-4b8a-a19a-8d8693e45fde" name="Skarbrand 3 (1-5 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -3283,9 +3306,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">10</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">10</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="83279f46-3dfa-4337-a268-0cf55a499792" name="Witchbane" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3447,9 +3471,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3561,9 +3586,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="0b376a20-5397-44a7-a0fb-350346c39f05" name="Skulls for Khorne" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3685,9 +3711,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ffe2a9cf-0af9-4fe6-a487-4e6471a17dc1" name="Bloodthirster 2 (6-10 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -3698,9 +3725,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">7</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">7</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="cf3d643a-a367-4c38-bc5d-22988c9e9264" name="Bloodthirster 3 (1-5 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -3711,9 +3739,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4925b768-70a8-457c-980d-929c025285aa" name="Daemon Lord of Khorne (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -3996,9 +4025,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="fa0a8915-302c-4208-9d99-37cbf6d578d8" name="Skullmaster" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4153,9 +4183,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">22</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="d3cfb478-0fb6-4d9e-b709-11bbabc0a50d" name="One Head Looks Forward" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4179,9 +4210,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="0d71415c-ef23-40f9-b0b0-617c71887be9" name="Kairos Fateweaver 3 (1-5 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -4192,9 +4224,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="33948681-d6cb-4441-89d0-9e82b5d2ffe3" name="One Head Looks Back" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4350,9 +4383,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="3a1eb24b-ce2f-4fab-8d61-49bdecadbd9b" name="Formless Horror" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4491,9 +4525,10 @@
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="e0ea63fe-8358-460d-8f09-f54a45511274" name="P&apos;tarix&apos;s Sorcerous Syphon (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4612,9 +4647,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="49499312-e495-47ce-8acb-044a1272e9b1" name="Changecaster" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -4699,6 +4735,11 @@ These powers are considered to have been manifested with a roll equal to their w
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -4784,9 +4825,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="78ab9dfa-6c50-403f-b405-64922244e1a5" name="Fluxmaster" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -4894,9 +4936,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="311d9caf-b2f3-48b8-bafe-eb093c7e4ff8" name="Fateskimmer" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5055,9 +5098,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5084,9 +5128,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5132,9 +5177,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="c07f9c60-44c8-4018-babb-55791b172de3" name="Manifestation of Destruction" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5197,9 +5243,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5264,9 +5311,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="98bf0a27-2e37-4a98-9cc2-1f055654c9d0" name="Tally of Pestilence" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5382,9 +5430,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="a0ecb8c0-2d10-4bb0-876c-673626bcc5ba" name="Poxbringer" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5500,9 +5549,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">22</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
           </characteristics>
         </profile>
         <profile id="07b49c93-cd56-47ad-998b-f280c81e2116" name="Great Unclean One" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5528,9 +5578,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
           </characteristics>
         </profile>
         <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -5541,9 +5592,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5883,9 +5935,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5912,9 +5965,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">4</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6001,9 +6055,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda">5</characteristic>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6081,9 +6136,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6116,9 +6172,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -6226,9 +6283,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="6e4f164b-cbce-4f52-a90a-104c1723e366" name="Dazzling Acrobatics" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6375,9 +6433,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="e7cbdc36-9f98-491d-81f4-c74d9e949fae" name="Keeper of Secrets" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -6396,9 +6455,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4022f57a-f90d-4c0d-9e31-1ffdd30bd8c1" name="Keeper of Secrets 3 (1-5 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -6409,9 +6469,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6634,9 +6695,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="bb2dfd93-b65b-4119-bf37-ea8c0b12a4d7" name="Tranceweaver" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -6724,9 +6786,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1bf2b0b1-6657-4536-9271-a208e458cc9e" name="Unholy Speed" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6823,9 +6886,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="144e522d-0a0d-4949-9c80-c3ff88cda790" name="Tormentbringer on Seeker Chariot" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -6927,9 +6991,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="54ccbd85-fdd3-4b3c-aadf-2e3b96ef7e2c" name="Tormentbringer on Exalted Seeker Chariot" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -6948,9 +7013,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">7</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">7</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="f4a7e814-9f12-4a59-b43c-1f8c8963e53b" name="Tormentbringer on Exalted Seeker Chariot 3 (1-3 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -6961,9 +7027,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7069,9 +7136,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7098,9 +7166,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7184,9 +7253,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7217,9 +7287,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7274,9 +7345,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7336,9 +7408,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7427,9 +7500,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7460,9 +7534,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -7525,9 +7600,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4a5919c3-33be-4e1e-9beb-cd12603da807" name="Exalted Seeker Chariot 2 (4-6 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -7538,9 +7614,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">7</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">7</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="56363864-c113-4e23-a8d6-0b27b702ffe9" name="Exalted Seeker Chariot 3 (1-3 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -7551,9 +7628,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7658,9 +7736,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="afa8b4e0-d78b-4b09-9e7a-04882a50e0c2" name="Prince of Chaos (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -7688,9 +7767,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="9d236950-f251-4943-82d3-e54545e842f3" name="Daemon Prince of Chaos" hidden="true" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -7713,9 +7793,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="40683b97-1be8-4167-802b-e3b86a6b52cf" name="Daemon Prince of Chaos" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -7733,9 +7814,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="356c04c6-b065-48b4-b92d-5d34f78afcee" name="Daemon Prince of Chaos" hidden="true" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -7758,9 +7840,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8246,9 +8329,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">6</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -8321,12 +8405,12 @@ These powers are considered to have been manifested with a roll equal to their w
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="set" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="7">
+                <modifier type="set" field="783e-1ae9-091f-635a" value="7">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20cada00-11d6-4ef1-ad8b-a7897d3b31a4" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f" value="4+/4+">
+                <modifier type="set" field="e655-150c-c1ae-1d31" value="4+/4+">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0512afe0-cd20-4d9f-8fdd-b9d37d5c2010" type="equalTo"/>
                   </conditions>
@@ -8351,21 +8435,22 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="da345263-bbd5-4316-b847-62de8a124699" name="Soul Grinder 2 (5-8 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="set" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="7">
+                <modifier type="set" field="783e-1ae9-091f-635a" value="7">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20cada00-11d6-4ef1-ad8b-a7897d3b31a4" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f" value="4+/4+">
+                <modifier type="set" field="e655-150c-c1ae-1d31" value="4+/4+">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0512afe0-cd20-4d9f-8fdd-b9d37d5c2010" type="equalTo"/>
                   </conditions>
@@ -8390,21 +8475,22 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="2645847c-8d6a-4808-8f3c-a9da6887b21f" name="Soul Grinder 3 (1-4 wounds remaining)" page="0" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
           <modifierGroups>
             <modifierGroup>
               <modifiers>
-                <modifier type="set" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="7">
+                <modifier type="set" field="783e-1ae9-091f-635a" value="7">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20cada00-11d6-4ef1-ad8b-a7897d3b31a4" type="equalTo"/>
                   </conditions>
                 </modifier>
-                <modifier type="set" field="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f" value="4+/4+">
+                <modifier type="set" field="e655-150c-c1ae-1d31" value="4+/4+">
                   <conditions>
                     <condition field="selections" scope="36d05624-c2e6-425f-9d6b-76a3e8f8dd16" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0512afe0-cd20-4d9f-8fdd-b9d37d5c2010" type="equalTo"/>
                   </conditions>
@@ -8429,9 +8515,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="d6ce1293-86a0-4921-8704-daa607ba36f8" name="Explodes (Soul Grinder)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8593,9 +8680,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">10</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">24</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="9210313e-d386-4409-b9f4-3cc927b1cb08" name="Emissary of the Blood God (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8621,9 +8709,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">9</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">7</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">7</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="5eef4fb6-caea-4f6d-86a7-c1aa8154b542" name="An&apos;ggrath 3 (1-6 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -8634,9 +8723,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8773,9 +8863,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="05bdf5b0-5aa1-4776-83f2-383ec65ca75f" name="Black Collar of Khorne" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8886,9 +8977,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1bc895d4-2d14-4b40-9ad9-cd040c0e0525" name="Daemon Prince of the Ruinstorm (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8909,9 +9001,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ded8e539-bb4d-46e1-91aa-abd753cb5681" name="Samus 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -8922,9 +9015,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -9002,9 +9096,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">27</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="792a162f-6e59-46d8-88e0-117e9b013ac7" name="Aetaos&apos;rau&apos;keres" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -9043,9 +9138,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ad9287df-6fe0-4624-b351-31d0e88b03a7" name="Aetaos&apos;rau&apos;keres 3 (1-7 wounds remaining)" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="151" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -9056,9 +9152,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -9204,9 +9301,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">18</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="e90f6137-f74e-4f1c-a971-db6c51676ee9" name="Zarakynel" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -9235,9 +9333,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="efa53fa6-7742-4b15-91ea-d3af98ae5551" name="Zarakynel 3 (1-3 wounds remaining)" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="152" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -9248,9 +9347,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ccfa6e65-c9fb-4e70-a6e6-3672ce47b7d2" name="Sinistrous Talon" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9396,9 +9496,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="27461964-63a0-4204-b148-9b3b6257228a" name="The Transfigured (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9519,9 +9620,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="b3fe9481-4106-4ec6-89fe-a52cab6b7c65" name="Noisome Tide of Flesh" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9542,9 +9644,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1ac47ea4-7958-43a1-8e63-7518efc21b1b" name="Cor&apos;bax Utterblight 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -9555,9 +9658,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="a0495449-60ed-464d-aaab-860dee48ea36" name="Cor&apos;bax Utterblight" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -9689,9 +9793,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -9794,9 +9899,10 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
                 <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
                 <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+</characteristic>
+                <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+                <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+                <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+                <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
               </characteristics>
             </profile>
           </profiles>
@@ -9934,9 +10040,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">12</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="0327a870-b9a9-444d-b39e-41a1c16a2580" name="Spined Chaos Beast 2 (4-6 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -9947,9 +10054,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="7baf3a27-72e8-4388-ac70-e66d03931d91" name="Spined Chaos Beast 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -9960,9 +10068,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="335cb0af-1b61-4aa7-96d6-a366fa109524" name="Warp Spines" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -10047,9 +10156,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">10</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6+D6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6+D6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="bcfc26bb-bb63-4acf-a035-75db5af07c68" name="Giant Chaos Spawn 2 (3-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -10060,9 +10170,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4+D6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4+D6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="21cbacc1-526a-408e-93a5-06b9e44aa4ca" name="Giant Chaos Spawn 3 (1-2 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -10073,9 +10184,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2+D6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">2+D6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4b47da27-8124-4462-a207-222eb85c06d1" name="Fearsome (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -10208,9 +10320,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">21</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="2b6cbb9a-8774-42d2-8cb9-e647373e9840" name="Scabeiathrax the Bloated" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -10244,9 +10357,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="2b2d7554-8be7-4860-b65e-defab64cd7c8" name="Scabeiathrax the Bloated 3 (1-5 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -10257,9 +10371,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11066,9 +11181,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">24</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="2ef6be20-b446-4518-93c5-aa6977318bfb" name="Rotigus" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -11092,9 +11208,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="fa7cfe8b-c1de-4604-ba9a-d8ccba7a6e9f" name="Rotigus 3 (1-6 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -11105,9 +11222,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11330,9 +11448,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="c763a40e-76d0-4133-b29d-829956f9b68e" name="Beast Handler" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11474,9 +11593,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="f4872904-07c4-47f5-821e-e4ecfc1a9f6b" name="Disease of Mirth" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11574,9 +11694,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="18074071-31d8-415d-bf63-766c0dca28c2" name="Keep Counting! Meet your Quota!" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11784,9 +11905,10 @@ If the result of the Psychic test was 9 or more, you can select which result app
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">-</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="755328b8-ea06-4de0-97f5-5da9e54d5da8" name="The Garden Grows" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11898,9 +12020,10 @@ If any enemy models are destroyed as a result of these mortal wounds, gain one W
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">14</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="f6e8764a-9b63-45cb-9c37-2c175f76d1fd" name="Rotting Curse (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11916,9 +12039,10 @@ If any enemy models are destroyed as a result of these mortal wounds, gain one W
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="e3b38201-4ff7-40db-a157-49dbfff1f0aa" name="Plague Hulk of Nurgle 3 (1-3 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -11929,9 +12053,10 @@ If any enemy models are destroyed as a result of these mortal wounds, gain one W
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">D3</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -12219,9 +12344,10 @@ If any enemy models are destroyed as a result of these mortal wounds, gain one W
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="ea8b3eb1-3dc8-4fa0-a960-5e9a87bcc022" name="Discordant Disruption (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -12390,9 +12516,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">9</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">-</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">-</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">7</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="6db2086a-0552-4161-8cb3-6b5a05086630" name="Skull Altar" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -12440,9 +12567,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="342952e2-507b-4105-b48c-8be44ada4548" name="Syll&apos;Esske" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -12668,9 +12796,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">22</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1aaf268d-e943-4da0-b7e7-2b0be6f93c20" name="Shalaxi Helbane" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -12689,9 +12818,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="c41d786b-37a2-4bdb-bf31-61bad11be38c" name="Shalaxi Helbane 3 (1-5 wounds remaining)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -12702,9 +12832,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">10</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
       </profiles>
@@ -12874,9 +13005,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">8</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="96de94da-5b09-4c11-b877-2a71b466ad76" name="Swallow Energy" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -13006,9 +13138,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">8</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">8</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="fc382f03-65f1-463e-aabd-4e5b36a7ead9" name="Tormentbringer on Hellflayer" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -13133,9 +13266,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">8</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">20</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">6</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="4895aec7-3605-44b1-b38b-8b9bfd116c67" name="Lord of Torment (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -13166,9 +13300,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">5</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="1897867d-248f-4f0f-bfc4-c98cb55a6c47" name="Be&apos;lakor 3 (1-5 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -13179,9 +13314,10 @@ At the end of your Movement phase, this model can start to perform this action. 
             <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
             <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
             <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+/4+</characteristic>
+            <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+            <characteristic name="A" typeId="783e-1ae9-091f-635a">4</characteristic>
+            <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">9</characteristic>
+            <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
           </characteristics>
         </profile>
         <profile id="53b1d77c-be9a-4cc1-b9b6-2eb47efe9caf" name="The Dark Master (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -13853,6 +13989,11 @@ At the end of your Movement phase, this model can start to perform this action. 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="add3d7a8-3861-4a6f-96da-00479207c98d" name="Fatal Caress" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -13862,6 +14003,11 @@ At the end of your Movement phase, this model can start to perform this action. 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -16695,9 +16841,10 @@ Unless otherwise specified, malefic weapons are never affected by effects or abi
         <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">1</characteristic>
         <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
         <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">4</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/5+</characteristic>
+        <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+        <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+        <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">4</characteristic>
+        <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
       </characteristics>
     </profile>
     <profile id="03b3dd0f-7e0c-40d4-a6f0-0d9189b1356a" name="Blue Horror" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -16708,9 +16855,10 @@ Unless otherwise specified, malefic weapons are never affected by effects or abi
         <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">2</characteristic>
         <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
         <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">5</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/4+</characteristic>
+        <characteristic name="I" typeId="544a-d749-139e-bdda"/>
+        <characteristic name="A" typeId="783e-1ae9-091f-635a">1</characteristic>
+        <characteristic name="Ld" typeId="fbde-b96c-5e80-90b4">5</characteristic>
+        <characteristic name="Sv" typeId="e655-150c-c1ae-1d31"/>
       </characteristics>
     </profile>
     <profile id="cc85687c-dd87-4507-8e61-32c365536528" name="Blazing Warpfile (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
