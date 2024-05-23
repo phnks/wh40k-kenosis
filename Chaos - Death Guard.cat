@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="162" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="260" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="163" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="260" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -3212,7 +3212,6 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="26aed4ac-0f96-43ea-ad04-621966c845d6" name="Daemonic" hidden="false" targetId="09a9b066-cd2e-4237-b701-20c0f530ef96" type="profile"/>
         <infoLink id="7981449e-e7fa-4caf-af82-07dbe3069338" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="8e45f85f-2b56-424b-b86d-7320528fae91" name="Lord of the Death Guard (Aura)" hidden="false" targetId="658eedcb-4166-459a-af50-4402b92720d1" type="profile"/>
         <infoLink id="bff36bd8-7b7a-4169-abde-fb4b180d1304" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
@@ -3837,7 +3836,6 @@ Battle Round 4 - 9&quot;</description>
       </profiles>
       <infoLinks>
         <infoLink id="687a3b30-1aa6-452d-a016-6629055b267a" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="9aedf28f-53e5-48f8-811e-197ffd85dc02" name="Daemonic" hidden="false" targetId="09a9b066-cd2e-4237-b701-20c0f530ef96" type="profile"/>
         <infoLink id="59b5a941-91af-4023-a830-e23a35fa7bc9" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -5534,7 +5532,6 @@ plague companies in the same Detachment, without preventing other units in that 
       <infoLinks>
         <infoLink id="0f3cea25-e428-42bb-8460-e379c1a4e59d" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="f52981be-84d9-4472-b320-88ebf0afc38b" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="70046420-bc38-44c9-9efa-8d384b637b85" name="Diseased Terminator Armour" hidden="false" targetId="cf8bd7a5-a0d3-4286-95be-72985ed2fda5" type="profile"/>
         <infoLink id="77e7ad2d-29c5-4890-96ec-833721f478ef" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
         <infoLink id="c662cb6d-1fd2-428e-b98e-4b9132e41fb2" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="97e88696-cf39-4036-b9fe-2d0a4c638732" name="Vector of Disease" hidden="false" targetId="c7d8e950-1897-4d5b-a1b4-cfbb805cb4c6" type="profile"/>
@@ -6664,11 +6661,6 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, select one friendly DEATH GUARD CORE or DEATH GUARD CHARACTER unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in that unit makes an attack, you can re-roll the hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c0f0e6b5-8c42-4465-ba2c-69f02fb78c95" name="The Barbaran Plate" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Mortarion has a 4+ invulnerable save.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="aeeebeff-1894-495e-8489-53fe88970d47" name="Mortarion" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="6d6b7a13-802e-45fa-99db-453a11a8a797">2</characteristic>
@@ -7241,7 +7233,6 @@ plague companies in the same Detachment, without preventing other units in that 
       </profiles>
       <infoLinks>
         <infoLink id="882ab6f9-f12a-46f3-829b-bfa25b55eb4f" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="e51c6c3c-ac3d-48d9-a4bc-3fd0124e6096" name="Diseased Terminator Armour" hidden="false" targetId="cf8bd7a5-a0d3-4286-95be-72985ed2fda5" type="profile"/>
         <infoLink id="1f2db52c-12da-443c-94be-f1d184834788" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="776461fa-1041-4cda-b993-3b3524705baf" name="Remorseless" hidden="false" targetId="a0088dab-6545-4195-bfa3-0b2956c86864" type="profile"/>
         <infoLink id="b46114c3-d4d9-4f18-beac-a491be278a76" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
@@ -8410,7 +8401,6 @@ plague companies in the same Detachment, without preventing other units in that 
       </modifierGroups>
       <infoLinks>
         <infoLink id="94bec1a2-268e-4e1f-9af4-0e244764c1b3" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="247b8146-4735-436a-aa2f-ccdcdcd80c2c" name="Diseased Terminator Armour" hidden="false" targetId="cf8bd7a5-a0d3-4286-95be-72985ed2fda5" type="profile"/>
         <infoLink id="6c2afd71-f62d-4ba1-aa1e-68c6d66b311d" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="2cdd1766-8c23-4110-98ad-b46974754d75" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="bdc061a7-8042-4d7d-bf01-0f2cc830f52e" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
@@ -8719,7 +8709,6 @@ plague companies in the same Detachment, without preventing other units in that 
       </profiles>
       <infoLinks>
         <infoLink id="ce2262fb-8a2b-485c-ba56-b3a7532ee537" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="bac0d001-521d-4763-b315-455bd79b2188" name="Daemonic" hidden="false" targetId="09a9b066-cd2e-4237-b701-20c0f530ef96" type="profile"/>
         <infoLink id="94919dbf-f9d6-4a49-8e73-5d72971f3bcc" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="4e987148-6305-4090-9b8a-d39c9f503437" name="Remorseless" hidden="false" targetId="a0088dab-6545-4195-bfa3-0b2956c86864" type="profile"/>
       </infoLinks>
@@ -8979,7 +8968,6 @@ plague companies in the same Detachment, without preventing other units in that 
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="90951db2-5084-43ca-b24b-e29dd0f832bf" name="Daemonic" hidden="false" targetId="09a9b066-cd2e-4237-b701-20c0f530ef96" type="profile"/>
         <infoLink id="c8249851-650f-40d8-a323-62e262ccc842" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="f9f1f503-ea3e-4dd8-b9a7-2d9b14f5377c" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="c1513bb1-d0c6-47d7-83a9-729f4c3cada7" name="Explodes (6&quot;/D3)" hidden="false" targetId="7a373ede-2ac7-4314-adb6-5c8a861cf3f5" type="profile"/>
@@ -10461,7 +10449,6 @@ plague companies in the same Detachment, without preventing other units in that 
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="472db0c0-5a82-48ee-b0da-3b06a8f77335" name="Sigil of Corruption" hidden="false" targetId="df5167db-d3c7-4060-9613-25e3ea8ededb" type="profile"/>
         <infoLink id="adebfd35-b429-4cc6-afdc-69666b9a6e00" name="Lord of the Death Guard (Aura)" hidden="false" targetId="658eedcb-4166-459a-af50-4402b92720d1" type="profile"/>
         <infoLink id="e5a23489-cf65-4ebf-a6ef-bcb4717ea3c4" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
         <infoLink id="b8c4b313-0171-4035-9758-e606a45ff7ee" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
