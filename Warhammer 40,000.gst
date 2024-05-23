@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="260" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="261" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -122,7 +122,7 @@
         <characteristicType id="74df2668-28e4-4934-99d1-da6e062d933c" name="Access Points"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="9b72-1d0c-54f8-f552" name="Unit-Kenosis">
+    <profileType id="9b72-1d0c-54f8-f552" name="Unit (Kenosis)">
       <characteristicTypes>
         <characteristicType id="3dc1-8120-684f-5650" name="M"/>
         <characteristicType id="a552-c600-b69b-02dc" name="WS"/>
