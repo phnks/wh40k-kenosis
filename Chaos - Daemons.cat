@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="148" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="149" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="260" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -2585,6 +2585,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3057,17 +3062,19 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547c1a48-8c39-40af-9584-11787e73472b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e4ca0e29-a70c-4947-8e2e-18d9481ba601" name="Nurgling Swarm" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="e4ca0e29-a70c-4947-8e2e-18d9481ba601" name="Nurgling Swarm" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">2</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/5+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">2</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4699,6 +4706,11 @@ These powers are considered to have been manifested with a roll equal to their w
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -5492,17 +5504,19 @@ These powers are considered to have been manifested with a roll equal to their w
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12+ wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12+ wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">2+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">22</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">9</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">22</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
         <profile id="07b49c93-cd56-47ad-998b-f280c81e2116" name="Great Unclean One" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5520,30 +5534,34 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">5</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">9</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">9</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">9</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5875,17 +5893,19 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0bd23b-0145-4a21-9360-d2e5c6f5ac66" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5232b17e-0fec-4eff-b3f4-ea3b7aa46b54" name="Plaguebearer" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="5232b17e-0fec-4eff-b3f4-ea3b7aa46b54" name="Plaguebearer" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5904,17 +5924,19 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229ac3f3-d2eb-4575-9059-789ed4c11b92" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f34420c0-4ce1-4724-b99f-9a5909f1b726" name="Plagueridden" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="f34420c0-4ce1-4724-b99f-9a5909f1b726" name="Plagueridden" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">5&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5993,17 +6015,19 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5d09e8-8655-4f4f-8b4f-823a7a0e5253" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e8145dc1-0f61-46dc-90bc-7a028d9e7423" name="Beast of Nurgle" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="e8145dc1-0f61-46dc-90bc-7a028d9e7423" name="Beast of Nurgle" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">-</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">5+/4+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">6</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">7</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13853,6 +13877,11 @@ At the end of your Movement phase, this model can start to perform this action. 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="add3d7a8-3861-4a6f-96da-00479207c98d" name="Fatal Caress" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -13862,6 +13891,11 @@ At the end of your Movement phase, this model can start to perform this action. 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

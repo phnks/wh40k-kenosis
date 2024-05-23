@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="161" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="259" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="162" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="260" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -5120,6 +5120,11 @@ Battle Round 4 - 9&quot;</description>
           <infoLinks>
             <infoLink id="c506-a890-9fb1-d2aa" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -9034,6 +9039,11 @@ plague companies in the same Detachment, without preventing other units in that 
           <infoLinks>
             <infoLink id="142b-7c48-3f07-ba88" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
