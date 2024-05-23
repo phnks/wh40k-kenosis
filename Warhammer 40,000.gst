@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="257" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="260" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -120,6 +120,21 @@
         <characteristicType id="9669655d-c161-4a63-9647-6f56944abced" name="HP"/>
         <characteristicType id="35cbee9b-761f-4d87-908c-3fcd478c8489" name="Transport Capacity"/>
         <characteristicType id="74df2668-28e4-4934-99d1-da6e062d933c" name="Access Points"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="9b72-1d0c-54f8-f552" name="Unit-Kenosis">
+      <characteristicTypes>
+        <characteristicType id="3dc1-8120-684f-5650" name="M"/>
+        <characteristicType id="a552-c600-b69b-02dc" name="WS"/>
+        <characteristicType id="b18e-86db-f965-4e00" name="BS"/>
+        <characteristicType id="3b22-5d40-b30b-c4bc" name="S"/>
+        <characteristicType id="dc93-4efd-d681-a6ba" name="T"/>
+        <characteristicType id="8beb-4664-1ca3-8e62" name="W"/>
+        <characteristicType id="d745-4fd8-844e-5a45" name="I"/>
+        <characteristicType id="6a70-10f0-93ba-6014" name="A"/>
+        <characteristicType id="c9dd-af78-cad1-74e1" name="Ld"/>
+        <characteristicType id="3c72-e9b6-c098-41ce" name="Sv"/>
+        <characteristicType id="056a-a2c7-69a0-7701" name="Sv+"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -9481,6 +9496,9 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     </rule>
     <rule id="bd808d7f-ab42-448c-9039-fed0f29fee87" name="Ram (X)" hidden="false">
       <description>When a model with a weapon with this special rule performs a Ram Attack, it inflicts a number of additional hits equal to the value of X. These additional hits are resolved using the profile of the weapon with this special rule.</description>
+    </rule>
+    <rule id="c012-20ae-09a9-85c2" name="Ram" hidden="false">
+      <description>A weapon with this special rule does not attack in the Fight Phase. Instead, during the Movement Phase, for any enemy units this model passes through, it may attack with this weapon. If the model cannot pass through an enemy unit (for example a vehicle moving through another Vehicle or Monster unit type) it may still attack with this weapon if it moved into Engagement Range. It cannot attack with this weapon if it did not move any distance this turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
