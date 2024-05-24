@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="149" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="260" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="150" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -3062,7 +3062,7 @@
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547c1a48-8c39-40af-9584-11787e73472b" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e4ca0e29-a70c-4947-8e2e-18d9481ba601" name="Nurgling Swarm" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+            <profile id="e4ca0e29-a70c-4947-8e2e-18d9481ba601" name="Nurgling Swarm" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
                 <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
                 <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5504,7 +5504,7 @@ These powers are considered to have been manifested with a roll equal to their w
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12+ wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12+ wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
@@ -5534,7 +5534,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
@@ -5549,7 +5549,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5893,7 +5893,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0bd23b-0145-4a21-9360-d2e5c6f5ac66" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5232b17e-0fec-4eff-b3f4-ea3b7aa46b54" name="Plaguebearer" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+            <profile id="5232b17e-0fec-4eff-b3f4-ea3b7aa46b54" name="Plaguebearer" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
                 <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
                 <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5924,7 +5924,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229ac3f3-d2eb-4575-9059-789ed4c11b92" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f34420c0-4ce1-4724-b99f-9a5909f1b726" name="Plagueridden" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+            <profile id="f34420c0-4ce1-4724-b99f-9a5909f1b726" name="Plagueridden" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
                 <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
                 <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -6015,7 +6015,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5d09e8-8655-4f4f-8b4f-823a7a0e5253" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e8145dc1-0f61-46dc-90bc-7a028d9e7423" name="Beast of Nurgle" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit-Kenosis">
+            <profile id="e8145dc1-0f61-46dc-90bc-7a028d9e7423" name="Beast of Nurgle" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
                 <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
                 <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
