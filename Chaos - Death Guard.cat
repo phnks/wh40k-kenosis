@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="165" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="169" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="262" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -6636,7 +6636,7 @@ plague companies in the same Detachment, without preventing other units in that 
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1aa19979-71ed-4002-aa53-91769888bd5c" name="Mortarion 1 (10+ wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="1aa19979-71ed-4002-aa53-91769888bd5c" name="Mortarion 1 (10-18)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">12&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
@@ -6669,7 +6669,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6"/>
           </characteristics>
         </profile>
-        <profile id="3c2d8124-3322-4b1f-9bd2-3679b2d0c41e" name="Mortarion 2 (6-9 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="3c2d8124-3322-4b1f-9bd2-3679b2d0c41e" name="Mortarion 2 (6-9)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
@@ -6684,7 +6684,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e5ce860d-2eda-4312-90c8-55751f7bc96e" name="Mortarion 3 (1-5 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="e5ce860d-2eda-4312-90c8-55751f7bc96e" name="Mortarion 3 (1-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
@@ -8874,54 +8874,8 @@ plague companies in the same Detachment, without preventing other units in that 
       </costs>
     </selectionEntry>
     <selectionEntry id="2132d220-5c5c-41f0-977b-73500a75576b" name="Plagueburst Crawler" hidden="false" collective="false" import="true" type="model">
-      <modifierGroups>
-        <modifierGroup>
-          <modifiers>
-            <modifier type="add" field="category" value="a868fa24-7751-451f-985a-ecd1ce8ab268">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c9cb85-3f68-4e45-ae52-5b9a00d2c3eb" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="10630756-d015-4723-b94c-e65dbfaf20a0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="85ce53c8-8cda-4bb8-8f4f-54c76c295da9" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="c9f0678a-d724-4155-836f-755173256655">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b13fd7b-3391-4e24-a6c1-c7a6f6e47816" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="b7335905-cf8d-467d-820c-5fd65096eed3">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41a29b51-0be8-484c-9df9-54ce1875c7f5" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="96cf07ca-fd9f-4e73-bc93-5c8a8c177412">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="512251ad-8bde-4180-8554-1cd951efa952" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="9a00d274-842b-4443-abf1-360d3189aa36">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1348ef5e-40aa-4b7e-b2f0-c0019f0e8eb5" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="4edd98a6-7af0-4cfc-bc86-63bbb68437a1">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a673f943-a34e-482e-9ee3-ab8cd74c643c" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="add" field="category" value="9214f8f6-e2f6-4aac-9f2c-b13675332f4a">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f591ca9d-0c7e-4338-9619-6635ea575182" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <profiles>
-        <profile id="ae7eb0c9-3a05-4374-a427-5ecbc80d5f95" name="Plagueburst Crawler (6+ wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ae7eb0c9-3a05-4374-a427-5ecbc80d5f95" name="Plagueburst Crawler 1 (6-12)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">9&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -8936,7 +8890,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler (3-5 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -8951,7 +8905,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler (1-2 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -9122,10 +9076,6 @@ plague companies in the same Detachment, without preventing other units in that 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="d4c5065c-772e-4d47-afcf-b5f810b247ca" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="5f7965a7-853f-4974-886f-7063a42e5678" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="135.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
@@ -10468,9 +10418,8 @@ plague companies in the same Detachment, without preventing other units in that 
         <categoryLink id="879c3f93-09c1-4952-b9e7-5391294537c7" name="Lord of the Death Guard" hidden="false" targetId="92a53144-ce20-4980-af6a-b35f84e076b8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bd6b77ab-b4f8-4466-ab5b-df7a426f6c57" name="Replace bolt pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="acb023a9-c7db-4b8a-940d-e5b0432afdcd">
+        <selectionEntryGroup id="bd6b77ab-b4f8-4466-ab5b-df7a426f6c57" name="Replace bolt pistol" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b7875c-cb11-4038-846b-4437ad92f829" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b7d849b-c88d-481f-b83c-214ce39b3933" type="max"/>
           </constraints>
           <entryLinks>
@@ -10534,9 +10483,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="6888e651-1f64-4198-b656-e7f7f8d579ed" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="3e827290-28a8-48f2-a080-b9ed7248b734" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="94574d8d-ee86-467c-800b-3468c5669982" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="f1f7da5b-7057-47fe-945b-ce43a1eddd32" name="Boarding Action Enhancements" hidden="false" collective="false" import="true" targetId="7a4e0f00-4d0b-40ce-a83a-f6a4c7c5d8f5" type="selectionEntryGroup"/>
-        <entryLink id="dda38e9a-97c1-41c4-b935-68a8e7c8b8cb" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="f779d356-8441-4ccf-a71e-cd956783a097" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>

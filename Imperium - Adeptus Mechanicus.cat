@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="241" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="242" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="262" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -2052,7 +2052,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="87f6b94d-aad5-45a6-9809-952409097b40" name="Onager Dunecrawler (6-11 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="87f6b94d-aad5-45a6-9809-952409097b40" name="Onager Dunecrawler 1 (6-11 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -2067,7 +2067,7 @@
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="574b33c0-6fd3-4caa-a913-4b1c1eb3ca9b" name="Onager Dunecrawler (3-5 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="574b33c0-6fd3-4caa-a913-4b1c1eb3ca9b" name="Onager Dunecrawler 2 (3-5 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -2082,7 +2082,7 @@
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="edb30b65-e9b2-47bc-a029-d0462d3df93f" name="Onager Dunecrawler (1-2 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="edb30b65-e9b2-47bc-a029-d0462d3df93f" name="Onager Dunecrawler 3 (1-2 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -2137,6 +2137,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3578,6 +3579,7 @@ Each time an attack made with this weapon targets a unit within half range, that
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9346,9 +9348,9 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
     </selectionEntry>
     <selectionEntry id="77474d87-784c-4251-a212-fddc516cf61e" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank (11-16)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">15&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
@@ -9361,9 +9363,9 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="aaa5cb14-d067-4ffd-869e-b6063ab0c127" name="Karacnos Assault Tank (5-10)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="aaa5cb14-d067-4ffd-869e-b6063ab0c127" name="Karacnos Assault Tank 2 (5-10)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
@@ -9376,9 +9378,9 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="924d7535-c2dd-484e-935a-5d6c3f547061" name="Karacnos Assault Tank (1-4)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="924d7535-c2dd-484e-935a-5d6c3f547061" name="Karacnos Assault Tank 3 (1-4)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
@@ -10453,7 +10455,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     </selectionEntry>
     <selectionEntry id="263d-9f0d-fda6-6e88" name="Krios Battle Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d140-a466-5fc8-5d2d" name="Krios Battle Tank (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="d140-a466-5fc8-5d2d" name="Krios Battle Tank 3 (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">3&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -10468,7 +10470,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="4a08-06f5-1bb6-0e2a" name="Krios Battle Tank (4-6)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="4a08-06f5-1bb6-0e2a" name="Krios Battle Tank 2 (4-6)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
@@ -10483,7 +10485,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="ad8f-054c-34a0-ec25" name="Krios Battle Tank (6-11)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ad8f-054c-34a0-ec25" name="Krios Battle Tank 1 (6-11)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -10540,6 +10542,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <cost name="pts" typeId="points" value="0.0"/>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10547,6 +10550,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <selectionEntryGroup id="a7f1-d3e4-c651-38fe" name="Primary Weapon:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab5-c938-91b0-bc5b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28c-82e5-6b48-f53b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="77fc-bc1f-3e4b-57b7" name="Lightning Cannon" hidden="false" collective="false" import="true" targetId="7d470684-70c5-4049-b785-0ed5b392cabc" type="selectionEntry">
@@ -10599,6 +10603,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
