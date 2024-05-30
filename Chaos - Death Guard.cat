@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="171" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="263" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="174" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -2839,7 +2839,7 @@ Battle Round 4 - 9&quot;</description>
                 <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="565a-925d-c4c1-b23a" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+            <infoLink id="565a-925d-c4c1-b23a" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3583,7 +3583,7 @@ Battle Round 4 - 9&quot;</description>
                 <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="fe79-7d10-733b-474f" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+            <infoLink id="fe79-7d10-733b-474f" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3628,7 +3628,7 @@ Battle Round 4 - 9&quot;</description>
                     <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="1ef3-380a-e0dc-3776" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+                <infoLink id="1ef3-380a-e0dc-3776" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3934,12 +3934,12 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b4a993-9d36-4905-9f02-a8876122033b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="bb66d2aa-bbe6-42e1-8393-d79c3b29dfc8" name="Heavy blight launcher" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bb66d2aa-bbe6-42e1-8393-d79c3b29dfc8" name="Heavy Blight Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb0c441-fc73-419a-bc32-ae7e90827465" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a77d5925-4f11-4b60-b211-ca9407b00917" name="Heavy blight launcher" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                <profile id="a77d5925-4f11-4b60-b211-ca9407b00917" name="Heavy Blight Launcher" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
                     <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 6</characteristic>
@@ -3984,25 +3984,14 @@ Battle Round 4 - 9&quot;</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c478-1d89-d168-5740" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8942-86d4-6814-4866" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="3b42-941e-e309-cb9f" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Hull) Each time an attack is made with this weapon, that attack automatically hits the target."/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="1a53-3208-6bec-6eb0" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="8b9a-6ca9-1b65-ec73" name="Plaguespitter (Hull Mounted)" hidden="false" collective="false" import="true" targetId="69d9-c33d-4aa9-30f2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460d-0e20-ea4d-c364" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5164,111 +5153,21 @@ Battle Round 4 - 9&quot;</description>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3036-82f4-a90b-bd72" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e843-0217-deba-6475" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="688d-e4df-80f2-5d47" type="min"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="df7b-551a-a722-40b6" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
-              <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="9241-4b62-f9c4-6639" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry id="0bb1-92c4-46c5-ae32" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875a-0c7b-f904-e705" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="523f-5c01-d10c-15a1" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
-              <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="ea62-3ed7-f673-b797" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="22f5-a2d8-a4ca-97e7" name="Combi-weapons" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="7364-28e0-e95b-abd3" name="Havoc Launcher (Mounted)" hidden="false" collective="false" import="true" targetId="0a2e-a803-f3f7-035f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051c-245d-fb98-ff17" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073e-99ec-8b74-92cf" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="79f8-9b65-e625-cccf" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="7e1c-dcf8-8da9-4b97" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="94c4-f2cc-204f-e3b7" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="d6a0-1861-15e3-57cb" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="271a-74c9-51f3-fbdf" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="7f35-f3fc-fb0c-80ee" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
-                <infoLink id="46b1-6606-5b48-d50c" name="Flamer" hidden="false" targetId="7ab98ea6-dd92-4267-b95b-f59b89ede4bc" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack is made with this weapon, that attack automatically hits the target."/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="14ad-71b2-411b-a23d" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="f3d7-97fa-1634-c8dc" name="Combi-Melta" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="679f-9a57-f334-dc6f" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="be8a-71f4-2856-28c7" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
-                <infoLink id="70c8-c1c7-44f9-f46b" name="Meltagun" hidden="false" targetId="fda79654-aa4f-4371-a3e0-dd1b3cb79f6d" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="3aee-b69c-9e7d-e3f8" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="920e-a025-ba9b-936b" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
-              <infoLinks>
-                <infoLink id="da6b-09a6-1e0d-a595" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="3ab9-a197-a704-da71" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
-                <infoLink id="938b-df20-27a4-4e43" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
-                <infoLink id="88e2-ff40-bb0e-513b" name="Plasma gun, Standard" hidden="false" targetId="95931940-06cf-4196-bddc-b3b64ef2b71c" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="edd1-2c68-65b9-dc51" name="Plasma gun, Supercharge" hidden="false" targetId="403456a0-7881-4922-bbed-aeb085b8d59a" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+        <entryLink id="3aad-5cd7-1dc0-1e1b" name="Combi-Bolter (Mounted)" hidden="false" collective="false" import="true" targetId="e798-1cbc-e964-9c68" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63d5-157f-78e1-2cfa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ba9-0971-60f2-abfe" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9ca1-2078-ceb7-184e" name="Combi-Weapons (Mounted)" hidden="false" collective="false" import="true" targetId="f023-4f0c-f360-6bda" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="4.0"/>
@@ -6592,7 +6491,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="6590-4048-bcec-a62f" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+            <infoLink id="6590-4048-bcec-a62f" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -8972,40 +8871,21 @@ plague companies in the same Detachment, without preventing other units in that 
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0423-817f-f172-1345" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9604-ae2e-ace5-799a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c28-1fe2-c72c-085a" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="4719-dee8-daf1-78ff" name="Missile launcher, Frag missile" hidden="false" targetId="7a4f0b6c-09cc-4f1f-9eb5-620a23ef8557" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Centerline)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="bd1e-ded9-b48a-94a2" name="Missile launcher, Krak missile" hidden="false" targetId="0d78325d-1532-46ee-b303-ed19e7bd0823" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline)"/>
-                  </modifiers>
-                </infoLink>
-                <infoLink id="c984-0a75-a812-0450" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry id="c266-275a-a848-f480" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e15b-d5f2-d0d9-2e92" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8e-afb8-915f-2016" type="min"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="da73-0e01-7672-cb92" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
-                <infoLink id="6bc4-601e-594e-fbdc" name="Multi-melta" hidden="false" targetId="a8f39ad3-79a5-44af-9fc2-b02d4a80a5e1" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="cc2d-8c87-5387-5397" name="Multi-Melta (Mounted)" hidden="false" collective="false" import="true" targetId="2912-ceb9-f343-c2b7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd3-febd-fc90-c5a2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb4-32f6-0b56-6230" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f8d6-6cff-a890-7656" name="Missile Launcher (Mounted)" hidden="false" collective="false" import="true" targetId="c843-090d-649f-b53a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425e-e34c-8df0-d21d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875d-6856-9151-b29c" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
             <cost name="pts" typeId="points" value="110.0"/>
@@ -9103,7 +8983,7 @@ plague companies in the same Detachment, without preventing other units in that 
         <categoryLink id="de18843d-6f63-4fa2-8477-f4475620aeb1" name="New CategoryLink" hidden="false" targetId="837591fb-fee1-415d-a577-e3dbfd7cde00" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="138f3147-4e8e-4c48-9172-e2ef6e084300" name="Plagueburst Mortar" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="138f3147-4e8e-4c48-9172-e2ef6e084300" name="Plagueburst Mortar (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee1f6a2a-47d2-46da-9429-75586f9cc189" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61229459-423b-4527-b7b0-550e045ff631" type="min"/>
@@ -9163,7 +9043,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe1e30a-01aa-4776-92e6-39793dd2aa56" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="60ad5c81-869a-4e30-acf6-bdceed8d51be" name="Entropy Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="60ad5c81-869a-4e30-acf6-bdceed8d51be" name="Entropy Cannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef129e43-71ce-47e6-aa5c-063b161b0e32" type="max"/>
               </constraints>
@@ -9188,25 +9068,14 @@ plague companies in the same Detachment, without preventing other units in that 
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a76f-e621-3002-d7ac" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f080-4ded-4775-37f8" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="5b86-5bd6-e2b7-675a" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
-                <infoLink id="96bc-0f55-7a69-946e" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Centerline) Each time an attack is made with this weapon, that attack automatically hits the target."/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-                <cost name="pts" typeId="points" value="10.0"/>
-                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="1bad-3960-c280-7402" name="Plaguespitter (Centerline Mounted)" hidden="false" collective="false" import="true" targetId="f6d4-e50a-b3fb-6f22" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d8-c965-7d92-9916" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8c3d067d-2dfd-4030-88c9-ae9f3caa5098" name="Defensive weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6391ef6e-82d0-4578-b180-734c94b3fcef">
           <constraints>
@@ -9214,7 +9083,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e54a95-dacc-42bf-8b7d-60c0da8df6c4" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6391ef6e-82d0-4578-b180-734c94b3fcef" name="Heavy slugger" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6391ef6e-82d0-4578-b180-734c94b3fcef" name="Heavy Slugger (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ae01417-83fa-4bbf-ac25-16e2ff2b8bb6" type="max"/>
               </constraints>
@@ -9239,7 +9108,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="07bf5f9e-0d2a-4013-b12b-181ac9119354" name="Rothail volley gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="07bf5f9e-0d2a-4013-b12b-181ac9119354" name="Rothail Volley Gun (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="340b-32b3-5b39-6623" type="max"/>
               </constraints>
@@ -11113,7 +10982,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="f970-f1db-356a-40de" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+            <infoLink id="f970-f1db-356a-40de" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -11563,6 +11432,101 @@ In addition, while one or more enemy models are in range of this aura, add 1 to 
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c843-090d-649f-b53a" name="Missile Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="92c2-4651-f3f9-c5c6" name="Missile launcher, Frag missile" hidden="false" targetId="7a4f0b6c-09cc-4f1f-9eb5-620a23ef8557" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Centerline)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6305-cdcd-caf0-6bc9" name="Missile launcher, Krak missile" hidden="false" targetId="0d78325d-1532-46ee-b303-ed19e7bd0823" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f91d-0335-0fc1-f5e0" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2912-ceb9-f343-c2b7" name="Multi-Melta (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a675-b728-214d-70f7" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+        <infoLink id="820d-93e5-ab67-c0e2" name="Multi-melta" hidden="false" targetId="a8f39ad3-79a5-44af-9fc2-b02d4a80a5e1" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6d4-e50a-b3fb-6f22" name="Plaguespitter (Centerline Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cc77-956f-6735-1e92" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+        <infoLink id="5b46-fe54-3458-9160" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Centerline) Each time an attack is made with this weapon, that attack automatically hits the target."/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69d9-c33d-4aa9-30f2" name="Plaguespitter (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="28e2-ea34-7569-7743" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Hull) Each time an attack is made with this weapon, that attack automatically hits the target."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0711-58ba-abdf-74b6" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a2e-a803-f3f7-035f" name="Havoc Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f402-8f48-7447-d9ff" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c761-5e81-22e9-d7a2" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e798-1cbc-e964-9c68" name="Combi-Bolter (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cfe8-b0cd-b9fb-899a" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="003c-2aa4-4192-00d6" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -13558,6 +13522,96 @@ Each time the bearer shoots or fights, after making its attacks, select one enem
       <entryLinks>
         <entryLink id="b1b4f2ad-240d-4d28-a9f1-a2b641c5c377" name="Battle Scars" hidden="false" collective="false" import="true" targetId="cda04033-3130-4810-ac32-f6898f4cb369" type="selectionEntryGroup"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f023-4f0c-f360-6bda" name="Combi-Weapons (Mounted)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3264-0db2-1190-69c7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="05b0-8b80-4aca-03e3" name="Combi-Bolter (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="6a06-9313-0c62-42e2" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9430-69ca-33a1-8d44" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a8f3-207d-7cf1-4b6f" name="Combi-Flamer (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="4907-d4fa-646f-93db" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="fdb5-ae7e-34bf-8926" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+            <infoLink id="caeb-aa75-c4c8-73e7" name="Flamer" hidden="false" targetId="7ab98ea6-dd92-4267-b95b-f59b89ede4bc" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack is made with this weapon, that attack automatically hits the target."/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="111c-25fe-c368-fd22" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b037-eb86-1c15-1751" name="Combi-Melta (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="0ad9-2744-a066-d097" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="36c8-4121-93b3-53b9" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+            <infoLink id="c304-3b1d-4684-04ae" name="Meltagun" hidden="false" targetId="fda79654-aa4f-4371-a3e0-dd1b3cb79f6d" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="0581-e0ee-a2f2-cba2" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b055-1c73-584e-0c08" name="Combi-Plasma (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="68cc-f2dd-66f3-5f61" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="7ff4-9cb5-c404-42b4" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+            <infoLink id="8cb6-6ef1-fb88-6cb5" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+            <infoLink id="2934-c1ca-64e3-4f8c" name="Plasma gun, Standard" hidden="false" targetId="95931940-06cf-4196-bddc-b3b64ef2b71c" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="307c-0af4-257f-5621" name="Plasma gun, Supercharge" hidden="false" targetId="403456a0-7881-4922-bbed-aeb085b8d59a" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

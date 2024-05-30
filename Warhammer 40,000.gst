@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="266" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="267" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9529,10 +9529,7 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     <rule id="7af9-1a79-9c40-52e0" name="Mounted (Sponson)" hidden="false">
       <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 180 degrees from the side of the hull the weapon is mounted.</description>
     </rule>
-    <rule id="ee16-abd3-c690-8750" name="Mounted (Pintle)" hidden="false">
-      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 360 degrees</description>
-    </rule>
-    <rule id="5a54-4f3b-77e2-1f5d" name="Mounted (Turret)" hidden="false">
+    <rule id="ee16-abd3-c690-8750" name="Mounted (Turret)" hidden="false">
       <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 360 degrees</description>
     </rule>
   </sharedRules>
