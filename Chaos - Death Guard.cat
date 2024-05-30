@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="174" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="175" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -11519,7 +11519,7 @@ In addition, while one or more enemy models are in range of this aura, add 1 to 
       <infoLinks>
         <infoLink id="cfe8-b0cd-b9fb-899a" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
           <modifiers>
-            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
           </modifiers>
         </infoLink>
         <infoLink id="003c-2aa4-4192-00d6" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
@@ -13532,10 +13532,10 @@ Each time the bearer shoots or fights, after making its attacks, select one enem
           <infoLinks>
             <infoLink id="6a06-9313-0c62-42e2" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="9430-69ca-33a1-8d44" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+            <infoLink id="9430-69ca-33a1-8d44" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -13547,13 +13547,13 @@ Each time the bearer shoots or fights, after making its attacks, select one enem
           <infoLinks>
             <infoLink id="4907-d4fa-646f-93db" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
               </modifiers>
             </infoLink>
             <infoLink id="fdb5-ae7e-34bf-8926" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="caeb-aa75-c4c8-73e7" name="Flamer" hidden="false" targetId="7ab98ea6-dd92-4267-b95b-f59b89ede4bc" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack is made with this weapon, that attack automatically hits the target."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Each time an attack is made with this weapon, that attack automatically hits the target."/>
               </modifiers>
             </infoLink>
             <infoLink id="111c-25fe-c368-fd22" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
@@ -13568,13 +13568,13 @@ Each time the bearer shoots or fights, after making its attacks, select one enem
           <infoLinks>
             <infoLink id="0ad9-2744-a066-d097" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
               </modifiers>
             </infoLink>
             <infoLink id="36c8-4121-93b3-53b9" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="c304-3b1d-4684-04ae" name="Meltagun" hidden="false" targetId="fda79654-aa4f-4371-a3e0-dd1b3cb79f6d" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
               </modifiers>
             </infoLink>
             <infoLink id="0581-e0ee-a2f2-cba2" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
@@ -13589,19 +13589,19 @@ Each time the bearer shoots or fights, after making its attacks, select one enem
           <infoLinks>
             <infoLink id="68cc-f2dd-66f3-5f61" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
               </modifiers>
             </infoLink>
             <infoLink id="7ff4-9cb5-c404-42b4" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="8cb6-6ef1-fb88-6cb5" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
             <infoLink id="2934-c1ca-64e3-4f8c" name="Plasma gun, Standard" hidden="false" targetId="95931940-06cf-4196-bddc-b3b64ef2b71c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
               </modifiers>
             </infoLink>
             <infoLink id="307c-0af4-257f-5621" name="Plasma gun, Supercharge" hidden="false" targetId="403456a0-7881-4922-bbed-aeb085b8d59a" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
               </modifiers>
             </infoLink>
           </infoLinks>
