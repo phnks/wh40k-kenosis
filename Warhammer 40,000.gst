@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="262" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="263" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9499,6 +9499,21 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     </rule>
     <rule id="c012-20ae-09a9-85c2" name="Ram" hidden="false">
       <description>A weapon with this special rule does not attack in the Fight Phase. Instead, during the Movement Phase, for any enemy units this model passes through, it may attack with this weapon. If the model cannot pass through an enemy unit (for example a vehicle moving through another Vehicle or Monster unit type) it may still attack with this weapon if it moved into Engagement Range. It cannot attack with this weapon if it did not move any distance this turn.</description>
+    </rule>
+    <rule id="8878-8945-5054-3a58" name="Mounted (Hull)" hidden="false">
+      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 90 degree arc facing from the hull side the weapon is attached.</description>
+    </rule>
+    <rule id="587b-076f-eaab-80fd" name="Mounted (Centerline)" hidden="false">
+      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 180 degrees within the boundaries of the vehicle&apos;s hull. </description>
+    </rule>
+    <rule id="7af9-1a79-9c40-52e0" name="Mounted (Sponson)" hidden="false">
+      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 180 degrees from the side of the hull the weapon is mounted.</description>
+    </rule>
+    <rule id="ee16-abd3-c690-8750" name="Mounted (Pintle)" hidden="false">
+      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 360 degrees</description>
+    </rule>
+    <rule id="5a54-4f3b-77e2-1f5d" name="Mounted (Turret)" hidden="false">
+      <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 360 degrees</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

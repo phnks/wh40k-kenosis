@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="169" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="262" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="171" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="263" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -2829,6 +2829,24 @@ Battle Round 4 - 9&quot;</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="bc45-d857-1278-66a9" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c71-0925-f51f-742c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4294-a092-2686-6821" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="565a-925d-c4c1-b23a" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c30c120c-5b29-4d71-82f7-0bcd20fae070" name="2x Weapon options" hidden="false" collective="false" import="true">
@@ -2873,7 +2891,6 @@ Battle Round 4 - 9&quot;</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="cd3864b8-3ad9-4f11-9fe3-4e40adec4355" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" type="selectionEntry"/>
         <entryLink id="289d4392-6754-4390-8449-845189451ae4" name="Combi-weapons" hidden="false" collective="false" import="true" targetId="466611aa-b670-45a5-92a5-e5b07ade1094" type="selectionEntryGroup"/>
         <entryLink id="ce33d784-b06e-4c35-b03e-7fc2daf0f103" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
         <entryLink id="41fdc66f-abb4-4418-96c9-7e360abcf72b" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
@@ -3556,6 +3573,24 @@ Battle Round 4 - 9&quot;</description>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="8770-15b2-9fea-3282" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a012-9629-89e5-54eb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f7ce-0cd8-342b-e776" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="fe79-7d10-733b-474f" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="e1b8d4ec-a9c8-4bb2-9bfe-73d978fc3bde" name="Twin heavy flamer options" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd473555-3319-462c-9be8-a979b8edea2b">
@@ -3583,9 +3618,26 @@ Battle Round 4 - 9&quot;</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1fcb-daf5-d96e-cd50" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc3-138e-d9ec-0955" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="cb92-9b05-d504-d456" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="1ef3-380a-e0dc-3776" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="342cf17e-b770-4ebf-906c-a3cd51a803f2" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" type="selectionEntry"/>
             <entryLink id="fd473555-3319-462c-9be8-a979b8edea2b" name="Twin heavy flamer" hidden="false" collective="false" import="true" targetId="0ad8a870-977f-4194-81b7-025e5f494305" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -3878,7 +3930,7 @@ Battle Round 4 - 9&quot;</description>
       <selectionEntryGroups>
         <selectionEntryGroup id="0f3b4114-8d68-464a-b117-5e63ede54db7" name="Weapon option" hidden="false" collective="false" import="true" defaultSelectionEntryId="87aa3d65-f0ee-4f67-bd05-a80c2bf6f51e">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d347166-d6db-4a5b-8b5b-f6e6b2600a3d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d347166-d6db-4a5b-8b5b-f6e6b2600a3d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b4a993-9d36-4905-9f02-a8876122033b" type="min"/>
           </constraints>
           <selectionEntries>
@@ -3894,10 +3946,13 @@ Battle Round 4 - 9&quot;</description>
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
                     <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Plague Weapon</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Plague Weapon, Mounted (Hull)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="76d4-86d1-f515-cfa6" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -3929,20 +3984,27 @@ Battle Round 4 - 9&quot;</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink id="5a5ba534-6be4-4b06-8df8-4b483ea10649" name="2x Plaguespitter" hidden="false" collective="false" import="true" targetId="2305f734-7463-42f7-ab7e-421514d8f408" type="selectionEntry">
+            <selectionEntry id="c478-1d89-d168-5740" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f14f57-d45c-4da0-ae77-fe40cf231a96" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8942-86d4-6814-4866" type="max"/>
               </constraints>
-            </entryLink>
-          </entryLinks>
+              <infoLinks>
+                <infoLink id="3b42-941e-e309-cb9f" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Hull) Each time an attack is made with this weapon, that attack automatically hits the target."/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="1a53-3208-6bec-6eb0" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="d80e6b2d-472b-447f-b5ff-b00d48dac481" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="da29ec99-7890-4b80-9c90-c511b4d983a7" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
@@ -4595,28 +4657,6 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a3273e-854b-417c-afb5-3a63df23fd74" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="5e17f39a-3f68-424a-aa2c-f3ab642cf6e2" name="Havoc launcher" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e7316e63-fd8a-4e46-b58e-13167f917cb5" name="Smoke launchers" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d0543f-99d6-48d2-ac74-b14ed357a624" type="max"/>
@@ -4977,7 +5017,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2dbc108d-c856-4470-bfa1-b2170f611b31" name="Chaos Rhino" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2dbc108d-c856-4470-bfa1-b2170f611b31" name="Nurgle Rhino" page="" hidden="false" collective="false" import="true" type="model">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
@@ -5025,7 +5065,7 @@ Battle Round 4 - 9&quot;</description>
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="c264ede0-2aa7-4f39-b1c8-8ec33d0fdb29" name="Chaos Rhino 1 (6+ wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="c264ede0-2aa7-4f39-b1c8-8ec33d0fdb29" name="Nurgle Rhino 1 (6-10)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">12&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5040,12 +5080,12 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="58486ca3-2f4f-4998-ba29-844db0c3af54" name="Chaos Rhino" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
+        <profile id="58486ca3-2f4f-4998-ba29-844db0c3af54" name="Nurgle Rhino" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="4e411e65-e260-4f2e-aa22-cec59986b5bb">This unit can transport 10 &lt;PLAGUE COMPANY&gt; BUBONIC ASTARTES INFANTRY. It cannot transport TERMINATOR or DEATH GUARD POSSESSED models.</characteristic>
           </characteristics>
         </profile>
-        <profile id="69e53a28-30a6-44f1-bbd8-ec22078fd00e" name="Chaos Rhino 2 (3-5 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="69e53a28-30a6-44f1-bbd8-ec22078fd00e" name="Nurgle Rhino 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5060,7 +5100,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="9b860174-2933-4740-8dd6-f1a44a7ba902" name="Chaos Rhino 3 (1-2 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="9b860174-2933-4740-8dd6-f1a44a7ba902" name="Nurgle Rhino 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">3&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5124,19 +5164,111 @@ Battle Round 4 - 9&quot;</description>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="5165989d-d2c4-4d0c-bcb6-a559d1cd5aed" name="Combi-weapons" hidden="false" collective="false" import="true" targetId="466611aa-b670-45a5-92a5-e5b07ade1094" type="selectionEntryGroup"/>
-        <entryLink id="5e41262a-81e9-4d6e-a54b-8c57c094fca3" name="Combi-bolter" hidden="false" collective="false" import="true" targetId="c3d4631f-583f-43ce-8773-8930e9b3f2ed" type="selectionEntry">
+        <selectionEntry id="3036-82f4-a90b-bd72" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22b5ec5a-f343-4e83-a16b-fc60e6d06f3d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="384c3ab1-b53f-46e4-8a89-d2dde8e29f91" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e843-0217-deba-6475" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="688d-e4df-80f2-5d47" type="min"/>
           </constraints>
-        </entryLink>
-        <entryLink id="480d745d-a3f2-4cb2-9a83-c902287b95f9" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" type="selectionEntry"/>
-        <entryLink id="a2198cdb-b7ad-46a3-a2a5-df1950f03c5a" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="00ab86c4-d663-4aac-b5f8-87a3ab2733d3" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
+          <infoLinks>
+            <infoLink id="df7b-551a-a722-40b6" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9241-4b62-f9c4-6639" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="0bb1-92c4-46c5-ae32" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875a-0c7b-f904-e705" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="523f-5c01-d10c-15a1" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="ea62-3ed7-f673-b797" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="22f5-a2d8-a4ca-97e7" name="Combi-weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051c-245d-fb98-ff17" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="79f8-9b65-e625-cccf" name="Combi-Bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7e1c-dcf8-8da9-4b97" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="94c4-f2cc-204f-e3b7" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="d6a0-1861-15e3-57cb" name="Combi-Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="271a-74c9-51f3-fbdf" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7f35-f3fc-fb0c-80ee" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+                <infoLink id="46b1-6606-5b48-d50c" name="Flamer" hidden="false" targetId="7ab98ea6-dd92-4267-b95b-f59b89ede4bc" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack is made with this weapon, that attack automatically hits the target."/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="14ad-71b2-411b-a23d" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="f3d7-97fa-1634-c8dc" name="Combi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="679f-9a57-f334-dc6f" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="be8a-71f4-2856-28c7" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+                <infoLink id="70c8-c1c7-44f9-f46b" name="Meltagun" hidden="false" targetId="fda79654-aa4f-4371-a3e0-dd1b3cb79f6d" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="3aee-b69c-9e7d-e3f8" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="920e-a025-ba9b-936b" name="Combi-Plasma" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="da6b-09a6-1e0d-a595" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="3ab9-a197-a704-da71" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+                <infoLink id="938b-df20-27a4-4e43" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+                <infoLink id="88e2-ff40-bb0e-513b" name="Plasma gun, Standard" hidden="false" targetId="95931940-06cf-4196-bddc-b3b64ef2b71c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="edd1-2c68-65b9-dc51" name="Plasma gun, Supercharge" hidden="false" targetId="403456a0-7881-4922-bbed-aeb085b8d59a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Pintle). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="4.0"/>
@@ -6449,16 +6581,31 @@ plague companies in the same Detachment, without preventing other units in that 
         <categoryLink id="b0169879-d720-4b32-866a-f05eeb2cf916" name="Smokescreen" hidden="false" targetId="838657a1-c139-47dd-aafe-fbe562ceb0c1" primary="false"/>
         <categoryLink id="eeef3fb7-b8ac-411d-bf97-c9bac8dc9e71" name="Machine Spirit" hidden="false" targetId="40c65d37-a6de-4beb-bebf-09d692ddcd4c" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cd78-77cf-e92f-b877" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e22-9e4d-f67b-9e3f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f40e-275f-6ccc-f92b" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6590-4048-bcec-a62f" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="0e2c71bb-2a50-4b95-a779-4bae6a191789" name="Twin heavy bolter" hidden="false" collective="false" import="true" targetId="c686219c-4373-4b6e-a190-b8e2a2f02e40" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd777e56-ec6a-4ff3-acda-45130a3e8615" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee7b264-122d-4508-a6f8-9f60cc1272c2" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="cd576508-266f-4819-89c6-4f13c43c0c24" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e826796-85ca-468f-b131-6570b6bacc9b" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="cb94c723-6c3c-4383-ba7d-693d0717f5cd" name="Combi-weapons" hidden="false" collective="false" import="true" targetId="466611aa-b670-45a5-92a5-e5b07ade1094" type="selectionEntryGroup"/>
@@ -8812,31 +8959,53 @@ plague companies in the same Detachment, without preventing other units in that 
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
                     <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. Plague Weapon. This weapon can be used to make attacks against an enemy unit within Engagement Range of the bearer&apos;s unit.</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. Plague Weapon. Mounted (Hull). This weapon can be used to make attacks against an enemy unit within Engagement Range of the bearer&apos;s unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="47ed-8a5c-b142-c0b4" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
                 <cost name="pts" typeId="points" value="0.0"/>
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0423-817f-f172-1345" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9604-ae2e-ace5-799a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c28-1fe2-c72c-085a" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4719-dee8-daf1-78ff" name="Missile launcher, Frag missile" hidden="false" targetId="7a4f0b6c-09cc-4f1f-9eb5-620a23ef8557" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Centerline)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="bd1e-ded9-b48a-94a2" name="Missile launcher, Krak missile" hidden="false" targetId="0d78325d-1532-46ee-b303-ed19e7bd0823" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c984-0a75-a812-0450" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="c266-275a-a848-f480" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e15b-d5f2-d0d9-2e92" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be8e-afb8-915f-2016" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="da73-0e01-7672-cb92" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+                <infoLink id="6bc4-601e-594e-fbdc" name="Multi-melta" hidden="false" targetId="a8f39ad3-79a5-44af-9fc2-b02d4a80a5e1" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="0f2cba70-d690-453a-b9c9-86fdc63a60e0" name="Missile launcher" hidden="false" collective="false" import="true" targetId="a0ba1e15-1467-4c2a-9933-4c6b4859ab23" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7aaff2-b3d7-4462-bf87-13f7debe38bd" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2beacc3-ff4b-4442-aa39-155a5c0da41f" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="4825b218-59fb-41df-8cfd-8208e6fedec7" name="Multi-melta" hidden="false" collective="false" import="true" targetId="898d5257-fd57-4dd5-8744-88ceaa62aab3" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="077c1cec-8d3e-4852-898a-5614167d3093" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afb693a1-6d34-49ab-8cfd-b29a5815825d" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
             <cost name="pts" typeId="points" value="110.0"/>
@@ -8844,10 +9013,6 @@ plague companies in the same Detachment, without preventing other units in that 
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="e01f5f41-9600-4f8e-8f48-1169bff305b3" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="7e8f5d8e-ca3e-43b0-a740-ee5f36131946" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -8951,10 +9116,13 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
                 <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
                 <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. Plague Weapon. This weapon can target units that are not visible to the bearer.</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. Plague Weapon. Mounted (Hull). This weapon can target units that are not visible to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="28cf-be34-de65-7889" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -8989,28 +9157,49 @@ plague companies in the same Detachment, without preventing other units in that 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3eba68c0-a870-4be8-8889-e31cbbcdc6f6" name="Sponson weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="60ad5c81-869a-4e30-acf6-bdceed8d51be">
+        <selectionEntryGroup id="3eba68c0-a870-4be8-8889-e31cbbcdc6f6" name="Side weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="60ad5c81-869a-4e30-acf6-bdceed8d51be">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b34a642-9376-498d-97be-76e15346c7f8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe1e30a-01aa-4776-92e6-39793dd2aa56" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b34a642-9376-498d-97be-76e15346c7f8" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe1e30a-01aa-4776-92e6-39793dd2aa56" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="60ad5c81-869a-4e30-acf6-bdceed8d51be" name="2x Entropy cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="60ad5c81-869a-4e30-acf6-bdceed8d51be" name="Entropy Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef129e43-71ce-47e6-aa5c-063b161b0e32" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef129e43-71ce-47e6-aa5c-063b161b0e32" type="max"/>
               </constraints>
               <profiles>
-                <profile id="723db4d5-795f-4969-a453-16f1a3ce0bcd" name="Entropy cannon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                <profile id="723db4d5-795f-4969-a453-16f1a3ce0bcd" name="Entropy Cannon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
                     <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 1</characteristic>
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
                     <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3+3</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Plague Weapon</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Plague Weapon, Mounted (Centerline)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="2710-e720-6548-969b" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a76f-e621-3002-d7ac" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f080-4ded-4775-37f8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5b86-5bd6-e2b7-675a" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+                <infoLink id="96bc-0f55-7a69-946e" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Centerline) Each time an attack is made with this weapon, that attack automatically hits the target."/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
                 <cost name="pts" typeId="points" value="10.0"/>
@@ -9018,15 +9207,8 @@ plague companies in the same Detachment, without preventing other units in that 
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink id="2d388805-6cd2-4b6c-a169-c96ff792146d" name="2x Plaguespitter" hidden="false" collective="false" import="true" targetId="2305f734-7463-42f7-ab7e-421514d8f408" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af642b4f-f867-45a2-8d0a-5aac81998c35" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8c3d067d-2dfd-4030-88c9-ae9f3caa5098" name="Pintle weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6391ef6e-82d0-4578-b180-734c94b3fcef">
+        <selectionEntryGroup id="8c3d067d-2dfd-4030-88c9-ae9f3caa5098" name="Defensive weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6391ef6e-82d0-4578-b180-734c94b3fcef">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c77103-6712-42a1-bc61-aac066fef194" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e54a95-dacc-42bf-8b7d-60c0da8df6c4" type="min"/>
@@ -9044,10 +9226,13 @@ plague companies in the same Detachment, without preventing other units in that 
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
                     <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Mounted (Hull)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="aa7f-ea05-5d07-ec4b" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -9055,6 +9240,9 @@ plague companies in the same Detachment, without preventing other units in that 
               </costs>
             </selectionEntry>
             <selectionEntry id="07bf5f9e-0d2a-4013-b12b-181ac9119354" name="Rothail volley gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="340b-32b3-5b39-6623" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="ed3c656d-f65e-412d-ab83-377f50c739da" name="Rothail volley gun" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
                   <characteristics>
@@ -9063,10 +9251,13 @@ plague companies in the same Detachment, without preventing other units in that 
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
                     <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Mounted (Hull)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="c139-cadd-3007-e1b6" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
                 <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -9080,16 +9271,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <cost name="pts" typeId="points" value="135.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2305f734-7463-42f7-ab7e-421514d8f408" name="2x Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="9154acf6-bbcd-450f-ab4e-06c346de8758" name="Plaguespitter" hidden="false" targetId="9d87ec0d-6fe0-4c27-9fcc-062019e293df" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d5004746-0679-44d0-a6ba-e3668aa9dd67" name="Phosphex bombs" hidden="false" collective="false" import="true" type="upgrade">
@@ -10921,6 +11102,26 @@ plague companies in the same Detachment, without preventing other units in that 
         <categoryLink id="5b0b8757-334f-4bb8-90e3-52442e938c93" name="Smokescreen" hidden="false" targetId="838657a1-c139-47dd-aafe-fbe562ceb0c1" primary="false"/>
         <categoryLink id="455e8f48-bf5a-4df8-805f-7b13367eeeb3" name="Chaos Predator Annihilator" hidden="false" targetId="e122bc3d-eb3e-4216-8907-2b62c26b60ff" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7565-93bf-fbd8-9092" name="Havoc launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ce-7543-c493-4780" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d6d4-e19b-9c05-aa0b" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
+              <modifiers>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Turret)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="f970-f1db-356a-40de" name="Mounted (Turret)" hidden="false" targetId="5a54-4f3b-77e2-1f5d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7edd580d-8436-4bea-b2fb-8efe72749df6" name="2x Weapon options" hidden="false" collective="false" import="true">
           <constraints>
@@ -10964,7 +11165,6 @@ plague companies in the same Detachment, without preventing other units in that 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e815ccd6-6ad0-4381-b154-73a3eda50e2e" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="a4f5b638-8f81-40ea-9f0b-2bff46f97b92" type="selectionEntry"/>
         <entryLink id="59791a85-dd54-448a-875c-4965371fca1d" name="Combi-weapons" hidden="false" collective="false" import="true" targetId="466611aa-b670-45a5-92a5-e5b07ade1094" type="selectionEntryGroup"/>
         <entryLink id="ebe00868-6e27-4d85-9ee3-63f5350ad812" name="Twin lascannon" hidden="false" collective="false" import="true" targetId="ef285149-64cf-4c28-ac7a-42e66e790d43" type="selectionEntry">
           <constraints>
