@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="164" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="165" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -8921,7 +8921,7 @@ plague companies in the same Detachment, without preventing other units in that 
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="ae7eb0c9-3a05-4374-a427-5ecbc80d5f95" name="Plagueburst Crawler 1 (6+ wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ae7eb0c9-3a05-4374-a427-5ecbc80d5f95" name="Plagueburst Crawler (6+ wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">9&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -8936,10 +8936,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler 2 (3-5 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler (3-5 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
@@ -8951,10 +8951,10 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler 3 (1-2 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler (1-2 wounds remaining)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">5</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
