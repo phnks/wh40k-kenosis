@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="238" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="255" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="239" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -777,24 +777,25 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4dbfb28e-0773-42ee-a8d1-91d549875ff0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5e0416dd-8e18-4353-bc9a-d7b9b1c2766d" name="Tech-Priest Dominus" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="5e0416dd-8e18-4353-bc9a-d7b9b1c2766d" name="Tech-Priest Dominus" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">4</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">5</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="29b2a8e3-7b31-40d8-9043-f82bd6ac49f0" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="11e643f8-8616-490a-ae08-3c4b213e1a5a" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
-        <infoLink id="8f045824-34f8-4cd5-9269-346a04824631" name="Refractor Field" hidden="false" targetId="78a8fe5c-a4cd-4f19-83c7-1a4d174e3348" type="profile"/>
         <infoLink id="b5835017-a33b-4c05-9d62-8cc0462d1136" name="Lord of the Machine Cult (Aura)" hidden="false" targetId="3cc43e67-0445-4398-968d-da23c29409e3" type="profile"/>
         <infoLink id="5ae636a6-47ee-49d6-b870-305cbf0a30ad" name="Cortex Controller" hidden="false" targetId="13314926-24a3-48a2-a192-53ac4dd4ff79" type="rule"/>
       </infoLinks>
@@ -891,17 +892,19 @@
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3b249ba-a2e4-4132-830b-e48a777b3598" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0b950b5e-a006-405a-8424-460c57c6eb86" name="Tech-Priest Enginseer" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="0b950b5e-a006-405a-8424-460c57c6eb86" name="Tech-Priest Enginseer" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">4</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="e60f1dad-d431-4bd3-8a27-75530a095bf7" name="Awaken the Machine" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -911,7 +914,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8783e985-d59e-47b4-8e9c-b65d0efc8141" name="Enhanced Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile"/>
         <infoLink id="2aae1ab2-f89b-4d07-bafc-0c273dfe3d09" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="fe14444f-db52-487f-9369-90deb7d3d079" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
         <infoLink id="b7705d20-d8af-49bf-a292-450c42e07a8c" name="Brotherhood of the Cog" hidden="false" targetId="574f4d1f-bacf-412a-aa0b-4349d9e85364" type="profile"/>
@@ -1538,25 +1540,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c035e078-d4b5-4470-a227-0610aeda02b8" name="Bionics" hidden="false" targetId="367314a9-e990-4292-a877-d8439faa0652" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
         <infoLink id="85e2d1c7-1e04-4f57-ba83-ed02e6401439" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-        <infoLink id="682afe28-df43-4aa3-8f23-e5c990fc385b" name="Enhanced Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="62a5c010-5d0b-4f85-aff3-0f32ceef54f4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
@@ -1720,26 +1704,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b020c016-a75f-4a3f-a3cb-f8f10bc7d91a" name="Bionics" hidden="false" targetId="367314a9-e990-4292-a877-d8439faa0652" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
         <infoLink id="eb9907b2-b639-48d5-a577-f4a10e25bd48" name="Rad-saturation (Aura)" hidden="false" targetId="a5702dda-3d1d-47d5-afd9-0a6efb9fedfe" type="profile"/>
         <infoLink id="9caca0b9-b3d0-49a6-84b8-74040449903b" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-        <infoLink id="76ef4bdc-4009-436c-8c03-fd0063d21790" name="Enhanced Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="43e7b127-ffbe-41f2-8b34-6f8e5f940700" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
@@ -1870,7 +1836,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1c418263-597e-43cb-ab08-379d835f1cb9" name="Enhanced Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile"/>
         <infoLink id="0556a8e5-57d4-41a1-bedc-557073e68551" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1947,7 +1912,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f784c852-6c03-4938-844c-3e8643d1ce49" name="Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile"/>
         <infoLink id="d85e2f44-bb39-472a-86ed-a1176a70e16c" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2007,7 +1971,6 @@
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="fae8473b-2ddc-4a1f-a80a-c65df814db3a" name="Bionics" hidden="false" targetId="367314a9-e990-4292-a877-d8439faa0652" type="profile"/>
         <infoLink id="e479a8e8-d8e7-421b-a3f8-7cd04666dce0" name="Explodes (Dragoon/Ballistarii)" hidden="false" targetId="2d255070-9d74-4521-aaed-f8f0e22275dc" type="profile"/>
         <infoLink id="f4b1d96c-52f5-4004-b536-ed9a8ddc6967" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
         <infoLink id="187c1b19-3d66-42a6-8e5c-e4b73f76f44d" name="Broad Spectrum Data-tether" hidden="false" targetId="a48e19f2-619d-4727-8a31-5d1002a3d60f" type="profile"/>
@@ -2088,48 +2051,49 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1d8748e0-cfb3-4ec6-80d3-6f05da0d088c" name="Emanatus Force Field" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+        <profile id="87f6b94d-aad5-45a6-9809-952409097b40" name="Onager Dunecrawler 1 (6-11 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">11</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="87f6b94d-aad5-45a6-9809-952409097b40" name="Onager Dunecrawler 1 (6-11 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="574b33c0-6fd3-4caa-a913-4b1c1eb3ca9b" name="Onager Dunecrawler 2 (3-5 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">5+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">11</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="574b33c0-6fd3-4caa-a913-4b1c1eb3ca9b" name="Onager Dunecrawler 2 (3-5 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="edb30b65-e9b2-47bc-a029-d0462d3df93f" name="Onager Dunecrawler 3 (1-2 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">5+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="edb30b65-e9b2-47bc-a029-d0462d3df93f" name="Onager Dunecrawler 3 (1-2 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">4&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">5+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">5+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2147,6 +2111,34 @@
         <categoryLink id="377b057e-fcc8-4f40-96ad-535a7f403535" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
         <categoryLink id="a33b5ebb-5102-4bf6-ac14-df06bba6985c" name="Data-Tether" hidden="false" targetId="0b4a277f-a566-4031-a903-52e5ec54d04a" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2d8f-9305-4f20-7a6a" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="83ed-11d1-c093-1971" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d24-74a2-ef56-06dc" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a0f5-3324-0825-daf9" name="Armoured Feet" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Ram</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b1d2-4b66-f45a-cf6d" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="27481b61-7175-40c3-8651-83ea1c94965d" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8833ea03-710d-4a01-9063-60360548a29d">
           <constraints>
@@ -3541,23 +3533,53 @@ Each time an attack made with this weapon targets a unit within half range, that
     </selectionEntry>
     <selectionEntry id="e8f267b9-c905-4a96-a504-6609d4414218" name="Ironstrider Ballistarius" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5c9a1fa6-7d5a-4ca2-8fd7-9f1d7d3f198f" name="Ironstrider Ballistarius" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="5c9a1fa6-7d5a-4ca2-8fd7-9f1d7d3f198f" name="Ironstrider Ballistarius" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">10&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">6</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">5</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">6</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">6</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
         <categoryLink id="a4ba19bb-722b-4350-83ed-2008482b2dec" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9d02-b21a-83b2-88fd" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2307-11e7-cbb7-98c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a437-5712-e1e8-29b0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="d986-1934-8dc7-f0dc" name="Armoured Feet" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Ram</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4658-8dc0-8b9b-4070" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="ce9f333e-f3ad-4646-8c80-d84344a3d93c" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1844e92-1174-406f-8531-5f8ecd1c54c5">
           <constraints>
@@ -4831,28 +4853,19 @@ Each time an attack is made with this weapon, the target does not receive the be
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="3d8b5087-0134-494f-95a2-6d7974af8b74" name="Ranger Alpha" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="1"/>
-                <modifier type="increment" field="c17577db-203d-4e79-beb6-21fb86a90f0e" value="1"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
+        <profile id="3d8b5087-0134-494f-95a2-6d7974af8b74" name="Ranger Alpha" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">3</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">1</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5056,28 +5069,19 @@ Each time an attack is made with this weapon, the target does not receive the be
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="a09bfb67-5035-4121-83c8-cc29eb355ed0" name="Vanguard Alpha" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="1"/>
-                <modifier type="increment" field="c17577db-203d-4e79-beb6-21fb86a90f0e" value="1"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
+        <profile id="a09bfb67-5035-4121-83c8-cc29eb355ed0" name="Vanguard Alpha" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">3</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">1</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5615,17 +5619,19 @@ Each time an attack is made with this weapon, the target does not receive the be
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="24476457-09a2-41e0-bb0f-7dd6744f00b6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="55dd8d8b-ecc3-4346-916d-42dbcafa9302" name="Tech-Priest Manipulus" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="55dd8d8b-ecc3-4346-916d-42dbcafa9302" name="Tech-Priest Manipulus" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">4</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">5</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">2+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">4</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">5</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="29aab9d7-6c37-4de5-81bd-b8810be563bd" name="Galvanic Field" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5637,7 +5643,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="8d9d1cbd-4f1f-4129-8661-2e771e98e8ab" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="65a894c2-f429-496c-9f7e-09f5ff15b7f5" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
-        <infoLink id="55a776eb-91b2-488d-938f-7c0a895b2fca" name="Refractor Field" hidden="false" targetId="78a8fe5c-a4cd-4f19-83c7-1a4d174e3348" type="profile"/>
         <infoLink id="1769deba-7ed8-46af-8e3a-02e3fad2ae30" name="Cortex Controller" hidden="false" targetId="13314926-24a3-48a2-a192-53ac4dd4ff79" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -8021,17 +8026,19 @@ Use this Stratagem in your Movement phase when a SKITARII VETERAN COHORT CORE un
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480805b4-212d-489c-9c98-941b641705be" type="min"/>
       </constraints>
       <profiles>
-        <profile id="6e168835-0e2a-4616-baab-2f97517e8a7b" name="Skitarii Marshal" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="6e168835-0e2a-4616-baab-2f97517e8a7b" name="Skitarii Marshal" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">3</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="db263851-6f73-42ec-9201-4efff79b744d" name="Control Edict" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8054,7 +8061,6 @@ Use this Stratagem in your Movement phase when a SKITARII VETERAN COHORT CORE un
       </profiles>
       <infoLinks>
         <infoLink id="68cf6f96-f201-47b8-9d9a-704573e71699" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-        <infoLink id="93e45e19-6c14-4fb6-a067-bc850d27c1ba" name="Enhanced Bionics" hidden="false" targetId="a0b475cd-377b-439a-9155-25a13caaba9d" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8e3373df-0652-470b-be74-2c9078c9c6a4" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
@@ -9051,22 +9057,23 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5380dd12-5b69-4ec4-b314-3a18975bbc6c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="16976ce5-83d2-4762-ab2c-a939d8d086fe" name="Castellax" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="16976ce5-83d2-4762-ab2c-a939d8d086fe" name="Castellax" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">6</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">6</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">7</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">6</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="dfe8e7b2-d6c0-425f-bc48-3a0c2951729a" name="Atomantic Shielding" hidden="false" targetId="ac5bf61f-8e69-474f-bb8a-2ef82c6dfc9c" type="rule"/>
             <infoLink id="b3041728-0569-4b7c-9b95-8c86c2605089" name="Reactor Blast" hidden="false" targetId="9b12fa42-841c-4ab7-81b8-7e7f3c86baf2" type="profile"/>
             <infoLink id="2daa7352-0ced-4d53-b62e-0cf13ac3cfa8" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
             <infoLink id="f7f9bd23-18b3-4a0d-bf52-2bafe562c361" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
@@ -9338,43 +9345,49 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
     </selectionEntry>
     <selectionEntry id="77474d87-784c-4251-a212-fddc516cf61e" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">15</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">16</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">8</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">16</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">8</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="aaa5cb14-d067-4ffd-869e-b6063ab0c127" name="Karacnos Assault Tank 2 (5-10)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="aaa5cb14-d067-4ffd-869e-b6063ab0c127" name="Karacnos Assault Tank 2 (5-10)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">15</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="924d7535-c2dd-484e-935a-5d6c3f547061" name="Karacnos Assault Tank 3 (1-4)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+        <profile id="924d7535-c2dd-484e-935a-5d6c3f547061" name="Karacnos Assault Tank 3 (1-4)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">15</characteristic>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">5+</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">8</characteristic>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">N/A</characteristic>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">D6</characteristic>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">15</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">D6</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9456,10 +9469,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+2</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">On a turn in which this unit charged double the number of attacks made with this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Ram</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f565-5ee0-0bd7-99e7" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9514,7 +9530,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="46c3793f-249e-451c-add0-71d10ff4a787" name="Atomantic Shielding" hidden="false" targetId="ac5bf61f-8e69-474f-bb8a-2ef82c6dfc9c" type="rule"/>
         <infoLink id="79ef81fc-bc7e-49ff-9e52-8b8f30b4e7bd" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
         <infoLink id="db636e5c-17e6-41e2-988e-8ae6c26c4ab4" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
         <infoLink id="5c5de2ee-be87-4eb7-b891-4418b8536c64" name="Brutal Charge" hidden="false" targetId="ad9add90-e4df-464c-84a9-fa5177fe5437" type="rule"/>
@@ -9533,17 +9548,19 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b62fb40-eb4c-4a4a-937b-32dd962eb1bf" type="min"/>
           </constraints>
           <profiles>
-            <profile id="6d44d1b0-5e1a-4d23-bc4a-05f9dd5dc209" name="Domitar-ferrum" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="6d44d1b0-5e1a-4d23-bc4a-05f9dd5dc209" name="Domitar-ferrum" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">7&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">7</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">7</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">7</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">10</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">7</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9743,7 +9760,6 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     <selectionEntry id="8fb6eca2-ad9b-4c13-b54e-976e95937cfc" name="Myrmidon Destructors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="9f23a96f-5d21-45ef-84b1-f7b8c9a89b45" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
-        <infoLink id="5b86279a-389a-48b5-bf52-874d42ce64af" name="Refractor Field" hidden="false" targetId="78a8fe5c-a4cd-4f19-83c7-1a4d174e3348" type="profile"/>
         <infoLink id="661058ea-5297-4934-8784-cab4d5183bb6" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -9762,17 +9778,19 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3bd5cdc-74d6-4d5c-9e14-0d2829f75ca1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="955bc096-7f83-4c7b-b4c4-c165b9ac040b" name="Myrmidon Destructor" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="955bc096-7f83-4c7b-b4c4-c165b9ac040b" name="Myrmidon Destructor" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">2</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9835,17 +9853,19 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="777e1243-fcce-49ae-b373-2d87e1d8c640" type="max"/>
           </constraints>
           <profiles>
-            <profile id="70841261-2bb1-4d55-9ef0-f84f368c9f5f" name="Myrmidon Destructor Lord" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="70841261-2bb1-4d55-9ef0-f84f368c9f5f" name="Myrmidon Destructor Lord" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">2</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9990,17 +10010,19 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f4309b-aab3-4651-9c4e-d202c532f29f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="86929500-8aaf-4afe-ad65-80f7a56dd6ab" name="Thallax" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="86929500-8aaf-4afe-ad65-80f7a56dd6ab" name="Thallax" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">5</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">3</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">5</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">3</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">2</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10223,7 +10245,6 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     </selectionEntry>
     <selectionEntry id="3d0b3fed-1d1d-4d0e-88d9-60af04eb3aea" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="7c65a60e-e3c8-4304-b946-d93fe23754c5" name="Refractor Field" hidden="false" targetId="78a8fe5c-a4cd-4f19-83c7-1a4d174e3348" type="profile"/>
         <infoLink id="098b5d16-2160-4cff-8f3e-93682d9d0d3b" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="a0b2f9e9-a0a6-43ca-9d6e-6f424491b0b0" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
       </infoLinks>
@@ -10243,17 +10264,19 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677a37b4-1ac9-4db8-bfee-fa07543192d6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8da2e070-c82f-489d-ac70-2af012bb1eca" name="Myrmidon Secutor Lord" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="8da2e070-c82f-489d-ac70-2af012bb1eca" name="Myrmidon Secutor Lord" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">9</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">2</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10323,17 +10346,19 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dded46fa-fdab-471c-b889-7ea6d2337e25" type="max"/>
           </constraints>
           <profiles>
-            <profile id="656c8e47-ce65-435e-b7cf-39b3939716eb" name="Myrmidon Secutor" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+            <profile id="656c8e47-ce65-435e-b7cf-39b3939716eb" name="Myrmidon Secutor" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
               <characteristics>
-                <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-                <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-                <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">2+</characteristic>
-                <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-                <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">5</characteristic>
-                <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">4</characteristic>
-                <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-                <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">8</characteristic>
-                <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">3+</characteristic>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">2</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11396,78 +11421,64 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="Mortal Wounds" typeId="485ad7a2-a42f-4317-a079-ce4b0cc58058">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="040ade3e-cb0f-49af-8953-33afa89a1866" name="Skitarii Ranger" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-          <modifiers>
-            <modifier type="increment" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="1"/>
-            <modifier type="increment" field="c17577db-203d-4e79-beb6-21fb86a90f0e" value="1"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
+    <profile id="040ade3e-cb0f-49af-8953-33afa89a1866" name="Skitarii Ranger" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">26</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">3</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">1</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">26</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0d682d80-75cb-43eb-927d-75681f49e3d1" name="Skitarii Vanguard" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-          <modifiers>
-            <modifier type="increment" field="6416c46a-d4a5-44ed-95c2-228b8095868d" value="1"/>
-            <modifier type="increment" field="c17577db-203d-4e79-beb6-21fb86a90f0e" value="1"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
+    <profile id="0d682d80-75cb-43eb-927d-75681f49e3d1" name="Skitarii Vanguard" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">4+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">3</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">3</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">1</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" name="Sicarian Infiltrator" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+    <profile id="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" name="Sicarian Infiltrator" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">2</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a2cc3bf4-872b-4517-8b48-e20ba84a0e90" name="Sicarian Ruststalker" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+    <profile id="a2cc3bf4-872b-4517-8b48-e20ba84a0e90" name="Sicarian Ruststalker" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">6</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="e22fd104-b18a-426c-b209-17e10666c647" name="Hoplite Alpha" publicationId="4a469c26-9989-4da4-8c19-71e7955f9727" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -11745,30 +11756,34 @@ During deployment, you can set up this unit in orbit instead of setting it up in
         <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While this unit is within 6&quot; of any friendly &lt;FORGE WORLD&gt; TECH-PRIEST units, models in this unit have a Weapon Skill and Ballistic Skill characteristic of 4+ and a Leadership characteristic of 9. In addition, if your army is Battle-forged, then for each &lt;FORGE WORLD&gt; TECH-PRIEST unit included in a Detachment, one &lt;FORGE WORLD&gt; SERVITORS unit can be included in that Detachment without taking up a Battlefield Role slot.</characteristic>
       </characteristics>
     </profile>
-    <profile id="61f6e97c-7b0e-498b-8409-a1b42fd2cbb8" name="Infiltrator Princeps" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+    <profile id="61f6e97c-7b0e-498b-8409-a1b42fd2cbb8" name="Infiltrator Princeps" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">3</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="a13863b0-17a7-4afe-8546-38e405ed8550" name="Ruststalker Princeps" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+    <profile id="a13863b0-17a7-4afe-8546-38e405ed8550" name="Ruststalker Princeps" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
       <characteristics>
-        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">8&quot;</characteristic>
-        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">3+</characteristic>
-        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">3+</characteristic>
-        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">4</characteristic>
-        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
-        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">2</characteristic>
-        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">4</characteristic>
-        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">7</characteristic>
-        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">4+</characteristic>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
       </characteristics>
     </profile>
     <profile id="8d9e7943-cf7c-403f-a5fa-c9450b280fac" name="Archaeopter 1 (6-10 wounds)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
