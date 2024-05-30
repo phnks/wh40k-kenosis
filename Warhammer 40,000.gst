@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="263" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="265" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -7709,6 +7709,26 @@ Remaining Wounds | Aura Range
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="28ff-ebf0-d8e2-c09c" name="Lightning Lock" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="23b2-cbff-2292-0a6d" name="Lightning Lock" hidden="false" targetId="68c3-0149-47d2-bc5d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f28-5a2c-9505-e12c" name="Lightning Cannon" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="21f8-d560-be1b-957f" name="Lightning Cannon" hidden="false" targetId="10ae-8db3-cbdb-9f53" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfb814bd-1a08-4dd8-bd10-015aec6c1600" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true">
@@ -11209,6 +11229,26 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
         <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">If your army is Battle-forged, you can include one Agent of the Imperium unit in each Imperium (excluding Fallen units) Patrol, Boarding Patrol, Battalion, Brigade and Arks of Omen Detachment in your army without those units taking up Battlefield Role slots in those Detachments. The inclusion of an Agent of the Imperium unit does not prevent other units from their Detachment benefiting from Detachment abilities (e.g. Chapter Tactics), and it does not prevent other units from your army benefiting from abilities that require every model in your army to have that ability (e.g. Combat Doctrines). An Agent of the Imperium unit included in a Patrol, Boarding Patrol, Battalion, Brigade or Arks of Omen Detachment in this manner is ignored for any rules that state all units from that Detachment must have at least one Faction keyword in common (e.g. in a matched play game), and when determining your Army Faction. 
 
 An Agent of the Imperium unit can never be included in a Brood Brothers Detachment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="68c3-0149-47d2-bc5d" name="Lightning Lock" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="104" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 6</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10ae-8db3-cbdb-9f53" name="Lightning Cannon" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="102" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 8</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.	</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

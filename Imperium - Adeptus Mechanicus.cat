@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="242" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="262" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="245" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="265" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -2150,13 +2150,13 @@
           <selectionEntries>
             <selectionEntry id="1036d579-11ce-4142-ad72-ddc5da96c381" name="Neutron Laser and Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="12acdfb3-32d2-49f9-b416-ec35b3319228" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" targetId="70706566-9d3b-43cf-8c9e-4209ada56459" type="selectionEntry">
+                <entryLink id="12acdfb3-32d2-49f9-b416-ec35b3319228" name="Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" targetId="6e61-c772-00f6-363b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a8bea89-ec91-4348-b991-bbfa55e6dee4" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0a32343-4b72-4103-8fb9-dd2794514365" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="c2b20949-6e10-4dcd-8182-0476221ba09d" name="Neutron Laser" hidden="false" collective="false" import="true" targetId="9ee6c0e1-edd1-43af-9e19-0dc1d155174d" type="selectionEntry">
+                <entryLink id="c2b20949-6e10-4dcd-8182-0476221ba09d" name="Neutron Laser (Mounted)" hidden="false" collective="false" import="true" targetId="6af1-6f62-4d1b-e98b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7baebb42-bc64-4a37-a434-80c817276452" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="84b8a320-4f4b-44bb-8450-d5aea70b8ac5" type="max"/>
@@ -2172,17 +2172,17 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="5e687af8-048c-48f7-a3c4-5be8ba49fa3c" name="Icarus Array" hidden="false" collective="false" import="true" targetId="348b37a1-0d3e-4a49-b4d2-b6448a958970" type="selectionEntry">
+            <entryLink id="5e687af8-048c-48f7-a3c4-5be8ba49fa3c" name="Icarus Array (Mounted)" hidden="false" collective="false" import="true" targetId="4e10-98c8-f715-be9e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cbbaf60-e2f7-4bb2-8077-1b09a25fcc4c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="8833ea03-710d-4a01-9063-60360548a29d" name="Eradication Beamer" hidden="false" collective="false" import="true" targetId="31fb20c4-ec12-4fa1-a228-c2495704bd5c" type="selectionEntry">
+            <entryLink id="8833ea03-710d-4a01-9063-60360548a29d" name="Eradication Beamer (Mounted)" hidden="false" collective="false" import="true" targetId="3648-9c37-d940-3d71" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="846df228-05f2-4bde-9c8a-bc87696fc4d7" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="9450b6d6-a8e3-46b6-bda4-bea5b3319c17" name="Twin Onager Heavy Phosphor Blaster" hidden="false" collective="false" import="true" targetId="fef7dc3b-f79c-4044-a90d-947b0007e740" type="selectionEntry">
+            <entryLink id="9450b6d6-a8e3-46b6-bda4-bea5b3319c17" name="Twin Onager Heavy Phosphor Blaster (Mounted)" hidden="false" collective="false" import="true" targetId="3eb6-9649-541d-88ac" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c19c263-f184-4e69-8f2b-386df458b3a9" type="max"/>
               </constraints>
@@ -2216,7 +2216,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ffc051ca-ebd3-45f9-a1c7-b2a50a9d9881" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" targetId="70706566-9d3b-43cf-8c9e-4209ada56459" type="selectionEntry">
+        <entryLink id="ffc051ca-ebd3-45f9-a1c7-b2a50a9d9881" name="Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" targetId="6e61-c772-00f6-363b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="6dd130d7-5b2c-499d-8c57-b646ad0f659e" type="max"/>
           </constraints>
@@ -3369,18 +3369,9 @@ This weapon replaces the bearer&apos;s Omnissian Axe.</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="70706566-9d3b-43cf-8c9e-4209ada56459" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="8052858f-725a-452b-89da-62f43dc96967" name="Cognis Heavy Stubber" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 4</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="dd21-3f5a-5d82-b0fa" name="Cognis Heavy Stubber" hidden="false" targetId="692b-5dfb-7ea0-3027" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -3584,20 +3575,20 @@ Each time an attack made with this weapon targets a unit within half range, that
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ce9f333e-f3ad-4646-8c80-d84344a3d93c" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1844e92-1174-406f-8531-5f8ecd1c54c5">
+        <selectionEntryGroup id="ce9f333e-f3ad-4646-8c80-d84344a3d93c" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ade0-2307-0142-631b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="815374c9-bd7b-419b-9bbc-2ceb138f1e67" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62756c6f-9df7-4967-804e-80f0747097ec" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c1844e92-1174-406f-8531-5f8ecd1c54c5" name="Twin Cognis Autocannon" hidden="false" collective="false" import="true" targetId="7de8e869-b0f6-49bb-960a-9902fd1afac3" type="selectionEntry">
+            <entryLink id="ade0-2307-0142-631b" name="Twin Cognis Autocannon (Mounted)" hidden="false" collective="false" import="true" targetId="7b74-9c0c-f1b8-466a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b199ab71-9999-4206-b213-c1a299728b17" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3881-18f2-840c-e5ec" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d3503e02-9c17-4df7-a45f-43a677407343" name="Twin Cognis Lascannon" hidden="false" collective="false" import="true" targetId="78f54331-70f6-47c0-ace1-c6bb5fed555b" type="selectionEntry">
+            <entryLink id="ef51-e6cd-cefa-260d" name="Twin Cognis Lascannon (Mounted)" hidden="false" collective="false" import="true" targetId="19d6-a9ad-69a1-b17e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39fba75-2a12-472e-806a-86320f7cc8ec" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6350-58f3-5976-9ecb" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3611,18 +3602,9 @@ Each time an attack made with this weapon targets a unit within half range, that
       </costs>
     </selectionEntry>
     <selectionEntry id="7de8e869-b0f6-49bb-960a-9902fd1afac3" name="Twin Cognis Autocannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3a6b7ee5-6570-4e64-93f4-397f9ab90bd4" name="Twin Cognis Autocannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="6e2e-e647-0f1c-3e16" name="Twin Cognis Autocannon" hidden="false" targetId="e6ea-b1f2-aa40-8e2b" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -3631,18 +3613,9 @@ Each time an attack made with this weapon targets a unit within half range, that
       </costs>
     </selectionEntry>
     <selectionEntry id="78f54331-70f6-47c0-ace1-c6bb5fed555b" name="Twin Cognis Lascannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="39128037-1c8c-455f-b7e6-9ca078655357" name="Twin Cognis Lascannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 2</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">9</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3+3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="1bcd-6e0b-d193-0b51" name="Twin Cognis Lascannon" hidden="false" targetId="95c6-0196-190d-fc9e" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -5482,28 +5455,10 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="31fb20c4-ec12-4fa1-a228-c2495704bd5c" name="Eradication Beamer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="0db0765b-df4c-4394-a162-6c0735bd5ccd" name="Eradication Beamer (dissipated)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7f2fa83c-8e3f-4d36-9dcf-879fdaef7b90" name="Eradication Beamer (focused)" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="e209-88a3-b389-e0a2" name="Eradication Beamer (dissipated)" hidden="false" targetId="00ee-ed95-93e3-ec7f" type="profile"/>
+        <infoLink id="0905-9fd7-aba1-b250" name="Eradication Beamer (focused)" hidden="false" targetId="2940-74b4-0a83-6f39" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -5512,38 +5467,11 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="348b37a1-0d3e-4a49-b4d2-b6448a958970" name="Icarus Array" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="48e9b97e-ef54-42f6-8565-f896e71e08b1" name="Daedalus Missile Launcher" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 1</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a850975a-8ac5-45c5-93d2-555f82e06384" name="Gatling Rocket Launcher" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 5</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d99f8112-527d-43ba-9c7c-469b636fad9a" name="Twin Icarus Autocannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 4</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="4993-51a6-d8e6-9314" name="Daedalus Missile Launcher" hidden="false" targetId="9021-74ba-1785-4268" type="profile"/>
+        <infoLink id="5cbf-eab5-2e10-0fd2" name="Gatling Rocket Launcher" hidden="false" targetId="b524-19e9-2e8e-d51b" type="profile"/>
+        <infoLink id="8249-3abe-f109-3562" name="Twin Icarus Autocannon" hidden="false" targetId="38ae-7002-f0ef-67eb" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -5552,18 +5480,9 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="9ee6c0e1-edd1-43af-9e19-0dc1d155174d" name="Neutron Laser" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="38b0f278-8510-483c-9c3e-1a96d7b2facb" name="Neutron Laser" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">12</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3+3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="dd34-379d-2d5e-0fd8" name="Neutron Laser" hidden="false" targetId="30fd-40af-e020-fd5c" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -5572,18 +5491,9 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="fef7dc3b-f79c-4044-a90d-947b0007e740" name="Twin Onager Heavy Phosphor Blaster" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="bec002f9-9a57-4aa0-bd06-ef2b207b29b1" name="Twin Heavy Phosphor Blaster" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 8</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that attack.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+      <infoLinks>
+        <infoLink id="f44f-9c3b-8c30-3b3d" name="Twin Heavy Phosphor Blaster" hidden="false" targetId="b119-b98a-d4b8-6ee2" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -9420,14 +9330,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <cost name="pts" typeId="points" value="60.0"/>
           </costs>
         </entryLink>
-        <entryLink id="b5b887a3-dea5-4964-a0eb-a6adf8925969" name="Lightning Lock" hidden="false" collective="false" import="true" targetId="26b767d3-b83b-47ed-880b-b80fb3e607dd" type="selectionEntry">
+        <entryLink id="b5b887a3-dea5-4964-a0eb-a6adf8925969" name="Lightning Lock (Mounted)" hidden="false" collective="false" import="true" targetId="f53e-88cd-f245-994f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef5b7e9-529c-4407-a53d-5326a427e60d" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f5b9ab9-bbb4-46af-8845-b2a689bad355" type="min"/>
           </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
         </entryLink>
         <entryLink id="2df9cf75-d12c-4a83-828f-2b1fa4be08a7" name="Shock Ram" hidden="false" collective="false" import="true" targetId="bc69ddea-43a8-4e6b-b075-2b2e95007e7b" type="selectionEntry">
           <constraints>
@@ -9452,10 +9359,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. This weapon can target units that are not visible to the bearer. On a wound roll of 6+; change this weapon&apos;s Damage to 2.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast. Mounted (Hull). This weapon can target units that are not visible to the bearer. On a wound roll of 6+; change this weapon&apos;s Damage to 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f49a-4b48-46f9-571e" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -10553,7 +10463,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28c-82e5-6b48-f53b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="77fc-bc1f-3e4b-57b7" name="Lightning Cannon" hidden="false" collective="false" import="true" targetId="7d470684-70c5-4049-b785-0ed5b392cabc" type="selectionEntry">
+            <entryLink id="77fc-bc1f-3e4b-57b7" name="Lightning Cannon (Mounted)" hidden="false" collective="false" import="true" targetId="f8c1-2a5d-64ff-6113" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c81-a780-2ebb-dc7b" type="max"/>
               </constraints>
@@ -10573,7 +10483,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1ea7-55e1-f18d-b773" name="Volkite charger" hidden="false" collective="false" import="true" targetId="f9b0e520-7c87-4d8c-afe3-ff9341d94624" type="selectionEntry">
+        <entryLink id="1ea7-55e1-f18d-b773" name="Volkite Charger (Mounted)" hidden="false" collective="false" import="true" targetId="1c7e-25d5-5583-ede9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2258-1d32-4e0b-e8cf" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="801d-f90d-d8de-6469" type="min"/>
@@ -10599,15 +10509,186 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">9</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106"/>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Mounted (Hull)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="df5e-0829-acff-c51e" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b74-9c0c-f1b8-466a" name="Twin Cognis Autocannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c474-8f7b-5efb-a73d" name="Twin Cognis Autocannon" hidden="false" targetId="e6ea-b1f2-aa40-8e2b" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1e82-b639-c26a-a59f" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19d6-a9ad-69a1-b17e" name="Twin Cognis Lascannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8f70-beff-0941-c707" name="Twin Cognis Lascannon" hidden="false" targetId="95c6-0196-190d-fc9e" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e3ee-e1c8-51f8-7448" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f53e-88cd-f245-994f" name="Lightning Lock (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="204f-da08-f9e5-b9a6" name="Lightning Lock" hidden="false" targetId="68c3-0149-47d2-bc5d" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Sponson). Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="47ec-c663-aaf6-5d3b" name="Mounted (Sponson)" hidden="false" targetId="7af9-1a79-9c40-52e0" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8c1-2a5d-64ff-6113" name="Lightning Cannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="11cf-1cfe-18dd-7452" name="Lightning Cannon" hidden="false" targetId="10ae-8db3-cbdb-9f53" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull). Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8807-ca7c-bd01-4069" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c7e-25d5-5583-ede9" name="Volkite Charger (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6c2e-d58f-8cff-f36a" name="Volkite Charger" hidden="false" targetId="5255543a-c754-46d4-ac3a-392f7abf22f0" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Each Time you make a wound roll of a unmodified 6 with this weapon that hit inflicts a mortal wound in addition to normal damage."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1d01-9fdc-a4e4-fc57" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6e61-c772-00f6-363b" name="Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="508d-4fbe-a7b1-e18c" name="Cognis Heavy Stubber" hidden="false" targetId="692b-5dfb-7ea0-3027" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9999-fcbf-efe8-3190" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6af1-6f62-4d1b-e98b" name="Neutron Laser (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6a94-caa9-cfad-2afa" name="Neutron Laser" hidden="false" targetId="30fd-40af-e020-fd5c" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c76-9aef-668f-582b" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3648-9c37-d940-3d71" name="Eradication Beamer (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8ac0-c8f2-5a66-e2b0" name="Eradication Beamer (dissipated)" hidden="false" targetId="00ee-ed95-93e3-ec7f" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="da52-9a7e-2f23-7447" name="Eradication Beamer (focused)" hidden="false" targetId="2940-74b4-0a83-6f39" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Blast. Mounted (Hull)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5e9f-e6d4-26a9-d4ed" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e10-98c8-f715-be9e" name="Icarus Array (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d0b6-b205-d597-cfb9" name="Daedalus Missile Launcher" hidden="false" targetId="9021-74ba-1785-4268" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull). Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3bdb-74c6-f977-79ff" name="Twin Icarus Autocannon" hidden="false" targetId="38ae-7002-f0ef-67eb" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull). Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6f01-d5aa-604a-4b88" name="Gatling Rocket Launcher" hidden="false" targetId="b524-19e9-2e8e-d51b" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull). Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4cd3-ca34-ea83-b2ac" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3eb6-9649-541d-88ac" name="Twin Onager Heavy Phosphor Blaster (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="021f-ebb6-b1fd-049f" name="Twin Heavy Phosphor Blaster" hidden="false" targetId="b119-b98a-d4b8-6ee2" type="profile">
+          <modifiers>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull). Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that attack."/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a0ac-b3ba-f0d3-462c" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="c62a883c-d795-4b14-a10c-4128f8959870" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12336,6 +12417,106 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
         <characteristic name="Dice Roll" typeId="658d51a2-77cd-40c7-b47b-23b3ad2fe860">6</characteristic>
         <characteristic name="Distance" typeId="d9b87255-4675-451e-b2e7-8f14bbd842b1">6&quot;</characteristic>
         <characteristic name="Mortal Wounds" typeId="485ad7a2-a42f-4317-a079-ce4b0cc58058">D3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6ea-b1f2-aa40-8e2b" name="Twin Cognis Autocannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 6</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="95c6-0196-190d-fc9e" name="Twin Cognis Lascannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 2</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">9</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3+3</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="692b-5dfb-7ea0-3027" name="Cognis Heavy Stubber" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 4</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30fd-40af-e020-fd5c" name="Neutron Laser" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D3</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">12</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3+3</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="00ee-ed95-93e3-ec7f" name="Eradication Beamer (dissipated)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2940-74b4-0a83-6f39" name="Eradication Beamer (focused)" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9021-74ba-1785-4268" name="Daedalus Missile Launcher" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 1</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b524-19e9-2e8e-d51b" name="Gatling Rocket Launcher" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 5</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38ae-7002-f0ef-67eb" name="Twin Icarus Autocannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 4</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile against an AIRCRAFT unit, add 1 to that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b119-b98a-d4b8-6ee2" name="Twin Heavy Phosphor Blaster" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 8</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that attack.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
