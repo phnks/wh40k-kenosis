@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="175" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="176" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -4795,7 +4795,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="539c1b43-7eae-4b43-abf1-bd48b25682ce" name="Helbrute" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="539c1b43-7eae-4b43-abf1-bd48b25682ce" name="Nurgle Helbrute" page="" hidden="false" collective="false" import="true" type="model">
       <modifierGroups>
         <modifierGroup>
           <modifiers>
@@ -4843,7 +4843,7 @@ Battle Round 4 - 9&quot;</description>
         </modifierGroup>
       </modifierGroups>
       <profiles>
-        <profile id="fee92b4b-0fa7-4428-8a37-fab8c3eeeb46" name="Helbrute" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="fee92b4b-0fa7-4428-8a37-fab8c3eeeb46" name="Nurgle Helbrute" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
@@ -4881,13 +4881,13 @@ Battle Round 4 - 9&quot;</description>
       <categoryLinks>
         <categoryLink id="ae4b7fd6-8e97-4b6f-a529-485348d27532" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="a680f6e8-a7dc-49ce-a425-aaf03575738a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="c5403ffb-ef33-4fc9-b02a-34a66bc28652" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
         <categoryLink id="d629047f-9407-4134-9138-e26141c50ed5" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="2ce0916a-89f8-48d7-8543-b443d0052d68" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
         <categoryLink id="c94074a1-a7d1-45e9-897f-49cd9914c31f" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
         <categoryLink id="5c415554-af83-4a6d-8e44-33e7b1480b19" name="New CategoryLink" hidden="false" targetId="9acbc23c-2e35-462e-a75e-6f97193fcba5" primary="false"/>
         <categoryLink id="d3a6c2db-c3cc-4e73-a792-6bb2a28885d8" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
         <categoryLink id="d6078cd8-def9-4d52-9f64-d5b7417563fd" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="30ab-3846-81fc-0d76" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="40c5df9e-a1e8-4f71-948d-422074e2d0c8" name="Helbrute fist options" hidden="false" collective="false" import="true" defaultSelectionEntryId="35031d62-5607-449e-b042-184e740abe9e">
@@ -4996,10 +4996,6 @@ Battle Round 4 - 9&quot;</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="1c1d87b2-9958-4c19-a471-8fb61fb8e755" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="f13df6b6-3cd3-4971-a15f-973f179bfcfa" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="105.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
