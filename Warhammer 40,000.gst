@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="267" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="274" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -134,7 +134,7 @@
         <characteristicType id="6a70-10f0-93ba-6014" name="A"/>
         <characteristicType id="c9dd-af78-cad1-74e1" name="Ld"/>
         <characteristicType id="3c72-e9b6-c098-41ce" name="Sv"/>
-        <characteristicType id="056a-a2c7-69a0-7701" name="Sv+"/>
+        <characteristicType id="056a-a2c7-69a0-7701" name="Inv"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -11246,6 +11246,36 @@ An Agent of the Imperium unit can never be included in a Brood Brothers Detachme
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
         <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.	</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c0a8-724b-0548-7fca" name="Explodes (Large)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 2.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d5a-78d7-3723-33d9" name="Explodes (Massive)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6+D6&quot; suffers a hit per model at Str 7+D3 AP -2 Dmg 2.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8ea3-9d58-4b7b-00d5" name="Explodes (Flyer)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6+D6&quot; suffers a hit per model at Str 10 AP -3 Dmg 3.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1f0d-f045-c819-3157" name="Explodes (Small)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 3&quot; suffers a hit per model at Str 8 AP 0 Dmg 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="080e-c78b-7ac5-d3c5" name="Explodes (Putrid Small)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdbc-88fa-9d9d-a3f0" name="Explodes (Putrid Large)" page="" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 2.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="176" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="267" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="179" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="274" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -653,7 +653,7 @@
     </entryLink>
     <entryLink id="60b59227-6645-4921-8a9b-10132bb91470" name="Death Guard Cultists" hidden="false" collective="false" import="true" targetId="7e7847fe-18fe-49ad-aaa7-b13684415cfb" type="selectionEntry"/>
     <entryLink id="80131f4c-7422-455d-bba2-04a5627153f7" name="Death Guard Possessed" hidden="false" collective="false" import="true" targetId="2be412cf-0aa4-416e-978d-47108b14c7a7" type="selectionEntry"/>
-    <entryLink id="76485df0-bd5a-4e0b-879c-8a3cc42cab80" name="Helbrute" hidden="false" collective="false" import="true" targetId="539c1b43-7eae-4b43-abf1-bd48b25682ce" type="selectionEntry">
+    <entryLink id="76485df0-bd5a-4e0b-879c-8a3cc42cab80" name="Nurgle Helbrute" hidden="false" collective="false" import="true" targetId="539c1b43-7eae-4b43-abf1-bd48b25682ce" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3216,7 +3216,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">2+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">2+</characteristic>
           </characteristics>
         </profile>
         <profile id="7279d4c5-cf42-4a1a-9d3d-1feed890cf0f" name="Death Guard Daemon Prince" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -3407,8 +3407,6 @@ Battle Round 4 - 9&quot;</description>
         <entryLink id="70293b1b-cca6-4828-b43a-10879f26a824" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="1f622392-c71d-4702-9456-abbfb5d499b3" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="a539709d-fbb2-4344-87fc-fdc57f87a2df" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="3cebb10d-0393-48d6-8ab6-6606041d37cd" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="9224e502-60aa-4f23-b646-f064863c6279" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
@@ -3771,7 +3769,7 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">4</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">7+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3877,18 +3875,14 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="19dffeca-8878-4da2-82e2-f6eabbf20102" name="Putrid Explosion" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within 6&quot; suffers 1 mortal wound.</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="687a3b30-1aa6-452d-a016-6629055b267a" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="59b5a941-91af-4023-a830-e23a35fa7bc9" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
+        <infoLink id="d56e-2911-61c0-6598" name="Explodes (Putrid Small)" hidden="false" targetId="080e-c78b-7ac5-d3c5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e81446a2-d167-4182-ab89-2fe7e2397218" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
@@ -4855,12 +4849,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d1589ac1-3cfe-48d2-b1e0-202d853ed12c" name="Monstrous Resilience" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="ecd39eb3-bb1b-4d19-97a6-97f997b08269" name="Frenzy" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4868,15 +4857,12 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model makes an attack, if it has 7 or fewer wounds remaining, re-roll a wound roll of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile id="2ed28a65-139f-48c2-ad62-4dca4f8c3300" name="Explodes" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before removing it from play. On a 6 it explodes, and each unit within 3&quot; suffers 1 mortal wound.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="88388bd1-904a-4d36-89f8-57ab3f04685b" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="4f707f78-7c38-4cf6-974d-f5e0ce6082a8" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
+        <infoLink id="0e22-61f7-79e2-a725" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
+        <infoLink id="c042-9b0d-eb61-1af8" name="Explodes (Small)" hidden="false" targetId="1f0d-f045-c819-3157" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae4b7fd6-8e97-4b6f-a529-485348d27532" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
@@ -5062,7 +5048,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="58486ca3-2f4f-4998-ba29-844db0c3af54" name="Nurgle Rhino" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
@@ -5082,7 +5068,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="9b860174-2933-4740-8dd6-f1a44a7ba902" name="Nurgle Rhino 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5097,18 +5083,15 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8f447b9d-18af-42d3-85c1-4c45166dc071" name="Explodes" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">When this model is destroyed, roll one D6 before removing it from play and before any embarked models disembark. On a 6 it explodes, and each unit within 6&quot; suffers D3 mortal wounds.</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="3b7cc9dc-9824-4d49-aae4-c07df61a50b3" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="3d441a29-e6ee-4db9-b1c6-fd9994b0aabb" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
+        <infoLink id="e31e-227e-c823-17d8" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
+        <infoLink id="465b-bbd7-226d-b5fa" name="Explodes (Large)" hidden="false" targetId="c0a8-724b-0548-7fca" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="70651a1a-23a2-441e-90ef-e21b302ed74e" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
@@ -5552,7 +5535,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5761,7 +5744,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="172fde06-9edc-4ea1-bcf7-3c4720987595" name="Pestilential Fallout" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5921,9 +5904,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="ceb16227-7691-44d4-8991-dfabf54dc1c3" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="f0b97413-931a-4f33-a72f-386545c63277" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="bc73b1f0-3911-4145-a6c6-16525339d074" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="c7691057-adb3-4766-9eff-56b4a4057e37" name="Boarding Action Enhancements" hidden="false" collective="false" import="true" targetId="7a4e0f00-4d0b-40ce-a83a-f6a4c7c5d8f5" type="selectionEntryGroup"/>
-        <entryLink id="922cb382-4b5b-4eb2-b056-4ef3749cdbdd" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="89c53e95-e45a-4c7c-ab06-d0516ec089ee" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -6690,7 +6670,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">7</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="2801845e-1744-403e-a6e1-2b1d661259e9" name="Host of Plagues" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6723,7 +6703,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="e5ce860d-2eda-4312-90c8-55751f7bc96e" name="Mortarion 3 (1-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -6738,7 +6718,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
         <profile id="20422b65-ffe5-484c-91c1-5469b70f9175" name="Daemon Primarch" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -6756,8 +6736,8 @@ plague companies in the same Detachment, without preventing other units in that 
         <infoLink id="686b07b2-c9e1-4f60-bd06-5910d5cb6c2e" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="c66dfd7f-c1c3-47d4-9a1f-1caf1579c6da" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="ac023e33-b178-4d33-879d-6d22e1fabaca" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
-        <infoLink id="e112fb57-6f7b-43b1-a8dc-5d50bb1564f9" name="Putrid Explosion (D3MW)" hidden="false" targetId="d4a5f28c-5814-40b8-8db5-20908a263471" type="profile"/>
         <infoLink id="a27f41ee-1bcb-4bb9-92ac-e0b59e7fd030" name="Toxic Presence" hidden="false" targetId="d2e3e2d0-e4c0-4f93-88d1-03fc4b482795" type="profile"/>
+        <infoLink id="514e-e069-96c8-d4b4" name="Explodes (Putrid Large)" hidden="false" targetId="cdbc-88fa-9d9d-a3f0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="67677e69-026c-431b-8a04-498928eda168" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -7312,7 +7292,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7384,7 +7364,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7419,10 +7399,6 @@ plague companies in the same Detachment, without preventing other units in that 
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="729dd9ef-e873-4f6e-ae46-d08e5f7c8436" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="d2277e48-3236-4936-8068-dc545517939f" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="9.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -7496,12 +7472,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6a11dc18-b6dc-40d8-a7af-730ca71a58ee" name="Vectors of Death" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">A Plague Marine equipped with 2 melee plague weapons has an Attacks characteristic of 3.</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7543,7 +7514,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8306,10 +8277,6 @@ plague companies in the same Detachment, without preventing other units in that 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="5a5a5b91-0dff-4b05-83f9-d188718cc238" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="365d35ec-340c-4e56-962e-d7f260722b29" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="6.0"/>
@@ -8481,7 +8448,7 @@ plague companies in the same Detachment, without preventing other units in that 
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8569,7 +8536,7 @@ plague companies in the same Detachment, without preventing other units in that 
                     <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
                     <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                     <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
-                    <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+                    <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8711,10 +8678,6 @@ plague companies in the same Detachment, without preventing other units in that 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2893e315-103f-4ed0-9fbd-9f690981c33f" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="e2db5d01-1595-4a92-8187-6a7ff15aa041" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="10.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -8735,7 +8698,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="c7ef5d6e-32ae-4894-b93b-34b02b970bae" name="Foul Stench" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8743,16 +8706,12 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a melee attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="19c7b1ec-54f3-4ec0-8b69-3afad0a3eab3" name="Putrid Explosion" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a model in this unit is destroyed, roll one D6 before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within 6&quot; suffers 1 mortal wound.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="ce2262fb-8a2b-485c-ba56-b3a7532ee537" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="94919dbf-f9d6-4a49-8e73-5d72971f3bcc" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="4e987148-6305-4090-9b8a-d39c9f503437" name="Remorseless" hidden="false" targetId="a0088dab-6545-4195-bfa3-0b2956c86864" type="profile"/>
+        <infoLink id="597d-76b0-9b95-13ea" name="Explodes (Putrid Small)" hidden="false" targetId="080e-c78b-7ac5-d3c5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e63a86b2-2262-45ce-9418-d1dc8c907246" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -8928,7 +8887,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -8943,7 +8902,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
         <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -8958,14 +8917,14 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c8249851-650f-40d8-a323-62e262ccc842" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="f9f1f503-ea3e-4dd8-b9a7-2d9b14f5377c" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
-        <infoLink id="c1513bb1-d0c6-47d7-83a9-729f4c3cada7" name="Explodes (6&quot;/D3)" hidden="false" targetId="7a373ede-2ac7-4314-adb6-5c8a861cf3f5" type="profile"/>
+        <infoLink id="c1513bb1-d0c6-47d7-83a9-729f4c3cada7" name="Explodes (Large)" hidden="false" targetId="c0a8-724b-0548-7fca" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cfc071a8-208a-4680-900a-9ced08cb26d6" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -9541,7 +9500,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="e44068ae-762c-41e4-989b-ed39c0b65b5a" name="Tainted Narthecium (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9607,9 +9566,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="4d4c9c1a-2794-4002-ab43-a706b443341c" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="def8abbb-58d1-44d7-883d-8774e65269db" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="07c2dd26-7c82-4e5d-beab-03500ae8d855" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="eb0720b8-41fe-48d0-b8f9-6f4c997f8487" name="Boarding Action Enhancements" hidden="false" collective="false" import="true" targetId="7a4e0f00-4d0b-40ce-a83a-f6a4c7c5d8f5" type="selectionEntryGroup"/>
-        <entryLink id="c4631f84-d23b-4271-ad8c-18509bf4028c" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="8e7b441f-c2f0-463b-b2b1-a725bb6edfa7" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="4.0"/>
@@ -9725,7 +9681,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="a69fca4c-8030-4cbd-bf75-52e6a97aa8f9" name="The Seven-fold Chant" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -9784,9 +9740,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="a8407206-c765-4aea-b111-d7af7a84641d" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="958f0a2c-bfd3-489a-9eb7-004f984ff1c9" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="dd7de039-52f7-473e-b2ca-b64bd5ffbd82" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="18149329-9fd9-4b4e-819c-9acdf162689b" name="Boarding Action Enhancements" hidden="false" collective="false" import="true" targetId="7a4e0f00-4d0b-40ce-a83a-f6a4c7c5d8f5" type="selectionEntryGroup"/>
-        <entryLink id="29f65bc7-2c56-4726-ad15-9755e11ee84c" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="357a9e80-d08a-49d6-85fe-d2d75a60ff64" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="65.0"/>
@@ -9902,7 +9855,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
         <profile id="ec42608e-7f4b-48d4-b945-704f38a2d418" name="Putrefying Stink" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -10440,7 +10393,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
