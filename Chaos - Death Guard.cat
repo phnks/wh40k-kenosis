@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="179" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="274" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="180" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="278" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -5051,11 +5051,6 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="58486ca3-2f4f-4998-ba29-844db0c3af54" name="Nurgle Rhino" hidden="false" typeId="8bdb3de4-e823-4b70-87c0-f9eaebed8924" typeName="Transport">
-          <characteristics>
-            <characteristic name="Capacity" typeId="4e411e65-e260-4f2e-aa22-cec59986b5bb">This unit can transport 10 &lt;PLAGUE COMPANY&gt; BUBONIC ASTARTES INFANTRY. It cannot transport TERMINATOR or DEATH GUARD POSSESSED models.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="69e53a28-30a6-44f1-bbd8-ec22078fd00e" name="Nurgle Rhino 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
@@ -5092,6 +5087,11 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="3d441a29-e6ee-4db9-b1c6-fd9994b0aabb" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
         <infoLink id="e31e-227e-c823-17d8" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="465b-bbd7-226d-b5fa" name="Explodes (Large)" hidden="false" targetId="c0a8-724b-0548-7fca" type="profile"/>
+        <infoLink id="f50e-58fb-f2d8-d07c" name="Transport (X)" hidden="false" targetId="6bc0-012d-e313-5809" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Transport (10)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="70651a1a-23a2-441e-90ef-e21b302ed74e" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
@@ -5546,6 +5546,11 @@ plague companies in the same Detachment, without preventing other units in that 
         <infoLink id="c662cb6d-1fd2-428e-b98e-4b9132e41fb2" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="97e88696-cf39-4036-b9fe-2d0a4c638732" name="Vector of Disease" hidden="false" targetId="c7d8e950-1897-4d5b-a1b4-cfbb805cb4c6" type="profile"/>
         <infoLink id="dd1e18ed-dfcc-49f1-a17a-d2c92315d928" name="Lord of the Death Guard (Aura)" hidden="false" targetId="658eedcb-4166-459a-af50-4402b92720d1" type="profile"/>
+        <infoLink id="7ffd-aaaf-2085-6dba" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="442b9309-439c-48c4-8dd7-a879d64e82c3" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
@@ -5626,9 +5631,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="d026ea17-fb9c-4c64-a6bb-fb2b6ba30649" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="269ef4bd-b763-48ef-8c33-4084b2d7f69e" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="0cf80aad-9e3c-429e-b72a-6e5ea31932b7" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
-        <entryLink id="b8d3a731-1af1-4bcf-8b57-742afb4e9db0" name="Boarding Action Enhancements" hidden="false" collective="false" import="true" targetId="7a4e0f00-4d0b-40ce-a83a-f6a4c7c5d8f5" type="selectionEntryGroup"/>
-        <entryLink id="75bcd003-93cd-4af2-bcfe-f645a99b9e26" name="Battle Honours" hidden="false" collective="false" import="true" targetId="2a9e0365-cbc0-4a2e-bb91-5039caf8e4ce" type="selectionEntryGroup"/>
-        <entryLink id="19421875-c682-4a39-b46c-50287973225b" name="Battle Scars" hidden="false" collective="false" import="true" targetId="dfe6dbe8-b120-4043-b658-c64ecdaf5ad8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -7260,6 +7262,11 @@ plague companies in the same Detachment, without preventing other units in that 
         <infoLink id="b46114c3-d4d9-4f18-beac-a491be278a76" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
         <infoLink id="104fe6e5-e893-41ef-9ac9-707096f98666" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="3f7eeb67-78b2-4a34-80c9-d59de2378bcb" name="Objective Secured" hidden="false" targetId="7f2c6ed2-4af0-4a1a-aad8-19f985de47a3" type="rule"/>
+        <infoLink id="c3a5-2e7d-0d45-1397" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cd8c55e6-7edd-4df9-bed8-70aecc8f5895" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -8416,6 +8423,11 @@ plague companies in the same Detachment, without preventing other units in that 
         <infoLink id="591beed4-424c-43d5-b1a5-aff0f87ae417" name="Remorseless" hidden="false" targetId="a0088dab-6545-4195-bfa3-0b2956c86864" type="profile"/>
         <infoLink id="8f4c32d0-fc42-40a1-9ebb-4c6d36de27da" name="Malicious Volleys" hidden="false" targetId="8b9fbfee-eff4-47e2-8c8b-1a1727ac8d7d" type="rule"/>
         <infoLink id="73124174-0836-41e1-a49a-bd777457ee6a" name="Objective Secured" hidden="false" targetId="7f2c6ed2-4af0-4a1a-aad8-19f985de47a3" type="rule"/>
+        <infoLink id="5010-c2ef-f261-1157" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1bbf9b09-2a50-4d70-ba5f-3da1e9dfa005" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>

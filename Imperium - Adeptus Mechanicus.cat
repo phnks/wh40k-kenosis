@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="251" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="275" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="253" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="278" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -8981,7 +8981,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       <infoLinks>
         <infoLink id="79ef81fc-bc7e-49ff-9e52-8b8f30b4e7bd" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
         <infoLink id="db636e5c-17e6-41e2-988e-8ae6c26c4ab4" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
-        <infoLink id="5c5de2ee-be87-4eb7-b891-4418b8536c64" name="Brutal Charge" hidden="false" targetId="ad9add90-e4df-464c-84a9-fa5177fe5437" type="rule"/>
         <infoLink id="eed46bf1-ff9c-4cd4-9cd1-6ec21043045e" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="3f89-dc3c-e04a-a1c1" name="Explodes (Small)" hidden="false" targetId="1f0d-f045-c819-3157" type="profile"/>
       </infoLinks>
@@ -9201,6 +9200,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <infoLinks>
         <infoLink id="9f23a96f-5d21-45ef-84b1-f7b8c9a89b45" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="661058ea-5297-4934-8784-cab4d5183bb6" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
+        <infoLink id="0e1f-b9f7-bb7b-b0c9" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="44c82363-2038-464c-bc1c-525f255e0d11" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
@@ -9432,6 +9436,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <infoLink id="559e8a66-2bbd-433b-8f43-60cf7a2b73ea" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="543f704b-c3db-4a16-81f2-60333d50c705" name="Djinn-Sight" hidden="false" targetId="bbdea716-b7a0-45e9-8d18-cbf01f0196d8" type="rule"/>
         <infoLink id="0374a753-9b57-4dae-8370-7449b3b1f33e" name="Lorica Thallax" hidden="false" targetId="d4ad87fe-427a-493a-ac7e-a17210032479" type="rule"/>
+        <infoLink id="44a3-1a48-8c26-930e" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7aca4842-bc01-4f65-8fb8-608037415d3f" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
@@ -9676,6 +9685,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <infoLinks>
         <infoLink id="098b5d16-2160-4cff-8f3e-93682d9d0d3b" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="a0b2f9e9-a0a6-43ca-9d6e-6f424491b0b0" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
+        <infoLink id="9c73-850a-f22a-b100" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d240c771-3116-445c-9510-82e34c07c98c" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
@@ -11104,17 +11118,11 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
     <rule id="bbdea716-b7a0-45e9-8d18-cbf01f0196d8" name="Djinn-Sight" hidden="false">
       <description>Enemy units targeted by this unit do not gain any bonus to their saving throw for being in cover. Additionally, enemy units that are set up on the battlefield as reinforcements cannot be set up within 12” of this unit.</description>
     </rule>
-    <rule id="ac5bf61f-8e69-474f-bb8a-2ef82c6dfc9c" name="Atomantic Shielding" hidden="false">
-      <description>This model has a 5+ invulnerable save.</description>
-    </rule>
     <rule id="430012c9-24df-43a2-8dcc-dac47008cba2" name="Battle Automata" hidden="false">
       <description>Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).</description>
     </rule>
     <rule id="201c324c-917a-4243-813b-7d9ff6311507" name="Cybernetica Cortex" hidden="false">
       <description>Each time a Combat Attrition test is taken for that unit, it is automatically passed.Additionally, unless a friendly Cortex Controller unit is within 6”; this model can only target the nearest visible enemy unit if it shoots, and if it charges it can only declare a charge against the nearest visible enemy unit.</description>
-    </rule>
-    <rule id="ad9add90-e4df-464c-84a9-fa5177fe5437" name="Brutal Charge" hidden="false">
-      <description>When a domitar finishes a charge move, roll a dice; on a 4+ one enemy unit within 1” suffers a mortal wound.</description>
     </rule>
     <rule id="67c365b4-9787-468f-858a-51cbb0c76c3d" name="Lumbering Advance" hidden="false">
       <description>A model with this special rule may not make Advance moves or Consolidation moves.</description>

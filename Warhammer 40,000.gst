@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="276" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="278" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9534,6 +9534,16 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     </rule>
     <rule id="7ad0-bb7e-5665-5a5c" name="Deflagrate" hidden="false">
       <description>After normal attacks by this weapon have been resolved, count the number of unsaved Wounds caused on the target unit. Immediately resolve a number of additional automatic Hits on the same unit using the weapon’s profile equal to the number of unsaved Wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional Hits to take effect. These additional Hits do not themselves inflict more Hits and do not benefit from any other special rules possessed by the attacking model.</description>
+    </rule>
+    <rule id="6bc0-012d-e313-5809" name="Transport (X)" hidden="false">
+      <description>Infantry models may embark and disembark from a model with this special rule. The Transport Capacity of this model is equal to the value of X. Models with the Bulky (X) special rule cannot embark on a model with this special rule.</description>
+    </rule>
+    <rule id="9415-d73c-38d2-a0b8" name="Large Transport (X)" hidden="false">
+      <description>Infantry models may embark and disembark from a model with this special rule. The Transport Capacity of this model is equal to the value of X. Models with the Bulky (X) special rule may embark on this transport but take up Transport Capacity equal to their Bulky value in brackets.</description>
+    </rule>
+    <rule id="aab1-09e9-9e16-5a66" name="Bulky (X)" hidden="false">
+      <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity.
+For example, a unit comprised of five models all of which have the Bulky (3) special rule, would count as 15 models when attempting to Embark on a Transport Vehicle.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
