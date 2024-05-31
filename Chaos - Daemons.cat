@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="150" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="261" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="151" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="276" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -3074,7 +3074,7 @@
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3113,9 +3113,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="2e30cc95-971f-4edd-b3f4-de63e4f7132e" name="Battle Honours" hidden="false" collective="false" import="true" targetId="a4b6da61-b832-400d-a126-55b37a289091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="3.0"/>
@@ -5504,7 +5501,7 @@ These powers are considered to have been manifested with a roll equal to their w
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12+ wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12-22)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
@@ -5516,7 +5513,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
         <profile id="07b49c93-cd56-47ad-998b-f280c81e2116" name="Great Unclean One" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
@@ -5534,7 +5531,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6">-</characteristic>
           </characteristics>
         </profile>
-        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
@@ -5546,10 +5543,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5 wounds remaining)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
@@ -5561,7 +5558,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-            <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5853,7 +5850,6 @@ These powers are considered to have been manifested with a roll equal to their w
         <entryLink id="f0a93486-f45c-47cc-985b-82d0420b6b76" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
         <entryLink id="7dad3464-c8cd-4ebd-aa42-16f3dd8eed9b" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
         <entryLink id="2e07e43d-69b3-478a-b824-0b6772b05fb6" name="Relics of the Great Garden" hidden="false" collective="false" import="true" targetId="9c480ab4-5921-4551-a249-84b1a094c40f" type="selectionEntry"/>
-        <entryLink id="dbf37663-e185-44d3-a191-14792879241a" name="Battle Honours" hidden="false" collective="false" import="true" targetId="a4b6da61-b832-400d-a126-55b37a289091" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>
@@ -5905,7 +5901,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5936,7 +5932,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5958,9 +5954,6 @@ These powers are considered to have been manifested with a roll equal to their w
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="77e06500-c61f-4692-b79f-3b6bb7e184dc" name="Battle Honours" hidden="false" collective="false" import="true" targetId="a4b6da61-b832-400d-a126-55b37a289091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
@@ -5990,14 +5983,10 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the end of each phase, if a model in this unit has lost any wounds but was not destroyed, that model regains all of its lost wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="3cd32ef9-bab7-4e19-8418-4150f38ced2e" name="Gooey Demise" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a model in this unit is destroyed, roll one D6 before removing it from play. On a 6 it explodes, and each enemy unit within 3&quot; suffers 1 mortal wound.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="d286dcd5-0e6c-4bf4-ba8f-87467e77b206" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="128f-31ca-86de-7461" name="Explodes (Putrid Small)" hidden="false" targetId="080e-c78b-7ac5-d3c5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="69f43d56-38b4-4677-8c35-e192c1075451" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
@@ -6027,7 +6016,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
-                <characteristic name="Sv+" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6063,9 +6052,6 @@ These powers are considered to have been manifested with a roll equal to their w
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="434b19bf-6170-42f7-b282-f034a3a592e7" name="Battle Honours" hidden="false" collective="false" import="true" targetId="a4b6da61-b832-400d-a126-55b37a289091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
