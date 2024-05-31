@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="250" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="274" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="251" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="275" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -9376,10 +9376,13 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each Time you make a wound roll of a unmodified 6 with this weapon that hit inflicts a mortal wound in addition to normal damage.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Deflagrate</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="fe4e-4949-d5d4-7242" name="Deflagrate" hidden="false" targetId="7ad0-bb7e-5665-5a5c" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -10083,14 +10086,15 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c7e-25d5-5583-ede9" name="Volkite Charger (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1c7e-25d5-5583-ede9" name="Volkite Charger (Centerline Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6c2e-d58f-8cff-f36a" name="Volkite Charger" hidden="false" targetId="5255543a-c754-46d4-ac3a-392f7abf22f0" type="profile">
           <modifiers>
-            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Each Time you make a wound roll of a unmodified 6 with this weapon that hit inflicts a mortal wound in addition to normal damage."/>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Deflagrate"/>
           </modifiers>
         </infoLink>
         <infoLink id="1d01-9fdc-a4e4-fc57" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
+        <infoLink id="b19e-1156-7e40-5da2" name="Deflagrate" hidden="false" targetId="7ad0-bb7e-5665-5a5c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>

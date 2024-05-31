@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="274" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="276" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9532,6 +9532,9 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     <rule id="ee16-abd3-c690-8750" name="Mounted (Turret)" hidden="false">
       <description>A weapon with this special trait is mounted on a vehicle and can only firing in the following arc: 360 degrees</description>
     </rule>
+    <rule id="7ad0-bb7e-5665-5a5c" name="Deflagrate" hidden="false">
+      <description>After normal attacks by this weapon have been resolved, count the number of unsaved Wounds caused on the target unit. Immediately resolve a number of additional automatic Hits on the same unit using the weapon’s profile equal to the number of unsaved Wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional Hits to take effect. These additional Hits do not themselves inflict more Hits and do not benefit from any other special rules possessed by the attacking model.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="e961bee1-378c-4633-9b08-61785e539deb" name="Autogun" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -10874,7 +10877,7 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each Time you make a wound roll of a unmodified 6 with this weapon that hit inflicts a mortal wound in addition to normal damage.</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Deflagrate</characteristic>
       </characteristics>
     </profile>
     <profile id="65b4d41d-2651-41e5-8d22-e8f8925a73ef" name="Whirlwind castellan launcher" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
