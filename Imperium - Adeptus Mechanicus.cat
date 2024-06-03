@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="258" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="282" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="259" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -1916,31 +1916,31 @@
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Doctrina Imperatives</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="edb30b65-e9b2-47bc-a029-d0462d3df93f" name="Onager Dunecrawler 3 (1-2 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Doctrina Imperatives</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8833,31 +8833,31 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="924d7535-c2dd-484e-935a-5d6c3f547061" name="Karacnos Assault Tank 3 (1-4)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">D6</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9914,17 +9914,17 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <profile id="d140-a466-5fc8-5d2d" name="Krios Battle Tank 3 (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">3&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="4a08-06f5-1bb6-0e2a" name="Krios Battle Tank 2 (4-6)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -9932,15 +9932,15 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="ad8f-054c-34a0-ec25" name="Krios Battle Tank 1 (6-11)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="183" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="185" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -5057,33 +5057,33 @@ Battle Round 4 - 9&quot;</description>
         <profile id="69e53a28-30a6-44f1-bbd8-ec22078fd00e" name="Nurgle Rhino 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="9b860174-2933-4740-8dd6-f1a44a7ba902" name="Nurgle Rhino 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">3&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6629,33 +6629,33 @@ plague companies in the same Detachment, without preventing other units in that 
         <profile id="3c2d8124-3322-4b1f-9bd2-3679b2d0c41e" name="Mortarion 2 (6-9)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
-            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">8</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Inexorable Advance, Stubborn</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
           </characteristics>
         </profile>
         <profile id="e5ce860d-2eda-4312-90c8-55751f7bc96e" name="Mortarion 3 (1-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">8&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
-            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">8</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Inexorable Advance, Stubborn</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
           </characteristics>
         </profile>
         <profile id="20422b65-ffe5-484c-91c1-5469b70f9175" name="Daemon Primarch" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -8884,31 +8884,31 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
-            <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Explodes (Large)</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">D3</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="db9cc536-2da7-4a15-bc41-9ac2180bcf76" name="Plagueburst Crawler 3 (1-2)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
-            <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">5+</characteristic>
-            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">5</characteristic>
-            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
-            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">N/A</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
-            <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
-            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Explodes (Large)</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
