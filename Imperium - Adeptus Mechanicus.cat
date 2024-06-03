@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="257" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="281" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="258" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="282" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -9219,6 +9219,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="bdfd-d4c9-cfc0-75fb" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="44c82363-2038-464c-bc1c-525f255e0d11" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
@@ -9249,7 +9250,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9324,7 +9325,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9706,6 +9707,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="4d67-c543-ebe2-ab33" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d240c771-3116-445c-9510-82e34c07c98c" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
@@ -9736,7 +9738,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9818,7 +9820,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
               </characteristics>
             </profile>
           </profiles>
