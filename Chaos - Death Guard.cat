@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="181" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="282" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="183" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -2686,6 +2686,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="f26640dd-2347-400c-8d8f-308432459910" name="Stratagem: Heroic Support" hidden="false" collective="false" import="true" targetId="fe05246b-a296-4a56-947e-f2df71e9a67f" type="selectionEntry"/>
+    <entryLink id="8098-dbdd-b35f-ae48" name="Malum Ferrugine" hidden="false" collective="false" import="true" targetId="e508-c1d8-6ed2-c141" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="ae1e5df1-afad-4e26-8bb3-2779a6342038" name="Plague Weapon" hidden="false">
@@ -5756,38 +5757,6 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Inexorable Advance</characteristic>
           </characteristics>
         </profile>
-        <profile id="172fde06-9edc-4ea1-bcf7-3c4720987595" name="Pestilential Fallout" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="8780862a-e157-4e9e-b521-4db5b407f5ea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2824a1fa-7841-48bb-a479-674f318ec159" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model successfully manifests a psychic power, if the result of the Psychic test was 7 or more, the closest enemy unit within 12&quot; suffers one mortal wound.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="5746c13c-85b3-4330-9a09-7007f686d0af" name="Malignant Plaguecaster" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
-          <characteristics>
-            <characteristic name="Cast" typeId="6d6b7a13-802e-45fa-99db-453a11a8a797">2</characteristic>
-            <characteristic name="Deny" typeId="47b5b212-378b-4589-b396-cd2837f35650">1</characteristic>
-            <characteristic name="Powers Known" typeId="f1824f24-c57f-43b7-8b08-9e796c88c288">Smite and 2 powers from the Contagion discipline</characteristic>
-            <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6">-</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="40e6a0d1-86e4-49f5-9700-f7840b9c4150" name="Torrent of Putrefaction" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="8780862a-e157-4e9e-b521-4db5b407f5ea" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2824a1fa-7841-48bb-a479-674f318ec159" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model successfully manifests a psychic power, if the result of the Psychic test was 7 or more, the closest enemy unit within 12&quot; suffers D3 mortal wounds. Otherwise, the closest enemy unit within 6&quot; suffers 1 mortal wound.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0b59492c-9c92-4d8d-822b-aacd0879868a" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
@@ -5832,45 +5801,15 @@ plague companies in the same Detachment, without preventing other units in that 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="defaa780-8ad9-4362-acc8-9fe7eec996e5" name="Psychic powers" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="increment" field="be7ad5c2-3fc7-4566-958a-dac41501e0d7" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a5f3c9bc-61cb-44f5-9f2d-c76201bd2b5c" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" field="be7ad5c2-3fc7-4566-958a-dac41501e0d7" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5a7c048-c820-492a-8692-a404b1591bf7" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntryGroup id="a5ba-f009-3a76-798d" name="Psychic Discipline option" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc91-47fd-5a96-f384">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7ad5c2-3fc7-4566-958a-dac41501e0d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af07-712f-91bb-2caa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e86-033c-c217-83da" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="42870fde-8b9e-4206-bdcb-a413d8713a8b" name="Contagion Discipline" hidden="false" collective="false" import="true" targetId="01f3824b-840b-474c-84ac-d1d388555185" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="42880377-bacb-4e6e-96b2-654b4184b93d" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03134cdd-fd0f-4aee-999c-d9a0bd7fc060" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <entryLink id="cc91-47fd-5a96-f384" name="Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="a737-caa1-393c-fc09" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42880377-bacb-4e6e-96b2-654b4184b93d" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="0f6763b3-c313-4d50-aa36-d2bc76fa0dc7" name="Fester Discipline" hidden="false" collective="false" import="true" targetId="03134cdd-fd0f-4aee-999c-d9a0bd7fc060" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="dd016ab9-2c4d-475d-b816-93d832f39b00" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="01f3824b-840b-474c-84ac-d1d388555185" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd016ab9-2c4d-475d-b816-93d832f39b00" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed8b-5680-62a4-6529" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -5880,12 +5819,6 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink id="539a62b9-798b-4fe7-a7e1-7d0d530e56e0" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="4e41fbca-97ef-41f1-baea-594ccee62765" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b4b1e7ac-f2f0-477a-95aa-80a0fbf800aa" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3c76fdd3-5ed3-478a-88ad-48c4a919c3f6" name="Smite" hidden="false" collective="false" import="true" targetId="c61ce685-5fce-46f8-963a-717760e3499a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89bcf231-e37a-4df9-94bd-77c398ecf27a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ecd110-75c1-4c68-a41d-22b45327d1eb" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="ace32b52-ceb8-49cb-85f3-36b61fa58aca" name="Blight grenades" hidden="false" collective="false" import="true" targetId="4c45470f-d0dd-465f-bfac-2e001b1b264c" type="selectionEntry">
@@ -6693,14 +6626,6 @@ plague companies in the same Detachment, without preventing other units in that 
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, select one friendly DEATH GUARD CORE or DEATH GUARD CHARACTER unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in that unit makes an attack, you can re-roll the hit roll.</characteristic>
           </characteristics>
         </profile>
-        <profile id="aeeebeff-1894-495e-8489-53fe88970d47" name="Mortarion" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
-          <characteristics>
-            <characteristic name="Cast" typeId="6d6b7a13-802e-45fa-99db-453a11a8a797">2</characteristic>
-            <characteristic name="Deny" typeId="47b5b212-378b-4589-b396-cd2837f35650">3</characteristic>
-            <characteristic name="Powers Known" typeId="f1824f24-c57f-43b7-8b08-9e796c88c288">Smite and 3 powers from the Contagion Discipline</characteristic>
-            <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6"/>
-          </characteristics>
-        </profile>
         <profile id="3c2d8124-3322-4b1f-9bd2-3679b2d0c41e" name="Mortarion 2 (6-9)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
             <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
@@ -7043,14 +6968,53 @@ plague companies in the same Detachment, without preventing other units in that 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="a616-6b8e-d397-7dd4" name="Psychic Discipline option" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a186-ea51-7b6a-b6f0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3484-f14e-e063-700a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1ef1-d200-f6a8-b876" name="The Death Lord" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aed-dc18-262e-3573" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b303-c1fc-1622-e8b1" name="Death Cloud" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 2D6</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Psychic. Psychic Focus. Anti-Infantry (4+)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="adbd-b1c3-14d5-4f8f" name="Shadow of the Reaper" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the start of any Fight Phase Mortarion’s controlling player may choose to make a Psychic check for him. If that Check is passed then Mortarion’s Initiative Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Fight Phase. If the Check is failed then Mortarion suffers Perils of the Warp.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a368-cb8a-e9f7-4d1b" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+                <infoLink id="1e2b-e377-9dd8-2236" name="Psychic" hidden="false" targetId="c207-7d7a-4376-c33e" type="rule"/>
+                <infoLink id="dfd9-0d5f-7545-4732" name="Psychic Focus" hidden="false" targetId="4169-7f0e-c5a3-e39c" type="rule"/>
+                <infoLink id="0d85-ae47-f3fd-2510" name="Anti-Infantry (X)" hidden="false" targetId="fd85-f934-cab3-4505" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Anti-Infantry (4+)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5cd08bcf-e796-4de9-a5fc-7f831189faf4" name="Smite" hidden="false" collective="false" import="true" targetId="c61ce685-5fce-46f8-963a-717760e3499a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9947e607-9262-421d-aac0-7537495d0518" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="041bfec5-8799-45bb-ac6c-48c40b5aa2c2" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="3226ebd1-e0d1-4ed2-a125-c03284799055" name="Contagion Discipline" hidden="false" collective="false" import="true" targetId="01f3824b-840b-474c-84ac-d1d388555185" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="609ac33e-6646-4d4c-a57e-3671a1039059" type="max"/>
@@ -11504,6 +11468,252 @@ In addition, while one or more enemy models are in range of this aura, add 1 to 
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e508-c1d8-6ed2-c141" name="Malum Ferrugine" page="0" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="add" field="category" value="a868fa24-7751-451f-985a-ecd1ce8ab268">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="58c9cb85-3f68-4e45-ae52-5b9a00d2c3eb" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="10630756-d015-4723-b94c-e65dbfaf20a0">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="85ce53c8-8cda-4bb8-8f4f-54c76c295da9" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="c9f0678a-d724-4155-836f-755173256655">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b13fd7b-3391-4e24-a6c1-c7a6f6e47816" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="b7335905-cf8d-467d-820c-5fd65096eed3">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="41a29b51-0be8-484c-9df9-54ce1875c7f5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="96cf07ca-fd9f-4e73-bc93-5c8a8c177412">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="512251ad-8bde-4180-8554-1cd951efa952" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9a00d274-842b-4443-abf1-360d3189aa36">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1348ef5e-40aa-4b7e-b2f0-c0019f0e8eb5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="4edd98a6-7af0-4cfc-bc86-63bbb68437a1">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a673f943-a34e-482e-9ee3-ab8cd74c643c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9214f8f6-e2f6-4aac-9f2c-b13675332f4a">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f591ca9d-0c7e-4338-9619-6635ea575182" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>&lt;Plague Company&gt; Warlord tags</comment>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c140cc7-85ba-4d22-9747-fd25d58de033" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="ff7aba2a-5e14-45c6-96db-41e4e6aabac0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a868fa24-7751-451f-985a-ecd1ce8ab268" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="02fc18d1-e5d5-464d-ab6a-84d7edee836d">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="10630756-d015-4723-b94c-e65dbfaf20a0" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="4c18dff8-ce0c-4cd0-a54d-becc6b303827">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9f0678a-d724-4155-836f-755173256655" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="f727cb8a-3e0c-4e73-950f-8ec2f138cac8">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b7335905-cf8d-467d-820c-5fd65096eed3" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="451b07fb-439a-4119-be21-999822667148">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96cf07ca-fd9f-4e73-bc93-5c8a8c177412" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="9b73a7e2-46c1-4991-8e39-45805123a586">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9a00d274-842b-4443-abf1-360d3189aa36" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="2989794c-5227-4c1c-9382-b84ea10464fa">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4edd98a6-7af0-4cfc-bc86-63bbb68437a1" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="6ade1e24-47c9-445c-ac6e-b960ecce5475">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f591ca9d-0c7e-4338-9619-6635ea575182" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="0299-9a50-348e-050a" name="Malum Ferrugine" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+          <characteristics>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">6</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">8</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">2+</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Inexorable Advance, Stubborn</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4c78-ce5d-e3df-bbf1" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
+        <infoLink id="07a7-4cea-b8ed-fbba" name="Lord of the Death Guard (Aura)" hidden="false" targetId="658eedcb-4166-459a-af50-4402b92720d1" type="profile"/>
+        <infoLink id="42c7-f74d-1803-c9c6" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
+        <infoLink id="40a3-e168-8289-25dc" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
+        <infoLink id="0fab-26f2-3dca-5a27" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5210-df7c-93a8-50cf" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+        <categoryLink id="8648-ee93-eedb-dc0a" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="6ad2-22cb-af32-7e77" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
+        <categoryLink id="0272-a8b3-f764-96c8" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="c3e0-e88d-fe85-9c2c" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
+        <categoryLink id="bdb9-6afe-19c8-069e" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
+        <categoryLink id="9f07-52a6-f3eb-e18f" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
+        <categoryLink id="2b0b-9222-6512-16c8" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
+        <categoryLink id="3d66-088d-736b-94c0" name="New CategoryLink" hidden="false" targetId="37bb61d9-8c5f-422c-a636-f50ee592bd6a" primary="false"/>
+        <categoryLink id="1765-9d6a-023f-4d50" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
+        <categoryLink id="b9a7-d91a-1cb7-0a5f" name="Faction: Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e350-1c6c-139a-8336" name="Foetid Wings" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5e-d082-7c04-61e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d9cc-5a49-e83d-bc42" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2621-c526-a0c5-d19f" name="New CategoryLink" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="2.0"/>
+            <cost name="pts" typeId="points" value="35.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="82d1-4833-d123-a3e4" name="Hellforged sword" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb8c-b536-3169-d615" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="812f-46ad-2c95-d632" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2c37-5fbb-7d37-fd3a" name="Hellforged sword" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="59a7-4de2-0882-a07c" name="Psychic Discipline option" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66a3-fba8-87f0-0981" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd53-b430-ebc6-d6f3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="79b5-b5a9-b6d0-bb07" name="Plaguesmith of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02ab-0d1c-9e36-7d01" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e586-6665-1484-e9e8" name="Ferromortis" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 1</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Psychic. Psychic Focus, Anti-Vehicle (4+), Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9419-cb07-a916-3d99" name="Weapon Virus" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of shooting during the Shooting phase, Malum Ferrugine may instead activate this Psychic Power. Perform a Psychic Check, on a success the power activates. On a failure Malum Ferrugine suffers Perils of the Warp. If activated, target a single enemy unit within 24&quot;. All of the target unit’s ranged weapons have the Hazardous special rule whilst the power is in effect. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bf57-d7f9-4544-dab1" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+                <infoLink id="c5bf-583d-8f71-18bf" name="Psychic" hidden="false" targetId="c207-7d7a-4376-c33e" type="rule"/>
+                <infoLink id="b7e1-6961-634d-9315" name="Psychic Focus" hidden="false" targetId="4169-7f0e-c5a3-e39c" type="rule"/>
+                <infoLink id="bf57-4ce2-1d5a-80b9" name="Anti-Vehicle (X)" hidden="false" targetId="c0af-71c6-e908-d24e" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Anti-Vehicle (4+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="75ac-217e-932a-8b75" name="Devastating Wounds" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="06c5-5af6-4079-2acd" name="Malefic talons" hidden="false" collective="false" import="true" targetId="80bdb217-1a82-45bd-a726-a020eee9b2f9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="87a7-8914-27b0-af27" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63c3-91de-bae8-ac82" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a1e9-f428-b5bb-fe2d" name="Relics of Decay" hidden="false" collective="false" import="true" targetId="d2a011c0-9258-4b95-90c8-aec3fa7ee109" type="selectionEntryGroup"/>
+        <entryLink id="c0c7-a5a9-4452-095f" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1360-5d3d-30c7-69b8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c432-7796-af4c-f7b3" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="968d6548-8ac7-4288-a73c-531039d356c0" type="selectionEntryGroup"/>
+        <entryLink id="cf56-c7aa-5377-dccc" name="Plaguechosen" hidden="false" collective="false" import="true" targetId="0ec86199-af56-4f8a-87ad-7fd8ffddcb92" type="selectionEntry"/>
+        <entryLink id="37f7-ad37-159d-a0c8" name="Sevenfold Blessings" hidden="false" collective="false" import="true" targetId="b5a7c048-c820-492a-8692-a404b1591bf7" type="selectionEntry"/>
+        <entryLink id="4457-e235-b354-a944" name="Stratagem: Relic" hidden="false" collective="false" import="true" targetId="fefcb6d4-194d-4d58-b3db-523573e17e98" type="selectionEntry"/>
+        <entryLink id="1ada-cf8e-a700-c010" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="4fe93bba-1069-4495-9e61-6fb5d4b63952" type="selectionEntry"/>
+        <entryLink id="d285-5869-a812-1d78" name="Stratagem: Gifts of Decay" hidden="false" collective="false" import="true" targetId="9f7b05f4-b238-4d4d-a1c7-ab14f92e1f86" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>

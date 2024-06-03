@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="151" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="276" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Daemons" revision="154" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="283" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -3075,6 +3075,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5514,21 +5515,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="07b49c93-cd56-47ad-998b-f280c81e2116" name="Great Unclean One" hidden="false" typeId="2627670f-6a3e-4434-873a-f2825e2b629f" typeName="Psyker">
-          <modifiers>
-            <modifier type="set" field="f1824f24-c57f-43b7-8b08-9e796c88c288" value="Smite and three powers from the Warprot Discipline">
-              <conditions>
-                <condition field="selections" scope="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dda8214-098a-4807-883e-60ce3a10c92d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Cast" typeId="6d6b7a13-802e-45fa-99db-453a11a8a797">2</characteristic>
-            <characteristic name="Deny" typeId="47b5b212-378b-4589-b396-cd2837f35650">1</characteristic>
-            <characteristic name="Powers Known" typeId="f1824f24-c57f-43b7-8b08-9e796c88c288">Smite and two powers from the Warprot Discipline</characteristic>
-            <characteristic name="Other" typeId="9dbb8626-7042-40d6-8de0-64aaba77cde6">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Stubborn</characteristic>
           </characteristics>
         </profile>
         <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5544,6 +5531,7 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Stubborn</characteristic>
           </characteristics>
         </profile>
         <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5559,12 +5547,14 @@ These powers are considered to have been manifested with a roll equal to their w
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Stubborn</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2153d97b-01ce-42f8-82ea-869f6bb04132" name="Daemon Lord of Nurgle (Aura)" hidden="false" targetId="b2fba310-d42d-4aec-accb-e8803ab34b4c" type="profile"/>
         <infoLink id="7b86725b-3e55-4509-85f0-5aab5d779f0b" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="db20-fffe-ce01-2a38" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4732977e-58a5-4d97-bcab-c0a4c7f184ac" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
@@ -5804,45 +5794,26 @@ These powers are considered to have been manifested with a roll equal to their w
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1741f878-f681-4163-9dd0-6b00ff52ae11" name="Psychic Powers" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="increment" field="311ee0ef-9822-4816-af2a-1061214471e8" value="1.0">
-              <conditions>
-                <condition field="selections" scope="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dda8214-098a-4807-883e-60ce3a10c92d" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntryGroup id="7c34-8c1d-e418-58cc" name="Psychic Discipline option" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="311ee0ef-9822-4816-af2a-1061214471e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="727f-a1ef-c90f-450f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eeb-bc8e-f806-dd87" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="dc6ae8dd-bdcc-402f-b9a0-a514d45635e4" name="Noctic Discipline" hidden="false" collective="false" import="true" targetId="ac0894ac-8b0a-4d78-893f-5a42fdaa5312" type="selectionEntryGroup">
+            <entryLink id="a178-e0f5-f039-ab84" name="Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="a737-caa1-393c-fc09" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d840ba5-4ab1-454a-9503-933b6fcfb9a3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a48-8b29-6452-fcdf" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="471fb4d1-bd29-4dfd-851b-b3252060ebeb" name="Warprot Discipline" hidden="false" collective="false" import="true" targetId="fd88dcc3-de6d-4b10-80b4-d49dd18fa632" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="increment" field="cf4c5bf8-d4b9-4d9b-9866-df7ab34eb638" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dda8214-098a-4807-883e-60ce3a10c92d" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+            <entryLink id="dc27-e7b9-faba-162e" name="Discipline of Warprot" hidden="false" collective="false" import="true" targetId="e91c-2c30-e421-5a10" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf4c5bf8-d4b9-4d9b-9866-df7ab34eb638" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b8-b672-bb59-973a" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="a1374513-8031-42f3-a3f0-d1c8523c3ba1" name="Smite" hidden="false" collective="false" import="true" targetId="c61ce685-5fce-46f8-963a-717760e3499a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bceb5d39-02ce-4c86-adfd-effb3ab9742c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="791b2bd6-cbb0-4123-b023-c0b6e50be7ec" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="f55e658c-2683-4d4e-a2e5-710c5d690b97" name="Warlord" hidden="false" collective="false" import="true" targetId="e505df41-5063-4b2c-b266-2608a71f44d9" type="selectionEntry"/>
         <entryLink id="e0c7f62c-aee4-432b-b9e3-f602a0070349" name="Warlord Traits (Nurgle)" hidden="false" collective="false" import="true" targetId="e324d7db-03f5-434f-9046-912b7bb36b02" type="selectionEntryGroup"/>
         <entryLink id="203007a9-a86b-4d2f-9fb7-904d40db89e9" name="Relics of Nurgle" hidden="false" collective="false" import="true" targetId="e64fbefc-ce89-4af3-a658-72a38e3ab24e" type="selectionEntryGroup"/>
@@ -5902,6 +5873,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5933,6 +5905,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5986,7 +5959,7 @@ These powers are considered to have been manifested with a roll equal to their w
       </profiles>
       <infoLinks>
         <infoLink id="d286dcd5-0e6c-4bf4-ba8f-87467e77b206" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
-        <infoLink id="128f-31ca-86de-7461" name="Explodes (Putrid Small)" hidden="false" targetId="080e-c78b-7ac5-d3c5" type="profile"/>
+        <infoLink id="6ecf-e090-b04f-b54b" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="69f43d56-38b4-4677-8c35-e192c1075451" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
@@ -6017,6 +5990,7 @@ These powers are considered to have been manifested with a roll equal to their w
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Putrid Small)</characteristic>
               </characteristics>
             </profile>
           </profiles>

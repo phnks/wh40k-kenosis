@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="282" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="284" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -7731,6 +7731,72 @@ Remaining Wounds | Aura Range
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a737-caa1-393c-fc09" name="Discipline of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d8bc-1bce-7588-b62a" name="Plaguewind" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6+3</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Infantry (4+), Torrent. Psychic. Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="543d-75a0-d4f7-770d" name="Curse of the Leper" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, target a single unit within 21&quot; of the Psyker. If Curse of the Leper is used to target a friendly unit, all models in that unit add 1 to their Strength and Toughness characteristics whilst this power is in effect; if used to target an enemy unit, all models in that unit must reduce their Strength and Toughness characteristic by 1 whilst this power is in effect. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d8e2-5e30-635f-f085" name="Anti-Infantry (X)" hidden="false" targetId="fd85-f934-cab3-4505" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Anti-Infantry (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="75e3-8e50-b42a-f2a1" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+        <infoLink id="8f0f-07ba-face-2af6" name="Psychic" hidden="false" targetId="c207-7d7a-4376-c33e" type="rule"/>
+        <infoLink id="f873-20c4-de11-c203" name="Psychic Focus" hidden="false" targetId="4169-7f0e-c5a3-e39c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e91c-2c30-e421-5a10" name="Discipline of Warprot" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bdfa-c69a-d2ed-e6fe" name="Final Decomposition" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 1</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Psychic. Psychic Focus, Instant Death, Ignores Cover. 
+Instead of rolling To Wound normally for a model hit by this attack, its controlling player must roll a D6. If the result is higher than the number of Wounds the target has remaining, it suffers 1 Wound using this weapons profile.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="833a-1474-acc0-c399" name="Miasma of Pestilence" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of performing a weapon attack during the Fight Phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, until the end of the phase, all enemy units locked in close combat with the target or it&apos;s unit suffer a -1 penalty to their Weapon Skill and Initiative characteristics.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5aa5-00f6-3d1c-18fd" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+        <infoLink id="c307-4b81-7413-df33" name="Psychic" hidden="false" targetId="c207-7d7a-4376-c33e" type="rule"/>
+        <infoLink id="82bc-8b83-038c-9547" name="Psychic Focus" hidden="false" targetId="4169-7f0e-c5a3-e39c" type="rule"/>
+        <infoLink id="3101-70bd-d365-8205" name="Ignores Cover" hidden="false" targetId="a601-003d-e26b-c4b6" type="rule"/>
+        <infoLink id="a815-ab34-b5f0-891b" name="Instant Death" hidden="false" targetId="c310-8ffc-efe5-52bf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfb814bd-1a08-4dd8-bd10-015aec6c1600" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true">
@@ -9567,6 +9633,33 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
     </rule>
     <rule id="31db-2935-bf1d-f137" name="Stubborn" hidden="false">
       <description>When a unit that contains at least one model with this special rule takes Morale checks, the unit ignore any negative Leadership modifiers. </description>
+    </rule>
+    <rule id="fd85-f934-cab3-4505" name="Anti-Infantry (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
+    </rule>
+    <rule id="ec32-f2a1-6b35-0d47" name="Torrent" hidden="false">
+      <description>Each time an attack is made with a weapon with the Torrent special rule, that attack automatically hits the target.</description>
+    </rule>
+    <rule id="c207-7d7a-4376-c33e" name="Psychic" hidden="false">
+      <description>Some weapons and abilities can only be used by Psykers. Such weapons and abilities are tagged with the word ‘Psychic’. If a Psychic weapon or ability causes any unit to suffer one or more wounds, each of those wounds is considered to have been inflicted by a Psychic Attack.</description>
+    </rule>
+    <rule id="4169-7f0e-c5a3-e39c" name="Psychic Focus" hidden="false">
+      <description>Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed, then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed, then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</description>
+    </rule>
+    <rule id="a601-003d-e26b-c4b6" name="Ignores Cover" hidden="false">
+      <description>Attacks with this weapon do not get any penalties to hit due to cover. Cover saves cannot be taken against Wounds caused by weapons with the Ignores Cover special rule.</description>
+    </rule>
+    <rule id="c310-8ffc-efe5-52bf" name="Instant Death" hidden="false">
+      <description>If a model suffers an unsaved Wound from an attack with this special rule, it is reduced to 0 Wounds and is removed as a casualty.</description>
+    </rule>
+    <rule id="c0af-71c6-e908-d24e" name="Anti-Vehicle (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
+    </rule>
+    <rule id="54de-2bc1-cfeb-814c" name="Devastating Wounds" hidden="false">
+      <description>Saving throws cannot be made against Critical Wounds scored by this weapon (including invulnerable saving throws).</description>
+    </rule>
+    <rule id="3b0b-f170-0488-7f81" name="Hazardous" hidden="false">
+      <description>After a unit shoots or fights, roll one Hazardous test (one D6) for each Hazardous weapon used. For each 1, one model equipped with a Hazardous weapon is destroyed (Characters, Walkers, Monsters and Vehicles suffer 3 mortal wounds instead).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
