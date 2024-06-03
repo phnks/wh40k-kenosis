@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="280" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="282" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -408,6 +408,7 @@
     <categoryEntry id="785d0beb-f90c-4373-bca5-f446eaf9568c" name="Officio Assassinorum - Boarding Patrol" hidden="false"/>
     <categoryEntry id="4da19197-ba01-4c2c-a376-9fedc33718ae" name="Inquisitor - Boarding Patrol" hidden="false"/>
     <categoryEntry id="a275596e-6693-4aad-b88f-69fd8d067187" name="Runtherd - Boarding Patrol" hidden="false"/>
+    <categoryEntry id="2382-363a-9388-4da8" name="Walker" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" name="Patrol Detachment -2CP" hidden="false">
@@ -9563,6 +9564,9 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
     </rule>
     <rule id="0170-3f52-4dc0-f0e5" name="Explodes (Putrid Large)" hidden="false">
       <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 2.</description>
+    </rule>
+    <rule id="31db-2935-bf1d-f137" name="Stubborn" hidden="false">
+      <description>When a unit that contains at least one model with this special rule takes Morale checks, the unit ignore any negative Leadership modifiers. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>

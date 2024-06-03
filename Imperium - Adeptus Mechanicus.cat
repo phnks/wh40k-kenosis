@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="255" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="280" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="257" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="281" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -8522,7 +8522,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="05474740-7cd1-49ab-86a7-714f891d57d2" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="57ed6a7c-5d66-462c-920f-6df38a6b11f1" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="928572e7-19b8-42ae-a4b4-1b6f1c86e332" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
-        <categoryLink id="212d-59e5-5b56-5c83" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="becf-a073-11f7-1160" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c1e62d7c-8356-4034-b761-f6c0c5853657" name="Castellax" hidden="false" collective="false" import="true" type="model">
@@ -8990,7 +8990,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="33a2cf21-99b7-44c1-9969-3e5944c47990" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
         <categoryLink id="4213ca9a-90e3-4fc8-89a5-50024beed8b5" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="e988e5e7-2951-478b-9923-2eb3a79d2570" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="754e-e1d7-2303-1dea" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="04a4-112f-7f1a-7e0c" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="95b99e7a-47fe-4d41-878c-49b651107783" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
@@ -11053,15 +11053,14 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     <rule id="aa8486c0-373b-4565-b98a-2eb66848b356" name="Canticles of the Omnissiah" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="85" hidden="false">
       <description>
 1. Shroudpsalm:
-While this canticle is active, this unit counts as receiving the benefits of Light Cover.
+While this canticle is active, this unit gains a 6+ Cover Save.
 
 2. Chant of the Remorseless Fist:
 While this canticle is active, each time a model in this unit makes a melee attack, add 1 to the Strength characteristic of this attack.
 
 3. Incantation of the Iron Soul:
 While this canticle is active:
-⁃ Each time a Combat Attrition test is made for this unit, ignore any or all modifiers.
-⁃ Each time a model in this unit would lose a wound as a result of a Mortal Wound, roll one D6; on a 5+ that wound is not lost. If this unit has the Refusal to Yield Dogma, that wound is not lost on a 4+ instead.
+⁃ Each time a Leadership test is made for this unit, the unit gains the benefits of the Stubborn special trait
 
 4. Benediction of the Omnissiah
 While this canticle is active, each time a unit is selected to shoot, when resolving its attacks you can
