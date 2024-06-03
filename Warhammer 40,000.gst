@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="278" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="280" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -135,6 +135,7 @@
         <characteristicType id="c9dd-af78-cad1-74e1" name="Ld"/>
         <characteristicType id="3c72-e9b6-c098-41ce" name="Sv"/>
         <characteristicType id="056a-a2c7-69a0-7701" name="Inv"/>
+        <characteristicType id="c0f1-9cc8-8744-933a" name="Traits"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -9544,6 +9545,24 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
     <rule id="aab1-09e9-9e16-5a66" name="Bulky (X)" hidden="false">
       <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity.
 For example, a unit comprised of five models all of which have the Bulky (3) special rule, would count as 15 models when attempting to Embark on a Transport Vehicle.</description>
+    </rule>
+    <rule id="4966-da5f-c55f-71cf" name="Explodes (Small)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 3&quot; suffers a hit per model at Str 8 AP 0 Dmg 1.</description>
+    </rule>
+    <rule id="d5cf-648e-9a1d-92ba" name="Explodes (Large)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 2.</description>
+    </rule>
+    <rule id="7533-8075-1a4b-ab97" name="Explodes (Massive)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6+D6&quot; suffers a hit per model at Str 7+D3 AP -2 Dmg 2.</description>
+    </rule>
+    <rule id="ba94-b02e-293e-6487" name="Explodes (Flyer)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 6 it explodes, and each unit within 6+D6&quot; suffers a hit per model at Str 10 AP -3 Dmg 3.</description>
+    </rule>
+    <rule id="f74b-a99b-6443-161d" name="Explodes (Putrid Small)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 1.</description>
+    </rule>
+    <rule id="0170-3f52-4dc0-f0e5" name="Explodes (Putrid Large)" hidden="false">
+      <description>When this model is destroyed, roll one D6 before any embarked models disembark and before removing it from play. On a 4+ it explodes, and each unit (excluding NURGLE units) within D6&quot; suffers a hit per model at Str 8 AP 0 Dmg 2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
