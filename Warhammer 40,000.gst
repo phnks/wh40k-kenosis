@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="284" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="287" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9660,6 +9660,22 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
     </rule>
     <rule id="3b0b-f170-0488-7f81" name="Hazardous" hidden="false">
       <description>After a unit shoots or fights, roll one Hazardous test (one D6) for each Hazardous weapon used. For each 1, one model equipped with a Hazardous weapon is destroyed (Characters, Walkers, Monsters and Vehicles suffer 3 mortal wounds instead).</description>
+    </rule>
+    <rule id="5f40-b900-5742-506d" name="Resilient" hidden="false">
+      <description>Each time an attack is allocated to this model subtrat 1 from the Damage characteristic of that attack (to a minimum of 1).</description>
+    </rule>
+    <rule id="319e-ebb8-c599-5c25" name="Graviton Pulse" hidden="false">
+      <description>When used against units with a 3+ or better Save the Damage of this weapon becomes D3. </description>
+    </rule>
+    <rule id="e975-f187-42bf-f193" name="Grav Wave" hidden="false">
+      <description>When a charge is rolled against this unit reduce the distance rolled by 2 inches.</description>
+    </rule>
+    <rule id="b6dc-0684-5d0b-4734" name="Blast" hidden="false">
+      <description>Minimum three attacks against units with 6+ models. Always make maximum number of attacks against units with 11+ models.
+Can never be used to attack units within the firing unit’s Engagement Range.</description>
+    </rule>
+    <rule id="490a-1e41-77d6-68c7" name="Indirect Fire" hidden="false">
+      <description>This weapon may be used against enemy units that are not within line of site of the bearer.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

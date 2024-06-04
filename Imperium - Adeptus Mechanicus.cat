@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="259" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="264" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="287" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -549,6 +549,7 @@
     <entryLink id="cb9ea131-699e-4f85-9541-dbb60584164d" name="Thallaxii" hidden="false" collective="false" import="true" targetId="4e92610e-765d-4ae8-804d-8ccc40fb6c0b" type="selectionEntry"/>
     <entryLink id="662f1eae-1bed-422a-a9e8-bf6d4734f614" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="3d0b3fed-1d1d-4d0e-88d9-60af04eb3aea" type="selectionEntry"/>
     <entryLink id="e58c-42d3-1541-1f60" name="Krios Battle Tank" hidden="false" collective="false" import="true" targetId="263d-9f0d-fda6-6e88" type="selectionEntry"/>
+    <entryLink id="1ea7-f575-2162-7952" name="Thanatar Siege-Automata" hidden="false" collective="false" import="true" targetId="121f-6654-7db9-557d" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="5dfcdf43-3cf4-4bfd-a7ee-729a91eb1f5a" name="Extremis Sentinel Protocols" hidden="false" targetId="89ccc92b-a4a0-4816-8d73-4a09d26a5df4" type="rule"/>
@@ -8878,7 +8879,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="c50a3463-8977-49ab-b7ca-d3ef3b9484d0" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7f7e9251-ceea-489c-a543-139d9099ea37" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" type="selectionEntry">
+        <entryLink id="7f7e9251-ceea-489c-a543-139d9099ea37" name="Karacnos Mortar Battery (Mounted)" hidden="false" collective="false" import="true" targetId="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d7de32-18a0-4d02-b002-0b7877013339" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b622e7-726a-4287-8d63-349d5525ed6c" type="min"/>
@@ -10226,6 +10227,234 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="121f-6654-7db9-557d" name="Thanatar Siege-Automata" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e326-d7fd-e78b-4de9" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
+        <categoryLink id="0d42-acb3-444a-61a6" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
+        <categoryLink id="dfd7-1910-1848-8fad" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="bb42-9145-c5b0-a229" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bcd3-4edd-5a62-6b02" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef8-1f56-a471-9572" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b0-b97e-9301-c0c7" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6980-dc74-6017-278e" name="Thanatar Calix" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="f265-eb8d-aead-f7f9" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
+                <infoLink id="1363-78f2-0417-5576" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
+                <infoLink id="bba2-2f21-0731-29b0" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
+                <infoLink id="bd68-591a-194b-288a" name="Thanatar 2 (4 -6)" hidden="false" targetId="9d35-f2fe-b9f2-9228" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Calix 2 (4-6)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="aa9a-d284-d513-ceec" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
+                <infoLink id="9838-f5bd-960a-8c5e" name="Grav Wave" hidden="false" targetId="e975-f187-42bf-f193" type="rule"/>
+                <infoLink id="68b7-0aeb-a666-377e" name="Thanatar 1 (7-12)" hidden="false" targetId="efbf-b852-d46f-b953" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Calix 1 (7-12)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="1aaa-dc37-e1ec-ab28" name="Thanatar 3 (1-3)" hidden="false" targetId="bc55-3cba-1ad4-64c4" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Calix 3 (1-3)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="5e7c-6faa-9c35-d1dd" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="50c6-5565-2c1e-194c" name="Graviton Ram" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03c-735b-efba-68d6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1275-7351-8a23-21df" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ba29-a92c-a36e-ff8c" name="Graviton Ram - Ranged" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Graviton Pulse</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="f14f-92de-2a48-f9c8" name="Graviton Ram - Melee" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="4fd8-b0ba-5a6a-8943" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+                    <infoLink id="c5fc-10b5-2f36-c9f2" name="Graviton Pulse" hidden="false" targetId="319e-ebb8-c599-5c25" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                    <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c9cb-c64e-7a6d-668a" name="Sollex Heavy Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c3-57db-1b00-5506" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a5-e771-778f-04ea" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7a5b-f99e-6bb1-f652" name="Sollex Heavy Lascannon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 3</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">10</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                    <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="e3dd-1f64-4c42-6856" name="Shock Charger" hidden="false" collective="false" import="true" targetId="a55f082f-11e9-4803-852f-828bac570a30" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc9-0677-d322-24c8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe9-0f45-7f40-ccc8" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="ca15-621f-e496-cbc5" name="Twin-Linked Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="24b2-200c-8f13-e101" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ed-e680-3c3d-9216" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecc1-6f02-a11a-7aa7" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="250.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9c17-d768-193e-60bf" name="Thanatar Cavas" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="db6f-c1f6-1a78-8cc5" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
+                <infoLink id="f8d4-76a4-8e35-1e7c" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
+                <infoLink id="394f-298d-bb4c-a199" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
+                <infoLink id="945c-7fcd-fb6b-bd61" name="Thanatar 1 (7-12)" hidden="false" targetId="efbf-b852-d46f-b953" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Cavas 1 (7-12)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7e43-53f7-a1b5-76e9" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
+                <infoLink id="a4b2-1457-b581-dd03" name="Grav Wave" hidden="false" targetId="e975-f187-42bf-f193" type="rule"/>
+                <infoLink id="b6a1-a108-1153-9ba4" name="Thanatar 2 (4 -6)" hidden="false" targetId="9d35-f2fe-b9f2-9228" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Cavas 2 (4-6)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d70b-4c70-03a3-9e23" name="Thanatar 3 (1-3)" hidden="false" targetId="bc55-3cba-1ad4-64c4" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Thanatar Cavas 3 (1-3)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="c78d-2ba4-02cc-6d41" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="144f-5fea-b05b-1f17" name="Plasma Mortar" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0896-0352-aa23-52ac" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5067-9bd1-ca34-2698" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1648-305a-6685-fb95" name="Plasma Mortar" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Indirect Fire. Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9178-810e-bfee-1c1e" name="Indirect Fire" hidden="false" targetId="490a-1e41-77d6-68c7" type="rule"/>
+                    <infoLink id="388f-62a1-d016-c60e" name="Blast" hidden="false" targetId="b6dc-0684-5d0b-4734" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                    <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="6d23-d55c-65cc-2afd" name="Shock Charger" hidden="false" collective="false" import="true" targetId="a55f082f-11e9-4803-852f-828bac570a30" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267d-cec8-abfa-e950" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ec-1a3e-c7b4-635f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5302-d96d-dbfd-32eb" name="Twin-Linked Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="24b2-200c-8f13-e101" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b8-a3c3-d7a3-c9f1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315f-f0b2-a788-3bef" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="220.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bb68-50cd-9610-bd0a" name="Enhanced Targeting Array" hidden="false" collective="false" import="true" targetId="63f45e16-9629-4f33-a0db-70cdddbc9433" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dff4-be64-2a14-2c5d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24b2-200c-8f13-e101" name="Twin-Linked Mauler Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f5ea-623f-6351-2ee7" name="Twin-Linked Mauler Bolt Cannon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">24&quot;</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 6</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12054,6 +12283,54 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
         <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d35-f2fe-b9f2-9228" name="Thanatar 2 (4 -6)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+      <characteristics>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">5+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">-</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="efbf-b852-d46f-b953" name="Thanatar 1 (7-12)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+      <characteristics>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">8</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">12</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Canticles of the Omnissiah, Graviton Pulse</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc55-3cba-1ad4-64c4" name="Thanatar 3 (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+      <characteristics>
+        <characteristic name="M" typeId="3dc1-8120-684f-5650">3&quot;</characteristic>
+        <characteristic name="WS" typeId="a552-c600-b69b-02dc">-</characteristic>
+        <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+        <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+        <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+        <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+        <characteristic name="I" typeId="d745-4fd8-844e-5a45">-</characteristic>
+        <characteristic name="A" typeId="6a70-10f0-93ba-6014">-</characteristic>
+        <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
