@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="287" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="288" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9655,8 +9655,8 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
     <rule id="c0af-71c6-e908-d24e" name="Anti-Vehicle (X)" hidden="false">
       <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
     </rule>
-    <rule id="54de-2bc1-cfeb-814c" name="Devastating Wounds" hidden="false">
-      <description>Saving throws cannot be made against Critical Wounds scored by this weapon (including invulnerable saving throws).</description>
+    <rule id="54de-2bc1-cfeb-814c" name="Devastating Wounds (X)" hidden="false">
+      <description>Each time an attack is made with this weapon against a X unit, that attack does maximum damage instead of rolling for damage.</description>
     </rule>
     <rule id="3b0b-f170-0488-7f81" name="Hazardous" hidden="false">
       <description>After a unit shoots or fights, roll one Hazardous test (one D6) for each Hazardous weapon used. For each 1, one model equipped with a Hazardous weapon is destroyed (Characters, Walkers, Monsters and Vehicles suffer 3 mortal wounds instead).</description>
@@ -9676,6 +9676,12 @@ Can never be used to attack units within the firing unit’s Engagement Range.</
     </rule>
     <rule id="490a-1e41-77d6-68c7" name="Indirect Fire" hidden="false">
       <description>This weapon may be used against enemy units that are not within line of site of the bearer.</description>
+    </rule>
+    <rule id="0448-7cb5-8c1a-46f9" name="Anti-Walker (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
+    </rule>
+    <rule id="ae69-b9bb-7021-7767" name="Anti-Monster (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

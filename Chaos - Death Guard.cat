@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="186" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="284" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="187" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="288" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -11660,9 +11660,9 @@ In addition, while one or more enemy models are in range of this aura, add 1 to 
                     <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
                     <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 1</characteristic>
                     <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
-                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
                     <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
-                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Psychic. Psychic Focus, Anti-Vehicle (4+), Devastating Wounds</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Psychic. Psychic Focus, Anti-Vehicle (4+), Anti-Walker (4+), Devastating Wounds (Vehicle), Devastating Wounds (Walker)</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="9419-cb07-a916-3d99" name="Weapon Virus" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -11680,7 +11680,21 @@ In addition, while one or more enemy models are in range of this aura, add 1 to 
                     <modifier type="set" field="name" value="Anti-Vehicle (4+)"/>
                   </modifiers>
                 </infoLink>
-                <infoLink id="75ac-217e-932a-8b75" name="Devastating Wounds" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule"/>
+                <infoLink id="75ac-217e-932a-8b75" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Devastating Wounds (Vehicle)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="2f0d-e374-54de-2b55" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Devastating Wounds (Walker)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ac49-f5ca-2bc0-4b05" name="Anti-Walker (X)" hidden="false" targetId="0448-7cb5-8c1a-46f9" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Anti-Walker (4+)"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0.0"/>
