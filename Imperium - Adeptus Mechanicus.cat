@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="265" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="288" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="267" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="288" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -550,6 +550,7 @@
     <entryLink id="662f1eae-1bed-422a-a9e8-bf6d4734f614" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="3d0b3fed-1d1d-4d0e-88d9-60af04eb3aea" type="selectionEntry"/>
     <entryLink id="e58c-42d3-1541-1f60" name="Krios Battle Tank" hidden="false" collective="false" import="true" targetId="263d-9f0d-fda6-6e88" type="selectionEntry"/>
     <entryLink id="1ea7-f575-2162-7952" name="Thanatar Siege-Automata" hidden="false" collective="false" import="true" targetId="121f-6654-7db9-557d" type="selectionEntry"/>
+    <entryLink id="67fa-2e47-2573-04ba" name="Vultarax Stratos-Automata" hidden="false" collective="false" import="true" targetId="47e5-790b-2399-a941" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="5dfcdf43-3cf4-4bfd-a7ee-729a91eb1f5a" name="Extremis Sentinel Protocols" hidden="false" targetId="89ccc92b-a4a0-4816-8d73-4a09d26a5df4" type="rule"/>
@@ -9031,44 +9032,48 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           <categoryLinks>
             <categoryLink id="febb1ef3-a6ab-441f-8f9a-14ee6b0e81fc" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="df5b-f3d2-e4e8-5fe5" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb7-f943-cc76-a439" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a144-e6fe-4854-1baa" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2892-73da-74bc-a796" name="Karceri Battle Shield" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Add 1 to the Saving Throws for models equipped with karceri battle shields.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="bd1a-96db-f0d6-2774" name="Graviton Maul" hidden="false" collective="false" import="true" targetId="036d34bb-033e-4d3e-9c2d-d627ed405a06" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0de-2451-8fb1-05c9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba33-6ed3-5582-86f8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b643-09b8-abb3-0459" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="b524b213-69f7-441a-bb60-9d8cb5baecc8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c04-2022-2361-2ea9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c64-b308-e6e0-2729" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="95.0"/>
-            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="eecf613c-15a9-4ed2-bb2f-add311e1bd39" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="634d9047-c601-4b7a-ba9f-c681369752e0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b6c1062-b913-40bf-a6ed-cf8a55f33cf7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="c7d7ab2b-1859-4e73-bd3e-ba5a80a9a76f" name="Karceri Battle Shield" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Add 1 to the Saving Throws for models equipped with karceri battle shields.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="123.0"/>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
             <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="24c99d46-6087-47ee-8425-532677f1d953" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="b524b213-69f7-441a-bb60-9d8cb5baecc8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67caf773-ef4e-4cd8-b625-e50e429d1827" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cce900b-9d0b-4e4d-9c69-15b2e548d4cc" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ea744b64-7606-4155-bbef-d2d214920e20" name="Graviton Maul" hidden="false" collective="false" import="true" targetId="036d34bb-033e-4d3e-9c2d-d627ed405a06" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106fb7bc-85c0-46dd-a8e3-4ebf57e702f8" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fd2ac6-7444-4159-9d0d-389f621761d6" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="095d492a-b1bb-428f-829d-6a2d0f587ee2" name="Enhanced Targeting Array" hidden="false" collective="false" import="true" targetId="63f45e16-9629-4f33-a0db-70cdddbc9433" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb74a586-6e2e-4a8e-9cdf-b9694d4c296a" type="max"/>
@@ -9087,15 +9092,14 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           <characteristics>
             <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
             <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+2</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
             <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
@@ -9114,7 +9118,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="18.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
@@ -10280,7 +10283,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                     <profile id="ba29-a92c-a36e-ff8c" name="Graviton Ram - Ranged" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
                         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
                         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
                         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
@@ -10478,6 +10481,257 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47e5-790b-2399-a941" name="Vultarax Stratos-Automata" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7cbf-3702-f1d8-61b8" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
+        <categoryLink id="e505-af3a-5c44-0bcc" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
+        <categoryLink id="dfa1-8349-c14a-36e4" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="33dc-eb06-17e5-7630" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2079-94c5-8758-1a82" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d6-e385-3bd0-9f96" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e3e-75c3-47a4-4dc7" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b702-675a-4f50-e79d" name="Vultarax" hidden="false" collective="false" import="true" type="model">
+              <profiles>
+                <profile id="965b-f33a-3666-a76a" name="Vultarax" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+                  <characteristics>
+                    <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                    <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
+                    <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                    <characteristic name="T" typeId="dc93-4efd-d681-a6ba">6</characteristic>
+                    <characteristic name="W" typeId="8beb-4664-1ca3-8e62">9</characteristic>
+                    <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+                    <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                    <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+                    <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                    <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Canticles of the Omnissiah, Battle Automata, Cybernetica Cortex, Surveillance Protocols</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="6e26-1b31-35ed-8235" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
+                <infoLink id="8c5c-0584-1abc-eec7" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
+                <infoLink id="fc0d-9604-df66-5fe5" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
+                <infoLink id="3161-0438-d2f6-8c98" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+                <infoLink id="b522-88f4-922e-5f91" name="Surveillance Protocols" hidden="false" targetId="6f6c-d9f6-c11a-cba2" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="bb2f-0c4e-595e-8c0f" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="78c8-df60-205e-e82f" name="Arc Blaster" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b73f-d1fd-28b4-d6eb" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47e6-bda9-9fa0-a2fc" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="0d33-176b-791a-1346" name="Arc Blaster" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 4</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Vehicle (4+), Anti-Walker (4+), Devastating Wounds (Vehicle), Devastating Wounds (Walker)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="4739-633b-d442-f277" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Devastating Wounds (Vehicle)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="1438-eab5-c429-e4d3" name="Anti-Vehicle (X)" hidden="false" targetId="c0af-71c6-e908-d24e" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Anti-Vehicle (4+)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="22d0-83ea-d3c4-ac22" name="Anti-Walker (X)" hidden="false" targetId="0448-7cb5-8c1a-46f9" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Anti-Walker (4+)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="d0df-ed27-53ea-7ed8" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Devastating Wounds (Walker)"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                    <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="05f0-13d6-b00d-d1bc" name="Vultarax Probe" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee97-0f45-8b7a-491e" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="118c-d1ec-e3f1-869e" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="1406-eb14-584d-2731" name="Vultarax Probe" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                    <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="f4ae-db0a-12eb-246d" name="Havoc launcher" hidden="false" collective="false" import="true" targetId="ab8c6d95-60fb-4836-ab96-81aada6a15f1" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bbe-b925-b9a8-7b63" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e99-bad9-bda0-6a3b" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="132.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4ab6-3f09-39ed-6bd0" name="Enhanced Targeting Array" hidden="false" collective="false" import="true" targetId="63f45e16-9629-4f33-a0db-70cdddbc9433" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3285-9242-31ac-5f76" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f0a-808f-5bda-e3fa" name="Domitar Battle-Automata" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3bff-b1b9-959c-b085" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
+        <categoryLink id="f5aa-7a48-71de-c1d0" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
+        <categoryLink id="b0e3-86a8-b3c6-2b4a" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="4e28-db56-7622-bcfb" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8f41-ea79-3269-be1a" name="Domitar" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8de-66b8-f833-2fe5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbb-762c-5b38-d92f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="57d9-9231-398b-17aa" name="Domitar" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+              <characteristics>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">7</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Canticles of the Omnissiah, Grav Wave</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fde-34fe-3ca7-7325" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
+            <infoLink id="a31c-ed72-3a4f-1dd8" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+            <infoLink id="9a72-7b6b-1c51-ace5" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
+            <infoLink id="9e0a-f54c-8209-f357" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
+            <infoLink id="5c85-4388-1192-5f41" name="Grav Wave" hidden="false" targetId="e975-f187-42bf-f193" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5ef7-d456-efc8-0878" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="421c-5e94-6782-833a" name="Graviton Hammer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a1-0ca5-a24a-4670" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894e-851e-5687-0131" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ef84-2fea-e62e-7575" name="Graviton Hammer - Melee" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="bde9-260c-f76a-dd04" name="Graviton Hammer - Ranged" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Torrent. Graviton Pulse</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="9496-e56d-c86a-79a6" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
+                <infoLink id="daa3-7be7-a4cb-ac6f" name="Graviton Pulse" hidden="false" targetId="319e-ebb8-c599-5c25" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="c471-7d19-57df-4da6" name="Missile launcher" hidden="false" collective="false" import="true" targetId="a0ba1e15-1467-4c2a-9933-4c6b4859ab23" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3636-69a1-6e1b-e2c1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a7-4cbe-4dec-d506" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="140.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="5cb2-9be0-6016-a8d8" name="Enhanced Targeting Array" hidden="false" collective="false" import="true" targetId="63f45e16-9629-4f33-a0db-70cdddbc9433" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d8-14de-a0b7-8a70" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -11406,6 +11660,9 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
     </rule>
     <rule id="13314926-24a3-48a2-a192-53ac4dd4ff79" name="Cortex Controller" hidden="false">
       <description>This model gains the Cortex Controller keyword.</description>
+    </rule>
+    <rule id="6f6c-d9f6-c11a-cba2" name="Surveillance Protocols" hidden="false">
+      <description>A model with this special rule and the Cybernetica Cortex special rule may ignore the requirement to charge as described as part of that rule during the Charge phase.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
