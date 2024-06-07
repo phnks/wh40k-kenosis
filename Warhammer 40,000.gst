@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="288" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="289" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -3570,6 +3570,7 @@ Remaining Wounds | Aura Range
       <infoLinks>
         <infoLink id="eee5c227-9975-469f-9020-be15af70ec28" name="Missile launcher, Frag missile" hidden="false" targetId="7a4f0b6c-09cc-4f1f-9eb5-620a23ef8557" type="profile"/>
         <infoLink id="8948bd18-4190-4f18-b557-2002f2804d97" name="Missile launcher, Krak missile" hidden="false" targetId="0d78325d-1532-46ee-b303-ed19e7bd0823" type="profile"/>
+        <infoLink id="a082-9212-c853-c26f" name="Blast" hidden="false" targetId="b6dc-0684-5d0b-4734" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -6059,6 +6060,7 @@ Remaining Wounds | Aura Range
       </constraints>
       <infoLinks>
         <infoLink id="356cb592-bd25-4102-aaa0-29f6df328355" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile"/>
+        <infoLink id="d396-9909-1461-5d26" name="Blast" hidden="false" targetId="b6dc-0684-5d0b-4734" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -9912,7 +9914,7 @@ Can never be used to attack units within the firing unit’s Engagement Range.</
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast.</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="a8f39ad3-79a5-44af-9fc2-b02d4a80a5e1" name="Multi-melta" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -11344,7 +11346,7 @@ Can never be used to attack units within the firing unit’s Engagement Range.</
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast.</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="41755383-1203-4641-848d-31938df48b17" name="Rapid Tunnelling" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">

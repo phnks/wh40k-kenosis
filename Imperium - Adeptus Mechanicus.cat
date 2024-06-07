@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="267" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="288" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="268" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="288" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -551,6 +551,7 @@
     <entryLink id="e58c-42d3-1541-1f60" name="Krios Battle Tank" hidden="false" collective="false" import="true" targetId="263d-9f0d-fda6-6e88" type="selectionEntry"/>
     <entryLink id="1ea7-f575-2162-7952" name="Thanatar Siege-Automata" hidden="false" collective="false" import="true" targetId="121f-6654-7db9-557d" type="selectionEntry"/>
     <entryLink id="67fa-2e47-2573-04ba" name="Vultarax Stratos-Automata" hidden="false" collective="false" import="true" targetId="47e5-790b-2399-a941" type="selectionEntry"/>
+    <entryLink id="8211-60ad-4437-5d62" name="Domitar Battle-Automata" hidden="false" collective="false" import="true" targetId="6f0a-808f-5bda-e3fa" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="5dfcdf43-3cf4-4bfd-a7ee-729a91eb1f5a" name="Extremis Sentinel Protocols" hidden="false" targetId="89ccc92b-a4a0-4816-8d73-4a09d26a5df4" type="rule"/>
@@ -9102,6 +9103,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b524b213-69f7-441a-bb60-9d8cb5baecc8" name="Shrapnel Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -9120,6 +9122,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9bb951c2-cb44-4307-a46a-a6e6aa076b7d" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" type="unit">
@@ -10492,13 +10495,16 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <categoryLink id="33dc-eb06-17e5-7630" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2079-94c5-8758-1a82" name="Models" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2079-94c5-8758-1a82" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="b702-675a-4f50-e79d">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d6-e385-3bd0-9f96" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e3e-75c3-47a4-4dc7" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="b702-675a-4f50-e79d" name="Vultarax" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b956-83e7-f129-5444" type="min"/>
+              </constraints>
               <profiles>
                 <profile id="965b-f33a-3666-a76a" name="Vultarax" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
                   <characteristics>
