@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Maggotkin of Nurgle" revision="157" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="291" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
+  </publications>
+  <profileTypes>
+    <profileType id="769e83a9-ced5-481d-ade4-b96aa78cab8a" name="Psyker Table">
+      <characteristicTypes>
+        <characteristicType id="d49d4e8f-956f-4598-ac93-05ad4175662b" name="Can Cast"/>
+        <characteristicType id="8a7ce765-1ed7-4ab0-87db-bc1f2802870b" name="Can Deny"/>
+        <characteristicType id="96ddc149-3e0e-4c56-a04c-43b1a46a1868" name="Also knows"/>
+        <characteristicType id="41be7c58-b155-40c7-b88a-0899573e1671" name="Other"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="ee2ca0f9-e980-4dbc-a67e-75ecb9aac577" name="Boon of Change - D3 Roll">
+      <characteristicTypes>
+        <characteristicType id="89ed3a17-c410-45e5-a37f-24797cf59f76" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="56a2e127-b331-420c-85ce-cc46a3cc637b" name="Tally">
+      <characteristicTypes>
+        <characteristicType id="e6501ba3-5c7f-41bc-892a-2b5a6e108116" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="1b067b85-02d4-4b45-8b77-ea9bf98df080" name="Mutated Beyond Reason - D3 Roll">
+      <characteristicTypes>
+        <characteristicType id="8c4f9eb2-9876-4334-98e5-954936f25af6" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="fdb5e149-0265-4fce-8121-22edc2cbab4f" name="HQ" hidden="false"/>
+    <categoryEntry id="d738af94-65d6-4911-a47f-fefae81f4ae3" name="Elites" hidden="false"/>
+    <categoryEntry id="78908897-ab7e-4e1c-9923-f53972cd3192" name="Troops" hidden="false"/>
+    <categoryEntry id="c06c80cd-439b-408e-8350-4c28603dc270" name="Heavy Support" hidden="false"/>
+    <categoryEntry id="09dff0d7-b91a-44ee-b759-f37a33a8748c" name="Fast Attack" hidden="false"/>
+    <categoryEntry id="c78d13d1-bbf1-4f1c-afc9-982b634c5526" name="Lord of War" hidden="false"/>
+    <categoryEntry id="f1a721c4-6c2a-47cb-a600-e55f1dac842f" name="Fortification" hidden="false"/>
+    <categoryEntry id="20cada00-11d6-4ef1-ad8b-a7897d3b31a4" name="Faction: Khorne" hidden="false"/>
+    <categoryEntry id="a11c8a03-85a9-4387-a8c9-7340d6e18283" name="Faction: Nurgle" hidden="false"/>
+    <categoryEntry id="ff64b603-7a8d-427f-89a0-21faa23d39d5" name="Faction: Slaanesh" hidden="false"/>
+    <categoryEntry id="0512afe0-cd20-4d9f-8fdd-b9d37d5c2010" name="Faction: Tzeentch" hidden="false"/>
+    <categoryEntry id="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" name="Faction: Legiones Daemonica" hidden="false"/>
+    <categoryEntry id="b7491938-0c34-4eef-b182-6158415dd0d8" name="Daemon Engine" hidden="false"/>
+    <categoryEntry id="6393953b-2ffe-4521-81b0-6fe94c64ed83" name="Horrors" hidden="false"/>
+    <categoryEntry id="e5f100b6-dff6-4a93-be28-29ce88be44b5" name="Flesh Hounds" hidden="false"/>
+    <categoryEntry id="98cb1f58-a610-438a-823d-6be6e0b130be" name="Bloodthirster" hidden="false"/>
+    <categoryEntry id="78471ce5-5815-4dca-bf7b-fdc9caf08e5e" name="Bloodletters" hidden="false"/>
+    <categoryEntry id="1e5e7da8-2f15-4eb6-8aa4-7fccf118d426" name="Herald" hidden="false"/>
+    <categoryEntry id="b5043192-441d-4dbf-bae4-5b7c6c55ec3c" name="Lord of Change" hidden="false"/>
+    <categoryEntry id="33e7b369-48a5-4858-a7ed-99d3cb8897ce" name="Flamers" hidden="false"/>
+    <categoryEntry id="8f4a03b8-fdeb-40d6-8c46-dab3f2d0a048" name="Nurglings" hidden="false"/>
+    <categoryEntry id="1165b420-0425-459a-83c1-a9cfa1db59f0" name="Plaguebearers" hidden="false"/>
+    <categoryEntry id="d5df70a3-c3fe-404e-8e79-b0f78296d3c1" name="Daemonettes" hidden="false"/>
+    <categoryEntry id="8e5bac69-8f78-4132-9d5c-3ab03f2313a3" name="Faction: The Tainted" hidden="false"/>
+    <categoryEntry id="0338501b-af39-48d5-8227-29affb713912" name="Keeper of Secrets" hidden="false"/>
+    <categoryEntry id="1c3e949e-a0ea-46f2-b548-872efc7b0395" name="Daemon Prince of the Ruinstorm" hidden="false"/>
+    <categoryEntry id="e2eefcab-f608-417e-8870-758439887cd7" name="Death Guard" hidden="false"/>
+    <categoryEntry id="6e3a8e4b-2a1b-46ae-a26b-c95331ef9308" name="Faction: Heretic Astartes" hidden="false"/>
+    <categoryEntry id="466f9fad-7fef-4555-8979-f697ddcc02e2" name="Great Unclean One" hidden="false"/>
+    <categoryEntry id="8ee12585-7e28-42e5-839e-3019bb80085d" name="Exalted Flamer" hidden="false"/>
+    <categoryEntry id="07423202-8ca2-47b7-8f08-c921930ef51e" name="Infernal Enrapturess" hidden="false"/>
+    <categoryEntry id="a4aeaa3d-dcaa-416e-a1cb-4395874375e5" name="Beasts of Nurgle" hidden="false"/>
+    <categoryEntry id="2d0c7930-2c0e-4378-90d6-a4ababc7d107" name="Hellflayer" hidden="false"/>
+    <categoryEntry id="ca03cc88-6297-473d-aac9-2466ffb119c7" name="Seeker Chariot" hidden="false"/>
+    <categoryEntry id="5345fb46-c6f8-4cbf-94c0-d1f1bcbf481e" name="Exalted Seeker Chariot" hidden="false"/>
+    <categoryEntry id="9264f7ee-d52c-4513-af9b-e79179a0d0d4" name="Exalted" hidden="false"/>
+    <categoryEntry id="5fb03d95-45d5-4f81-9df8-985a24c4247c" name="Giant Chaos Spawn" hidden="false"/>
+    <categoryEntry id="6ee28526-fd8a-4996-ba41-702ca774e2d4" name="Daemon Prince of Chaos" hidden="false"/>
+    <categoryEntry id="66f2d423-5565-43e2-a83e-ef687dc9aed2" name="Chaos Spawn" hidden="false"/>
+    <categoryEntry id="643c39f7-a1c1-4a94-a84f-d4e12bd66940" name="Greater Daemon" hidden="false"/>
+    <categoryEntry id="d2211219-378b-48d5-91f0-d806aad31bed" name="Daemon" hidden="false"/>
+    <categoryEntry id="953ec98f-e66a-48a9-a22d-5cb4b0998ffd" name="Warp Locus" hidden="false"/>
+    <categoryEntry id="d53f7a62-a449-49ef-9f74-2bda39535ac0" name="Skulltaker" hidden="false"/>
+    <categoryEntry id="e6dcbacb-28f3-49f5-9ee4-97420a56c4f5" name="Icon" hidden="false"/>
+    <categoryEntry id="6e590122-7216-4a95-8297-a4159436b2bf" name="Instrument" hidden="false"/>
+    <categoryEntry id="dc00455c-9377-423f-b8d7-bc3cd829758c" name="Daemonic Disciples" hidden="false"/>
+    <categoryEntry id="c0ede5ba-f5ff-4cfc-8336-ef69a2ce6833" name="Disciples of Be&apos;lakor" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="ef8b2446-39e4-40fd-ac54-962167f55b30" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" type="selectionEntry"/>
+    <entryLink id="83c7559b-96cb-4c9d-a6d3-bd633c01b4c7" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="ce36d9dc-ab2a-4e19-aae0-17f4269fadd3" type="selectionEntry"/>
+    <entryLink id="57dd8c03-5649-479a-aac0-d269ad9b75d9" name="Nurglings" hidden="false" collective="false" import="true" targetId="f9b481c3-fde3-490d-b260-4bf652f7c885" type="selectionEntry"/>
+    <entryLink id="f8959851-8f2c-4222-a7dd-180a104806ff" name="Beasts of Nurgle" hidden="false" collective="false" import="true" targetId="41690e7a-fc40-4019-8a72-fc45ec0d56b6" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f9b481c3-fde3-490d-b260-4bf652f7c885" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="66647471-b2a9-40d8-8337-0afa4c1bc3b6" name="Mischief Makers" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">During deployment, when you set up this unit, it can be set up anywhere on the battlefield that is more than 9&quot; from yor opponent&apos;s deployment zone and any enemy models.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b3ad1935-9899-4268-b668-cd5ac5551fd0" name="Tide of Tiny Bodies" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">if your army is Battle-forged, this unit cannot be selected to fill a compulsory Battlefield Role slot in a Detachment.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7c113c4c-a1de-4ccf-967a-cdaab630900a" name="Bothersome Scamps" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d6f96a95-a7bf-4292-be8f-fc13cc84ffcc" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9875b99b-14e3-4ff1-ab48-f8c1ce27bc56" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
+        <categoryLink id="c89b5fe9-a77f-4375-a668-da416b9ad436" name="New CategoryLink" hidden="false" targetId="8f4a03b8-fdeb-40d6-8c46-dab3f2d0a048" primary="false"/>
+        <categoryLink id="2c9d5266-de3a-4973-b22b-816b3da6e481" name="New CategoryLink" hidden="false" targetId="9d01d8d9-dc07-4b4f-8b73-18f6d0fa89d2" primary="false"/>
+        <categoryLink id="198f5021-98a0-4127-b8cd-51bca72c98f1" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
+        <categoryLink id="c300f93d-a599-438c-bcba-4515812831c2" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="2d312394-4815-46cd-8326-ff332503b7b4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+        <categoryLink id="ba31d259-e7b7-42d2-b56a-26245cdf6bc0" name="Non-Compulsory Troop" hidden="false" targetId="4c77a9d1-9a0d-4731-9e1d-0d24d874d410" primary="false"/>
+        <categoryLink id="3ebfc99e-1f8f-41ce-8619-804592adad7c" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="234c5716-5f7b-4fe3-ba61-6b6ebf73cfca" name="Nurgling Swarms" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd57a53-70a8-4dac-be48-5bd78614d022" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547c1a48-8c39-40af-9584-11787e73472b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e4ca0e29-a70c-4947-8e2e-18d9481ba601" name="Nurgling Swarm" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+              <characteristics>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">2</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">3</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">4</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="e447ec06-4de1-4288-97c5-da4dea208f82" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="a1d9221e-0fb6-4a38-a3d6-3f3e59f34f7d" name="Diseased claws and teeth" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc954614-9be2-4b56-a8f3-9cf91ea9f0e1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="962a58b4-9a4a-4bb2-955a-0ef6d8ee781d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="1b36a717-8397-4181-89e5-b33e69f2c661" name="Diseased claws and teeth" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 automatically wounds the target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="3.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5957f6cf-8d21-46b6-9ee0-a7098d13e04c" name="Instrument of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81881f5-c81a-4166-9a8a-18687ef58de1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0c4d37e7-b2ed-4605-9d8b-c177ec5d7e18" name="Instrument of Chaos" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While this unit contains any models with an Instrument of Chaos:
+- It has the INSTRUMENT keyword.
+- Add 1 to the Leadership characteristics of models in this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="36e30df2-db8c-47ba-9133-5e6af6610c4b" name="Instrument" hidden="false" targetId="6e590122-7216-4a95-8297-a4159436b2bf" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cd76f9f-21d8-4be0-92e3-de6236866b8a" name="Malefic talons" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7fbed6df-977a-4184-a619-c94efba9e1ec" name="Malefic talons" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time this model fights, it makes 1 additional attack with this weapon. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ffcbec7a-4b6c-46d6-9b65-cbdebe6689ec" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fa97cd6-62db-453c-9265-0c3a679382ee" name="Foul balesword" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ef6c3e-798c-46a6-b189-5740ebb884d7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d708a36-1a9f-48ee-b900-7c604a3f7a29" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9151bbcd-7f2b-4c11-b09f-de2041e94b96" name="Foul balesword" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 automatically wounds the target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" name="Great Unclean One" page="" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12-22)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+          <characteristics>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">9</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">22</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Stubborn</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+          <characteristics>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">5</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+          <characteristics>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+            <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+            <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+            <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
+            <characteristic name="T" typeId="dc93-4efd-d681-a6ba">-</characteristic>
+            <characteristic name="W" typeId="8beb-4664-1ca3-8e62">-</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2153d97b-01ce-42f8-82ea-869f6bb04132" name="Daemon Lord of Nurgle (Aura)" hidden="false" targetId="b2fba310-d42d-4aec-accb-e8803ab34b4c" type="profile"/>
+        <infoLink id="7b86725b-3e55-4509-85f0-5aab5d779f0b" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="db20-fffe-ce01-2a38" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4732977e-58a5-4d97-bcab-c0a4c7f184ac" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+        <categoryLink id="0a9e047d-aef8-415d-9575-0d91f25c17fe" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="6ed17882-7a2b-43f5-9088-ad1d17279864" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="4f9dac73-7223-4863-99d9-f969bdae60d3" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
+        <categoryLink id="86bd8c5b-a40e-449f-9740-3a0ad09a3824" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
+        <categoryLink id="0a3138ed-cdb8-43d0-bf80-0eeb4cc0bd15" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
+        <categoryLink id="9491d933-5023-4243-b06a-19ef6365c2d8" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="fc689eff-c639-496b-b719-e85778ce3cb1" name="Greater Daemon" hidden="false" targetId="643c39f7-a1c1-4a94-a84f-d4e12bd66940" primary="false"/>
+        <categoryLink id="4da65209-56ac-4211-bf48-6628a0662e8d" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3fafd68f-431f-4f27-8bdf-7d5cb7b7dec8" name="Putrid vomit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee48c983-78ae-43aa-bfce-8bc60c24292a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7bfe33d-ba2a-40da-8cf3-d89fa1a306fe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b1fa752-c513-46f8-b41b-4d6758e4cf01" name="Putrid vomit" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6</characteristic>
+                <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+                <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1aa0f440-f903-4a94-aa50-1cdfa539416a" name="Bilesword option" hidden="false" collective="false" import="true" defaultSelectionEntryId="2d79b2c7-bd8e-46b3-a5c3-636f028db253">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e6662b7-1939-428c-8a43-3481cc50d230" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a8d55a-528c-431d-8643-cdf366c0c3a1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2d79b2c7-bd8e-46b3-a5c3-636f028db253" name="Bilesword" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d16be18-c819-48e4-82ff-58c82d815f15" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="681fbc5e-7a97-49bc-925d-7e919736b86c" name="Bilesword - Mighty strike" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D6</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile, an unmodified hit roll of 6 automatically wounds the target.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="1fe5084e-45e6-42ea-ae93-c056ad05fc7d" name="Bilesword" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">-</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">-</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">-</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">-</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, select one of the profiles below to make that attack with.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d46e8785-084c-4a9f-8131-09c5157cd277" name="Bilesword - Sweeping blow" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2e4187dd-ed0c-4594-9b7a-9d8878f2da3c" name="Doomsday bell" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8cdc52d-af15-4848-8a3c-1321dd2022f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0c747146-54e2-4594-983d-4f020ffc3d77" name="Doomsday bell" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3b81a3aa-6b05-476b-b736-83bd99ebbdcc" name="Doomsday bell" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, you can select one friendly PLAGUEBEARERS CORE unit within 12&quot; of the bearer to be replenished. You can return one destroyed model from that unit to the battlefield with its full wounds remaining. If that unit is an INFANTRY unit, you can return up to D3 destroyed models instead. These models cannot be set up within Engagement Range of any enemy units unless those enemy units are already within Engagement Range of its unit. Each unit can only be replenished once per turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="95bad571-c188-45c5-899d-3db02e6c44ea" name="Plague flail option" hidden="false" collective="false" import="true" defaultSelectionEntryId="d5165044-a3ea-4210-b874-60de5ecce710">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d225e05-3914-4073-9160-a5224d2d8748" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4d9c28-683c-45cd-b334-ccea8fdc999c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d5165044-a3ea-4210-b874-60de5ecce710" name="Plague flail" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427f663a-ada3-4d4d-a040-9c5431970246" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="20b80a65-ee95-4d42-b128-7323d71a1bd0" name="Plague flail" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">7&quot;</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6+3</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb7ec9af-3aac-4ff1-b65c-91602e2475ea" name="Bileblade" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb535ed-7496-4baa-aaa9-04c4fe80a203" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="859188e4-9d6a-4e28-96b0-4b8b624e34a6" name="Bileblade" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, you can re-roll the wound roll.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5a6c220b-6a98-4a62-b3da-09640bfacfa2" name="Bileblade" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time the bearer attempts to manifest a psychic power, before taking the Psychic test, you can select for this model to suffer 1 mortal wound. If you do so, add 1 to that Psychic test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="680a240b-29c9-446d-a063-3660dcd6b99f" name="Exalted Abilities" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99fc08fa-5422-46da-a323-21cacd85120e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="55a28e1c-83a4-4824-9d4a-d95b76b64479" name="Bountiful Gifts" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db2aa1e7-e3ca-4c15-9c2a-b5e23e2a0c98" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b4f64587-2ac1-4c3b-9a75-299d5d408405" name="Bountiful Gifts" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the end of each battle round, if this model is on the battlefield, you can retain up to 2 unspent Warp Storm points.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="c7f77afe-6f5c-46b4-b3c6-91fd536cd04f" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="2.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85b99091-4844-4db5-8695-3ec95a92aa41" name="Revoltingly Resilient" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="641436f0-ec36-4fb8-81b5-cb8ae897216c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e879964a-f78a-4622-93e7-04742ec4ef7d" name="Revoltingly Resilient" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a melee attack is made against this model, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3e2afd7c-10a2-4c2a-8a18-81dae6d3d50c" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="2.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a8541164-267d-444e-9a9e-d2e1c82d5afe" name="Hideous Visage" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32900d9-6aeb-4a1c-9ad4-be076e251742" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a65f6b19-7d13-4bc3-ab44-c978a0116308" name="Hideous Visage (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While an enemy unit is within 6&quot; of this model, subtract 1 from the Leadership characteristic of models in that unit and subtract 1 from Combat Attrition tests taken for that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="7e0b86a9-8fa3-4b1b-a69d-6100e2ec9bbc" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="1.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7c34-8c1d-e418-58cc" name="Psychic Discipline option" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="727f-a1ef-c90f-450f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eeb-bc8e-f806-dd87" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a178-e0f5-f039-ab84" name="Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="a737-caa1-393c-fc09" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a48-8b29-6452-fcdf" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="dc27-e7b9-faba-162e" name="Discipline of Warprot" hidden="false" collective="false" import="true" targetId="e91c-2c30-e421-5a10" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b8-b672-bb59-973a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f55e658c-2683-4d4e-a2e5-710c5d690b97" name="Warlord" hidden="false" collective="false" import="true" targetId="e505df41-5063-4b2c-b266-2608a71f44d9" type="selectionEntry"/>
+        <entryLink id="5c56e0b3-250e-428b-8286-c63cbf25542f" name="Nurgling claws" hidden="false" collective="false" import="true" targetId="91247fa4-4c72-4de5-8332-d69ec6e861f3" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="280.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="15.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce36d9dc-ab2a-4e19-aae0-17f4269fadd3" name="Plaguebearers" page="" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="02fa4847-23d7-4edf-87bf-cc06a815d6d2" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6dae1155-fb45-4fab-a00b-c03c8333a88d" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+        <categoryLink id="1f42979b-703c-4246-8c8b-bf9e3b8d217e" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="def96b7f-d5bc-4ae9-9b86-709418bc8d4a" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
+        <categoryLink id="34445dab-5d96-4a69-b009-cca2c266b2db" name="New CategoryLink" hidden="false" targetId="1165b420-0425-459a-83c1-a9cfa1db59f0" primary="false"/>
+        <categoryLink id="81a35cb9-2070-48f1-85e7-495fd05e826f" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
+        <categoryLink id="dd8567ab-3059-4dd7-b082-b543646c2adf" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="664a2aab-a937-4fec-a547-03a30e1d7310" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="f35065dc-e6e8-419b-b8d9-2ab853b4ffe5" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c7b3d30-ebaf-4924-8b71-fe3d2f27fad1" name="Plaguebearer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6205099f-7c45-415f-8cc2-4a94f782ce0e" type="max"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0bd23b-0145-4a21-9360-d2e5c6f5ac66" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5232b17e-0fec-4eff-b3f4-ea3b7aa46b54" name="Plaguebearer" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+              <characteristics>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="b0b13349-62a7-473b-ad0a-8cded2bfb26d" name="Plaguesword" hidden="false" collective="false" import="true" targetId="85d20c20-fe3e-47b7-aaaa-e2d0aa06153f" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4184b1cc-361f-4e5c-8a0b-21a06a5573cd" name="Plagueridden" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e200bd0-3f43-42a2-b627-e6d7485fb087" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229ac3f3-d2eb-4575-9059-789ed4c11b92" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f34420c0-4ce1-4724-b99f-9a5909f1b726" name="Plagueridden" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+              <characteristics>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">4+</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">5</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">2</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="065bd5c5-37af-46be-8924-c3bf5b5f2b07" name="Plaguesword" hidden="false" collective="false" import="true" targetId="85d20c20-fe3e-47b7-aaaa-e2d0aa06153f" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f778e7f-4d10-438a-8633-c8af443a3520" name="Daemonic extras" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="48e608a5-89fe-4a62-a1b7-ce2ef3267204" name="Instrument of Chaos" hidden="false" collective="false" import="true" targetId="5957f6cf-8d21-46b6-9ee0-a7098d13e04c" type="selectionEntry"/>
+            <entryLink id="79593e11-d88d-48cb-8fa7-bfc8c37b7392" name="Daemonic icon" hidden="false" collective="false" import="true" targetId="943a8e4e-837f-4791-a101-33f62e9cd561" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="130.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41690e7a-fc40-4019-8a72-fc45ec0d56b6" name="Beasts of Nurgle" page="" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b1bfc543-b529-48dd-9f32-b9472f271a95" name="Attention Seeker" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This unit can perform Heroic Interventions as if it were a CHARACTER unit. This unit is eligible to perform a Heroic Intevention if it is within 6&quot; horizontally and 5&quot; vertically of any enemy unit, instead of 3&quot; horizontally and 5&quot; vertically. Each time this unit performs a Heroic Intervention move, it can move up to 6&quot;. All other rules for Heroic Interventions still apply.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="71453707-f950-4499-833d-123003718c88" name="Grotesque Regeneration" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the end of each phase, if a model in this unit has lost any wounds but was not destroyed, that model regains all of its lost wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d286dcd5-0e6c-4bf4-ba8f-87467e77b206" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="6ecf-e090-b04f-b54b" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="69f43d56-38b4-4677-8c35-e192c1075451" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="d24bd4a7-19dc-49a0-80ab-45deea3e0496" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
+        <categoryLink id="2197fd63-dd08-4523-9b3d-e488c906afad" name="Faction: Nurgle" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
+        <categoryLink id="61fad852-4770-468e-8463-008fd6220493" name="Beast" hidden="false" targetId="ff61c72b-ff88-41d3-aa0f-1ab7765c8b4f" primary="false"/>
+        <categoryLink id="dc1cc159-747c-42be-bbbe-66ba81d20b58" name="Beasts of Nurgle" hidden="false" targetId="a4aeaa3d-dcaa-416e-a1cb-4395874375e5" primary="false"/>
+        <categoryLink id="3b305af9-7c18-47b3-8523-9633309f7bbb" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="60eca406-ac57-4f0f-ab51-b033e4cfa6c3" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e02b3703-277a-4781-b100-add9ae1b77ac" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f2c9c5-eedb-4864-8777-9f9d5ef8820a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5d09e8-8655-4f4f-8b4f-823a7a0e5253" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e8145dc1-0f61-46dc-90bc-7a028d9e7423" name="Beast of Nurgle" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
+              <characteristics>
+                <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+                <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
+                <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
+                <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
+                <characteristic name="T" typeId="dc93-4efd-d681-a6ba">6</characteristic>
+                <characteristic name="W" typeId="8beb-4664-1ca3-8e62">7</characteristic>
+                <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
+                <characteristic name="A" typeId="6a70-10f0-93ba-6014">6</characteristic>
+                <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
+                <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Putrid Small)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="9ea7cb64-310d-4386-a8c3-f1fbcef96d2a" name="Putrid appendages" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad18a1c8-c29a-4c4f-bad7-ab3f4e5fea9b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="739b8c5e-46d5-4981-b53e-e93c818cdd6d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="4f331959-6d38-45c8-97df-f75ef0bf01b7" name="Putrid appendages" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+                    <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+                    <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+                    <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+                    <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+                    <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 inflicts 2 mortal wounds on the target and the attack sequence ends.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="4.0"/>
+            <cost name="pts" typeId="points" value="70.0"/>
+            <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44fcdf1c-59c7-492d-84ef-76ec26821c07" name="Piercing claws" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ccfcfc2-bed5-4654-9506-807c769223e6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9954d149-562c-4da3-924a-17f6be97a3df" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1cee9f11-589b-443f-b849-adfc76dbc4a1" name="Piercing claws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="398f957b-7958-4034-b310-91ce42db31c3" name="Prehensile proboscis" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f9c31eb-bc0b-4cb7-951f-96d349990d73" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bfcfeb7e-031c-4521-b756-2b423ebc15ec" name="Prehensile proboscis" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Malefic 4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bde44504-e951-4d6a-95e2-9b5b4ed0c0ed" name="Malefic Weapons" hidden="false" targetId="03c06cb8-3fb6-4b24-a938-dd4248633149" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="310794e0-503d-4059-8719-b455a3f50e82" name="Immense Power" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8ed024b6-d5a6-420e-a11c-bd8fdac21d6c" name="Immense Power" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this WARLORD makes a melee attack, add 1 to that attack&apos;s wound roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="92ef038d-2c38-4472-a3c2-f872173710e4" name="Incorporeal Form" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a9ba1e4-78bc-4680-aca9-a246e87ef76f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="85c93970-690a-4420-afe4-26e6c3f21dc7" name="Incorporeal Form" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this WARLORD, subtract 1 from that attack&apos;s wound roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f1b2cc9-d353-4ed2-8e0b-3498c2a51996" name="Pestilent Miasma" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537724b6-6c1c-4af3-a9e2-ecaf241a83ce" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e258d7e3-0c10-4873-9731-eccaa728d9e4" name="Pestilent Miasma" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the start of the Fight phase, roll one D6 for each enemy unit within Engagement Range of this WARLORD.
+- On a 2-5, that enemy unit suffers 1 mortal wound.
+- On a 6, that enemy unit suffers D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91247fa4-4c72-4de5-8332-d69ec6e861f3" name="Nurgling claws" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6e2925-0d9c-49ea-8315-67d2eab18d65" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f438620-b8d5-4c19-9e53-eea82addfedd" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="8889c591-2b53-4ba2-b3c2-99ae3f44b08d" name="Nurgling claws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">2</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Malefic 7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="79edfa8e-48da-49dd-bd3f-fbf68e7edf7d" name="Malefic Weapons" hidden="false" targetId="03c06cb8-3fb6-4b24-a938-dd4248633149" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85d20c20-fe3e-47b7-aaaa-e2d0aa06153f" name="Plaguesword" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15fa2c4-59c9-49f6-8114-d07563580920" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d966db-a559-46db-999e-41a4d8902488" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e1d6ba36-0337-4647-b120-78dbac3a491d" name="Plaguesword" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 automatically wounds the target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e505df41-5063-4b2c-b266-2608a71f44d9" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1730e8f0-ffb4-47b4-8fbd-c799055b3fc2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="47df0ad7-7873-44d0-bb76-3cb7288b5cbe" name="New CategoryLink" hidden="false" targetId="7c140cc7-85ba-4d22-9747-fd25d58de033" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c72c3b2-6d86-4f8b-b336-088ed087b426" name="Plague Banner" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="10877ac8-c9a3-4421-8235-80f822f7f236" name="Plague Banner" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">The power of the banner can be used once per battle, just before the bearer&apos;s unit fights. When used, increase the Damage characteristic of all plagueswords carried by the bearer&apos;s unit to 2 until the end of the phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="-1.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="943a8e4e-837f-4791-a101-33f62e9cd561" name="Daemonic icon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbe8b68-c221-4c2b-82a8-835de95a9dfc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b999b840-190c-4a30-a242-234526575864" name="Daemonic icon" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While this unit contains any models with a daemonic icon:
+- It has the ICON keyword.
+- Each time a Combat Attrition test is taken for this unit, you can ignore any or all modifiers.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d6d5aedf-9415-4e7c-a538-33239fb94306" name="Icon" hidden="false" targetId="e6dcbacb-28f3-49f5-9ee4-97420a56c4f5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a5f7a11-39d0-4cb9-93e9-0e75fd57f52d" name="Foul mouthparts" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9d22a3-4a82-4a2d-9a07-025ac80b6a0b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b3db8f81-db56-47a9-8c0f-1a3f11a72c46" name="Foul mouthparts" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Malefic 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e5e2f045-3842-48c3-bcea-53ceb4e671c6" name="Malefic Weapons" hidden="false" targetId="03c06cb8-3fb6-4b24-a938-dd4248633149" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="168f0fe2-128e-4005-bbb8-afeb1a208a9c" name="Dissecting claws" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b451e57-6d87-4e5d-8583-94a12c351529" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="988b1f78-6237-4f53-9f52-aa10f414c385" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d40d4abb-e012-4a69-aeef-811fbe6cb693" name="Dissecting claws" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="03c06cb8-3fb6-4b24-a938-dd4248633149" name="Malefic Weapons" hidden="false">
+      <description>Many Chaos Daemons weapons are malefic weapons. Such a weapon will have an ability that reads &quot;Malefic&quot; and then a value. Each time the bearer fights, it makes a number of additional attacks with that weapon equal to that value, and no more than that number of attacks can be made with that weapon while resolving that fight. If a model is equipped with more than one malefic weapon, it can make additional attacks with each one it is equipped with.
+
+Unless otherwise specified, malefic weapons are never affected by effects or abilities that allow models to make additional attacks, or abilities that would add to, subtract from or improve their characteristics in any way.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="d9ca4737-70bd-4704-a593-92f7490826cb" name="Herald of Khorne (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA KHORNE CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, you can re-roll a wound roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="69bdb6e1-aad9-48cf-b2a0-496613a66b2b" name="Daemon Lord of Tzeentch (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA TZEENTCH CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b2fba310-d42d-4aec-accb-e8803ab34b4c" name="Daemon Lord of Nurgle (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA NURGLE CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="add2c9e2-968f-495f-9ebd-9a104a113314" name="Daemon Lord of Slaanesh (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA SLAANESH CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="14fd63d4-08b1-44d1-a79e-51b091767bcf" name="Herald of Tzeentch (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA TZEENTCH CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, you can re-roll a wound roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df6cc283-a773-4f83-9e65-7c1ddb5d2b7b" name="Herald of Nurgle (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA NURGLE CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, you can re-roll a wound roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1aa04157-f47c-42e5-aa15-6d03b7c6c8ab" name="Scything Impact" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model finishes a charge move:
+- Roll four D6 for each enemy unit within Engagement Range of this model. For each 5, that enemy unit suffers 1 mortal wound.
+- Until the end of the turn, add 2 to this model&apos;s Attacks characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0ce8039a-23e7-4d6f-a3de-fe4845cec84a" name="Herald of Slaanesh (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly LEGIONES DAEMONICA SLAANESH CORE unit is within 6&quot; of this model, each time a model in that unit makes an attack, you can re-roll a wound roll of 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b5126556-d8f2-483f-a10f-bd8bce666583" name="Mesmerising Form" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this model, subtract 1 from that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eed28d5b-6ddf-4cb8-84b3-43aed23a0d26" name="Gore-drenched fangs" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
+        <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
+        <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
+        <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
+        <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46014a47-1fcd-4ac6-bb54-d4ba6d8c94cf" name="Brimstone Horror" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">5+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">1</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">4</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="03b3dd0f-7e0c-40d4-a6f0-0d9189b1356a" name="Blue Horror" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71">6&quot;</characteristic>
+        <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495">5+</characteristic>
+        <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4+</characteristic>
+        <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf">2</characteristic>
+        <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326">3</characteristic>
+        <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996">1</characteristic>
+        <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d">1</characteristic>
+        <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e">5</characteristic>
+        <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f">6+/4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cc85687c-dd87-4507-8e61-32c365536528" name="Blazing Warpfile (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While a friendly FLAMERS unit is within 6&quot; of this model, each time a model in that unit makes an attack with flickering flames, that attack has a Strength characteristic of +1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="998ff392-058b-44f8-9209-f6ba05f744dc" name="Tormentbringer" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, select one friendly LEGIONES DAEMONICA SLAANESH CORE unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in that unit makes a melee attack, add 1 to that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08212f34-f917-4ecf-ac92-0310abde4ab8" name="Evasive Speed" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a ranged attack is made against this model, subtract 1 from that attack&apos;s hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="215f19e5-c4c1-451b-b207-1c949571baaf" name="Cutting Down the Foe" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model is selected to fight, if it made a charge move this turn, change this model&apos;s bladed axle&apos;s ability to Malefic 6.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="f458964c-bf57-4971-9482-a20bc2ff6d11" name="Daemonic" hidden="false">
+      <rules>
+        <rule id="8b59a116-55ae-40e1-b934-615b6347a907" name="Daemonic Invulnerablity" hidden="false">
+          <description> Instead of a normal Save characteristic, each LEGIONES DAEMONICA datasheet has a Daemonic Save characteristic. This characteristic has 2 values. The first characteristic is used when a melee attack is allocated to that model, while the second characteristic is used when a ranged attack is allocated to that model. In either case, the saving throw cannot be modified in any way.</description>
+        </rule>
+        <rule id="be02ca67-2025-4d9c-b0bd-f83b5f13c5b0" name="Manifestation" hidden="false">
+          <description>During deployment, you can set up this model in the warp instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases you can set this unit up anywhere on the battlefield that is more than 9&quot; away from any enemy models, or more than 6&quot; away from any enemy models and wholly within 6&quot; of a friendly WARP LOCUS model that was on the battlefield at the start of the turn. If the WARP LOCUS has an Allegiance keyword, the unit being set up can only use this ability if it has the same Allegiance keyword.
+
+If every unit from your army has the LEGIONES DAEMONICA keyword, then in the Reinforcements step of one of your Movement phases, you can instead set this unit up anywhere on the battlefield with one of the following restrictions:
+- Wholly within your deployment zone and more than 3&quot; away from any enemy models.
+- Neither wholly within your deployment zone nor within your opponent&apos;s deployment zone, and more than a number of inches away from away from each enemy unit, equal to the current Leadership characteristic of that enemy unit (to a minimum of 3&quot; and a maximum of 9&quot;).</description>
+        </rule>
+        <rule id="c757ce6e-b546-42b1-8272-99945d66c202" name="Daemonic Terror (Aura)" hidden="false">
+          <description>While an enemy unit is within 6&quot; of this unit, subtract 1 from that enemy unit&apos;s Leadership characteristic and subtract 1 from any Combat Attrition tests taken for that enemy unit.</description>
+        </rule>
+        <rule id="b9cb765d-629a-4eba-bdb0-409b3ac0b1d7" name="Warp Storm" hidden="false">
+          <description>This ability can be used to apply Warp Storm effects to eligible units from your army.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="290" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="291" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -7238,39 +7238,6 @@ Remaining Wounds | Aura Range
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="24.0"/>
         <cost name="pts" typeId="points" value="470.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="51bdedf6-eac3-4c39-adef-3cc391d05d2b" name="[Reference] Core Stratagems" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aadfaaff-7b9b-4237-a6b9-302b9ff0357e" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="72879ca6-f857-4f95-b012-d21878393371" name="Command Re-Roll - 1 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem after you have made a hit roll, a wound roll, a damage roll, a saving throw, an Advance roll, a charge roll, a Psychic test, a Deny the Witch test or you have rolled the dice to determine the number of attacks made by a weapon. Re-roll that roll, test or saving throw.</description>
-        </rule>
-        <rule id="51d55f54-438c-46cb-b04a-f3c52b2fe7d3" name="Cut them down - 1 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem when an enemy unit Falls Back, before any models in that unit are moved. Roll one D6 for each model from your army that is within Engagement Range of that enemy unit; for each result of 6, that enemy unit suffers 1 mortal wound.</description>
-        </rule>
-        <rule id="a9e10ac0-b26d-42e1-9ea0-cad237d00af6" name="Desperate Breakout - 2 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem in your Movement phase. Select one unit from your army that has not been selected to move this phase and which is in Engagement Range with at least one enemy unit. Roll one D6 for each model in that unit; for each result of 1 one model in that unit of your choice is destroyed. Assuming that unit was not destroyed, it can now attempt to Fall Back, and when doing so its models can be moved across enemy models as if they were not there. Any model in that unit that ends its Fall Back move within Engagement Range of any enemy model is destroyed. Assuming the unit is not destroyed, it cannot do anything else this turn (i.e. it cannot attempt to manifest psychic powers, shoot, declare a charge, be selected to fight etc.) even if it has a rule that would allow it do do so after Falling Back.</description>
-        </rule>
-        <rule id="17a26c38-fb0a-4792-9795-d21a7deac17d" name="Emergency Disembarkation - 1 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem when a TRANSPORT model from your army is destroyed. All units that are embarked within that model can be set up wholly within 6&quot; of the destroyed model when they disembark instead of the normal 3&quot; before the model itself is removed from the battlefield. These units are not affected by the destroyed model&apos;s Explodes ability (or equivalent) - instead you must roll one D6 for each model you just set up on the battlefield. Instead of one model that disembarked (your choice) being destroyed on a roll of 1, one model that is disembarked (of your choice) is destroyed for each roll of 1 or 2. Units cannot declare a charge (pg 224) or perform a Heroic Intervention (pg 255) in the same turn that they disembarked from a destroyed TRANSPORT model.</description>
-        </rule>
-        <rule id="19d0fc0b-7187-499d-b708-6ba269bd99dc" name="Fire Overwatch - 1 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem after an enemy unit has declared a charge against one or more units from your army. One of the units that was chosen as the target of that charge can fire Overwatch (pg 227) before the charge roll is made.</description>
-        </rule>
-        <rule id="ebc94fc0-a3cd-4d91-b409-65b99776f03f" name="Counter-Offensive - 2 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem after an enemy unit has fought in this turn. Select one of your own eligible units and fight with it next.</description>
-        </rule>
-        <rule id="1731bf56-f16d-427d-abc5-1656a7f36d29" name="Insane Bravery - 2 CP" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" page="255" hidden="false">
-          <description>Use this Stratagem before you take a Morale test for a unit in your army. That test is automatically passed (do not roll any dice). You can only use this Stratagem once per battle.</description>
-        </rule>
-      </rules>
-      <costs>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35583966-8bc7-44ad-9ce6-5751071de12c" name="Twin heavy bolter" hidden="false" collective="true" import="true" type="upgrade">
