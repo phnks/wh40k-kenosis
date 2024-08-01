@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="160" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="293" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="161" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="302" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -241,7 +241,7 @@
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Stubborn</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -278,9 +278,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2153d97b-01ce-42f8-82ea-869f6bb04132" name="Daemon Lord of Nurgle (Aura)" hidden="false" targetId="b2fba310-d42d-4aec-accb-e8803ab34b4c" type="profile"/>
         <infoLink id="7b86725b-3e55-4509-85f0-5aab5d779f0b" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
-        <infoLink id="db20-fffe-ce01-2a38" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4732977e-58a5-4d97-bcab-c0a4c7f184ac" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
@@ -646,11 +644,6 @@
     </selectionEntry>
     <selectionEntry id="41690e7a-fc40-4019-8a72-fc45ec0d56b6" name="Beasts of Nurgle" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b1bfc543-b529-48dd-9f32-b9472f271a95" name="Attention Seeker" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This unit can perform Heroic Interventions as if it were a CHARACTER unit. This unit is eligible to perform a Heroic Intevention if it is within 6&quot; horizontally and 5&quot; vertically of any enemy unit, instead of 3&quot; horizontally and 5&quot; vertically. Each time this unit performs a Heroic Intervention move, it can move up to 6&quot;. All other rules for Heroic Interventions still apply.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="71453707-f950-4499-833d-123003718c88" name="Grotesque Regeneration" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the end of each phase, if a model in this unit has lost any wounds but was not destroyed, that model regains all of its lost wounds.</characteristic>

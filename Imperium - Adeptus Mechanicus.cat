@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="275" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="299" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="276" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="302" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -134,15 +134,13 @@
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Canticles of the Omnissiah, Cortext Controller</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortext Controller</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="29b2a8e3-7b31-40d8-9043-f82bd6ac49f0" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
-        <infoLink id="11e643f8-8616-490a-ae08-3c4b213e1a5a" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
-        <infoLink id="b5835017-a33b-4c05-9d62-8cc0462d1136" name="Lord of the Machine Cult (Aura)" hidden="false" targetId="3cc43e67-0445-4398-968d-da23c29409e3" type="profile"/>
         <infoLink id="5ae636a6-47ee-49d6-b870-305cbf0a30ad" name="Cortex Controller" hidden="false" targetId="13314926-24a3-48a2-a192-53ac4dd4ff79" type="rule"/>
+        <infoLink id="68ed-c44d-b702-82ac" name="Battlesmith" hidden="false" targetId="9087-e12f-b408-4e38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d6636a50-7a75-4815-93b1-e67a8e73486e" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
@@ -236,7 +234,7 @@
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Canticles of the Omnissiah, Cortext Controller</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortext Controller</characteristic>
           </characteristics>
         </profile>
         <profile id="e60f1dad-d431-4bd3-8a27-75530a095bf7" name="Awaken the Machine" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -246,10 +244,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2aae1ab2-f89b-4d07-bafc-0c273dfe3d09" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
-        <infoLink id="fe14444f-db52-487f-9369-90deb7d3d079" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
-        <infoLink id="b7705d20-d8af-49bf-a292-450c42e07a8c" name="Brotherhood of the Cog" hidden="false" targetId="574f4d1f-bacf-412a-aa0b-4349d9e85364" type="profile"/>
         <infoLink id="44b7-e5c2-7f66-f8d2" name="Cortex Controller" hidden="false" targetId="13314926-24a3-48a2-a192-53ac4dd4ff79" type="rule"/>
+        <infoLink id="5020-8368-0268-d4cb" name="Battlesmith" hidden="false" targetId="9087-e12f-b408-4e38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="652243ac-41c6-4ed5-9361-5cd9c6d6ad00" name="New CategoryLink" hidden="false" targetId="b4bcbd9b-0d4b-4d59-8fc4-dc762e31792c" primary="false"/>
@@ -337,17 +333,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8f86b5c5-dbbc-4fdf-9a34-79011c098ecf" name="Skitarii Rangers" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="" hidden="false" collective="false" import="true" type="unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-          </conditions>
-          <modifiers>
-            <modifier type="add" field="category" value="bc0d8c9c-e78e-48d4-a4ea-989c30fa9f4c"/>
-            <modifier type="add" field="category" value="3139cc3c-8a80-4d93-8567-7cdad7fad004"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <profiles>
         <profile id="ad6cfeae-30a7-4d08-bd0c-3ceb591fc46e" name="Rangers" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
@@ -355,9 +340,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="85e2d1c7-1e04-4f57-ba83-ed02e6401439" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="62a5c010-5d0b-4f85-aff3-0f32ceef54f4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
         <categoryLink id="25d074f4-4abb-489c-9785-5423e783431c" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
@@ -456,20 +438,8 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f3438d37-3ec2-4e6c-828a-b61feff2a3c8" name="Skitarii Vanguards" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="76" hidden="false" collective="false" import="true" type="unit">
-      <modifierGroups>
-        <modifierGroup>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="090753e3-aae7-4f3e-b60a-657b3b79ee4c" type="equalTo"/>
-          </conditions>
-          <modifiers>
-            <modifier type="add" field="category" value="bc0d8c9c-e78e-48d4-a4ea-989c30fa9f4c"/>
-            <modifier type="add" field="category" value="3139cc3c-8a80-4d93-8567-7cdad7fad004"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
       <infoLinks>
         <infoLink id="eb9907b2-b639-48d5-a577-f4a10e25bd48" name="Rad-saturation (Aura)" hidden="false" targetId="a5702dda-3d1d-47d5-afd9-0a6efb9fedfe" type="profile"/>
-        <infoLink id="9caca0b9-b3d0-49a6-84b8-74040449903b" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="43e7b127-ffbe-41f2-8b34-6f8e5f940700" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
@@ -570,25 +540,12 @@
     </selectionEntry>
     <selectionEntry id="e5389eec-3ca9-4aad-a64d-77cffc781e06" name="Sicarian Infiltrators" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="79" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b206dc62-1e21-4743-a2ef-b897c4fd0057" name="Infiltrating Positions" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">During deployment, when you set up this unit, it can be set up anywhere on the battlefield that is more than 9&quot; away from the enemy deployment zone and any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8c0bcf10-c32c-40a6-abab-edfc747d36d4" name="Voices In The Code (Aura)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">While an enemy unit is within 3&quot; of this unit, subtract 1 from the Leadership characteristic of models in that enemy unit.</characteristic>
-          </characteristics>
-        </profile>
         <profile id="df3182c6-870c-4cea-b11c-f4451f65a119" name="Neurostatic Interference" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this unit, if the attacking model is within 12&quot;, the hit roll cannot be re-rolled and the wound roll cannot be re-rolled.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="0556a8e5-57d4-41a1-bedc-557073e68551" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="10225df2-881e-4123-bb8c-ddac586a5993" name="New CategoryLink" hidden="false" targetId="98b2fab2-1fea-4c47-9a71-0d44850683bc" primary="false"/>
         <categoryLink id="ac69af15-8bcc-4520-a7d3-be51fe2f1612" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
@@ -640,18 +597,10 @@
       <profiles>
         <profile id="b75930c5-f802-4a2b-b505-232c450aa458" name="Optimised Gait" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This unit can ignore any or all modifiers to its Move characteristic, with the exception of that incurred due to the Deprecation effect of the Bulwark Imperative. This unit can ignore any or all modifiers to its Advance and charge rolls.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="9a1e46d3-67e8-49fa-aadc-900a3ccb3356" name="Wasteland Stalkers" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a ranged attack is allocated to a model in this unit while it is receiving a Cover Save, add an additional 1 to any armour saving throw made against that attack.</characteristic>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">This unit can ignore any or all modifiers to its Move characteristic, with the exception of that incurred due to the Deprecation effect of the Bulwark Imperative. This unit can ignore any or all modifiers to its charge rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="d85e2f44-bb39-472a-86ed-a1176a70e16c" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="911c7b51-8065-4489-ac3a-42d6ee2f6855" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
         <categoryLink id="1b6e1387-6066-4d3f-aa96-b292285dcf33" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
@@ -1751,6 +1700,7 @@ Each time an attack is made with this weapon, the target does not receive the be
     <selectionEntry id="8567b7e9-3402-4b70-88ce-af7e8d2ac531" name="Sicarian Infiltrator (Stub/Sword)" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="05f2e6e4-ec71-4fe7-893d-ac25827f1c4e" name="Sicarian Infiltrator" hidden="false" targetId="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" type="profile"/>
+        <infoLink id="3b39-2767-1819-27a9" name="Infiltrate" hidden="false" targetId="8cb6-c8f8-c499-0e24" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="16ac678d-50fc-4223-92de-b11015b39254" name="Stubcarbine" hidden="false" collective="false" import="true" targetId="9f5b6bc0-81d9-40be-b9f3-c618c6687847" type="selectionEntry">
@@ -1943,7 +1893,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1997,13 +1947,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="97c2d145-d1c6-44f9-bfc6-a29b40c64494" name="Skitarii Ranger" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="increment" field="points" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="674a003f-af50-4a7d-8798-27f1ff3bd405" name="Skitarii Ranger" hidden="false" targetId="040ade3e-cb0f-49af-8953-33afa89a1866" type="profile"/>
       </infoLinks>
@@ -2489,7 +2432,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Canticles of the Omnissiah, Cortext Controller</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortext Controller</characteristic>
           </characteristics>
         </profile>
         <profile id="29aab9d7-6c37-4de5-81bd-b8810be563bd" name="Galvanic Field" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2499,9 +2442,8 @@ Each time an attack is made with this weapon, the target does not receive the be
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8d9d1cbd-4f1f-4129-8661-2e771e98e8ab" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
-        <infoLink id="65a894c2-f429-496c-9f7e-09f5ff15b7f5" name="Master of Machines" hidden="false" targetId="1d6aa18a-419c-4732-b4a2-8bc36cea21a1" type="profile"/>
         <infoLink id="1769deba-7ed8-46af-8e3a-02e3fad2ae30" name="Cortex Controller" hidden="false" targetId="13314926-24a3-48a2-a192-53ac4dd4ff79" type="rule"/>
+        <infoLink id="4495-085e-9b65-ce4b" name="Battlesmith" hidden="false" targetId="9087-e12f-b408-4e38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="da5b4910-eee7-43ea-9faf-e5a9cfef336e" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
@@ -2944,7 +2886,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
         <profile id="db263851-6f73-42ec-9201-4efff79b744d" name="Control Edict" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2953,9 +2895,6 @@ Each time an attack is made with this weapon, the target does not receive the be
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="68cf6f96-f201-47b8-9d9a-704573e71699" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e3373df-0652-470b-be74-2c9078c9c6a4" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="2d5592a4-7532-4df9-8080-32e5ab1a3c7e" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
@@ -3191,12 +3130,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Canticles of the Omnissiah</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="2daa7352-0ced-4d53-b62e-0cf13ac3cfa8" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
             <infoLink id="f7f9bd23-18b3-4a0d-bf52-2bafe562c361" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
             <infoLink id="d2194fa9-11ca-4cf2-bb80-d2c530ee8ced" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
             <infoLink id="e1d6-b7b1-a871-712f" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
@@ -3658,19 +3596,18 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Canticles of the Omnissiah, Moving Bulwark</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7986-1217-f17d-149e" name="Moving Bulwark" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Two and more models have a 4+ invulnerable save</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="b3f0-8e02-6f19-f804" name="Moving Bulwark" hidden="false">
-              <description>Two and more models have a 4+ invulnerable save</description>
-            </rule>
-          </rules>
           <infoLinks>
             <infoLink id="d5fe-643b-7d1e-2206" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
             <infoLink id="be4e-a434-705c-62c3" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
-            <infoLink id="3fd0-5382-4232-b8aa" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
             <infoLink id="3602-a781-8fce-ea15" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
           </infoLinks>
           <categoryLinks>
@@ -3768,31 +3705,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bb951c2-cb44-4307-a46a-a6e6aa076b7d" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="814de10e-1431-4ea2-8598-01d3de8b08c3" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7294f7cd-a6b2-43ca-97ea-559752e2d239" name="Triaros Armoured Conveyor" publicationId="82e2c8bf-dad7-44b4-ad40-f7dea346f1ba" page="38" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
-          <characteristics>
-            <characteristic name="M" typeId="4b086449-ee18-49ea-b35a-419b2322bf71"/>
-            <characteristic name="WS" typeId="4002e025-6c8f-49c2-87b3-8b326d13d495"/>
-            <characteristic name="BS" typeId="2a80b9db-c87f-4a0e-bbfa-93c1f8998b50">4</characteristic>
-            <characteristic name="S" typeId="c1bd6ca3-4a02-4ea3-b452-da8861988acf"/>
-            <characteristic name="T" typeId="500b9200-c69e-46a7-b836-330800d4a326"/>
-            <characteristic name="W" typeId="c50846f3-9cc3-48e6-b135-c14e8eec7996"/>
-            <characteristic name="A" typeId="6416c46a-d4a5-44ed-95c2-228b8095868d"/>
-            <characteristic name="Ld" typeId="c17577db-203d-4e79-beb6-21fb86a90f0e"/>
-            <characteristic name="Save" typeId="baeedc08-4d1e-4af4-ba12-57d47d3b4a4f"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="135.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="223613eb-f9de-4454-8b87-2110d2ecdc70" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="02df8ced-2d16-4955-9b2b-3ad9bd4c1e34" name="Close Combat Weapon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -3862,14 +3774,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     </selectionEntry>
     <selectionEntry id="8fb6eca2-ad9b-4c13-b54e-976e95937cfc" name="Myrmidon Destructors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="9f23a96f-5d21-45ef-84b1-f7b8c9a89b45" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="661058ea-5297-4934-8784-cab4d5183bb6" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
         <infoLink id="0e1f-b9f7-bb7b-b0c9" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="bdfd-d4c9-cfc0-75fb" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="44c82363-2038-464c-bc1c-525f255e0d11" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
@@ -3900,7 +3810,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Lumbering Advance</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3975,7 +3885,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Lumbering Advance</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4099,8 +4009,16 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </costs>
     </selectionEntry>
     <selectionEntry id="4e92610e-765d-4ae8-804d-8ccc40fb6c0b" name="Thallaxii" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d26b-1927-aaac-0d3f" name="Incunabulan Jet Packs" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Capable of granting the hulking thallax a manoeuvrability that belies their bulk, these jet pack systems have gone through hundreds of years of refinement at the hands of generations of magi and been tested in hundreds upon hundreds of engagements. They have proven both a reliable and deadly addition to the armouries of the Mechanicum, superior to the simple jump packs in use by other Imperial armies.
+
+A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <infoLinks>
-        <infoLink id="559e8a66-2bbd-433b-8f43-60cf7a2b73ea" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="543f704b-c3db-4a16-81f2-60333d50c705" name="Djinn-Sight" hidden="false" targetId="bbdea716-b7a0-45e9-8d18-cbf01f0196d8" type="rule"/>
         <infoLink id="44a3-1a48-8c26-930e" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
@@ -4350,14 +4268,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
     </selectionEntry>
     <selectionEntry id="3d0b3fed-1d1d-4d0e-88d9-60af04eb3aea" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="098b5d16-2160-4cff-8f3e-93682d9d0d3b" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
         <infoLink id="a0b2f9e9-a0a6-43ca-9d6e-6f424491b0b0" name="Lumbering Advance" hidden="false" targetId="67c365b4-9787-468f-858a-51cbb0c76c3d" type="rule"/>
         <infoLink id="9c73-850a-f22a-b100" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4d67-c543-ebe2-ab33" name="Stubborn" hidden="false" targetId="31db-2935-bf1d-f137" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d240c771-3116-445c-9510-82e34c07c98c" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
@@ -4388,7 +4304,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Lumbering Advance</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4470,7 +4386,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Lumbering Advance, Stubborn</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Lumbering Advance</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4897,7 +4813,6 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <selectionEntry id="6980-dc74-6017-278e" name="Thanatar Calix" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="f265-eb8d-aead-f7f9" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
-                <infoLink id="1363-78f2-0417-5576" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
                 <infoLink id="bba2-2f21-0731-29b0" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
                 <infoLink id="bd68-591a-194b-288a" name="Thanatar 2 (4 -6)" hidden="false" targetId="9d35-f2fe-b9f2-9228" type="profile">
                   <modifiers>
@@ -5163,13 +5078,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                     <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                     <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                     <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Canticles of the Omnissiah, Battle Automata, Cybernetica Cortex, Surveillance Protocols</characteristic>
+                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Battle Automata, Cybernetica Cortex, Surveillance Protocols</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="6e26-1b31-35ed-8235" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
-                <infoLink id="8c5c-0584-1abc-eec7" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
                 <infoLink id="fc0d-9604-df66-5fe5" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
                 <infoLink id="3161-0438-d2f6-8c98" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
                 <infoLink id="b522-88f4-922e-5f91" name="Surveillance Protocols" hidden="false" targetId="6f6c-d9f6-c11a-cba2" type="rule"/>
@@ -5304,14 +5218,13 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Canticles of the Omnissiah, Grav Wave</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Grav Wave</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="7fde-34fe-3ca7-7325" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
             <infoLink id="a31c-ed72-3a4f-1dd8" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
-            <infoLink id="9a72-7b6b-1c51-ace5" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
             <infoLink id="9e0a-f54c-8209-f357" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
             <infoLink id="5c85-4388-1192-5f41" name="Grav Wave" hidden="false" targetId="e975-f187-42bf-f193" type="rule"/>
           </infoLinks>
@@ -5536,7 +5449,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
       <description>Each time a Leadership test is taken for that unit, it is automatically passed. Additionally, unless a friendly Cortex Controller unit is within 6”; this model can only target the nearest visible enemy unit if it shoots, and if it is within Charge range of an enemy unit it must attempt to charge.</description>
     </rule>
     <rule id="67c365b4-9787-468f-858a-51cbb0c76c3d" name="Lumbering Advance" hidden="false">
-      <description>A model with this special rule may not make Advance moves or Consolidation moves.</description>
+      <description>A model with this special rule may not make March or Consolidation moves.</description>
     </rule>
     <rule id="d4ad87fe-427a-493a-ac7e-a17210032479" name="Lorica Thallax" hidden="false">
       <description>Roll a D6 each time this unit loses a wound, on a 6 it does not lose that wound.</description>
@@ -5598,7 +5511,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
     <profile id="0d682d80-75cb-43eb-927d-75681f49e3d1" name="Skitarii Vanguard" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5614,7 +5527,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
     <profile id="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" name="Sicarian Infiltrator" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5630,7 +5543,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Infiltrate</characteristic>
       </characteristics>
     </profile>
     <profile id="a2cc3bf4-872b-4517-8b48-e20ba84a0e90" name="Sicarian Ruststalker" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5646,7 +5559,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
     <profile id="e22fd104-b18a-426c-b209-17e10666c647" name="Hoplite Alpha" publicationId="4a469c26-9989-4da4-8c19-71e7955f9727" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -5937,7 +5850,7 @@ During deployment, you can set up this unit in orbit instead of setting it up in
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
     <profile id="a13863b0-17a7-4afe-8546-38e405ed8550" name="Ruststalker Princeps" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -5953,7 +5866,7 @@ During deployment, you can set up this unit in orbit instead of setting it up in
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
     <profile id="8d9e7943-cf7c-403f-a5fa-c9450b280fac" name="Archaeopter 1 (6-10 wounds)" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">
@@ -6477,7 +6390,7 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Canticles of the Omnissiah, Graviton Pulse</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Graviton Pulse</characteristic>
       </characteristics>
     </profile>
     <profile id="bc55-3cba-1ad4-64c4" name="Thanatar 3 (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">

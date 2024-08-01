@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="299" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="302" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9695,6 +9695,16 @@ Point Defence weapons can be fired even if the model has performed a march.</des
     </rule>
     <rule id="7cd9-ad4e-9766-89a3" name="Anti-Armour (X)" hidden="false">
       <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword (Walker, Vehicle, Titanic) automatically wounds.</description>
+    </rule>
+    <rule id="5e67-a8ae-d3db-779f" name="Poisoned (X)" hidden="false">
+      <description>If a model has the Poisoned special rule, or is attacking with a Melee weapon that has the Poisoned special rule, it always Wounds on a fixed number (generally shown in brackets), unless a lower result would be required, when attacking in close combat.
+Similarly, if a model makes a Shooting Attack with a weapon that has the Poisoned special rule, it always Wounds on a fixed number (generally shown in brackets), unless a lower result would be required. 
+If no number is shown in brackets, the rule is Poisoned (4+).
+
+The Poisoned special rule has no effect against Armour type units (Walkers, Vehicles, Titanic).</description>
+    </rule>
+    <rule id="9087-e12f-b408-4e38" name="Battlesmith" hidden="false">
+      <description>At the end of your Movement phase this model can repair one friendly Armour model within 3&quot;. That model regains up to D3 lost wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
