@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Maggotkin of Nurgle" revision="157" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="291" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="159" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -307,12 +307,7 @@
         <categoryLink id="4732977e-58a5-4d97-bcab-c0a4c7f184ac" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="0a9e047d-aef8-415d-9575-0d91f25c17fe" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="6ed17882-7a2b-43f5-9088-ad1d17279864" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
-        <categoryLink id="4f9dac73-7223-4863-99d9-f969bdae60d3" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="86bd8c5b-a40e-449f-9740-3a0ad09a3824" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="0a3138ed-cdb8-43d0-bf80-0eeb4cc0bd15" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="9491d933-5023-4243-b06a-19ef6365c2d8" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
-        <categoryLink id="fc689eff-c639-496b-b719-e85778ce3cb1" name="Greater Daemon" hidden="false" targetId="643c39f7-a1c1-4a94-a84f-d4e12bd66940" primary="false"/>
-        <categoryLink id="4da65209-56ac-4211-bf48-6628a0662e8d" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+        <categoryLink id="f36a-4450-8889-4f4a" name="Greater Daemon" hidden="false" targetId="643c39f7-a1c1-4a94-a84f-d4e12bd66940" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3fafd68f-431f-4f27-8bdf-7d5cb7b7dec8" name="Putrid vomit" hidden="false" collective="false" import="true" type="upgrade">
@@ -563,6 +558,7 @@
       <entryLinks>
         <entryLink id="f55e658c-2683-4d4e-a2e5-710c5d690b97" name="Warlord" hidden="false" collective="false" import="true" targetId="e505df41-5063-4b2c-b266-2608a71f44d9" type="selectionEntry"/>
         <entryLink id="5c56e0b3-250e-428b-8286-c63cbf25542f" name="Nurgling claws" hidden="false" collective="false" import="true" targetId="91247fa4-4c72-4de5-8332-d69ec6e861f3" type="selectionEntry"/>
+        <entryLink id="04ec-2910-80a1-1b28" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>

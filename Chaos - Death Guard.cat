@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="188" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="291" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="190" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -985,14 +985,6 @@ Battle Round 4 - 9&quot;</description>
         <categoryLink id="442b9309-439c-48c4-8dd7-a879d64e82c3" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="35fda3e6-6427-43c6-9beb-735f844bfc39" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="d3760d22-458b-4e5c-9b7f-e3274c3e195f" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="a175b0c8-8897-4e6c-b07d-ea4afd82ce3d" name="New CategoryLink" hidden="false" targetId="09958037-8b47-4266-a210-7773ca8a7349" primary="false"/>
-        <categoryLink id="a76d0dad-fce3-4b90-a6cf-807bcfd1d5c6" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="4a5bf02a-2a29-445f-a409-02ad6cfb3264" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="f4007d23-baa0-4936-9fa7-e74b413c6ccb" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="117946ec-21ed-40b5-8d5d-7453a195eb84" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="545fbd61-70d4-43cb-a677-ce5bac6fb8c2" name="New CategoryLink" hidden="false" targetId="63b2d9e8-4f52-46ae-9c47-7068a5f6c756" primary="false"/>
-        <categoryLink id="84df289e-fb42-4411-85ff-082bf75b6be9" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="42f694ff-42d7-491f-8b50-d68a6121bb9a" name="Lord of the Death Guard" hidden="false" targetId="92a53144-ce20-4980-af6a-b35f84e076b8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2976f1c7-b750-43e5-b7e2-2b0aed233fa1" name="Weapon option" hidden="false" collective="false" import="true" defaultSelectionEntryId="560442a9-ae73-4f9b-a632-27f6eba0a4cc">
@@ -1053,6 +1045,7 @@ Battle Round 4 - 9&quot;</description>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8ed5e4ac-d961-4118-b54d-673e9138dd5a" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry"/>
+        <entryLink id="8b8a-62d9-0e06-16d2" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120.0"/>
@@ -1086,15 +1079,8 @@ Battle Round 4 - 9&quot;</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a095ff3d-1aac-487b-a7f7-270b0db6cddb" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="6d4466a0-a263-40bb-869d-d39d6446f615" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="e4ddafb5-22ab-4d1a-b7a0-b14def29cde2" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="92ba584b-7144-478d-9c39-26d9d8d23a81" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="309a3421-d186-4b91-886a-65d05875af52" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="638e89c7-7429-43b4-ab61-df21bc4c5de3" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="6733cf67-628e-4a47-b98f-1ba1362bfc09" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="fe47997e-2f54-4fd7-9dd6-ba2461f6e49a" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="c258be3b-3dad-4a7e-8396-f7e925e0cd2d" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="aa1895fa-9e4c-4dd0-937b-3c147b968aa8" name="Malignant Plaguecaster" hidden="false" targetId="6c943a54-2b61-4728-9110-8c2f10afcf0f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aaa26aa0-6270-490f-9122-177d7b7c7ce6" name="Corrupted staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -1159,6 +1145,7 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6256636-dbea-4ff9-8504-af2d772dbe1a" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="a97f-2dec-0c3c-173b" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="a5cc-a6c2-32df-f065" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90.0"/>
@@ -1217,18 +1204,6 @@ Battle Round 4 - 9&quot;</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="b77d3790-1d4c-43c9-a745-cb3aa9932524" name="Mortarion" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set-primary" field="category" value="c78d13d1-bbf1-4f1c-afc9-982b634c5526">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51415844-cf8e-4283-bfd5-6c2c0a710399" type="notInstanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set-primary" field="category" value="819eaa48-b208-49cb-a2f4-b7db1eb1e213">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="51415844-cf8e-4283-bfd5-6c2c0a710399" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile id="1aa19979-71ed-4002-aa53-91769888bd5c" name="Mortarion 1 (10-18)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
@@ -1308,19 +1283,9 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="8c55-e328-17fa-db7d" name="Explodes (Putrid Large)" hidden="false" targetId="0170-3f52-4dc0-f0e5" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="67677e69-026c-431b-8a04-498928eda168" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="e4977f0b-ad86-4f9f-8531-5038bfc7d082" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="e0b15ebe-d793-47e3-af90-3d2e3e9b6f75" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="76f0d32e-4f03-40a6-8d57-477499d0c41a" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="933546ae-db4c-47eb-ba8d-187b52f55b17" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="1bf4462d-51be-449f-bc33-edc65731cba4" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
         <categoryLink id="92d7708a-a895-468b-b844-01ba3993d106" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
-        <categoryLink id="f3770053-9746-44f2-8027-a3bda3964e98" name="New CategoryLink" hidden="false" targetId="44335ced-2b89-42b5-88bd-226c7fe12f8d" primary="false"/>
-        <categoryLink id="d716df04-f9fd-420b-beac-0e6e9bdf1b05" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="e066e82c-7258-4982-8908-10ecd3a1883b" name="New CategoryLink" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
-        <categoryLink id="fd3126a5-f289-4f51-ae39-0dd197d26e53" name="New CategoryLink" hidden="false" targetId="79f12d04-3aa8-4011-b443-9de0aa041935" primary="false"/>
-        <categoryLink id="47ea7500-7487-41fc-aac2-2da484c2920d" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="21ef518f-f346-495f-adde-bba660f87d97" name="Supreme Commander" hidden="false" targetId="2711ed52-528e-468a-813e-df01742f33d7" primary="false"/>
+        <categoryLink id="d930-4a57-f95a-c2de" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3a599fd0-2d5e-4373-8855-85bfe1213a2a" name="Silence" hidden="false" collective="false" import="true" type="upgrade">
@@ -1477,6 +1442,7 @@ Battle Round 4 - 9&quot;</description>
             <categoryLink id="728f7230-129a-440b-9a2a-6c7c47d192f1" name="Mortarion Warlord" hidden="false" targetId="6de628d5-ce24-473c-ab49-f195dcd8bf0d" primary="false"/>
           </categoryLinks>
         </entryLink>
+        <entryLink id="e26a-a3ce-94bb-7339" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="25.0"/>
@@ -3243,11 +3209,6 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91c4ffab-e77d-4624-9240-1efbe6014d9c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e1c5b71b-5137-4b25-a783-b722eb24d575" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205015a0-4b9b-4918-b51a-af5b0b26de55" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="780ff0f3-7c6a-4945-a1e8-e0d4c84bf915" name="Balesword" hidden="false" collective="false" import="true" targetId="5c56059e-3b60-475b-8ad0-916b2f71f112" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bae4b4d-d6f3-4dcf-87ee-904502a56382" type="max"/>
@@ -3322,11 +3283,6 @@ Battle Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c989029-6c2a-45c9-a98c-89c519a552ba" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af3143d-195d-4ada-b227-d332a2de7c1e" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="8556bc83-532f-4782-8eb1-b2378b37a69d" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d362ce93-c5b1-4e48-90ad-2d57b55f536c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3436,7 +3392,6 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e9e1c3-e4ed-4afb-864c-d3b85280f94c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c66238a4-daa6-4e16-b6d8-e475c3de340e" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="5.0"/>
@@ -3552,15 +3507,8 @@ Battle Round 4 - 9&quot;</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a00a612b-19de-4e6d-805d-935b53dad9e3" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
-        <categoryLink id="d274c688-fdee-48e0-91e8-05eb4a91cb5a" name="New CategoryLink" hidden="false" targetId="99cd090e-2b5f-492b-86ad-281cf4e278b6" primary="false"/>
         <categoryLink id="450ee0f0-6759-41d9-8c03-fd9155f6f16f" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="265c82d4-767e-488f-b384-25691591b91c" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="b009696a-4de1-491e-a1cc-4e76082e35c0" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="6a3c0268-a32c-4a2a-85bd-e4c7286b8fde" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="dddbb6a7-221f-45f2-992b-2d0fc4bde7b4" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="6ac4ef76-e6c7-41f0-a860-2fbf0d27c581" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="fe71752a-5852-496b-bbfd-ad3d864f80a8" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="879c3f93-09c1-4952-b9e7-5391294537c7" name="Lord of the Death Guard" hidden="false" targetId="92a53144-ce20-4980-af6a-b35f84e076b8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bd6b77ab-b4f8-4466-ab5b-df7a426f6c57" name="Replace bolt pistol" hidden="false" collective="false" import="true">
@@ -3613,6 +3561,7 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f758742-bbe4-4944-926d-d07bbc4b3aa4" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="e8f3-808a-395b-9798" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="a5cc-a6c2-32df-f065" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85.0"/>
@@ -3807,16 +3756,8 @@ Battle Round 4 - 9&quot;</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5210-df7c-93a8-50cf" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
-        <categoryLink id="8648-ee93-eedb-dc0a" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="6ad2-22cb-af32-7e77" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
         <categoryLink id="0272-a8b3-f764-96c8" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
-        <categoryLink id="c3e0-e88d-fe85-9c2c" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="bdb9-6afe-19c8-069e" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="9f07-52a6-f3eb-e18f" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="2b0b-9222-6512-16c8" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="3d66-088d-736b-94c0" name="New CategoryLink" hidden="false" targetId="37bb61d9-8c5f-422c-a636-f50ee592bd6a" primary="false"/>
-        <categoryLink id="1765-9d6a-023f-4d50" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="b9a7-d91a-1cb7-0a5f" name="Faction: Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
+        <categoryLink id="afba-5689-19e6-a21c" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e350-1c6c-139a-8336" name="Foetid Wings" hidden="false" collective="false" import="true" type="upgrade">
@@ -3931,6 +3872,7 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1360-5d3d-30c7-69b8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="fa90-ee1f-de70-e9b7" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>

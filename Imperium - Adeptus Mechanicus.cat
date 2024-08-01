@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="269" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="291" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="270" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -120,9 +120,6 @@
   </infoLinks>
   <sharedSelectionEntries>
     <selectionEntry id="03815050-15fe-4372-84b7-e9a69ff6f9d0" name="Tech-Priest Dominus" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="74" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4dbfb28e-0773-42ee-a8d1-91d549875ff0" type="max"/>
-      </constraints>
       <profiles>
         <profile id="5e0416dd-8e18-4353-bc9a-d7b9b1c2766d" name="Tech-Priest Dominus" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
@@ -216,6 +213,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9c1122-2d66-4cf5-a322-a589593b5775" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3538-8cc7-2ae0-cfca" name="Warlord Strategy Rating 4" hidden="false" collective="false" import="true" targetId="c424-0baf-7321-e1ac" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -224,9 +222,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d5a59068-2030-492b-8f99-d67ab8b07187" name="Tech-Priest Enginseer" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="75" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a3b249ba-a2e4-4132-830b-e48a777b3598" type="max"/>
-      </constraints>
       <profiles>
         <profile id="0b950b5e-a006-405a-8424-460c57c6eb86" name="Tech-Priest Enginseer" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
@@ -295,6 +290,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a7c50c-8ada-4e0e-91a4-9f9a0d19a24e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="df2b-247c-515b-0980" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -2482,16 +2478,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="91ec837c-5d72-4e79-ad20-d7fba28b3e18" name="Tech-Priest Manipulus" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="87" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="24476457-09a2-41e0-bb0f-7dd6744f00b6" value="1.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="24476457-09a2-41e0-bb0f-7dd6744f00b6" type="max"/>
-      </constraints>
       <profiles>
         <profile id="55dd8d8b-ecc3-4346-916d-42dbcafa9302" name="Tech-Priest Manipulus" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
@@ -2644,6 +2630,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink id="ff2f-e3d2-a6e6-9b6f" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="2064-2fe5-77e4-7117" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -2946,9 +2933,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="dfaf8034-5655-47e6-a79f-cdd086f13741" name="Skitarii Marshal" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480805b4-212d-489c-9c98-941b641705be" type="min"/>
-      </constraints>
       <profiles>
         <profile id="6e168835-0e2a-4616-baab-2f97517e8a7b" name="Skitarii Marshal" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
@@ -3000,6 +2984,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1d3ca5-86fa-4451-bea6-296b6ac63ea5" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ca1a-2693-849d-3945" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="a5cc-a6c2-32df-f065" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
