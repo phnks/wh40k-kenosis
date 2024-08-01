@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="296" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="299" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -7706,7 +7706,7 @@ Remaining Wounds | Aura Range
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">1</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-4</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Infantry (4+), Torrent. Psychic. Psychic Focus</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Personnel (4+), Torrent. Psychic. Psychic Focus</characteristic>
           </characteristics>
         </profile>
         <profile id="543d-75a0-d4f7-770d" name="Curse of the Leper" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -7716,9 +7716,9 @@ Remaining Wounds | Aura Range
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d8e2-5e30-635f-f085" name="Anti-Infantry (X)" hidden="false" targetId="fd85-f934-cab3-4505" type="rule">
+        <infoLink id="d8e2-5e30-635f-f085" name="Anti-Personnel (X)" hidden="false" targetId="8d46-5838-252c-4825" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Anti-Infantry (4+)"/>
+            <modifier type="set" field="name" value="Anti-Personnel (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="75e3-8e50-b42a-f2a1" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
@@ -9668,8 +9668,8 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
       <description>Make an extra attack for every 5 models that this weapon targets.
 Can never be used to attack units within the firing unit’s Engagement Range.</description>
     </rule>
-    <rule id="490a-1e41-77d6-68c7" name="Indirect Fire" hidden="false">
-      <description>This weapon may be used against enemy units that are not within line of site of the bearer.</description>
+    <rule id="490a-1e41-77d6-68c7" name="Barrage" hidden="false">
+      <description>This weapon may be used against enemy units that are not within line of site of the bearer. If it does this, apply a -1 to hit modifier.</description>
     </rule>
     <rule id="0448-7cb5-8c1a-46f9" name="Anti-Walker (X)" hidden="false">
       <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword automatically wounds.</description>
@@ -9689,6 +9689,12 @@ Can never be used to attack units within the firing unit’s Engagement Range.</
 Point Defence weapons can be fired as part of an Overwatch attack. When fired as part of an Overwatch attack, Point Defence weapons ignore the -1 penalty to Hit rolls and instead fire as normal (i.e., use the To Hit value of the weapon then apply any positive or negative modifiers). In addition, they can be fired even if the model is threatened.
 Point Defence weapons can be fired in engagement range ignoring the -1 penality to Hit rolls.
 Point Defence weapons can be fired even if the model has performed a march.</description>
+    </rule>
+    <rule id="8d46-5838-252c-4825" name="Anti-Personnel (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword (Infantry, Cavalry, Monster) automatically wounds.</description>
+    </rule>
+    <rule id="7cd9-ad4e-9766-89a3" name="Anti-Armour (X)" hidden="false">
+      <description>An unmodified Wound roll of ‘X+’ against a target with the matching keyword (Walker, Vehicle, Titanic) automatically wounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
