@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="291" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="292" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -7763,6 +7763,10 @@ Instead of rolling To Wound normally for a model hit by this attack, its control
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3a75-1622-9c11-053d" name="Warlord Strategy Rating 1" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="6c97-a685-9bd6-eb7d" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="0076-be99-0a64-16de" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="eb48-543f-309f-cf10" name="Warlord Strategy Rating 4" hidden="false" collective="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="bfb814bd-1a08-4dd8-bd10-015aec6c1600" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5866c557-03dc-4dfe-b19a-1fefad2e77ca" name="Chaos - Maggotkin of Nurgle" revision="157" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="291" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="159" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -563,6 +563,7 @@
       <entryLinks>
         <entryLink id="f55e658c-2683-4d4e-a2e5-710c5d690b97" name="Warlord" hidden="false" collective="false" import="true" targetId="e505df41-5063-4b2c-b266-2608a71f44d9" type="selectionEntry"/>
         <entryLink id="5c56e0b3-250e-428b-8286-c63cbf25542f" name="Nurgling claws" hidden="false" collective="false" import="true" targetId="91247fa4-4c72-4de5-8332-d69ec6e861f3" type="selectionEntry"/>
+        <entryLink id="156a-befe-f0ae-44f3" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>
