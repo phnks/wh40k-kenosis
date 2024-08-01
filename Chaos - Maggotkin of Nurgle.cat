@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="159" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="160" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="293" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -85,35 +85,14 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f9b481c3-fde3-490d-b260-4bf652f7c885" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="66647471-b2a9-40d8-8337-0afa4c1bc3b6" name="Mischief Makers" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">During deployment, when you set up this unit, it can be set up anywhere on the battlefield that is more than 9&quot; from yor opponent&apos;s deployment zone and any enemy models.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="b3ad1935-9899-4268-b668-cd5ac5551fd0" name="Tide of Tiny Bodies" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">if your army is Battle-forged, this unit cannot be selected to fill a compulsory Battlefield Role slot in a Detachment.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="7c113c4c-a1de-4ccf-967a-cdaab630900a" name="Bothersome Scamps" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="d6f96a95-a7bf-4292-be8f-fc13cc84ffcc" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="ab60-674d-8a05-6cc8" name="Infiltrate" hidden="false" targetId="8cb6-c8f8-c499-0e24" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9875b99b-14e3-4ff1-ab48-f8c1ce27bc56" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="c89b5fe9-a77f-4375-a668-da416b9ad436" name="New CategoryLink" hidden="false" targetId="8f4a03b8-fdeb-40d6-8c46-dab3f2d0a048" primary="false"/>
-        <categoryLink id="2c9d5266-de3a-4973-b22b-816b3da6e481" name="New CategoryLink" hidden="false" targetId="9d01d8d9-dc07-4b4f-8b73-18f6d0fa89d2" primary="false"/>
-        <categoryLink id="198f5021-98a0-4127-b8cd-51bca72c98f1" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
         <categoryLink id="c300f93d-a599-438c-bcba-4515812831c2" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
         <categoryLink id="2d312394-4815-46cd-8326-ff332503b7b4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
-        <categoryLink id="ba31d259-e7b7-42d2-b56a-26245cdf6bc0" name="Non-Compulsory Troop" hidden="false" targetId="4c77a9d1-9a0d-4731-9e1d-0d24d874d410" primary="false"/>
-        <categoryLink id="3ebfc99e-1f8f-41ce-8619-804592adad7c" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+        <categoryLink id="67b1-37a9-77cc-88df" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="234c5716-5f7b-4fe3-ba61-6b6ebf73cfca" name="Nurgling Swarms" hidden="false" collective="false" import="true" type="model">
@@ -135,7 +114,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Infiltrate</characteristic>
               </characteristics>
             </profile>
           </profiles>
