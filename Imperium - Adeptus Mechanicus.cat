@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="271" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="294" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="274" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="295" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -740,7 +740,7 @@
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Doctrina Imperatives</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large)</characteristic>
           </characteristics>
         </profile>
         <profile id="574b33c0-6fd3-4caa-a913-4b1c1eb3ca9b" name="Onager Dunecrawler 2 (3-5 wounds)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -777,7 +777,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1fb2dfd7-c820-42e4-80bd-6d6e68f0021c" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
         <infoLink id="e9ab-a605-1e79-5b34" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1182,14 +1181,12 @@ Each time an attack made with this weapon targets a unit within half range, that
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Doctrina Imperatives</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="d403-c77f-4e4b-ff2d" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
-        <infoLink id="1ae4-34e4-100e-9543" name="Doctrina Imperatives" hidden="false" targetId="4a20ae2c-c2db-4efb-94e9-431967e4ca94" type="rule"/>
-        <infoLink id="67d1-c0f9-dcdb-8cb8" name="Broad Spectrum Data-tether" hidden="false" targetId="a48e19f2-619d-4727-8a31-5d1002a3d60f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a4ba19bb-722b-4350-83ed-2008482b2dec" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
@@ -3475,7 +3472,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Flare Shield</characteristic>
           </characteristics>
         </profile>
         <profile id="aaa5cb14-d067-4ffd-869e-b6063ab0c127" name="Karacnos Assault Tank 2 (5-10)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -3518,7 +3515,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       </rules>
       <infoLinks>
         <infoLink id="2c22-5422-a0f1-f267" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
-        <infoLink id="0e3c-d4c5-0b7a-9d38" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0073c9f7-ea3b-462e-803b-8373be0a81b4" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
@@ -4610,7 +4606,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Canticles of the Omnissiah, Flare Shield</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large). Flare Shield</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4621,7 +4617,6 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </rules>
       <infoLinks>
         <infoLink id="8d34-410c-9aba-d48e" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
-        <infoLink id="5935-6819-ea1a-dc6a" name="Canticles of the Omnissiah" hidden="false" targetId="aa8486c0-373b-4565-b98a-2eb66848b356" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="45d3-d79d-86fe-2973" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
@@ -4679,7 +4674,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1ea7-55e1-f18d-b773" name="Volkite Charger (Mounted)" hidden="false" collective="false" import="true" targetId="1c7e-25d5-5583-ede9" type="selectionEntry">
+        <entryLink id="1ea7-55e1-f18d-b773" name="Volkite Charger (Centerline Mounted)" hidden="false" collective="false" import="true" targetId="1c7e-25d5-5583-ede9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2258-1d32-4e0b-e8cf" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="801d-f90d-d8de-6469" type="min"/>
@@ -4781,11 +4776,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <infoLinks>
         <infoLink id="6c2e-d58f-8cff-f36a" name="Volkite Charger" hidden="false" targetId="5255543a-c754-46d4-ac3a-392f7abf22f0" type="profile">
           <modifiers>
-            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Deflagrate"/>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Centerline). Deflagrate, Point Defense"/>
           </modifiers>
         </infoLink>
         <infoLink id="1d01-9fdc-a4e4-fc57" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
         <infoLink id="b19e-1156-7e40-5da2" name="Deflagrate" hidden="false" targetId="7ad0-bb7e-5665-5a5c" type="rule"/>
+        <infoLink id="5f72-9504-a296-631b" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -4797,10 +4793,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       <infoLinks>
         <infoLink id="508d-4fbe-a7b1-e18c" name="Cognis Heavy Stubber" hidden="false" targetId="692b-5dfb-7ea0-3027" type="profile">
           <modifiers>
-            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull)"/>
+            <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Hull), Point Defense"/>
           </modifiers>
         </infoLink>
         <infoLink id="9999-fcbf-efe8-3190" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+        <infoLink id="fc6b-a292-277d-dadd" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>

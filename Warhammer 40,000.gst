@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="294" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="296" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9665,7 +9665,7 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
       <description>When a charge is rolled against this unit reduce the distance rolled by 2 inches.</description>
     </rule>
     <rule id="b6dc-0684-5d0b-4734" name="Blast" hidden="false">
-      <description>Minimum three attacks against units with 6+ models. Always make maximum number of attacks against units with 11+ models.
+      <description>Make an extra attack for every 5 models that this weapon targets.
 Can never be used to attack units within the firing unit’s Engagement Range.</description>
     </rule>
     <rule id="490a-1e41-77d6-68c7" name="Indirect Fire" hidden="false">
@@ -9682,6 +9682,13 @@ Can never be used to attack units within the firing unit’s Engagement Range.</
     </rule>
     <rule id="a005-6207-3281-2a56" name="Feel No Pain (X)" hidden="false">
       <description>If a model with this special rule suffers a Wound, roll a D6 after any save rolls are made. On a X+, the Wound is ignored and has no effect; this triggers before rules such as Deflagrate, meaning extra Hits would not be generated. </description>
+    </rule>
+    <rule id="1676-955f-4e6d-849b" name="Point Defense" hidden="false">
+      <description>A weapon with the Point Defence trait represents a weapon system tailored towards defensive fire, be that heavy bolter sponsons on a Vehicle or the Ardex weapons of some Titans.
+
+Point Defence weapons can be fired as part of an Overwatch attack. When fired as part of an Overwatch attack, Point Defence weapons ignore the -1 penalty to Hit rolls and instead fire as normal (i.e., use the To Hit value of the weapon then apply any positive or negative modifiers). In addition, they can be fired even if the model is threatened.
+Point Defence weapons can be fired in engagement range ignoring the -1 penality to Hit rolls.
+Point Defence weapons can be fired even if the model has performed a march.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
