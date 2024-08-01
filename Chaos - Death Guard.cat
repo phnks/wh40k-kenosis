@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="189" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="292" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="191" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="294" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -499,29 +499,20 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">9</characteristic>
             <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Explodes (Putrid Small)</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Putrid Small)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="687a3b30-1aa6-452d-a016-6629055b267a" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="59b5a941-91af-4023-a830-e23a35fa7bc9" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="a052-cdb8-6203-bda2" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e81446a2-d167-4182-ab89-2fe7e2397218" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
-        <categoryLink id="398c1161-ec37-4117-97e1-56a882b91384" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="6132b396-2284-45b2-a416-61783783bca5" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="true"/>
-        <categoryLink id="90dc9e7c-8ac9-4d32-9a6e-9322fc5d4e7b" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="7f16e068-2481-4f94-a1f9-6f4235a2ff87" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
         <categoryLink id="b7ed65b1-63b8-48fc-81a5-3afd65be3e1d" name="New CategoryLink" hidden="false" targetId="b7491938-0c34-4eef-b182-6158415dd0d8" primary="false"/>
-        <categoryLink id="b351479c-d228-4084-a693-06e2868ebb9d" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
-        <categoryLink id="eb9705a8-6255-432d-931a-416d28dba51b" name="New CategoryLink" hidden="false" targetId="87c230b9-fce0-4815-be09-128d598f80d0" primary="false"/>
-        <categoryLink id="565f962b-8984-4f60-999a-7218e61a0dd1" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="f1999770-fde2-40df-8930-5f7848538eff" name="New CategoryLink" hidden="false" targetId="8bf3e0bf-0d1d-4d0b-b404-ab3ce4f29c62" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a4b7da0d-cd4b-40b7-ac93-09418ab323ab" name="Plague probe" hidden="false" collective="false" import="true" type="upgrade">
@@ -615,6 +606,14 @@ Battle Round 4 - 9&quot;</description>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3d35-b462-acf4-47be" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70fc-6a18-a4f1-61a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6623-2d1b-612c-7783" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="7.0"/>
@@ -838,10 +837,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">10</characteristic>
             <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Explodes (Large), Inexorable Advance, Transport (10)</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Large), Transport (10)</characteristic>
           </characteristics>
         </profile>
         <profile id="69e53a28-30a6-44f1-bbd8-ec22078fd00e" name="Nurgle Rhino 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -878,9 +877,6 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3b7cc9dc-9824-4d49-aae4-c07df61a50b3" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
-        <infoLink id="3d441a29-e6ee-4db9-b1c6-fd9994b0aabb" name="Inexorable Advance" hidden="false" targetId="51d3574a-d715-4de3-8103-4b0c57dad22e" type="rule"/>
-        <infoLink id="e31e-227e-c823-17d8" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
         <infoLink id="f50e-58fb-f2d8-d07c" name="Transport (X)" hidden="false" targetId="6bc0-012d-e313-5809" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Transport (10)"/>
@@ -941,6 +937,12 @@ Battle Round 4 - 9&quot;</description>
           </constraints>
         </entryLink>
         <entryLink id="9ca1-2078-ceb7-184e" name="Combi-Weapons (Mounted)" hidden="false" collective="false" import="true" targetId="f023-4f0c-f360-6bda" type="selectionEntryGroup"/>
+        <entryLink id="7367-f268-5911-e5fe" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f508-80cc-1a4c-d7b9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="321a-12e7-31d4-4b49" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -2733,22 +2735,14 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">9</characteristic>
             <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Putrid Small), Contagions of Nurgle</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="c7ef5d6e-32ae-4894-b93b-34b02b970bae" name="Foul Stench" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time a melee attack is made against this unit, subtract 1 from that attack&apos;s hit roll.</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ce2262fb-8a2b-485c-ba56-b3a7532ee537" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="94919dbf-f9d6-4a49-8e73-5d72971f3bcc" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
-        <infoLink id="4e987148-6305-4090-9b8a-d39c9f503437" name="Remorseless" hidden="false" targetId="a0088dab-6545-4195-bfa3-0b2956c86864" type="profile"/>
         <infoLink id="fbe9-e5d5-14a8-fd43" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2840,6 +2834,14 @@ Battle Round 4 - 9&quot;</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="c12a-c3ad-91e0-7880" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d7-896f-8c49-9ad4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55c0-4316-f23d-e40a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2858,10 +2860,10 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">12</characteristic>
             <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
-            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
+            <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Contagions of Nurgle, Explodes (Large)</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Large)</characteristic>
           </characteristics>
         </profile>
         <profile id="ebf0ce70-8a56-4f77-b28d-a5fd7afb9dca" name="Plagueburst Crawler 2 (3-5)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -2898,8 +2900,6 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c8249851-650f-40d8-a323-62e262ccc842" name="Disgustingly Resilient" hidden="false" targetId="6f5fe823-c605-4745-97f0-c0bd81b4395d" type="profile"/>
-        <infoLink id="f9f1f503-ea3e-4dd8-b9a7-2d9b14f5377c" name="Contagions of Nurgle" hidden="false" targetId="4a3805d9-9350-43be-9191-81109635905f" type="rule"/>
         <infoLink id="3513-57c6-b982-acd9" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3067,6 +3067,14 @@ Battle Round 4 - 9&quot;</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8064-5aaa-0dc0-16ef" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caab-5158-5874-4d90" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429c-d680-8022-0f68" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="135.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
@@ -3900,6 +3908,28 @@ Battle Round 4 - 9&quot;</description>
       <costs>
         <cost name="pts" typeId="points" value="140.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="8.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="371e-ed3f-83ce-1db1" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="f03d-c4c8-6186-9ee6" name="Mark of Nurgle" hidden="false">
+          <description>Models with the Mark of Nurgle special rule gain the following rules:
+- Feel No Pain (5+)
+- Movement characteristic -1 (included in profile)
+- Plus 1 Toughness (included in profile)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f9e9-8c98-96ba-d655" name="Feel No Pain (X)" hidden="false" targetId="a005-6207-3281-2a56" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
