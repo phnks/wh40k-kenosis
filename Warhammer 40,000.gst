@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="311" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="312" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -415,7 +415,7 @@
     <categoryEntry id="c9c2-4f9f-0272-46a5" name="Minor Daemon" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" name="Patrol Detachment -2CP" hidden="false">
+    <forceEntry id="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" name="Patrol Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Patrol Detachment 0CP">
           <conditionGroups>
@@ -612,7 +612,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="e8bedebc-f529-4640-ae4d-54e38309a17d" name="Battalion Detachment -3CP" hidden="false">
+    <forceEntry id="e8bedebc-f529-4640-ae4d-54e38309a17d" name="Battalion Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Battalion Detachment 0CP">
           <conditions>
@@ -784,7 +784,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="014e85ba-9652-4e29-97c3-2fe7e6b51122" name="Brigade Detachment -4CP" hidden="false">
+    <forceEntry id="014e85ba-9652-4e29-97c3-2fe7e6b51122" name="Brigade Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Brigade Detachment 0CP">
           <conditions>
@@ -979,7 +979,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="821dffae-838c-4068-998a-eb7516c88c93" name="Vanguard Detachment -3CP" hidden="false">
+    <forceEntry id="821dffae-838c-4068-998a-eb7516c88c93" name="Vanguard Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="1e727517-3626-4511-83ec-36c56e6d4daa" value="0.0">
           <conditions>
@@ -1131,7 +1131,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="dfa16d53-bf0b-42f3-af4e-108d3012341e" name="Spearhead Detachment -3CP" hidden="false">
+    <forceEntry id="dfa16d53-bf0b-42f3-af4e-108d3012341e" name="Spearhead Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="190e08c3-fc7d-4227-8a22-e920dad85b7b" value="0.0">
           <conditions>
@@ -1271,7 +1271,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="fc2b8048-6ea7-41e7-b8aa-01f92b15738b" name="Outrider Detachment -3CP" hidden="false">
+    <forceEntry id="fc2b8048-6ea7-41e7-b8aa-01f92b15738b" name="Outrider Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Outrider Detachment 0CP">
           <conditionGroups>
@@ -1428,7 +1428,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="51415844-cf8e-4283-bfd5-6c2c0a710399" name="Supreme Command Detachment 0CP" hidden="false">
+    <forceEntry id="51415844-cf8e-4283-bfd5-6c2c0a710399" name="Supreme Command Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Supreme Command Detachment +2CP">
           <conditionGroups>
@@ -1490,7 +1490,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="7361ea06-7d25-4337-b339-4d6e6cb9db87" name="Super-Heavy Detachment -3CP" hidden="false">
+    <forceEntry id="7361ea06-7d25-4337-b339-4d6e6cb9db87" name="Super-Heavy Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Super-Heavy Detachment -6CP">
           <conditionGroups>
@@ -1626,7 +1626,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="0f3e16b3-d7e7-455d-af48-33581533028f" name="Super-Heavy Auxiliary Detachment -3CP" hidden="false">
+    <forceEntry id="0f3e16b3-d7e7-455d-af48-33581533028f" name="Super-Heavy Auxiliary Detachment" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Super-Heavy Auxiliary Detachment 0CP">
           <conditionGroups>
@@ -1692,7 +1692,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="a49c3c37-e920-43fc-b7a3-90e02a1436e0" name="Fortification Network -1CP" hidden="false">
+    <forceEntry id="a49c3c37-e920-43fc-b7a3-90e02a1436e0" name="Fortification Network" hidden="false">
       <modifiers>
         <modifier type="set" field="name" value="Fortification Network 0CP">
           <conditions>
@@ -1730,7 +1730,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="53526cc0-9707-4f31-b2e4-7b502e698676" name="Auxiliary Support Detachment -2CP" hidden="false">
+    <forceEntry id="53526cc0-9707-4f31-b2e4-7b502e698676" name="Auxiliary Support Detachment" hidden="false">
       <modifiers>
         <modifier type="increment" field="f68dd2a6-d41e-4593-b6ba-2b8f2b4664b2" value="1.0">
           <repeats>
