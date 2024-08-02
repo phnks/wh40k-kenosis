@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="276" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="302" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="283" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="310" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -85,6 +85,46 @@
     <categoryEntry id="3139cc3c-8a80-4d93-8567-7cdad7fad004" name="Skitarii Veteran Cohort" hidden="false"/>
     <categoryEntry id="bc0d8c9c-e78e-48d4-a4ea-989c30fa9f4c" name="Veterans" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="489b-a5ab-caa2-8fe8" name="&quot;Doctrina Imperatives&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bf2-a144-2eae-e9a0" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b06-dc21-6c42-61fa" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="b634-9c49-32b6-b758" name="&quot;Doctrina Imperatives&quot; Army Ability" hidden="false">
+          <description>Every unit in your army&apos;s has their characteristics modified depending on which Doctrina Imperative is active for your army. Each Doctrina Imperative has two effects, an Optimisation effect that improves one of this unit’s characteristics, and a Deprecation effect that reduces one of this unit’s characteristics. When a Doctrina Imperative is active, both of these effects will apply to this unit. At the start of the battle round, you can select one Doctrina Imperative that has not yet been active for your army. If you do so, until the end of the battle round, that Doctrina Imperative is active for your army.
+
+PROTECTOR IMPERATIVE
+OPTIMISATION
+Improve the Ballistic Skill characteristic of ranged weapons models in this unit have by 1.
+DEPRECATION
+Reduce the Weapon Skill characteristic of melee weapons models in this unit have by 1.
+
+CONQUEROR IMPERATIVE
+OPTIMISATION
+Improve the Weapon Skill characteristic of melee weapons models in this unit have by 1.
+DEPRECATION
+Reduce the Ballistic Skill characteristic of ranged weapons models in this unit have by 1.
+
+BULWARK IMPERATIVE
+OPTIMISATION
+Improve the Save characteristic of models in this unit by 1 (models in this unit cannot have a Save characteristic better than 2+).
+DEPRECATION
+Reduce the Move characteristic of models in this unit by 3&quot;.
+
+AGGRESSOR IMPERATIVE
+OPTIMISATION
+Improve the Move characteristic of models in this unit by 3&quot;.
+DEPRECATION
+Reduce the Save characteristic of models in this unit by 1.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8464-5824-fac0-9693" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="3ca650d0-afca-4779-bdfe-d1f4cf0e2785" name="Tech-Priest Dominus" hidden="false" collective="false" import="true" targetId="03815050-15fe-4372-84b7-e9a69ff6f9d0" type="selectionEntry"/>
     <entryLink id="f8f7bd9b-644d-4838-861c-494ec788c531" name="Tech-Priest Enginseer" hidden="false" collective="false" import="true" targetId="d5a59068-2030-492b-8f99-d67ab8b07187" type="selectionEntry">
@@ -211,7 +251,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9c1122-2d66-4cf5-a322-a589593b5775" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d115-5605-8912-41ca" name="Warlord Strategy Rating 4" hidden="false" collective="false" import="true" targetId="eb48-543f-309f-cf10" type="selectionEntry"/>
+        <entryLink id="d115-5605-8912-41ca" name="Warlord Strategy Rating 4" hidden="false" collective="false" import="true" targetId="eb48-543f-309f-cf10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="990b-ca68-be13-4e1f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3975-16a1-4830-6860" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -286,7 +331,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a7c50c-8ada-4e0e-91a4-9f9a0d19a24e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="79d5-e816-f93c-8d8a" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry"/>
+        <entryLink id="79d5-e816-f93c-8d8a" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c0-53e6-3062-cf32" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97e0-e85e-ea38-5db3" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -303,10 +353,13 @@
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="28d9-8c9c-73dd-c0bf" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -684,7 +737,7 @@
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">11</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -730,13 +783,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e52a44a7-cf43-4e0f-b335-57cd77b6e4d4" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="62485a67-cd35-4454-a6d0-6754a6171fe0" name="New CategoryLink" hidden="false" targetId="f0ace55e-b09a-49f5-9e3d-2d368cb18588" primary="false"/>
-        <categoryLink id="79905de5-a78e-4251-bfc5-9e1a368851db" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="6ea1cdb8-4a8b-421e-aff3-a2f0db0a62d5" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
-        <categoryLink id="24532b10-31b4-4128-9510-45a79af09000" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="8fb4af61-e7b5-475c-bbb5-c08e7df2edb4" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="377b057e-fcc8-4f40-96ad-535a7f403535" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
-        <categoryLink id="a33b5ebb-5102-4bf6-ac14-df06bba6985c" name="Data-Tether" hidden="false" targetId="0b4a277f-a566-4031-a903-52e5ec54d04a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2d8f-9305-4f20-7a6a" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
@@ -918,10 +965,13 @@
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. Each time an attack is made using this weapon, an unmodified wound roll of 6 inflicts 1 mortal wound in addition to its normal damage.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Long Range. Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. Each time an attack is made using this weapon, an unmodified wound roll of 6 inflicts 1 mortal wound in addition to its normal damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="abfd-b8bb-fdc4-ae8b" name="Long Range" hidden="false" targetId="bf28-2add-0e4b-69d3" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1425,10 +1475,13 @@ Each time an attack made with this weapon targets a unit within half range, that
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon against a VEHICLE unit, that attack has a Damage characteristic of 2 and an unmodified wound roll of 4 successfully wounds the target.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range. Each time an attack is made with this weapon against a VEHICLE unit, that attack has a Damage characteristic of 2 and an unmodified wound roll of 4 successfully wounds the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="578f-c1d6-f5f1-b43f" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1438,27 +1491,19 @@ Each time an attack made with this weapon targets a unit within half range, that
     <selectionEntry id="b51fc7d2-27fe-4fd8-8f3b-bd17b35f0201" name="Radium Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a033a365-32e2-4cc5-96ab-68b945d1e86c" name="Radium Pistol" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <modifierGroups>
-            <modifierGroup>
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2cc48fed-6cb0-478d-95cb-27fd67fdfa74" type="equalTo"/>
-              </conditions>
-              <modifiers>
-                <modifier type="increment" field="f543074e-af3b-46a0-9e60-04bc0d8c069a" value="1"/>
-                <modifier type="decrement" field="64d92b78-17e1-4806-b62a-750d8721671f" value="1"/>
-              </modifiers>
-            </modifierGroup>
-          </modifierGroups>
           <characteristics>
             <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
             <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">3</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon against an enemy unit (excluding VEHICLE units), a hit roll of 6 automatically wounds the target.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range. Each time an attack is made with this weapon against an enemy unit (excluding VEHICLE units), a hit roll of 6 automatically wounds the target.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="3199-2f71-05a2-931e" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1474,11 +1519,14 @@ Each time an attack made with this weapon targets a unit within half range, that
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast.
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range. Blast.
 Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="fd82-77ac-3d21-b479" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1660,6 +1708,7 @@ Each time an attack is made with this weapon, the target does not receive the be
     <selectionEntry id="1840ceec-dacc-4d5f-a542-31697110693b" name="Flechette Blaster" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="df3d1852-2a9b-4d8b-bd0e-c296668be439" name="Flechette Blaster" hidden="false" targetId="fcacaf68-c028-4390-868d-9f719b52aafa" type="profile"/>
+        <infoLink id="aa8c-cccc-5367-e0a0" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1690,6 +1739,7 @@ Each time an attack is made with this weapon, the target does not receive the be
     <selectionEntry id="9f5b6bc0-81d9-40be-b9f3-c618c6687847" name="Stubcarbine" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e8fbd61d-b12d-4be3-af05-40c6e2a376b0" name="Stubcarbine" hidden="false" targetId="cf18c787-cef3-4c45-b233-0dcb2731ab75" type="profile"/>
+        <infoLink id="3119-56fe-05a2-de1e" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1965,13 +2015,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="ce60ea2b-aa84-43a8-8ace-01b6442d1dea" name="Skitarii Ranger (Arc Rifle)" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="increment" field="points" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="4cc3b121-46cf-4302-bdf3-82685cbce789" name="Skitarii Ranger" hidden="false" targetId="040ade3e-cb0f-49af-8953-33afa89a1866" type="profile"/>
       </infoLinks>
@@ -2015,13 +2058,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="5c347ffd-8e77-4d32-bed7-c46ed81fc44d" name="Skitarii Ranger (Transuranic Arquebus)" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="increment" field="points" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="91326929-e4db-4e62-99b7-6860860a668a" name="Skitarii Ranger" hidden="false" targetId="040ade3e-cb0f-49af-8953-33afa89a1866" type="profile"/>
       </infoLinks>
@@ -2569,7 +2605,12 @@ Each time an attack is made with this weapon, the target does not receive the be
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="e447-20b7-fac4-8039" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
+        <entryLink id="e447-20b7-fac4-8039" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7165-2117-7562-0d36" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6a-5fd9-fcc2-cd85" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="70.0"/>
@@ -2920,7 +2961,12 @@ Each time an attack is made with this weapon, the target does not receive the be
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e1d3ca5-86fa-4451-bea6-296b6ac63ea5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1be8-6219-3546-30cd" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry"/>
+        <entryLink id="1be8-6219-3546-30cd" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef9-0373-f3cd-9db5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a79a-f9f1-451b-ea72" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="50.0"/>
@@ -3057,10 +3103,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106"/>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="1fc3-7c78-c2ea-4483" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3399,13 +3448,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       <profiles>
         <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">15&quot;</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">10&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">16</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">8</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -3594,12 +3643,12 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
                 <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
-                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
+                <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
                 <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex</characteristic>
               </characteristics>
             </profile>
-            <profile id="7986-1217-f17d-149e" name="Moving Bulwark" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
+            <profile id="7986-1217-f17d-149e" name="Karceri Battle Shield" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Two and more models have a 4+ invulnerable save</characteristic>
               </characteristics>
@@ -3613,26 +3662,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           <categoryLinks>
             <categoryLink id="febb1ef3-a6ab-441f-8f9a-14ee6b0e81fc" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
           </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="df5b-f3d2-e4e8-5fe5" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb7-f943-cc76-a439" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a144-e6fe-4854-1baa" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="2892-73da-74bc-a796" name="Karceri Battle Shield" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Add 1 to the Saving Throws for models equipped with karceri battle shields.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-                <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
           <entryLinks>
             <entryLink id="bd1a-96db-f0d6-2774" name="Graviton Maul" hidden="false" collective="false" import="true" targetId="036d34bb-033e-4d3e-9c2d-d627ed405a06" type="selectionEntry">
               <constraints>
@@ -4517,7 +4546,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">11</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -5048,8 +5077,6 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
     </selectionEntry>
     <selectionEntry id="47e5-790b-2399-a941" name="Vultarax Stratos-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="7cbf-3702-f1d8-61b8" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="e505-af3a-5c44-0bcc" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="dfa1-8349-c14a-36e4" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
         <categoryLink id="33dc-eb06-17e5-7630" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
       </categoryLinks>
@@ -5067,7 +5094,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
               <profiles>
                 <profile id="965b-f33a-3666-a76a" name="Vultarax" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
                   <characteristics>
-                    <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+                    <characteristic name="M" typeId="3dc1-8120-684f-5650">15&quot;</characteristic>
                     <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
                     <characteristic name="BS" typeId="b18e-86db-f965-4e00">2+</characteristic>
                     <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">4</characteristic>
@@ -5078,7 +5105,8 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
                     <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                     <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                     <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Battle Automata, Cybernetica Cortex, Surveillance Protocols</characteristic>
+                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Battle Automata, Cybernetica Cortex, Hover
+A model with this special rule and the Cybernetica Cortex special rule may ignore the requirement to charge as described as part of that rule during the Charge phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5086,7 +5114,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
                 <infoLink id="6e26-1b31-35ed-8235" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
                 <infoLink id="fc0d-9604-df66-5fe5" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
                 <infoLink id="3161-0438-d2f6-8c98" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
-                <infoLink id="b522-88f4-922e-5f91" name="Surveillance Protocols" hidden="false" targetId="6f6c-d9f6-c11a-cba2" type="rule"/>
+                <infoLink id="87d5-5bcf-0cce-6c6f" name="Hover" hidden="false" targetId="cb0b-7772-f25c-b94c" type="rule"/>
               </infoLinks>
               <categoryLinks>
                 <categoryLink id="bb2f-0c4e-595e-8c0f" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
@@ -5105,29 +5133,19 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
                         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
                         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
                         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
-                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Vehicle (4+), Anti-Walker (4+), Devastating Wounds (Vehicle), Devastating Wounds (Walker)</characteristic>
+                        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Anti-Armour (4+), Devastating Wounds (Armour)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="4739-633b-d442-f277" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Devastating Wounds (Vehicle)"/>
+                        <modifier type="set" field="name" value="Devastating Wounds (Armour)"/>
                       </modifiers>
                     </infoLink>
-                    <infoLink id="1438-eab5-c429-e4d3" name="Anti-Vehicle (X)" hidden="false" targetId="c0af-71c6-e908-d24e" type="rule">
+                    <infoLink id="1438-eab5-c429-e4d3" name="Anti-Armour (X)" hidden="false" targetId="7cd9-ad4e-9766-89a3" type="rule">
                       <modifiers>
-                        <modifier type="set" field="name" value="Anti-Vehicle (4+)"/>
-                      </modifiers>
-                    </infoLink>
-                    <infoLink id="22d0-83ea-d3c4-ac22" name="Anti-Walker (X)" hidden="false" targetId="0448-7cb5-8c1a-46f9" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Anti-Walker (4+)"/>
-                      </modifiers>
-                    </infoLink>
-                    <infoLink id="d0df-ed27-53ea-7ed8" name="Devastating Wounds (X)" hidden="false" targetId="54de-2bc1-cfeb-814c" type="rule">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Devastating Wounds (Walker)"/>
+                        <modifier type="set" field="name" value="Anti-Armour (4+)"/>
                       </modifiers>
                     </infoLink>
                   </infoLinks>
@@ -5457,9 +5475,6 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
     <rule id="13314926-24a3-48a2-a192-53ac4dd4ff79" name="Cortex Controller" hidden="false">
       <description>This model gains the Cortex Controller keyword and is allowed to join units of type Walker.</description>
     </rule>
-    <rule id="6f6c-d9f6-c11a-cba2" name="Surveillance Protocols" hidden="false">
-      <description>A model with this special rule and the Cybernetica Cortex special rule may ignore the requirement to charge as described as part of that rule during the Charge phase.</description>
-    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="44103649-84d4-4a89-889d-9b8271ca3484" name="Fanatical Devotion" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -5643,7 +5658,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">3</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
       </characteristics>
     </profile>
     <profile id="073ef59d-ed25-45df-a599-823a0afb5e21" name="Taser Goad" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -5663,7 +5678,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
       </characteristics>
     </profile>
     <profile id="d0f74772-b452-4f3d-8e40-24cad4127c38" name="Servitor" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="ae232f7b-b8d8-4895-84cf-b7778b06f2ac" typeName="Unit">

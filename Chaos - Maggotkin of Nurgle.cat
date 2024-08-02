@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="161" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="302" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="167" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="310" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -77,6 +77,83 @@
     <categoryEntry id="dc00455c-9377-423f-b8d7-bc3cd829758c" name="Daemonic Disciples" hidden="false"/>
     <categoryEntry id="c0ede5ba-f5ff-4cfc-8336-ef69a2ce6833" name="Disciples of Be&apos;lakor" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="d951-9c8e-80f0-8610" name="&quot;Gifts of the Plaguefather&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97f6-4425-037e-145a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f5f-7507-3d36-089e" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="b4f2-115f-57dc-5c2e" name="&quot;Gifts of the Plaguefather&quot; Army Ability" hidden="false">
+          <description>During deployment, any unit of type daemon or Chaos Spawn and Giant Chaos Spawn units, can set up as reinforcements instead of setting up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can deploy this unit in your deployment zone as normal. 
+
+At anytime in a round, if a unit from your army or allied army inflicts a wound on an enemy unit, gain 1 Nurgle Corruption. Gain 2 Nurgle Corruption if the unit from your army or allied army has the Mark of Nurgle special trait. 
+
+Nurgle Corruption can be spent at the start of each round on the Summonings and Mutations effects listed below. 
+
+Each effect has an associated Nurgle Corruption cost. If you do not have enough Nurgle Corruption for a specific effect, you cannot use it. Unless otherwise specified, you can use the same effect multiple times over the course of the battle. Any spent Nurgle Corruption is deducted from your total.
+
+You start the battle with an amount of Nurgle Corruption equal to the points total of the battle.
+
+2000 pts - 15 corruption
+3000 pts - 25 corruption
+4000 pts - 35 corruption
+
+SUMMONINGS 
+
+Manifestation: Use this effect to deploy a unit with the daemon type in one of following ways:
+
+- More than 1&quot; away from any enemy models and wholly within 6&quot; of a friendly model bearing the Mark of Nurgle.
+
+- Neither wholly within your deployment zone nor within your opponent’s deployment zone, and more than a number of inches away from each enemy unit, equal to the current Leadership characteristic of that enemy unit (to a minimum of 3&quot; and a maximum of 9&quot;). If an enemy unit has no leadership or is unable to fail a leadership test, you must use the maximum.
+
+The cost of this effect varies based on the daemon type as listed below:
+- 10 corruption for a greater daemon unit
+- 3 corruption for a minor daemon unit
+- 1 corruption for a lesser daemon unit
+
+Possession: Use this effect to deploy a unit with the daemon type. Select a target friendly model. That model is removed from play and replaced with the deployed daemon unit. 
+
+The cost of this effect varies based on the daemon type as listed below:
+- 5 corruption for a greater daemon unit. Must target a friendly model with type psyker and personnel
+- 1 corruption for a minor daemon unit. Must target a friendly model with type personnel 
+- 0 corruption for a lesser daemon unit. Must target a friendly model with type personnel 
+
+Sacrifice: Use this effect to deploy a Giant Chaos Spawn or Chaos Spawn unit. Select a target friendly model. That model is removed from play and replaced with the deployed unit. 
+
+The cost of this effect varies based on the deployed unit type as listed below:
+- 3 corruption for a Giant Chaos Spawn unit. Must target a friendly model with type psyker and personnel
+- 0 corruption for a Chaos Spawn unit. Must target a friendly model with type personnel 
+
+MUTATIONS
+
+Swollen Flesh:
+- 5 corruption (10 for Vehicle and Monster unit types)
+- Use this effect to give a target friendly unit the Feel No Pain (5+) special rule until the end of the round. If the target unit already has the Feel No Pain special rule then it is instead improved to Feel No Pain (4+).
+
+Rejuvenating Pustules: 
+- 5 corruption
+- Use this effect on a target friendly model. That model regains 3 wounds.
+
+Bursting Insects:
+- 5 corruption
+- Use this effect on a target friendly unit. Enemy units  when targeting this unit treat their weapon range as 12&quot; until the end of the round. 
+
+Bloated Body:
+- 5 corruption
+- Use this effect on a target friendly unit. Each model in that unit gains the Explodes (Putrid Small) special rule until the end of the round. In addition, instead of rolling to see if that model explodes, it does so automatically. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2a8b-b7a5-7592-5741" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="ef8b2446-39e4-40fd-ac54-962167f55b30" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="6e248de7-87d3-4be9-b3a0-7bc05dcbc0af" type="selectionEntry"/>
     <entryLink id="83c7559b-96cb-4c9d-a6d3-bd633c01b4c7" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="ce36d9dc-ab2a-4e19-aae0-17f4269fadd3" type="selectionEntry"/>
@@ -86,8 +163,13 @@
   <sharedSelectionEntries>
     <selectionEntry id="f9b481c3-fde3-490d-b260-4bf652f7c885" name="Nurglings" page="0" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="d6f96a95-a7bf-4292-be8f-fc13cc84ffcc" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
         <infoLink id="ab60-674d-8a05-6cc8" name="Infiltrate" hidden="false" targetId="8cb6-c8f8-c499-0e24" type="rule"/>
+        <infoLink id="da14-19c5-0a38-0f34" name="Daemonic" hidden="false" targetId="3eed-75c0-15ec-98a5" type="rule"/>
+        <infoLink id="3b05-4cc8-26d0-44f7" name="Fear (X)" hidden="false" targetId="f4f0-2ec3-4faf-329f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c300f93d-a599-438c-bcba-4515812831c2" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
@@ -114,7 +196,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">6+/5+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">6+/5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Infiltrate</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Infiltrate, Daemonic, Fear (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -241,7 +323,7 @@
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Daemonic, Fear (2)</characteristic>
           </characteristics>
         </profile>
         <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -278,18 +360,21 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7b86725b-3e55-4509-85f0-5aab5d779f0b" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="9b69-4927-687f-cfa8" name="Fear (X)" hidden="false" targetId="f4f0-2ec3-4faf-329f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5847-0f5c-6bfb-aa86" name="Daemonic" hidden="false" targetId="3eed-75c0-15ec-98a5" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4732977e-58a5-4d97-bcab-c0a4c7f184ac" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="0a9e047d-aef8-415d-9575-0d91f25c17fe" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="6ed17882-7a2b-43f5-9088-ad1d17279864" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
         <categoryLink id="4f9dac73-7223-4863-99d9-f969bdae60d3" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="86bd8c5b-a40e-449f-9740-3a0ad09a3824" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="0a3138ed-cdb8-43d0-bf80-0eeb4cc0bd15" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
         <categoryLink id="9491d933-5023-4243-b06a-19ef6365c2d8" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
         <categoryLink id="fc689eff-c639-496b-b719-e85778ce3cb1" name="Greater Daemon" hidden="false" targetId="643c39f7-a1c1-4a94-a84f-d4e12bd66940" primary="false"/>
-        <categoryLink id="4da65209-56ac-4211-bf48-6628a0662e8d" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+        <categoryLink id="8fef-d64f-403c-5ecc" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3fafd68f-431f-4f27-8bdf-7d5cb7b7dec8" name="Putrid vomit" hidden="false" collective="false" import="true" type="upgrade">
@@ -540,7 +625,12 @@
       <entryLinks>
         <entryLink id="f55e658c-2683-4d4e-a2e5-710c5d690b97" name="Warlord" hidden="false" collective="false" import="true" targetId="e505df41-5063-4b2c-b266-2608a71f44d9" type="selectionEntry"/>
         <entryLink id="5c56e0b3-250e-428b-8286-c63cbf25542f" name="Nurgling claws" hidden="false" collective="false" import="true" targetId="91247fa4-4c72-4de5-8332-d69ec6e861f3" type="selectionEntry"/>
-        <entryLink id="156a-befe-f0ae-44f3" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
+        <entryLink id="156a-befe-f0ae-44f3" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f0-9e81-7167-7a7b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0270-181b-e519-b36a" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280.0"/>
@@ -550,7 +640,12 @@
     </selectionEntry>
     <selectionEntry id="ce36d9dc-ab2a-4e19-aae0-17f4269fadd3" name="Plaguebearers" page="" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="02fa4847-23d7-4edf-87bf-cc06a815d6d2" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
+        <infoLink id="19dd-5f9a-a8b2-6e0f" name="Daemonic" hidden="false" targetId="3eed-75c0-15ec-98a5" type="rule"/>
+        <infoLink id="d39c-533c-a977-75cd" name="Fear (X)" hidden="false" targetId="f4f0-2ec3-4faf-329f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6dae1155-fb45-4fab-a00b-c03c8333a88d" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
@@ -582,7 +677,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Daemonic, Fear (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -614,7 +709,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Daemonic, Fear (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -651,8 +746,13 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d286dcd5-0e6c-4bf4-ba8f-87467e77b206" name="Daemonic" hidden="false" targetId="f458964c-bf57-4971-9482-a20bc2ff6d11" type="infoGroup"/>
         <infoLink id="6ecf-e090-b04f-b54b" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
+        <infoLink id="2b62-bdd2-4da7-d8d5" name="Daemonic" hidden="false" targetId="3eed-75c0-15ec-98a5" type="rule"/>
+        <infoLink id="f1f9-e38c-9a03-6298" name="Fear (X)" hidden="false" targetId="f4f0-2ec3-4faf-329f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (1)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="69f43d56-38b4-4677-8c35-e192c1075451" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
@@ -683,7 +783,7 @@
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">5+/4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+/4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Putrid Small)</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Putrid Small), Daemonic, Fear (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -795,25 +895,6 @@
         <profile id="85c93970-690a-4420-afe4-26e6c3f21dc7" name="Incorporeal Form" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time an attack is made against this WARLORD, subtract 1 from that attack&apos;s wound roll.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3f1b2cc9-d353-4ed2-8e0b-3498c2a51996" name="Pestilent Miasma" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="537724b6-6c1c-4af3-a9e2-ecaf241a83ce" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="e258d7e3-0c10-4873-9731-eccaa728d9e4" name="Pestilent Miasma" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">At the start of the Fight phase, roll one D6 for each enemy unit within Engagement Range of this WARLORD.
-- On a 2-5, that enemy unit suffers 1 mortal wound.
-- On a 6, that enemy unit suffers D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -976,6 +1057,9 @@
 
 Unless otherwise specified, malefic weapons are never affected by effects or abilities that allow models to make additional attacks, or abilities that would add to, subtract from or improve their characteristics in any way.</description>
     </rule>
+    <rule id="3eed-75c0-15ec-98a5" name="Daemonic" hidden="false">
+      <description> Instead of a normal Save characteristic, each Daemon unit has a Daemonic Save characteristic. This characteristic has 2 values. The first characteristic is used when a melee attack is allocated to that model, while the second characteristic is used when a ranged attack is allocated to that model. In either case, the saving throw cannot be modified in any way.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="d9ca4737-70bd-4704-a593-92f7490826cb" name="Herald of Khorne (Aura)" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -1083,25 +1167,6 @@ Unless otherwise specified, malefic weapons are never affected by effects or abi
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
-    <infoGroup id="f458964c-bf57-4971-9482-a20bc2ff6d11" name="Daemonic" hidden="false">
-      <rules>
-        <rule id="8b59a116-55ae-40e1-b934-615b6347a907" name="Daemonic Invulnerablity" hidden="false">
-          <description> Instead of a normal Save characteristic, each LEGIONES DAEMONICA datasheet has a Daemonic Save characteristic. This characteristic has 2 values. The first characteristic is used when a melee attack is allocated to that model, while the second characteristic is used when a ranged attack is allocated to that model. In either case, the saving throw cannot be modified in any way.</description>
-        </rule>
-        <rule id="be02ca67-2025-4d9c-b0bd-f83b5f13c5b0" name="Manifestation" hidden="false">
-          <description>During deployment, you can set up this model in the warp instead of setting it up on the battlefield. If you do so, then in the Reinforcements step of one of your Movement phases you can set this unit up anywhere on the battlefield that is more than 9&quot; away from any enemy models, or more than 6&quot; away from any enemy models and wholly within 6&quot; of a friendly WARP LOCUS model that was on the battlefield at the start of the turn. If the WARP LOCUS has an Allegiance keyword, the unit being set up can only use this ability if it has the same Allegiance keyword.
-
-If every unit from your army has the LEGIONES DAEMONICA keyword, then in the Reinforcements step of one of your Movement phases, you can instead set this unit up anywhere on the battlefield with one of the following restrictions:
-- Wholly within your deployment zone and more than 3&quot; away from any enemy models.
-- Neither wholly within your deployment zone nor within your opponent&apos;s deployment zone, and more than a number of inches away from away from each enemy unit, equal to the current Leadership characteristic of that enemy unit (to a minimum of 3&quot; and a maximum of 9&quot;).</description>
-        </rule>
-        <rule id="c757ce6e-b546-42b1-8272-99945d66c202" name="Daemonic Terror (Aura)" hidden="false">
-          <description>While an enemy unit is within 6&quot; of this unit, subtract 1 from that enemy unit&apos;s Leadership characteristic and subtract 1 from any Combat Attrition tests taken for that enemy unit.</description>
-        </rule>
-        <rule id="b9cb765d-629a-4eba-bdb0-409b3ac0b1d7" name="Warp Storm" hidden="false">
-          <description>This ability can be used to apply Warp Storm effects to eligible units from your army.</description>
-        </rule>
-      </rules>
-    </infoGroup>
+    <infoGroup id="f458964c-bf57-4971-9482-a20bc2ff6d11" name="Daemonic" hidden="false"/>
   </sharedInfoGroups>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="302" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="310" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -409,6 +409,10 @@
     <categoryEntry id="4da19197-ba01-4c2c-a376-9fedc33718ae" name="Inquisitor - Boarding Patrol" hidden="false"/>
     <categoryEntry id="a275596e-6693-4aad-b88f-69fd8d067187" name="Runtherd - Boarding Patrol" hidden="false"/>
     <categoryEntry id="2382-363a-9388-4da8" name="Walker" hidden="false"/>
+    <categoryEntry id="6a94-d538-4673-d26f" name="Armour" hidden="false"/>
+    <categoryEntry id="5960-8a72-fcd9-7cce" name="Personnel" hidden="false"/>
+    <categoryEntry id="627e-9c0d-4d15-44f5" name="Lesser Daemon" hidden="false"/>
+    <categoryEntry id="c9c2-4f9f-0272-46a5" name="Minor Daemon" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" name="Patrol Detachment -2CP" hidden="false">
@@ -3748,6 +3752,7 @@ Remaining Wounds | Aura Range
     <selectionEntry id="4e41fbca-97ef-41f1-baea-594ccee62765" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="297c41f3-98b7-4233-a094-452bb8ad2087" name="Bolt pistol" hidden="false" targetId="450eb670-469e-4791-9380-fcfc035a873b" type="profile"/>
+        <infoLink id="fa82-98f4-cc90-45bc" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -7711,7 +7716,7 @@ Remaining Wounds | Aura Range
         </profile>
         <profile id="543d-75a0-d4f7-770d" name="Curse of the Leper" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, target a single unit within 21&quot; of the Psyker. If Curse of the Leper is used to target a friendly unit, all models in that unit add 1 to their Strength and Toughness characteristics whilst this power is in effect; if used to target an enemy unit, all models in that unit must reduce their Strength and Toughness characteristic by 1 whilst this power is in effect. </characteristic>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, target a single unit within 21&quot; of the Psyker. If Curse of the Leper is used to target a friendly unit, all models in that unit add 1 to their Strength and Toughness characteristics until the end of the round; if used to target an enemy unit, all models in that unit must reduce their Strength and Toughness characteristic by 1 until the end of the round. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7746,7 +7751,7 @@ Instead of rolling To Wound normally for a model hit by this attack, its control
         </profile>
         <profile id="833a-1474-acc0-c399" name="Miasma of Pestilence" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of performing a weapon attack during the Fight Phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, until the end of the phase, all enemy units locked in close combat with the target or it&apos;s unit suffer a -1 penalty to their Weapon Skill and Initiative characteristics.</characteristic>
+            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of performing a weapon attack during the Fight Phase, a Psyker with this Psychic Power may instead activate this Psychic Power. The Psyker must make a Psychic check. If the Check is passed, then the Psyker may activate this power as normal. If the Check is failed, then the Psyker suffers Perils of the Warp, If activated, until the end of the round, all enemy units locked in close combat with the target or it&apos;s unit suffer a -1 penalty to their Weapon Skill and Initiative characteristics.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9706,6 +9711,28 @@ The Poisoned special rule has no effect against Armour type units (Walkers, Vehi
     <rule id="9087-e12f-b408-4e38" name="Battlesmith" hidden="false">
       <description>At the end of your Movement phase this model can repair one friendly Armour model within 3&quot;. That model regains up to D3 lost wounds.</description>
     </rule>
+    <rule id="bf28-2add-0e4b-69d3" name="Long Range" hidden="false">
+      <description>A weapon with this special trait adds +1 to any Hit Rolls made if the attack is being made at more than half range.</description>
+    </rule>
+    <rule id="acba-bd86-e903-acca" name="Short Range" hidden="false">
+      <description>A weapon with this special trait adds +1 to any Hit Rolls made if the attack is being made at less than half range.</description>
+    </rule>
+    <rule id="cb0b-7772-f25c-b94c" name="Hover" hidden="false">
+      <description>A unit that includes only models with the Hover special rule may ignore the effects of any and all terrain it passes over during movement, including passing over vertical terrain and Impassable Terrain without penalty or restriction. However, such units may not begin or end their movement in Impassable Terrain, and if beginning or ending their movement in Dangerous Terrain must take Dangerous Terrain tests as normal.</description>
+    </rule>
+    <rule id="f4f0-2ec3-4faf-329f" name="Fear (X)" hidden="false">
+      <description>All enemy models within 12&quot; of a model with this special rule must reduce their Leadership by the value in brackets after the special rule when taking any Leadership tests. For example, a unit with the special rule Fear (2) would reduce the Leadership of all enemy models within 12&quot; by 2.
+
+Enemy units that are locked in combat are only affected by this modifier if they are locked in combat with the unit that causes Fear. This modifier is not cumulative, and any given unit can only be affected by a single instance of the Fear special rule at a time. This will always be the highest single modifier among those applicable.
+
+A model that causes Fear is itself immune to Fear.</description>
+    </rule>
+    <rule id="6189-9870-6644-0f1c" name="Frenzy" hidden="false">
+      <description>Units with this special rule must declare a charge if within charge range. Unit with this special rule can re-roll Wound rolls of 1 with melee attacks.</description>
+    </rule>
+    <rule id="c979-4151-f585-b0fc" name="Deep Strike" hidden="false">
+      <description>During deployment, if every model in this unit has this ability, then you can set up this unit as Reinforcements instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="e961bee1-378c-4633-9b08-61785e539deb" name="Autogun" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -9765,7 +9792,7 @@ The Poisoned special rule has no effect against Armour type units (Walkers, Vehi
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
       </characteristics>
     </profile>
     <profile id="6683e0b1-7e9d-4c24-809e-d578a6f795f9" name="Heavy bolter" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">

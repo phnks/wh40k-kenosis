@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="195" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="300" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="207" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="310" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -307,6 +307,44 @@
     <categoryEntry id="9214f8f6-e2f6-4aac-9f2c-b13675332f4a" name="Terminus Est Assault Force" hidden="false"/>
     <categoryEntry id="6ade1e24-47c9-445c-ac6e-b960ecce5475" name="Terminus Est Warlord" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="db72-288b-ca47-8807" name="&quot;Sons of Barbarus&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1810-4198-75fb-37a1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc17-996a-2e39-5ca2" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="a0df-4af7-ff9c-0505" name="&quot;Sons of Barbarus&quot; Army Ability" hidden="false">
+          <description>Death guard bomb a location with chemical weapons
+
+At the start of each Round you may pick one point on the battlefield. For the remainder of the battle, any enemy models within 2.5&quot; of that point are afflicted by a contagion. Choose from the following below:
+
+Ferric Blight: While an enemy Armour unit is within contagion range, it suffers a -1 penalty to saving throws. 
+
+Eater Plague: While an enemy unit is within contagion range, subtract 1 from the Toughness characteristic of models in that enemy unit.
+
+Gloaming Bloat:  An enemy unit within contagion range cannot perform an Overwatch shooting attack. In additon, while within contagion range that unit treats its maximum weapon range as 12&quot;.
+
+Sanguinous Flux: An enemy unit within contagion range subtracts 1 from all Leadership checks.
+
+Shamble Rot: : An enemy Personnel unit that performs a move or charge within contagion range takes 1 automatic hit per model with the Plague Weapon and Poisoned (4+) special rule. 
+
+The Droning:  An enemy unit that preforms a move or charge within contagion range, can only move up to half the maximum distance that move would allow. This applies after any movement modifiers, rounding up. 
+
+Nurgle&apos;s Fruit: While an enemy unit is within contagion range of this unit, each time an attack is made by your units against that unit, the target does not receive the benefits of cover against that attack.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1690-bcab-ed8f-bad1" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="99cf06f5-2ccf-4d3e-95c3-d3e9bcac8e0e" name="Plague Marines" hidden="false" collective="false" import="true" targetId="c94e5474-4d4b-45fe-9aa1-12ffb80cb9fe" type="selectionEntry"/>
     <entryLink id="cff5365b-559e-4477-bcd2-98d0e862a804" name="Poxwalkers" hidden="false" collective="false" import="true" targetId="35e2eb28-2552-418f-8470-f79fc4207d5e" type="selectionEntry"/>
@@ -486,17 +524,18 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">9</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Putrid Small)</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Putrid Small), Hover</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a052-cdb8-6203-bda2" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
+        <infoLink id="cdb3-f455-ea02-deeb" name="Hover" hidden="false" targetId="cb0b-7772-f25c-b94c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e81446a2-d167-4182-ab89-2fe7e2397218" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
@@ -675,17 +714,13 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Mark of Nurgle</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ecd39eb3-bb1b-4d19-97a6-97f997b08269" name="Frenzy" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Each time this model makes an attack, if it has 7 or fewer wounds remaining, re-roll a wound roll of 1.</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Mark of Nurgle, Frenzy</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="d699-3afa-77dd-5045" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
+        <infoLink id="96a2-855d-22ff-7cf5" name="Frenzy" hidden="false" targetId="6189-9870-6644-0f1c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae4b7fd6-8e97-4b6f-a529-485348d27532" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
@@ -829,7 +864,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">10</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -962,17 +997,17 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0f3cea25-e428-42bb-8460-e379c1a4e59d" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="7ffd-aaaf-2085-6dba" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="b190-4761-0fea-14de" name="Deep Strike" hidden="false" targetId="c979-4151-f585-b0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="442b9309-439c-48c4-8dd7-a879d64e82c3" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
@@ -1046,7 +1081,12 @@ Battle Round 4 - 9&quot;</description>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8ed5e4ac-d961-4118-b54d-673e9138dd5a" name="Warlord" hidden="false" collective="false" import="true" targetId="850ddada-2f03-4770-aa21-a28db33b7832" type="selectionEntry"/>
-        <entryLink id="20c7-71cd-3667-901c" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
+        <entryLink id="20c7-71cd-3667-901c" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd67-9514-a2e9-551d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4bb-18f0-35b4-2ade" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="2f00-58d0-704f-4768" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08ff-be73-ce8b-b050" type="max"/>
@@ -1081,15 +1121,9 @@ Battle Round 4 - 9&quot;</description>
       </profiles>
       <categoryLinks>
         <categoryLink id="a095ff3d-1aac-487b-a7f7-270b0db6cddb" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="6d4466a0-a263-40bb-869d-d39d6446f615" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="e4ddafb5-22ab-4d1a-b7a0-b14def29cde2" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="92ba584b-7144-478d-9c39-26d9d8d23a81" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="309a3421-d186-4b91-886a-65d05875af52" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="638e89c7-7429-43b4-ab61-df21bc4c5de3" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
         <categoryLink id="6733cf67-628e-4a47-b98f-1ba1362bfc09" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="fe47997e-2f54-4fd7-9dd6-ba2461f6e49a" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="c258be3b-3dad-4a7e-8396-f7e925e0cd2d" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="aa1895fa-9e4c-4dd0-937b-3c147b968aa8" name="Malignant Plaguecaster" hidden="false" targetId="6c943a54-2b61-4728-9110-8c2f10afcf0f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aaa26aa0-6270-490f-9122-177d7b7c7ce6" name="Corrupted staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -1154,7 +1188,12 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6256636-dbea-4ff9-8504-af2d772dbe1a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2ab3-236a-c7ab-f58f" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry"/>
+        <entryLink id="2ab3-236a-c7ab-f58f" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc0-25bd-87bd-85d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa29-6430-8525-2719" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="1853-b220-2625-5b68" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e5-56c2-0a7a-07ed" type="max"/>
@@ -1175,6 +1214,7 @@ Battle Round 4 - 9&quot;</description>
       </constraints>
       <infoLinks>
         <infoLink id="8a4fde06-c9f6-4bb2-a5fc-4d22cffc5423" name="Blight grenade" hidden="false" targetId="76d878c3-03ca-4058-800c-234feac16500" type="profile"/>
+        <infoLink id="ab78-6170-e0f7-631f" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -1189,6 +1229,7 @@ Battle Round 4 - 9&quot;</description>
       </constraints>
       <infoLinks>
         <infoLink id="36ecf2d3-c710-446c-8676-c48be64030a8" name="Blight grenade" hidden="false" targetId="76d878c3-03ca-4058-800c-234feac16500" type="profile"/>
+        <infoLink id="1221-81d3-ab04-cafc" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -1233,7 +1274,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Explodes (Putrid Large), Hover</characteristic>
           </characteristics>
         </profile>
         <profile id="3c2d8124-3322-4b1f-9bd2-3679b2d0c41e" name="Mortarion 2 (6-9)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -1271,11 +1312,13 @@ Battle Round 4 - 9&quot;</description>
       </profiles>
       <infoLinks>
         <infoLink id="8c55-e328-17fa-db7d" name="Explodes (Putrid Large)" hidden="false" targetId="0170-3f52-4dc0-f0e5" type="rule"/>
+        <infoLink id="5894-f150-f389-e187" name="Hover" hidden="false" targetId="cb0b-7772-f25c-b94c" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="933546ae-db4c-47eb-ba8d-187b52f55b17" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="92d7708a-a895-468b-b844-01ba3993d106" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
         <categoryLink id="cd13-1fe6-b15a-dfa6" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="true"/>
+        <categoryLink id="5c24-33f9-9c13-ef41" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3a599fd0-2d5e-4373-8855-85bfe1213a2a" name="Silence" hidden="false" collective="false" import="true" type="upgrade">
@@ -1425,7 +1468,12 @@ Battle Round 4 - 9&quot;</description>
             <categoryLink id="728f7230-129a-440b-9a2a-6c7c47d192f1" name="Mortarion Warlord" hidden="false" targetId="6de628d5-ce24-473c-ab49-f195dcd8bf0d" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="0333-7e48-fc71-d752" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
+        <entryLink id="0333-7e48-fc71-d752" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a665-fc9c-c997-f6e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c0-6f51-8ca9-ecd3" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="e0a1-2678-6c6d-2641" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="446b-2f89-6238-4ffa" type="max"/>
@@ -1448,12 +1496,12 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1f2db52c-12da-443c-94be-f1d184834788" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="c3a5-2e7d-0d45-1397" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="aaf6-8ed6-0ab3-c49b" name="Deep Strike" hidden="false" targetId="c979-4151-f585-b0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cd8c55e6-7edd-4df9-bed8-70aecc8f5895" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -1487,7 +1535,7 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1557,7 +1605,7 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1656,7 +1704,7 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a"/>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2432,12 +2480,12 @@ Battle Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="063f0c1c-da5d-4315-b607-54f09d2e60d5" name="Blightlord Terminators" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="6c2afd71-f62d-4ba1-aa1e-68c6d66b311d" name="Teleport Strike" hidden="false" targetId="4c450144-4010-4dee-ae55-f90c2d967214" type="profile"/>
         <infoLink id="5010-c2ef-f261-1157" name="Bulky (X)" hidden="false" targetId="aab1-09e9-9e16-5a66" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="f4ef-2772-64ae-98ee" name="Deep Strike" hidden="false" targetId="c979-4151-f585-b0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1bbf9b09-2a50-4d70-ba5f-3da1e9dfa005" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
@@ -2471,7 +2519,7 @@ Battle Round 4 - 9&quot;</description>
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle, Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2557,7 +2605,7 @@ Battle Round 4 - 9&quot;</description>
                     <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
                     <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                     <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">4+</characteristic>
-                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle</characteristic>
+                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Mark of Nurgle, Deep Strike</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2723,7 +2771,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">6</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">7</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">9</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -2853,7 +2901,7 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
             <characteristic name="T" typeId="dc93-4efd-d681-a6ba">8</characteristic>
             <characteristic name="W" typeId="8beb-4664-1ca3-8e62">12</characteristic>
-            <characteristic name="I" typeId="d745-4fd8-844e-5a45">3</characteristic>
+            <characteristic name="I" typeId="d745-4fd8-844e-5a45">5</characteristic>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">9</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
@@ -3114,6 +3162,9 @@ Battle Round 4 - 9&quot;</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="476b-395a-84dc-1d09" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -3123,6 +3174,7 @@ Battle Round 4 - 9&quot;</description>
     <selectionEntry id="d49b4376-b291-4a9a-871f-91c449ac1e58" name="Plague spewer" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cb7719d6-d61e-4d90-ab69-3a83078a0ded" name="Plague spewer" hidden="false" targetId="86e7a716-e3c3-4162-b6a6-44496f8e07f2" type="profile"/>
+        <infoLink id="2c8f-f33b-f3ca-33ef" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3143,6 +3195,9 @@ Battle Round 4 - 9&quot;</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="ce1b-b5e5-51ff-1ee3" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -3152,6 +3207,7 @@ Battle Round 4 - 9&quot;</description>
     <selectionEntry id="905d597c-2b0f-4937-ac5b-2f1eef64d6d4" name="Blight launcher" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="767909f5-ea1c-4b62-a869-92d64da37c4e" name="Blight launcher" hidden="false" targetId="b0e26e52-29d6-4e16-b496-f315565b17e1" type="profile"/>
+        <infoLink id="8c07-a342-1533-bbfb" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3422,6 +3478,9 @@ Battle Round 4 - 9&quot;</description>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="eef0-a388-9761-f036" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3435,6 +3494,7 @@ Battle Round 4 - 9&quot;</description>
       </constraints>
       <infoLinks>
         <infoLink id="80934966-6999-40af-bb78-ca9f311636ba" name="Plague knife" hidden="false" targetId="d61d65b1-824a-4d49-9cb5-aa1ebdab93b6" type="profile"/>
+        <infoLink id="60f1-7d27-41d5-17ee" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3567,7 +3627,12 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f758742-bbe4-4944-926d-d07bbc4b3aa4" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d1c1-e6ff-0f99-6236" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry"/>
+        <entryLink id="d1c1-e6ff-0f99-6236" name="Warlord Strategy Rating 2" hidden="false" collective="false" import="true" targetId="6c97-a685-9bd6-eb7d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a64e-2006-ad0a-11e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f5-304f-bebd-8d6b" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="fe31-cfcc-f101-c615" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6634-ab24-f686-3483" type="max"/>
@@ -3588,6 +3653,7 @@ Battle Round 4 - 9&quot;</description>
       </constraints>
       <infoLinks>
         <infoLink id="e7538bbf-64e0-4107-88d1-b79f11c8564f" name="Manreaper" hidden="false" targetId="ccc8d946-610c-450a-997c-a7e7f9c0c0d6" type="infoGroup"/>
+        <infoLink id="e396-e59c-95f7-2c14" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3625,23 +3691,6 @@ Battle Round 4 - 9&quot;</description>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5cacba14-74e0-42b1-a99f-9e406bd02e0b" name="Plague Skull of Glothila" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0541727-a320-4fb8-9d19-4172e857e285" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="0aa1bc61-01ed-4ef6-87ff-2ca88f80aaa0" name="Plague Skull of Glothila" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Once per battle, at the end of your Movement phase, the bearer can use this Relic. If it does, select one enemy unit within 6&quot; of the bearer and roll seven D6s; for each 4-5, that unit suffers 1 mortal wound; for each 6, that unit suffers D3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3688,6 +3737,7 @@ Battle Round 4 - 9&quot;</description>
             <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Plague Weapon. Mounted (Centerline) Each time an attack is made with this weapon, that attack automatically hits the target."/>
           </modifiers>
         </infoLink>
+        <infoLink id="ec90-4819-ecd2-42e0" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3703,6 +3753,7 @@ Battle Round 4 - 9&quot;</description>
           </modifiers>
         </infoLink>
         <infoLink id="0711-58ba-abdf-74b6" name="Mounted (Hull)" hidden="false" targetId="8878-8945-5054-3a58" type="rule"/>
+        <infoLink id="f89e-3860-f27b-19c8" name="Plague Weapon" hidden="false" targetId="453c-8d4b-e8e9-6f60" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -3756,22 +3807,18 @@ Battle Round 4 - 9&quot;</description>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">10</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">2+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Mark of Nurgle, Hover</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="67f4-0063-5c28-b3b6" name="Hover" hidden="false" targetId="cb0b-7772-f25c-b94c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5210-df7c-93a8-50cf" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="8648-ee93-eedb-dc0a" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="6ad2-22cb-af32-7e77" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
         <categoryLink id="0272-a8b3-f764-96c8" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
-        <categoryLink id="c3e0-e88d-fe85-9c2c" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="bdb9-6afe-19c8-069e" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="9f07-52a6-f3eb-e18f" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="2b0b-9222-6512-16c8" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="3d66-088d-736b-94c0" name="New CategoryLink" hidden="false" targetId="37bb61d9-8c5f-422c-a636-f50ee592bd6a" primary="false"/>
         <categoryLink id="1765-9d6a-023f-4d50" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
-        <categoryLink id="b9a7-d91a-1cb7-0a5f" name="Faction: Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e350-1c6c-139a-8336" name="Foetid Wings" hidden="false" collective="false" import="true" type="upgrade">
@@ -3836,7 +3883,7 @@ Battle Round 4 - 9&quot;</description>
                 </profile>
                 <profile id="9419-cb07-a916-3d99" name="Weapon Virus" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of shooting during the Shooting phase, Malum Ferrugine may instead activate this Psychic Power. Perform a Psychic Check, on a success the power activates. On a failure Malum Ferrugine suffers Perils of the Warp. If activated, target a single enemy unit within 24&quot;. All of the target unit’s ranged weapons have the Hazardous special rule whilst the power is in effect. </characteristic>
+                    <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Instead of shooting during the Shooting phase, Malum Ferrugine may instead activate this Psychic Power. Perform a Psychic Check, on a success the power activates. On a failure Malum Ferrugine suffers Perils of the Warp. If activated, target a single enemy unit within 24&quot;. All of the target unit’s ranged weapons have the Hazardous special rule until the end of the round.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3876,7 +3923,12 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1360-5d3d-30c7-69b8" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f5e0-d775-5382-656e" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry"/>
+        <entryLink id="f5e0-d775-5382-656e" name="Warlord Strategy Rating 3" hidden="false" collective="false" import="true" targetId="0076-be99-0a64-16de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b0-898c-ba3d-ea2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07b3-7e44-4d07-39bb" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="93ef-08f3-366a-9212" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="371e-ed3f-83ce-1db1" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773b-5b7b-0a04-e0cc" type="max"/>
@@ -4098,10 +4150,11 @@ Battle Round 4 - 9&quot;</description>
           <infoLinks>
             <infoLink id="6a06-9313-0c62-42e2" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret), Point Defense"/>
               </modifiers>
             </infoLink>
             <infoLink id="9430-69ca-33a1-8d44" name="Mounted (Turret)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
+            <infoLink id="f756-b986-930e-1fa3" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4113,16 +4166,18 @@ Battle Round 4 - 9&quot;</description>
           <infoLinks>
             <infoLink id="4907-d4fa-646f-93db" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret), Point Defense"/>
               </modifiers>
             </infoLink>
             <infoLink id="fdb5-ae7e-34bf-8926" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="caeb-aa75-c4c8-73e7" name="Flamer" hidden="false" targetId="7ab98ea6-dd92-4267-b95b-f59b89ede4bc" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Each time an attack is made with this weapon, that attack automatically hits the target."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Point Defense. Torrent."/>
               </modifiers>
             </infoLink>
             <infoLink id="111c-25fe-c368-fd22" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+            <infoLink id="82c0-593a-e4f2-9cdc" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
+            <infoLink id="2ea9-1486-cf36-78e8" name="Torrent" hidden="false" targetId="ec32-f2a1-6b35-0d47" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4134,16 +4189,17 @@ Battle Round 4 - 9&quot;</description>
           <infoLinks>
             <infoLink id="0ad9-2744-a066-d097" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret), Point Defense"/>
               </modifiers>
             </infoLink>
             <infoLink id="36c8-4121-93b3-53b9" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="c304-3b1d-4684-04ae" name="Meltagun" hidden="false" targetId="fda79654-aa4f-4371-a3e0-dd1b3cb79f6d" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Point Defense. Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of D6+2."/>
               </modifiers>
             </infoLink>
             <infoLink id="0581-e0ee-a2f2-cba2" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
+            <infoLink id="efc7-10fa-cd75-6543" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4155,21 +4211,23 @@ Battle Round 4 - 9&quot;</description>
           <infoLinks>
             <infoLink id="68cc-f2dd-66f3-5f61" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret), Point Defense"/>
               </modifiers>
             </infoLink>
             <infoLink id="7ff4-9cb5-c404-42b4" name="Mounted (Pintle)" hidden="false" targetId="ee16-abd3-c690-8750" type="rule"/>
             <infoLink id="8cb6-6ef1-fb88-6cb5" name="Combi Weapon" hidden="false" targetId="1f5d2c99-efaf-479c-b7b8-41865b354b6f" type="rule"/>
             <infoLink id="2934-c1ca-64e3-4f8c" name="Plasma gun, Standard" hidden="false" targetId="95931940-06cf-4196-bddc-b3b64ef2b71c" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret)"/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret), Point Defense"/>
               </modifiers>
             </infoLink>
             <infoLink id="307c-0af4-257f-5621" name="Plasma gun, Supercharge" hidden="false" targetId="403456a0-7881-4922-bbed-aeb085b8d59a" type="profile">
               <modifiers>
-                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon."/>
+                <modifier type="set" field="ba2bbdcc-046d-4996-ab12-a3003c970106" value="Mounted (Turret). Point Defense, Hazardous"/>
               </modifiers>
             </infoLink>
+            <infoLink id="7227-dab4-6e4b-321c" name="Hazardous" hidden="false" targetId="3b0b-f170-0488-7f81" type="rule"/>
+            <infoLink id="5bb5-cac4-a11e-7ba9" name="Point Defense" hidden="false" targetId="1676-955f-4e6d-849b" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4181,23 +4239,8 @@ Battle Round 4 - 9&quot;</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="4a3805d9-9350-43be-9191-81109635905f" name="Contagions of Nurgle" hidden="false">
-      <description>If every unit from your army has the DEATH GUARD keyword (excluding UNALIGNED units), this unit gains the following ability:
-
-Nurgle&apos;s Gift (Contagion): While an enemy unit is within Contagion Range of this unit (see below), subtract 1 from the Toughness characteristic of models in that unit.</description>
-    </rule>
-    <rule id="51d3574a-d715-4de3-8103-4b0c57dad22e" name="Inexorable Advance" hidden="false">
-      <description>- This unit counts as having Remained Stationary if it did not Fall Back or Advance in your previous Movement phase.
-- If this unit has the VEHICLE keyword, it does not suffer the penalty incurred to its hit rolls for firing Heavy weapons at enemy units that are within Engagement Range of it.
-- If this unit has the INFANTRY keyword, it can ignore any or all modifiers to its Move characteristic, Advance rolls and charge rolls.</description>
-    </rule>
-    <rule id="8b9fbfee-eff4-47e2-8c8b-1a1727ac8d7d" name="Malicious Volleys" hidden="false">
-      <description>Instead of following the normal rules for Rapid Fire weapons, models in this unit shooting Rapid Fire bolt weapons make double the number of attacks if any of the following apply:
-• The shooting model’s target is within half the weapon’s range.
-• The shooting model is Infantry and its unit Remained
-Stationary in your previous Movement phase.
-• The shooting model is a Terminator.
-For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (as defined on page 88) with the Rapid Fire type.</description>
+    <rule id="453c-8d4b-e8e9-6f60" name="Plague Weapon" hidden="false">
+      <description>Each time an attack is made with this weapon, re-roll a wound roll of 1.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
