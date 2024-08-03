@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="312" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="313" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -3187,6 +3187,8 @@ Remaining Wounds | Aura Range
       <infoLinks>
         <infoLink id="ab161153-5a5e-4a4b-bbab-686177f21a41" name="Plasma pistol, Standard" hidden="false" targetId="429ab637-be7e-48ae-85ee-541000a9e861" type="profile"/>
         <infoLink id="cd7233e7-2d42-41e1-9d68-0efd1e241493" name="Plasma pistol, Supercharge" hidden="false" targetId="51d7b3e2-ec7c-4f0c-9d50-86c9a6537a81" type="profile"/>
+        <infoLink id="c4de-25b9-fa52-b75d" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
+        <infoLink id="6c52-83cc-583b-2dbd" name="Hazardous" hidden="false" targetId="3b0b-f170-0488-7f81" type="rule"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
@@ -9827,7 +9829,7 @@ A model that causes Fear is itself immune to Fear.</description>
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range</characteristic>
       </characteristics>
     </profile>
     <profile id="37290cd9-87aa-4277-8157-288905f0278c" name="Plasma cannon, Standard" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -10230,7 +10232,7 @@ A model that causes Fear is itself immune to Fear.</description>
         <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
         <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
         <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">If any unmodified hit rolls of 1 are made for attacks with this weapon profile, the bearer is destroyed after shooting with this weapon.</characteristic>
+        <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Short Range, Hazardous</characteristic>
       </characteristics>
     </profile>
     <profile id="4673da69-47b4-48ba-b888-4d740b444eaa" name="Twin heavy bolter" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
