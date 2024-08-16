@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="209" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="210" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -439,10 +439,8 @@ Battle Round 4 - 9&quot;</description>
       <categoryLinks>
         <categoryLink id="460dd624-13e4-4615-8457-d63911e51d15" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
         <categoryLink id="5ee559fc-c9ca-45ea-b476-22a5bcc47c38" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="4d02731c-4ba2-4cb5-976d-5fec0875b3ed" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="7dc1b719-7de0-436d-8f45-b568fc05a2ff" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="1fc34fd9-ebd0-4197-9b39-4765a62453c6" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="47ba4949-4e37-4b8b-8d64-0c7dd3ff63ae" name="New CategoryLink" hidden="false" targetId="a5d90342-35ea-41af-bfa2-91ef416d9a01" primary="false"/>
+        <categoryLink id="6142-91e0-c58d-0d33" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="126c-4dff-8469-1553" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="53f90b70-00fd-435f-8ea5-18e47ea01ba0" name="Poxwalker" hidden="false" collective="false" import="true" type="model">
@@ -724,15 +722,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="96a2-855d-22ff-7cf5" name="Frenzy" hidden="false" targetId="6189-9870-6644-0f1c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ae4b7fd6-8e97-4b6f-a529-485348d27532" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="a680f6e8-a7dc-49ce-a425-aaf03575738a" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="d629047f-9407-4134-9138-e26141c50ed5" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="2ce0916a-89f8-48d7-8543-b443d0052d68" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="c94074a1-a7d1-45e9-897f-49cd9914c31f" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="5c415554-af83-4a6d-8e44-33e7b1480b19" name="New CategoryLink" hidden="false" targetId="9acbc23c-2e35-462e-a75e-6f97193fcba5" primary="false"/>
-        <categoryLink id="d3a6c2db-c3cc-4e73-a792-6bb2a28885d8" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="d6078cd8-def9-4d52-9f64-d5b7417563fd" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
         <categoryLink id="cdaa-73a6-36ac-36ae" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="d7d2-f8a1-172d-c0e9" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
+        <categoryLink id="294e-b79a-45e8-9001" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="40c5df9e-a1e8-4f71-948d-422074e2d0c8" name="Helbrute fist options" hidden="false" collective="false" import="true" defaultSelectionEntryId="35031d62-5607-449e-b042-184e740abe9e">
@@ -915,16 +908,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="6a85-c86e-f9ca-ab81" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="70651a1a-23a2-441e-90ef-e21b302ed74e" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="52f1e790-d119-499d-ab12-e0edc088e2ac" name="New CategoryLink" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="true"/>
-        <categoryLink id="7553181a-fd4b-46fe-b70d-33d75dce68e7" name="New CategoryLink" hidden="false" targetId="86cd9df6-4e0f-4108-955d-5085da349ff3" primary="false"/>
         <categoryLink id="de4f3988-ff71-43b2-8ed7-7eaebec043f8" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="82ea48b0-992d-4f05-a904-e74f23df2960" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="5ff55aed-9a8b-4d15-92be-268aaa826c07" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="ea998ead-9268-47c3-9cc7-76106420c829" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="a738e3ba-dc8f-46b0-b483-16066cb36968" name="New CategoryLink" hidden="false" targetId="f5cd6889-ebae-44da-a0fa-9babe974b6e8" primary="false"/>
-        <categoryLink id="a9623ae8-52fb-4a5d-a568-4dd51294ec80" name="Smokescreen" hidden="false" targetId="838657a1-c139-47dd-aafe-fbe562ceb0c1" primary="false"/>
-        <categoryLink id="7e778c58-e216-4432-9c37-abc027a4ff61" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
+        <categoryLink id="54ea-a6c8-a145-821e" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="c87c-80e5-0868-0c2a" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0871-29f1-07a4-d2ef" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -1014,14 +1001,8 @@ Battle Round 4 - 9&quot;</description>
         <categoryLink id="442b9309-439c-48c4-8dd7-a879d64e82c3" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="35fda3e6-6427-43c6-9beb-735f844bfc39" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="d3760d22-458b-4e5c-9b7f-e3274c3e195f" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="a175b0c8-8897-4e6c-b07d-ea4afd82ce3d" name="New CategoryLink" hidden="false" targetId="09958037-8b47-4266-a210-7773ca8a7349" primary="false"/>
-        <categoryLink id="a76d0dad-fce3-4b90-a6cf-807bcfd1d5c6" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="4a5bf02a-2a29-445f-a409-02ad6cfb3264" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="f4007d23-baa0-4936-9fa7-e74b413c6ccb" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="117946ec-21ed-40b5-8d5d-7453a195eb84" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="545fbd61-70d4-43cb-a677-ce5bac6fb8c2" name="New CategoryLink" hidden="false" targetId="63b2d9e8-4f52-46ae-9c47-7068a5f6c756" primary="false"/>
-        <categoryLink id="84df289e-fb42-4411-85ff-082bf75b6be9" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="42f694ff-42d7-491f-8b50-d68a6121bb9a" name="Lord of the Death Guard" hidden="false" targetId="92a53144-ce20-4980-af6a-b35f84e076b8" primary="false"/>
+        <categoryLink id="1eec-a461-d605-3cd0" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="d591-2230-eac2-d6fb" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2976f1c7-b750-43e5-b7e2-2b0aed233fa1" name="Weapon option" hidden="false" collective="false" import="true" defaultSelectionEntryId="560442a9-ae73-4f9b-a632-27f6eba0a4cc">
@@ -1125,6 +1106,8 @@ Battle Round 4 - 9&quot;</description>
         <categoryLink id="e4ddafb5-22ab-4d1a-b7a0-b14def29cde2" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="92ba584b-7144-478d-9c39-26d9d8d23a81" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
         <categoryLink id="6733cf67-628e-4a47-b98f-1ba1362bfc09" name="New CategoryLink" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
+        <categoryLink id="997b-e7b6-af7d-d8c2" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="6e8a-1e66-f72c-7b8b" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aaa26aa0-6270-490f-9122-177d7b7c7ce6" name="Corrupted staff" hidden="false" collective="false" import="true" type="upgrade">
@@ -1320,6 +1303,8 @@ Battle Round 4 - 9&quot;</description>
         <categoryLink id="92d7708a-a895-468b-b844-01ba3993d106" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
         <categoryLink id="cd13-1fe6-b15a-dfa6" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="true"/>
         <categoryLink id="5c24-33f9-9c13-ef41" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
+        <categoryLink id="738a-6d92-a0c6-b05b" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="fe95-24cd-9f62-2998" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3a599fd0-2d5e-4373-8855-85bfe1213a2a" name="Silence" hidden="false" collective="false" import="true" type="upgrade">
@@ -1669,15 +1654,10 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7c1fcdb4-28a2-4bc0-8466-0682d6fea5a7" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="58b21dc0-995b-4875-8f4d-c07197d4b440" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="dd065b23-f7f8-4afa-9ccb-87039a08a504" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="3d7acc37-151b-46a7-b8dd-5b140cadffa3" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="5d8e068b-4e7f-42bd-92b2-85267a66c2f8" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="c7545b41-37a5-4d4e-a0f0-28c6172b1efa" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
-        <categoryLink id="818470dc-e0e9-4c73-820c-347dc359b65d" name="New CategoryLink" hidden="false" targetId="aee2d754-80d7-46f2-a335-008160754fc1" primary="false"/>
-        <categoryLink id="c3b019ea-84f6-4c24-b1b4-6ebdf80a5b36" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
-        <categoryLink id="d7afe98c-ffa2-46e1-9a80-6c5d1fc440a8" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
+        <categoryLink id="f92d-90bc-cb8c-7c9a" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="2296-d10e-a497-73b3" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d27a6016-d26c-4a87-ab48-f42794ff2bdf" name="Plague Champion" page="" hidden="false" collective="false" import="true" type="model">
@@ -2778,15 +2758,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="fbe9-e5d5-14a8-fd43" name="Explodes (Putrid Small)" hidden="false" targetId="f74b-a99b-6443-161d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e63a86b2-2262-45ce-9418-d1dc8c907246" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="c6be5c0f-dd5b-4e90-8c4a-c8181c264f44" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
-        <categoryLink id="f97f638b-ca5f-46b2-966b-e72ce98fa2cd" name="New CategoryLink" hidden="false" targetId="b7491938-0c34-4eef-b182-6158415dd0d8" primary="false"/>
-        <categoryLink id="e504b0d6-2788-4fcd-bfb1-e9c04d207094" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="d281147b-f73e-45c7-a88b-742490a0bd49" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
-        <categoryLink id="de489105-b15e-43b9-bacd-cedc5b29d152" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="c1dfcae7-2d8a-4a73-958e-6ff8ad1f9dd6" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
         <categoryLink id="83ab29c4-4d7f-41a7-9b79-0b7e96e80a49" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="75fc6207-f695-4fcc-b691-858323d541b2" name="New CategoryLink" hidden="false" targetId="374912fc-f84e-4233-ae99-091357678468" primary="false"/>
+        <categoryLink id="eed4-13c1-5fd5-75e4" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="cb78-eb49-7ac0-3b5b" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="66f62480-61ab-4f30-9223-e43c5ba2061c" name="Myphitic Blight-hauler" hidden="false" collective="false" import="true" type="model">
@@ -2935,15 +2910,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="3513-57c6-b982-acd9" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cfc071a8-208a-4680-900a-9ced08cb26d6" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="70f14718-6c5f-442f-9e84-612a98374791" name="New CategoryLink" hidden="false" targetId="6a13c79f-6c99-4c0e-9067-2dd599e1de0b" primary="false"/>
-        <categoryLink id="84b2ca6f-0866-4691-be54-c751a911a213" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="b0f07171-78d9-4bca-993b-8289bed328a8" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
-        <categoryLink id="bd9ac9f3-df3e-48aa-aec2-87e8c14d9ee7" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="6d505613-c1b0-48f3-8d71-86f96c69cfb3" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
         <categoryLink id="840c15e8-6747-46ec-9282-5deeec5c9421" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="b91197d9-36a7-438e-a956-2eab3889bc1f" name="New CategoryLink" hidden="false" targetId="b7491938-0c34-4eef-b182-6158415dd0d8" primary="false"/>
-        <categoryLink id="de18843d-6f63-4fa2-8477-f4475620aeb1" name="New CategoryLink" hidden="false" targetId="837591fb-fee1-415d-a577-e3dbfd7cde00" primary="false"/>
+        <categoryLink id="5d47-7a73-d69b-0fa9" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="1456-7c0a-7992-a46c" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="138f3147-4e8e-4c48-9172-e2ef6e084300" name="Plagueburst Mortar (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3229,14 +3199,11 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="0e942599-54c4-4ab0-a6fe-0de89ffd9785" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
         <categoryLink id="6da8b3e7-1655-49dd-8f22-9b9f75257495" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="b9cdb22d-7783-4823-9e35-c261185e97ed" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="65f28d36-ee70-4997-807f-27a7d1dc4573" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="464d74ba-f235-433a-8740-0ae0f4a18c0a" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="c075cc9e-e1d3-4549-9460-cd4b4d08f15a" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="04bf0574-fdda-472b-90ef-d6eaaca8ec1c" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="6d746432-3412-4e24-8a34-c27d794f68c6" name="Elite Character" hidden="false" targetId="53eee1d8-bde9-4dd8-9a91-e4c6960c0779" primary="false"/>
+        <categoryLink id="0662-38e9-1461-ab47" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="be6e-946a-a658-2b8b" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="7076-cac6-a8e8-00aa" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="301f8362-d69f-4b91-be4f-f64bfdd595d5" name="Blight grenades" hidden="false" collective="false" import="true" targetId="4c45470f-d0dd-465f-bfac-2e001b1b264c" type="selectionEntry">
@@ -3301,14 +3268,11 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="ae18294b-0d11-41a2-b89b-bcea5590a306" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="f1cc9167-0c8b-4b12-8723-6cda1a279841" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="28a693bf-ee1f-4573-b3ce-94f3ac091d3f" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="245e3914-a858-430f-a664-6e2a57740192" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="942fa0b2-030c-4c8a-b162-c5e13d520651" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="9d4d3d62-c70d-4f93-915a-0d9a6ebbb029" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="6c37ce68-b008-427c-accb-0a7946cf55a1" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="e5c419c2-9608-4ae8-bcb0-06d7ad1e4ebe" name="Elite Character" hidden="false" targetId="53eee1d8-bde9-4dd8-9a91-e4c6960c0779" primary="false"/>
+        <categoryLink id="df6d-dfef-09b1-6822" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
+        <categoryLink id="434a-f05c-846d-0194" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="fa1b-2fcd-c64c-72ef" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4b42-982f-0d9d-3aa5" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="e5c35871-76d1-4820-b3c2-49e23a4e36c6" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="ddaabe36-de17-42cc-a114-e2a54b30d165" type="selectionEntry">
@@ -3367,14 +3331,11 @@ Battle Round 4 - 9&quot;</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="da7fe997-9ad6-45fd-ae6a-9c1bd3d0c896" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
         <categoryLink id="26b8db4e-55ff-4ceb-b8dd-becf2fa3e136" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="15c52748-214b-4f00-93dd-7fea85404a09" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="def315fa-8ff6-45d8-b9f8-d212b9da28ac" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="f2eccc7e-ee96-4207-ae2f-41a9d5879a2d" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="625cb939-21fd-48ce-b3c7-e814051f04c4" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="08087989-f7d0-420e-b18c-45b70f49b8de" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="cc2a52c9-ec71-4509-8645-3becb8b7a15f" name="Elite Character" hidden="false" targetId="53eee1d8-bde9-4dd8-9a91-e4c6960c0779" primary="false"/>
+        <categoryLink id="b05d-7dcd-86e2-5826" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="bb89-88bc-e3e6-9b0e" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="6af1-906b-5318-170a" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bfddce3c-56f4-42ac-b763-44fe97f65f99" name="Unholy death&apos;s head grenade" hidden="false" collective="false" import="true" type="upgrade">
@@ -3803,6 +3764,8 @@ Battle Round 4 - 9&quot;</description>
         <categoryLink id="8648-ee93-eedb-dc0a" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="0272-a8b3-f764-96c8" name="New CategoryLink" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
         <categoryLink id="1765-9d6a-023f-4d50" name="Psyker" hidden="false" targetId="0f22d520-260b-4712-8db0-0d022aa426bd" primary="false"/>
+        <categoryLink id="afd0-af14-1dd7-3ec4" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4a97-c3c8-8f57-86e1" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e350-1c6c-139a-8336" name="Foetid Wings" hidden="false" collective="false" import="true" type="upgrade">
