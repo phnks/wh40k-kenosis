@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="321" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="322" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -413,6 +413,11 @@
     <categoryEntry id="5960-8a72-fcd9-7cce" name="Personnel" hidden="false"/>
     <categoryEntry id="627e-9c0d-4d15-44f5" name="Lesser Daemon" hidden="false"/>
     <categoryEntry id="c9c2-4f9f-0272-46a5" name="Minor Daemon" hidden="false"/>
+    <categoryEntry id="7e0b-dcd7-4a24-8a84" name="Scale (1)" hidden="false"/>
+    <categoryEntry id="47c0-1a6e-7617-f710" name="Scale (2)" hidden="false"/>
+    <categoryEntry id="52ca-bb57-cb80-2aa2" name="Scale (3)" hidden="false"/>
+    <categoryEntry id="b237-5729-3ded-4333" name="Scale (4)" hidden="false"/>
+    <categoryEntry id="42b5-1d78-db54-d512" name="Scale (5)" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" name="Patrol Detachment" hidden="false">

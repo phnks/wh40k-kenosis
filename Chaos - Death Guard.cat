@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="208" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="321" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="209" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -540,7 +540,8 @@ Battle Round 4 - 9&quot;</description>
       <categoryLinks>
         <categoryLink id="e81446a2-d167-4182-ab89-2fe7e2397218" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
         <categoryLink id="7f16e068-2481-4f94-a1f9-6f4235a2ff87" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="b7ed65b1-63b8-48fc-81a5-3afd65be3e1d" name="New CategoryLink" hidden="false" targetId="b7491938-0c34-4eef-b182-6158415dd0d8" primary="false"/>
+        <categoryLink id="f9ac-01e7-fdf9-05c0" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="d2e7-1851-f064-8fef" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a4b7da0d-cd4b-40b7-ac93-09418ab323ab" name="Plague probe" hidden="false" collective="false" import="true" type="upgrade">
@@ -1504,16 +1505,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="aaf6-8ed6-0ab3-c49b" name="Deep Strike" hidden="false" targetId="c979-4151-f585-b0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="cd8c55e6-7edd-4df9-bed8-70aecc8f5895" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="b62ca7dc-339e-4e2a-a4ee-4589cf20897a" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="86aec7d0-51ca-4daf-bb1b-c8aa568f6be5" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="264df12f-5e8b-4bae-993f-563a665d1a15" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="6b6dfec1-cb97-4c74-b441-a0029a43fe62" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="35926d2c-ed63-4ac2-b58f-70d884f20a1c" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="370ed300-0630-42f3-bebd-f90f531bc2a6" name="New CategoryLink" hidden="false" targetId="09958037-8b47-4266-a210-7773ca8a7349" primary="false"/>
-        <categoryLink id="7b4986dc-91b6-4f8d-9722-1a5438c52b0f" name="New CategoryLink" hidden="false" targetId="05d72267-b1d4-422e-aedc-dfc3b838a9f7" primary="false"/>
-        <categoryLink id="1d3ac310-d472-4ca9-bc5d-7a60002592a5" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="841dc13b-b5dd-470b-bbcd-2b6e52a9377f" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="190e-9893-b216-2914" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4a12-9b8c-9c68-480a" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="311df791-d3f7-473a-b28b-426eb1342e37" name="Deathshroud Champion" hidden="false" collective="false" import="true" type="model">
@@ -2488,16 +2483,10 @@ Battle Round 4 - 9&quot;</description>
         <infoLink id="f4ef-2772-64ae-98ee" name="Deep Strike" hidden="false" targetId="c979-4151-f585-b0fc" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1bbf9b09-2a50-4d70-ba5f-3da1e9dfa005" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="6b58cbcd-bee6-4f8c-82cf-61fac2b4477c" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
         <categoryLink id="ec62a0ce-78b1-4089-bf65-993e2885af43" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="dae14606-dbfc-4437-8c75-acaf2ca44cd7" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
-        <categoryLink id="a39f25e3-6f5d-41bf-974c-ed329aeafaa7" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
         <categoryLink id="ed081978-29a2-4b91-98ec-d3d86555e1e8" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="5ba7393c-9f03-4537-b363-d919c637811d" name="New CategoryLink" hidden="false" targetId="09958037-8b47-4266-a210-7773ca8a7349" primary="false"/>
-        <categoryLink id="11dd9a1f-0cf6-49b4-bd5a-c0432301d393" name="New CategoryLink" hidden="false" targetId="aea3ed8d-fc81-47fb-ab39-7e7d27b4293c" primary="false"/>
-        <categoryLink id="27b8ab79-223b-461e-85ae-f752789888f4" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="84926499-c8cd-4c73-8587-0b57ebf3f67f" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="4313-284f-cc7b-555b" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="052c-d432-62ce-a331" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b396305d-cc7a-4221-a556-d87e3258a4a4" name="Blightlord Champion" hidden="false" collective="false" import="true" type="model">
@@ -3566,15 +3555,10 @@ Battle Round 4 - 9&quot;</description>
       </profiles>
       <categoryLinks>
         <categoryLink id="a00a612b-19de-4e6d-805d-935b53dad9e3" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
-        <categoryLink id="d274c688-fdee-48e0-91e8-05eb4a91cb5a" name="New CategoryLink" hidden="false" targetId="99cd090e-2b5f-492b-86ad-281cf4e278b6" primary="false"/>
         <categoryLink id="450ee0f0-6759-41d9-8c03-fd9155f6f16f" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="265c82d4-767e-488f-b384-25691591b91c" name="New CategoryLink" hidden="false" targetId="8dd5fb6c-a96b-4ee7-99a0-4aeeb4857b72" primary="false"/>
         <categoryLink id="b009696a-4de1-491e-a1cc-4e76082e35c0" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="6a3c0268-a32c-4a2a-85bd-e4c7286b8fde" name="New CategoryLink" hidden="false" targetId="9438af02-b9b8-4063-bc6c-1ee27a809f41" primary="false"/>
-        <categoryLink id="dddbb6a7-221f-45f2-992b-2d0fc4bde7b4" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="6ac4ef76-e6c7-41f0-a860-2fbf0d27c581" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="fe71752a-5852-496b-bbfd-ad3d864f80a8" name="Bubonic Astartes" hidden="false" targetId="bfc3e07f-90ee-481d-ab14-b3eada925fe5" primary="false"/>
-        <categoryLink id="879c3f93-09c1-4952-b9e7-5391294537c7" name="Lord of the Death Guard" hidden="false" targetId="92a53144-ce20-4980-af6a-b35f84e076b8" primary="false"/>
+        <categoryLink id="b792-d65e-b7d7-ee3d" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="53b6-f019-65f9-2511" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bd6b77ab-b4f8-4466-ab5b-df7a426f6c57" name="Replace bolt pistol" hidden="false" collective="false" import="true">
