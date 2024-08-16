@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="317" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="318" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -1744,22 +1744,6 @@
         <categoryLink id="85ecc044-58a8-4dcc-b2b2-95b14a945036" name="Flyer" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="false"/>
         <categoryLink id="19ecc4b7-0b23-41e7-87ec-0fe4ae6a209a" name="Dedicated Transport" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="false"/>
         <categoryLink id="f4d8ec3a-3930-44c5-82f5-0a5dcabc1b5d" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="bf2f70bb-28d3-4bdc-ad05-766210f8843e" name="Order of Battle" hidden="false">
-      <categoryLinks>
-        <categoryLink id="467a33d5-b595-4880-8dc2-be92c0272cf9" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="false"/>
-        <categoryLink id="16c02d53-bc75-4b8b-8c36-1d035dba8f0a" name="Stratagems" hidden="false" targetId="7eb62aed-27ce-4edf-8a70-2584b38be19f" primary="false"/>
-        <categoryLink id="b3db35b9-f730-4d0b-ac5a-f7e6a1d722c6" name="No Force Org Slot" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="false"/>
-        <categoryLink id="145983f3-819b-44c0-b270-5f66939e9218" name="HQ" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="false"/>
-        <categoryLink id="5785065d-d90f-442e-8e69-6827614614c5" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="false"/>
-        <categoryLink id="28764e74-6686-4d1f-bddc-eed04e3d4173" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="false"/>
-        <categoryLink id="26409b13-3340-4f9c-a46f-ac9a377dbaf4" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="false"/>
-        <categoryLink id="b95654fd-e141-49ce-9e26-f900a6b47945" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="false"/>
-        <categoryLink id="ae84a571-6fb6-4a39-8217-a4f295b03f4e" name="Flyer" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="false"/>
-        <categoryLink id="255eee43-aa26-4d0d-9ac9-866136d88c1f" name="Dedicated Transport" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="false"/>
-        <categoryLink id="75affcff-e5aa-400f-8f18-2daabe29b1f5" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="false"/>
-        <categoryLink id="649411d5-1945-4026-adc7-e94071a0fa72" name="Fortification" hidden="false" targetId="f1a721c4-6c2a-47cb-a600-e55f1dac842f" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="78a0c569-045b-4485-ab3b-5e3a7d5d18ac" name="Arks of Omen Detachment" hidden="false">
