@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="319" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="320" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -1595,8 +1595,8 @@
         <categoryLink id="1ed58967-497e-4e2a-8229-61427b6d0ec1" name="No Force Org Slot" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="false"/>
         <categoryLink id="a30fb8bc-6272-4182-a91b-b6fd535d0e56" name="Lord of War" hidden="false" targetId="c78d13d1-bbf1-4f1c-afc9-982b634c5526" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c81ea4c8-c8d5-49ce-9d3d-60a17adaca26" type="max"/>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a02d05d1-1978-4506-87ae-6829b35d73e6" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c81ea4c8-c8d5-49ce-9d3d-60a17adaca26" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a02d05d1-1978-4506-87ae-6829b35d73e6" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="aee43d08-7d26-4cb1-a3f9-4130fcd36bdb" name="Relic Lord of War" hidden="false" targetId="a0dab13b-bf37-4135-a820-df3189e174f0" primary="false">
