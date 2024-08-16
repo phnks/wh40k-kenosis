@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="207" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="310" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="25c526f8-42d2-434e-9a9b-32d414944348" name="Chaos - Death Guard" revision="208" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="321" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="967d1705-6089-43ae-ac04-43b974e41145" name="Index: Chaos FAQ"/>
     <publication id="c2b46fae-5675-457c-aeaa-f8f0d39e2d51" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
@@ -574,7 +574,7 @@ Battle Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28b4a993-9d36-4905-9f02-a8876122033b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="bb66d2aa-bbe6-42e1-8393-d79c3b29dfc8" name="Heavy Blight Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="bb66d2aa-bbe6-42e1-8393-d79c3b29dfc8" name="Heavy Blight Launcher (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bb0c441-fc73-419a-bc32-ae7e90827465" type="max"/>
               </constraints>
@@ -3694,7 +3694,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c843-090d-649f-b53a" name="Missile Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c843-090d-649f-b53a" name="Missile Launcher (Centerline Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="92c2-4651-f3f9-c5c6" name="Missile launcher, Frag missile" hidden="false" targetId="7a4f0b6c-09cc-4f1f-9eb5-620a23ef8557" type="profile">
           <modifiers>
@@ -3714,7 +3714,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2912-ceb9-f343-c2b7" name="Multi-Melta (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2912-ceb9-f343-c2b7" name="Multi-Melta (Centerline Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a675-b728-214d-70f7" name="Mounted (Centerline)" hidden="false" targetId="587b-076f-eaab-80fd" type="rule"/>
         <infoLink id="820d-93e5-ab67-c0e2" name="Multi-melta" hidden="false" targetId="a8f39ad3-79a5-44af-9fc2-b02d4a80a5e1" type="profile">
@@ -3761,7 +3761,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a2e-a803-f3f7-035f" name="Havoc Launcher (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0a2e-a803-f3f7-035f" name="Havoc Launcher (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="f402-8f48-7447-d9ff" name="Havoc launcher" hidden="false" targetId="6b6529ce-5e7c-4e23-825e-1294bd54b363" type="profile">
           <modifiers>
@@ -3776,7 +3776,7 @@ Battle Round 4 - 9&quot;</description>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e798-1cbc-e964-9c68" name="Combi-Bolter (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e798-1cbc-e964-9c68" name="Combi-Bolter (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="cfe8-b0cd-b9fb-899a" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
           <modifiers>
@@ -4141,12 +4141,12 @@ Battle Round 4 - 9&quot;</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f023-4f0c-f360-6bda" name="Combi-Weapons (Mounted)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f023-4f0c-f360-6bda" name="Combi-Weapons (Turret Mounted)" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3264-0db2-1190-69c7" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="05b0-8b80-4aca-03e3" name="Combi-Bolter (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05b0-8b80-4aca-03e3" name="Combi-Bolter (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="6a06-9313-0c62-42e2" name="Combi-bolter" hidden="false" targetId="272e8d14-8134-4592-a10b-a1a53ffb61b8" type="profile">
               <modifiers>
@@ -4162,7 +4162,7 @@ Battle Round 4 - 9&quot;</description>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8f3-207d-7cf1-4b6f" name="Combi-Flamer (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a8f3-207d-7cf1-4b6f" name="Combi-Flamer (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="4907-d4fa-646f-93db" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
@@ -4185,7 +4185,7 @@ Battle Round 4 - 9&quot;</description>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b037-eb86-1c15-1751" name="Combi-Melta (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b037-eb86-1c15-1751" name="Combi-Melta (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="0ad9-2744-a066-d097" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>
@@ -4207,7 +4207,7 @@ Battle Round 4 - 9&quot;</description>
             <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b055-1c73-584e-0c08" name="Combi-Plasma (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b055-1c73-584e-0c08" name="Combi-Plasma (Turret Mounted)" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
             <infoLink id="68cc-f2dd-66f3-5f61" name="Boltgun" hidden="false" targetId="264a8772-4a13-40e9-8dbb-1be43131184c" type="profile">
               <modifiers>

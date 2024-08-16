@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="283" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="310" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="285" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="321" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -123,6 +123,11 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       <categoryLinks>
         <categoryLink id="8464-5824-fac0-9693" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -784,6 +789,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       <categoryLinks>
         <categoryLink id="e52a44a7-cf43-4e0f-b335-57cd77b6e4d4" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
         <categoryLink id="377b057e-fcc8-4f40-96ad-535a7f403535" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+        <categoryLink id="c564-9cb2-4224-3ecd" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2d8f-9305-4f20-7a6a" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
@@ -3536,7 +3542,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" name="Karacnos Mortar Battery (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" name="Karacnos Mortar Battery (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9c88c0a5-21f6-4de1-a699-b34a1f7a3d65" name="Karacnos Mortar Battery" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
           <characteristics>
@@ -4635,7 +4641,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65cf-5fc4-9ff8-a96c" name="Pulsar-Fusil (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="65cf-5fc4-9ff8-a96c" name="Pulsar-Fusil (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4041-cd9b-7cfe-ea5a" name="Pulsar-Fusil" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
           <characteristics>
@@ -4657,7 +4663,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b74-9c0c-f1b8-466a" name="Twin Cognis Autocannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7b74-9c0c-f1b8-466a" name="Twin Cognis Autocannon (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="c474-8f7b-5efb-a73d" name="Twin Cognis Autocannon" hidden="false" targetId="e6ea-b1f2-aa40-8e2b" type="profile">
           <modifiers>
@@ -4672,7 +4678,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="19d6-a9ad-69a1-b17e" name="Twin Cognis Lascannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="19d6-a9ad-69a1-b17e" name="Twin Cognis Lascannon (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8f70-beff-0941-c707" name="Twin Cognis Lascannon" hidden="false" targetId="95c6-0196-190d-fc9e" type="profile">
           <modifiers>
@@ -4687,7 +4693,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f53e-88cd-f245-994f" name="Lightning Lock (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f53e-88cd-f245-994f" name="Lightning Lock (Sponson Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="204f-da08-f9e5-b9a6" name="Lightning Lock" hidden="false" targetId="68c3-0149-47d2-bc5d" type="profile">
           <modifiers>
@@ -4702,7 +4708,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8c1-2a5d-64ff-6113" name="Lightning Cannon (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8c1-2a5d-64ff-6113" name="Lightning Cannon (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="11cf-1cfe-18dd-7452" name="Lightning Cannon" hidden="false" targetId="10ae-8db3-cbdb-9f53" type="profile">
           <modifiers>
@@ -4734,7 +4740,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e61-c772-00f6-363b" name="Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e61-c772-00f6-363b" name="Cognis Heavy Stubber (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="508d-4fbe-a7b1-e18c" name="Cognis Heavy Stubber" hidden="false" targetId="692b-5dfb-7ea0-3027" type="profile">
           <modifiers>
@@ -4750,7 +4756,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6af1-6f62-4d1b-e98b" name="Neutron Laser (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6af1-6f62-4d1b-e98b" name="Neutron Laser (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6a94-caa9-cfad-2afa" name="Neutron Laser" hidden="false" targetId="30fd-40af-e020-fd5c" type="profile">
           <modifiers>
@@ -4765,7 +4771,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3648-9c37-d940-3d71" name="Eradication Beamer (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3648-9c37-d940-3d71" name="Eradication Beamer (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8ac0-c8f2-5a66-e2b0" name="Eradication Beamer (dissipated)" hidden="false" targetId="00ee-ed95-93e3-ec7f" type="profile">
           <modifiers>
@@ -4785,7 +4791,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e10-98c8-f715-be9e" name="Icarus Array (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4e10-98c8-f715-be9e" name="Icarus Array (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="d0b6-b205-d597-cfb9" name="Daedalus Missile Launcher" hidden="false" targetId="9021-74ba-1785-4268" type="profile">
           <modifiers>
@@ -4810,7 +4816,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3eb6-9649-541d-88ac" name="Twin Onager Heavy Phosphor Blaster (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3eb6-9649-541d-88ac" name="Twin Onager Heavy Phosphor Blaster (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="021f-ebb6-b1fd-049f" name="Twin Heavy Phosphor Blaster" hidden="false" targetId="b119-b98a-d4b8-6ee2" type="profile">
           <modifiers>
