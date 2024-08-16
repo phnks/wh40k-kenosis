@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="316" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="317" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -440,14 +440,6 @@
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c51376d-32ac-4170-b90e-77bb510c2e64" type="equalTo"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f3e16b3-d7e7-455d-af48-33581533028f" type="greaterThan"/>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53526cc0-9707-4f31-b2e4-7b502e698676" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1665,14 +1657,6 @@
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c51376d-32ac-4170-b90e-77bb510c2e64" type="equalTo"/>
               </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" type="greaterThan"/>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53526cc0-9707-4f31-b2e4-7b502e698676" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1726,70 +1710,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3ed3c300-6e9d-4893-916a-5ce70b0bbdbf" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ce661f5-36c5-4baf-9994-ad49b66451cc" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="53526cc0-9707-4f31-b2e4-7b502e698676" name="Auxiliary Support Detachment" hidden="false">
-      <modifiers>
-        <modifier type="increment" field="f68dd2a6-d41e-4593-b6ba-2b8f2b4664b2" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="53526cc0-9707-4f31-b2e4-7b502e698676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="683595db-5a0b-41e5-8896-f87c9302149c" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="53526cc0-9707-4f31-b2e4-7b502e698676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bff38a2d-9e58-4e8f-8037-61da59114959" repeats="1" roundUp="false"/>
-            <repeat field="selections" scope="53526cc0-9707-4f31-b2e4-7b502e698676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7eb62aed-27ce-4edf-8a70-2584b38be19f" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-        <modifier type="set" field="name" value="Auxiliary Support Detachment 0CP">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78a0c569-045b-4485-ab3b-5e3a7d5d18ac" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="138e771f-112e-4f44-941e-a16a44819c3d" value="1.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="138e771f-112e-4f44-941e-a16a44819c3d" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49e62e74-1f4b-4570-8d42-9a84b00554a7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0f3e16b3-d7e7-455d-af48-33581533028f" type="greaterThan"/>
-                    <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="53526cc0-9707-4f31-b2e4-7b502e698676" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f68dd2a6-d41e-4593-b6ba-2b8f2b4664b2" type="max"/>
-        <constraint field="forces" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138e771f-112e-4f44-941e-a16a44819c3d" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="1dad064f-429e-46e3-b097-13945ffa5e9f" name="Understrength Units" publicationId="c2776225-0756-4632-965d-44cc2ec311ca" hidden="false">
-          <description>If you are playing a matched play game, you are allowed to have an understrength unit in an Auxiliary Support Detachment. Due to constraints within Battlescribe, we are not able to reflect this in the error checking.  To properly calculate your PL and Points, add the unit you want to take as an understrength unit and then open the context menu on each model in the unit you do not want to use via right click or tap and hold. Then delete the model from that context menu.  This will permanently display an error in your list, but it will calculate your points correctly.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="2746bdf8-03d5-4073-ab70-5448a6e231bb" name="Configuration" hidden="false" targetId="bff38a2d-9e58-4e8f-8037-61da59114959" primary="false"/>
-        <categoryLink id="7bcef562-d175-4bb3-9fa0-fb00bf0dd859" name="Stratagems" hidden="false" targetId="7eb62aed-27ce-4edf-8a70-2584b38be19f" primary="false"/>
-        <categoryLink id="fabc37fb-472b-4f94-88f3-0a9fc4496677" name="No Force Org Slot" hidden="false" targetId="683595db-5a0b-41e5-8896-f87c9302149c" primary="false"/>
-        <categoryLink id="32c10a24-4513-451f-aa67-f28a3e909d4a" name="HQ" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="false"/>
-        <categoryLink id="677c6f13-1af3-44af-ad75-0c13d934909f" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="false"/>
-        <categoryLink id="b53571bf-5f6c-48ab-baaf-12c2db21f6fc" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="false"/>
-        <categoryLink id="c8d637f0-c476-4d0d-ac47-d3ea030676d9" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="false"/>
-        <categoryLink id="86e4f02c-3a50-420a-91a3-3a9df95b92c7" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="false"/>
-        <categoryLink id="3339d711-2aaa-4780-9237-53fbe47f5126" name="Flyer" hidden="false" targetId="3fdfd010-7f82-4504-83b1-e24005ef8d57" primary="false"/>
-        <categoryLink id="da576ef8-5093-4a6c-8323-13cf969ea9a8" name="Dedicated Transport" hidden="false" targetId="b59bb1b0-a32e-4fa8-a816-2fb38767abd5" primary="false"/>
-        <categoryLink id="801d61c3-ec97-4f2b-8146-1e969619dd44" name="Relic" hidden="false" targetId="380b172c-4531-4f5a-9bf0-1ab99c616be5" primary="false">
-          <constraints>
-            <constraint field="selections" scope="53526cc0-9707-4f31-b2e4-7b502e698676" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e9cd4b86-4e79-484b-85f3-e1f377876167" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -6056,26 +5976,6 @@ Remaining Wounds | Aura Range
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="-2.0">
-          <comment>Patrol CP Cost without Warlord.</comment>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53526cc0-9707-4f31-b2e4-7b502e698676" type="instanceOf"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" type="instanceOf"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2cb3c3d0-15b6-4f47-934f-8a616939ae20" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7c140cc7-85ba-4d22-9747-fd25d58de033" type="equalTo"/>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="78a0c569-045b-4485-ab3b-5e3a7d5d18ac" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
         <modifier type="set" field="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="-4.0">
           <comment>Brigade CP Cost without Warlord.</comment>
           <conditionGroups>
@@ -6361,7 +6261,6 @@ Remaining Wounds | Aura Range
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="847c6a4a-5b0e-4866-aad2-5b02d330cfb3" type="instanceOf"/>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53526cc0-9707-4f31-b2e4-7b502e698676" type="instanceOf"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f3e16b3-d7e7-455d-af48-33581533028f" type="instanceOf"/>
                       </conditions>
                     </conditionGroup>
@@ -7509,6 +7408,11 @@ Instead of rolling To Wound normally for a model hit by this attack, its control
       <infoLinks>
         <infoLink id="04e2-5d41-2444-fae2" name="Ram" hidden="false" targetId="c012-20ae-09a9-85c2" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
+        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
