@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="169" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="315" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="170" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -175,6 +175,10 @@ Bloated Body:
         <categoryLink id="c300f93d-a599-438c-bcba-4515812831c2" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
         <categoryLink id="2d312394-4815-46cd-8326-ff332503b7b4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
         <categoryLink id="67b1-37a9-77cc-88df" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="1189-ee0b-00d0-f3c8" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="b464-9747-476a-96c5" name="Lesser Daemon" hidden="false" targetId="627e-9c0d-4d15-44f5" primary="false"/>
+        <categoryLink id="bb14-49ad-6964-522d" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="dfa1-3110-ed33-4b2c" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="234c5716-5f7b-4fe3-ba61-6b6ebf73cfca" name="Nurgling Swarms" hidden="false" collective="false" import="true" type="model">
@@ -375,6 +379,7 @@ Bloated Body:
         <categoryLink id="9491d933-5023-4243-b06a-19ef6365c2d8" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
         <categoryLink id="fc689eff-c639-496b-b719-e85778ce3cb1" name="Greater Daemon" hidden="false" targetId="643c39f7-a1c1-4a94-a84f-d4e12bd66940" primary="false"/>
         <categoryLink id="8fef-d64f-403c-5ecc" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="3127-1e34-2bea-677d" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3fafd68f-431f-4f27-8bdf-7d5cb7b7dec8" name="Putrid vomit" hidden="false" collective="false" import="true" type="upgrade">
@@ -655,12 +660,10 @@ Bloated Body:
       <categoryLinks>
         <categoryLink id="6dae1155-fb45-4fab-a00b-c03c8333a88d" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
         <categoryLink id="1f42979b-703c-4246-8c8b-bf9e3b8d217e" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="def96b7f-d5bc-4ae9-9b86-709418bc8d4a" name="New CategoryLink" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="34445dab-5d96-4a69-b009-cca2c266b2db" name="New CategoryLink" hidden="false" targetId="1165b420-0425-459a-83c1-a9cfa1db59f0" primary="false"/>
-        <categoryLink id="81a35cb9-2070-48f1-85e7-495fd05e826f" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="dd8567ab-3059-4dd7-b082-b543646c2adf" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
-        <categoryLink id="664a2aab-a937-4fec-a547-03a30e1d7310" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
-        <categoryLink id="f35065dc-e6e8-419b-b8d9-2ab853b4ffe5" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+        <categoryLink id="335e-8bfc-92d3-e502" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="c42d-37c9-bf35-6b46" name="Lesser Daemon" hidden="false" targetId="627e-9c0d-4d15-44f5" primary="false"/>
+        <categoryLink id="117c-12f1-2c65-055f" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="d455-97f5-b147-e4f7" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2c7b3d30-ebaf-4924-8b71-fe3d2f27fad1" name="Plaguebearer" hidden="false" collective="false" import="true" type="model">
@@ -761,12 +764,11 @@ Bloated Body:
       </infoLinks>
       <categoryLinks>
         <categoryLink id="69f43d56-38b4-4677-8c35-e192c1075451" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="d24bd4a7-19dc-49a0-80ab-45deea3e0496" name="New CategoryLink" hidden="false" targetId="49393cd6-1b1d-426a-90ce-b1a6628aae36" primary="false"/>
-        <categoryLink id="2197fd63-dd08-4523-9b3d-e488c906afad" name="Faction: Nurgle" hidden="false" targetId="a11c8a03-85a9-4387-a8c9-7340d6e18283" primary="false"/>
-        <categoryLink id="61fad852-4770-468e-8463-008fd6220493" name="Beast" hidden="false" targetId="ff61c72b-ff88-41d3-aa0f-1ab7765c8b4f" primary="false"/>
-        <categoryLink id="dc1cc159-747c-42be-bbbe-66ba81d20b58" name="Beasts of Nurgle" hidden="false" targetId="a4aeaa3d-dcaa-416e-a1cb-4395874375e5" primary="false"/>
-        <categoryLink id="3b305af9-7c18-47b3-8523-9633309f7bbb" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
-        <categoryLink id="60eca406-ac57-4f0f-ab51-b033e4cfa6c3" name="Faction: Legiones Daemonica" hidden="false" targetId="d352e85f-58aa-4cd4-a6ae-8e935106d3ce" primary="false"/>
+        <categoryLink id="8a0f-9e8c-cf27-8bdf" name="Daemon" hidden="false" targetId="d2211219-378b-48d5-91f0-d806aad31bed" primary="false"/>
+        <categoryLink id="d84e-d3b0-4606-a249" name="Minor Daemon" hidden="false" targetId="c9c2-4f9f-0272-46a5" primary="false"/>
+        <categoryLink id="532f-fa6d-7542-7b08" name="Monster" hidden="false" targetId="83c0c7a8-a0b7-4f3b-ab8b-faa27184921e" primary="false"/>
+        <categoryLink id="0976-fd6c-c112-4230" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
+        <categoryLink id="b7f8-8480-8592-a359" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e02b3703-277a-4781-b100-add9ae1b77ac" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="model">

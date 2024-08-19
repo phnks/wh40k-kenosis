@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="285" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="321" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="286" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -190,14 +190,9 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       <categoryLinks>
         <categoryLink id="d6636a50-7a75-4815-93b1-e67a8e73486e" name="New CategoryLink" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
         <categoryLink id="f3d72ca3-afc4-4a67-b279-45b6609f3d4e" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="10669d44-02f2-4b61-a0fc-256997086ad6" name="New CategoryLink" hidden="false" targetId="b4bcbd9b-0d4b-4d59-8fc4-dc762e31792c" primary="false"/>
-        <categoryLink id="86997552-4cef-440a-859d-1afcf6b5c950" name="New CategoryLink" hidden="false" targetId="1b8ece9c-f5b6-4048-9f3e-9a9ee6ad1362" primary="false"/>
-        <categoryLink id="fb8f67c3-d5c5-42e4-a94d-a854cb40001d" name="New CategoryLink" hidden="false" targetId="f51f127c-1534-4a71-9d76-6bd9c8c66301" primary="false"/>
-        <categoryLink id="2c4d8382-6c83-44a0-a47f-742157b19a52" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="734abd03-d434-4150-ad30-dabcf4dfdd8f" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="79c9b81f-772e-4c0d-9534-d54c8241cb02" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="6aa709b3-9105-45b9-a393-7f2b94e6ebcd" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
-        <categoryLink id="43482032-1e41-4ecd-80c9-dfc24350bbc8" name="Doctrina Assembler" hidden="false" targetId="1973516f-3cc8-4643-8bd0-3a4616166e39" primary="false"/>
+        <categoryLink id="48ef-6e54-327e-4b66" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="000a-4b85-d401-3d74" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7d9493d1-36aa-4c6d-8c99-c88444028e8a" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="67c729d0-1bbd-4568-a971-fbd6e369eb5e">
@@ -298,15 +293,11 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         <infoLink id="5020-8368-0268-d4cb" name="Battlesmith" hidden="false" targetId="9087-e12f-b408-4e38" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="652243ac-41c6-4ed5-9361-5cd9c6d6ad00" name="New CategoryLink" hidden="false" targetId="b4bcbd9b-0d4b-4d59-8fc4-dc762e31792c" primary="false"/>
         <categoryLink id="823b994b-b184-4ac5-9cc9-0ecb8a11baca" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="740507e9-a652-4563-bb81-6f4ff6c97ce3" name="New CategoryLink" hidden="false" targetId="c91aa10f-7dec-41f8-8de3-20019a6edac4" primary="false"/>
-        <categoryLink id="e0a60541-5cb3-41a6-9743-ad59edbb91e3" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="04a63480-803d-4b15-862b-77f109fab578" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="306d681c-2b8b-4d37-8d5d-c04c3ec9e297" name="New CategoryLink" hidden="false" targetId="f51f127c-1534-4a71-9d76-6bd9c8c66301" primary="false"/>
         <categoryLink id="10c7e831-f9b2-4275-bac1-91f6a8226dd9" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="d254b1ac-9a17-44ec-90c7-9b88928bb9fc" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
-        <categoryLink id="0cbf8ba2-0485-4126-8616-27ce39ee8040" name="Doctrina Assembler" hidden="false" targetId="1973516f-3cc8-4643-8bd0-3a4616166e39" primary="false"/>
+        <categoryLink id="8499-0339-b226-62a4" name="HQ" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
+        <categoryLink id="9f1d-24b1-073b-d603" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="c0cc-d30d-f606-0722" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d823b669-35fe-40e1-8894-2bf05d5ad6c3" name="Warlord" hidden="false" collective="false" import="true" targetId="dbce84a0-bb74-4fb1-a064-d81baf6f5e1c" type="selectionEntry">
@@ -371,25 +362,6 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ccb21299-cdc5-4ebf-afee-0645ae9d9710" name="Heavy Phosphor Blaster" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="d4a900f3-0cd2-4dcb-8d21-f0c350b23c4e" name="Heavy Phosphor Blaster" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, the target does not receive the benefits of Dense Cover against that target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="8f86b5c5-dbbc-4fdf-9a34-79011c098ecf" name="Skitarii Rangers" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ad6cfeae-30a7-4d08-bd0c-3ceb591fc46e" name="Rangers" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -400,13 +372,9 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       </profiles>
       <categoryLinks>
         <categoryLink id="62a5c010-5d0b-4f85-aff3-0f32ceef54f4" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
-        <categoryLink id="25d074f4-4abb-489c-9785-5423e783431c" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="071b259f-0d00-437e-9f63-62f68e2712c4" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="b1c9b6fb-aa10-4e19-993d-2db257cf1f3c" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
         <categoryLink id="05f95beb-fb9f-4591-8901-56f5b2c102bd" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="395eebb8-5a1a-45c8-b2d2-52f671b81a40" name="Skitarii Rangers" hidden="false" targetId="34263c4e-9c57-4d67-8787-eae63bb387a6" primary="false"/>
-        <categoryLink id="1dd87de6-10ff-47fe-93a3-ee1d3d12fb9c" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
-        <categoryLink id="8e90e5ed-99d9-429e-bbbc-362a29601bc0" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="1cd1-ff35-9d9d-fb78" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="b5be-1db5-3129-1d40" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e7400b0e-596d-486d-9d40-387e5227fe90" name="Skitarii Rangers" hidden="false" collective="false" import="true" defaultSelectionEntryId="7db41e2f-d172-44b1-98b8-d2ff85345a0a">
@@ -501,13 +469,9 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="43e7b127-ffbe-41f2-8b34-6f8e5f940700" name="New CategoryLink" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
-        <categoryLink id="884d98c4-ad8a-47db-8710-3fbcb4829e29" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="df82801d-cf06-4009-94d9-bd6f36f90cfe" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
-        <categoryLink id="e2e1503c-2d0d-4264-9b58-9c50a5cfb534" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="3871bca2-bbe7-429e-85ed-d5cfd4c800e8" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="848046af-dd77-491a-a224-69fff2100ad5" name="Skitarii Vanguard" hidden="false" targetId="d4d3958c-d42d-49d1-82d5-3efbff6d9443" primary="false"/>
-        <categoryLink id="a4f52bf5-765e-4d0e-b1a7-26cd9ceb71ef" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
-        <categoryLink id="b3985469-ac27-413f-87ed-86ff81552dbf" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="3b93-3a9b-99f2-6849" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="511c-01fb-4818-96d3" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b5a30bbe-f49d-4b35-b629-8382f5070e19" name="Skitarii Vanguards" hidden="false" collective="false" import="true" defaultSelectionEntryId="b6ad98ac-31e2-4a3c-bee5-7f1fa02c2f8c">
@@ -605,15 +569,10 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="10225df2-881e-4123-bb8c-ddac586a5993" name="New CategoryLink" hidden="false" targetId="98b2fab2-1fea-4c47-9a71-0d44850683bc" primary="false"/>
         <categoryLink id="ac69af15-8bcc-4520-a7d3-be51fe2f1612" name="New CategoryLink" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="06a862f8-72d3-40e5-9f70-25f12c128272" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="6a83df92-c05e-422e-a335-538d71cc7962" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="86e335d1-110f-4850-bba5-b9ddc9863e85" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
-        <categoryLink id="fd4d57e2-4e04-43b1-9283-f9732099ac80" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="a00247e9-11a2-4112-bf8f-28bc440c386c" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="da2ae468-9627-4b20-be74-460775ef95c8" name="Sicarian" hidden="false" targetId="558c09ed-f98a-4b76-8e70-485e6c0735e9" primary="false"/>
-        <categoryLink id="582d91d8-8a02-4f77-970f-1ac703df9817" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="526c-992b-f5b7-8040" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="f208-2798-4f6e-3cd7" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="375d9069-d075-472b-8afa-0b9199b3e2a8" name="Sicarian Infiltrators" hidden="false" collective="false" import="true" defaultSelectionEntryId="91ffcf14-c3f1-421b-a597-c83882610c50">
@@ -660,15 +619,10 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="911c7b51-8065-4489-ac3a-42d6ee2f6855" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="1b6e1387-6066-4d3f-aa96-b292285dcf33" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="e0435ad6-9ffe-43d6-8ecf-bc7b3facbb3f" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
         <categoryLink id="51185b1d-b827-4d93-83bd-c5db2e1eb9a1" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="6ceb38ad-51b0-4ced-ad93-e7c090933716" name="Sicarian Ruststalkers" hidden="false" targetId="b5161400-e0f6-4e3d-a511-cb92dedc96ad" primary="false"/>
-        <categoryLink id="029c3a52-ab51-47df-b6af-93ce53ba350f" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="9e9003dc-e1d5-4140-af97-a2345b7eb518" name="New CategoryLink" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="00426cca-a9ee-494b-aab9-9c24148019fa" name="Sicarian" hidden="false" targetId="558c09ed-f98a-4b76-8e70-485e6c0735e9" primary="false"/>
-        <categoryLink id="254e7ae0-a7b5-450b-901e-4f74f7d408e1" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="5337-35b1-3127-214f" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="edbc-5da0-9b71-46ca" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="78d15b7e-3cdb-4bd0-b308-d69faef44237" name="Sicarian Ruststalkers" hidden="false" collective="false" import="true" defaultSelectionEntryId="2aa8bdc5-a269-4f69-a3f5-08d166f4b84d">
@@ -708,15 +662,10 @@ Reduce the Save characteristic of models in this unit by 1.</description>
     </selectionEntry>
     <selectionEntry id="93f9df00-9662-473d-9d1d-ae3b1feebfb4" name="Ironstrider Ballistarii" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" page="81" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="7d484e9d-8861-4727-a2c1-4c7c1178e51d" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-        <categoryLink id="5ee014ff-6aa2-42c3-b093-966e929c26d4" name="New CategoryLink" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="3f24298a-ca84-4ae6-9a93-dd759283a6b5" name="New CategoryLink" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="54e7138d-8bbe-4032-aa45-aac1c325abab" name="New CategoryLink" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
-        <categoryLink id="40c17dc9-3c4f-4a56-8176-08c37f5fbf59" name="Ironstrider Balistarii" hidden="false" targetId="a763daee-e099-4244-b542-e7c726aedf86" primary="false"/>
-        <categoryLink id="17a5ca89-004f-4109-80ae-a855fca26b8f" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="6ec7770f-f45d-4d73-9a7a-f984d7aad1b7" name="New CategoryLink" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
-        <categoryLink id="148083d3-1189-4a24-963f-a57543356398" name="Ironstrider Engine" hidden="false" targetId="667cba0f-8f3e-4af5-a0e8-debf2cfa73f2" primary="false"/>
-        <categoryLink id="a50fff5e-0d83-45ae-ad45-98964f16d864" name="Data-Tether" hidden="false" targetId="0b4a277f-a566-4031-a903-52e5ec54d04a" primary="false"/>
+        <categoryLink id="b440-f948-8121-3c61" name="Cavalry" hidden="false" targetId="9fda33d4-fe99-4772-b246-046cfd5ba88d" primary="false"/>
+        <categoryLink id="ff08-9dbd-8042-b4fe" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="a43d-f8af-ea4d-7b37" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="47573349-3044-4a36-ad56-d0e35016f896" name="Ironstrider Ballistarius" hidden="false" collective="false" import="true" targetId="e8f267b9-c905-4a96-a504-6609d4414218" type="selectionEntry">
@@ -790,6 +739,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         <categoryLink id="e52a44a7-cf43-4e0f-b335-57cd77b6e4d4" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
         <categoryLink id="377b057e-fcc8-4f40-96ad-535a7f403535" name="New CategoryLink" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
         <categoryLink id="c564-9cb2-4224-3ecd" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="43ab-a83d-c2f9-ed10" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2d8f-9305-4f20-7a6a" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
@@ -914,7 +864,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea206e71-e76e-4acf-affc-edb344658550" name="Arc Rifle" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ea206e71-e76e-4acf-affc-edb344658550" name="Arc Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a8c81782-d02f-4c91-b21a-47d448be7e08" name="Arc Rifle" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
           <characteristics>
@@ -1055,35 +1005,6 @@ Reduce the Save characteristic of models in this unit by 1.</description>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70706566-9d3b-43cf-8c9e-4209ada56459" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="dd21-3f5a-5d82-b0fa" name="Cognis Heavy Stubber" hidden="false" targetId="692b-5dfb-7ea0-3027" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2408df83-3343-446a-8cf2-c6be5eda0992" name="Arc Scourge" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2b08c4b7-cf68-41d5-be18-758e8a87c887" name="Arc Scourge" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon against a VEHICLE unit, that attack has a Damage characteristic of 2 and an unmodified wound roll of 2+ successfully wounds the target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b4ff5519-70bf-4dd2-a6cc-7231583ae753" name="Mechadendrite Hive" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b65c8590-78a4-44bb-832d-8e1b132b1a7e" name="Mechadendrite Hive" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -1123,54 +1044,6 @@ Each time an attack made with this weapon targets a unit within half range, that
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68076616-8c38-433f-a6ea-65bbfed68a4d" name="Electrostatic Gauntlets" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="247774f0-a44d-4590-a545-60a209aa1f51" name="Electrostatic Gauntlets (shooting)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="ac2d2c47-f1ff-436a-9016-c92c601f5189" name="Electrostatic Gauntlets (melee)" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+2</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cbcf9866-23d9-40ec-8c69-051e5857fd07" name="Gamma Pistol" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c30751ad-9ecc-4c21-9b96-2b9b7aa76cb1" name="Gamma Pistol" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e8f267b9-c905-4a96-a504-6609d4414218" name="Ironstrider Ballistarius" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="5c9a1fa6-7d5a-4ca2-8fd7-9f1d7d3f198f" name="Ironstrider Ballistarius" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -1193,9 +1066,6 @@ Each time an attack made with this weapon targets a unit within half range, that
       <infoLinks>
         <infoLink id="d403-c77f-4e4b-ff2d" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="a4ba19bb-722b-4350-83ed-2008482b2dec" name="New CategoryLink" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9d02-b21a-83b2-88fd" name="Armoured Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1270,82 +1140,6 @@ Each time an attack made with this weapon targets a unit within half range, that
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a95e6eb8-1ccd-4298-a9fa-b27980ce10b5" name="Incendine Combustor" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1cd0d491-b1af-40fe-b8cf-5903103b9de1" name="Incendine Combustor" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9baa8c2a-bbcb-4d55-be8c-9199ad3c0d5c" name="Arc Claw" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="517c7157-aa8d-4691-9cf6-c30487fde48e" name="Arc Claw" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time the bearer fights, it makes 1 additional attack using this weapon. Each time an attack is made using this weapon that targets a VEHICLE unit, that attack has a Damage characteristic of 2 and a unmodified wound roll of 4+ successfully wounds the target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3f188b36-cb65-4db4-93d3-89e8c7a8521e" name="Hydraulic Claw" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="cf19ec21-6618-4685-a968-ef4a9b0c5e30" name="Hydraulic Claw" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">x2</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0ccf8fd8-2ca8-46b5-8b99-8ebfda7e2cb1" name="Heavy Arc Rifle" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="3e0524f9-7c32-4fb8-841c-8a136a8ca83f" name="Heavy Arc Rifle" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 2</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack using this weapon is made targeting a VEHICLE unit, that attack has a Damage characteristic of 3 and an unmodified wound roll of 4+ always successfully wounds the target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="7779b838-0555-4558-8de9-35aa356b2942" name="Torsion Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="bd808a81-4f24-474a-b7e8-5db7e50a124f" name="Torsion Cannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -1365,25 +1159,6 @@ Each time an attack made with this weapon targets a unit within half range, that
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="42a8b7f0-a4a7-489b-94e1-3a9a2c31a3ef" name="Cognis Flamer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="c692e854-0f71-478e-9065-4c20912c1516" name="Cognis Flamer" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault D6 + 2</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">This weapon automatically hits its target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="83e601aa-2142-4c12-a713-03012466e921" name="Phosphor Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="7c7b7b79-006e-4fc9-884b-759015cde2e1" name="Phosphor Blaster" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -1394,25 +1169,6 @@ Each time an attack made with this weapon targets a unit within half range, that
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
             <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, the target does not receive the benefit of Dense Cover against that attack.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="89b725d1-f5dc-406a-abab-8c5fd5bd2b8b" name="Heavy Grav-Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="44a7434f-f80b-4811-9271-e04fa3fa1660" name="Heavy Grav-Cannon" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">30&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 5</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack with this weapon is made against a target with a 3+ Save characteristic or better, that attack has a damage characteristic of 2. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1447,17 +1203,6 @@ Each time an attack made with this weapon targets a unit within half range, that
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="94ab0ff5-7132-47e6-a723-9f7d4f313e51" name="Arc Lance" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="93" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="ec2c7ec4-da64-43c6-8688-49af5a4efb5a" name="Arc Lance (melee)" hidden="false" targetId="610940f1-0494-4850-af1f-f403ae8168bc" type="profile"/>
-        <infoLink id="7a812234-c198-4d77-94af-f7d4542758f4" name="Arc Lance (shooting)" hidden="false" targetId="b458bbbe-c7da-41f7-a345-7a35545feacd" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
@@ -1558,17 +1303,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60b61773-603f-473b-9bec-dc2db3bd47ff" name="Arc Lance" publicationId="d11806c7-7e6f-4315-8c20-b93a482054c3" page="93" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="71794996-b0e7-408c-9f8c-21f77bdf0705" name="Arc Lance (melee)" hidden="false" targetId="610940f1-0494-4850-af1f-f403ae8168bc" type="profile"/>
-        <infoLink id="84e9a9f4-5281-47be-8999-5d5efd76207c" name="Arc Lance (shooting)" hidden="false" targetId="b458bbbe-c7da-41f7-a345-7a35545feacd" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c4ce81f7-bbd5-4bb6-acf9-b1e559942753" name="Mag-inverter Shield" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="32969396-8382-4b76-a0de-1b5eec241d7d" name="Mag-inverter Shield" hidden="false" targetId="252d6e87-727d-4296-9f77-4136fdcdf1b3" type="profile"/>
@@ -1610,28 +1344,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7148d599-6c64-43c0-bebc-8ead5df20265" name="Galvanic Caster" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="f6764fcf-9abd-4558-980a-217d2c459859" name="Galvanic Caster (Flechette Burster)" hidden="false" targetId="c3d75247-b202-4446-a693-7bd7491248e8" type="profile"/>
-        <infoLink id="90ef7e71-8c5c-41e1-9fda-7e40472e061e" name="Galvanic Caster (Kinetic hammershot)" hidden="false" targetId="fec52c97-96f3-41d6-9e8c-b13dacf4f6c5" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="63d01a83-c03f-4abb-b9ab-286fac8592a7" name="Galvanic Caster" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8362dc95-5575-4f33-b6b0-45a8c174f4ee" name="Galvanic Caster (Flechette Burster)" hidden="false" targetId="c3d75247-b202-4446-a693-7bd7491248e8" type="profile"/>
-        <infoLink id="05890d88-0237-49c1-9c1f-051412a3c84a" name="Galvanic Caster (Kinetic hammershot)" hidden="false" targetId="fec52c97-96f3-41d6-9e8c-b13dacf4f6c5" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c2f2d7fd-849b-4790-9823-5413bc886be8" name="Plasma Cannon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="6f860f7d-8e6d-4bb2-84ca-3800d28e0ebf" name="Plasma cannon, Standard" hidden="false" targetId="37290cd9-87aa-4277-8157-288905f0278c" type="profile"/>
@@ -1639,16 +1351,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e3780659-2620-4d8a-8191-9fe98790cc48" name="Heavy Bolter" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="fc63ee8f-4de3-4292-a19f-27df5fe2f3cc" name="Heavy bolter" hidden="false" targetId="6683e0b1-7e9d-4c24-809e-d578a6f795f9" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
@@ -1667,8 +1369,14 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="b76b8209-c1ea-4c7d-97ba-131ed56ba0a6" name="Sicarian Infiltrator" hidden="false" targetId="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="907c-a966-cf86-bc9c" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="47d5-51f8-1b31-a609" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="6c0b-1b2c-3636-00de" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="eb4c-8391-d3b4-be66" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="eea3d17c-24b1-4fb5-8783-39931f58d16a" name="Flechette Blaster" hidden="false" collective="false" import="true" targetId="1840ceec-dacc-4d5f-a542-31697110693b" type="selectionEntry">
+        <entryLink id="eea3d17c-24b1-4fb5-8783-39931f58d16a" name="Flechette Blaster" hidden="false" collective="false" import="true" targetId="a5a67102-36b3-466d-ba74-f37898977b1d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c17e24e-309d-4a9b-841d-cb3d24f4c63a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c679174f-b8f1-4f99-b97f-6df2bc14583b" type="max"/>
@@ -1691,8 +1399,14 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="1504716b-11d3-45e1-8409-22f6a59e5f7d" name="Infiltrator Princeps" hidden="false" targetId="61f6e97c-7b0e-498b-8409-a1b42fd2cbb8" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3c1b-6786-1d84-eb43" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="b49f-6833-cb63-74dc" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="4836-b94f-f10c-e77c" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="0ce6-f7a6-3ac4-cf48" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="0d7246d5-37b9-4041-bb05-bdf8d239034d" name="Flechette Blaster" hidden="false" collective="false" import="true" targetId="1840ceec-dacc-4d5f-a542-31697110693b" type="selectionEntry">
+        <entryLink id="0d7246d5-37b9-4041-bb05-bdf8d239034d" name="Flechette Blaster" hidden="false" collective="false" import="true" targetId="a5a67102-36b3-466d-ba74-f37898977b1d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d886855c-6bee-4220-b6d5-2cabe8b707ad" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="911f9609-2dd7-473d-9674-fb6c76bbb6b6" type="max"/>
@@ -1708,17 +1422,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       <costs>
         <cost name="pts" typeId="points" value="17.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1840ceec-dacc-4d5f-a542-31697110693b" name="Flechette Blaster" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="df3d1852-2a9b-4d8b-bd0e-c296668be439" name="Flechette Blaster" hidden="false" targetId="fcacaf68-c028-4390-868d-9f719b52aafa" type="profile"/>
-        <infoLink id="aa8c-cccc-5367-e0a0" name="Short Range" hidden="false" targetId="acba-bd86-e903-acca" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1758,6 +1461,12 @@ Each time an attack is made with this weapon, the target does not receive the be
         <infoLink id="05f2e6e4-ec71-4fe7-893d-ac25827f1c4e" name="Sicarian Infiltrator" hidden="false" targetId="13b9bc80-85e7-4a0f-b9c9-684eda339bb8" type="profile"/>
         <infoLink id="3b39-2767-1819-27a9" name="Infiltrate" hidden="false" targetId="8cb6-c8f8-c499-0e24" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9195-6480-9538-b862" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="a26f-5225-ff32-c179" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="05cb-72ca-4136-bcbf" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4bf7-9279-b70e-922c" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="16ac678d-50fc-4223-92de-b11015b39254" name="Stubcarbine" hidden="false" collective="false" import="true" targetId="9f5b6bc0-81d9-40be-b9f3-c618c6687847" type="selectionEntry">
           <constraints>
@@ -1812,6 +1521,12 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="dbfeccbc-3d81-49c2-9e62-afd5032d6204" name="Ruststalker Princeps" hidden="false" targetId="a13863b0-17a7-4afe-8546-38e405ed8550" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f362-690f-c90a-936d" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="409a-fb8f-9b9d-58e7" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="a073-213c-9e07-fc76" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="bbc5-36b0-82a0-ec22" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="3e41d15b-3000-4a16-ad72-0745b2917c54" name="Chordclaw" hidden="false" collective="false" import="true" targetId="42da7237-936a-446d-98ea-c0e58fc9d464" type="selectionEntry">
           <constraints>
@@ -1866,6 +1581,12 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="cb13bc23-8b15-4265-9830-c9e3acf163bf" name="Sicarian Ruststalker" hidden="false" targetId="a2cc3bf4-872b-4517-8b48-e20ba84a0e90" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2df9-9f5f-450f-406f" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="6452-093b-f673-ec1d" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="05ba-5505-807c-7389" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="0b92-2657-5b56-4d84" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="8946e13e-6afe-452c-b9d6-20bc7c145a6b" name="Transonic Blades" hidden="false" collective="false" import="true" targetId="1de46ab8-d704-41eb-84c4-4dbeb77fa057" type="selectionEntry">
           <constraints>
@@ -1884,8 +1605,14 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="cbb185e7-8084-4023-a58a-19287bf8281d" name="Sicarian Ruststalker" hidden="false" targetId="a2cc3bf4-872b-4517-8b48-e20ba84a0e90" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6aed-7b4f-4f4f-a79c" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="f9d8-d3dd-e802-f7be" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="f328-555b-6d3c-5265" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="7e33-9a26-2cd1-f0db" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink id="3b3d4317-39cb-4a0c-858f-3250a08bf589" name="Chordclaw" hidden="false" collective="false" import="true" targetId="47439639-4a02-47f9-b8d2-0fa1039ede04" type="selectionEntry">
+        <entryLink id="3b3d4317-39cb-4a0c-858f-3250a08bf589" name="Chordclaw" hidden="false" collective="false" import="true" targetId="42da7237-936a-446d-98ea-c0e58fc9d464" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c8816e-384e-473c-a395-7f3d49c51a64" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d1a435-05d1-43b0-9f17-74086f12b03d" type="max"/>
@@ -1907,16 +1634,6 @@ Each time an attack is made with this weapon, the target does not receive the be
     <selectionEntry id="1de46ab8-d704-41eb-84c4-4dbeb77fa057" name="Transonic Blades" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9c6fc9d4-7646-46dd-809e-43a7187846dd" name="Transonic Blades" hidden="false" targetId="510c7588-dddb-4188-ad48-ac96e9e60001" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="47439639-4a02-47f9-b8d2-0fa1039ede04" name="Chordclaw" hidden="false" collective="true" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3ff2cb35-b45a-40fa-99d9-7cf1be88015d" name="Chordclaw" hidden="false" targetId="15cdb61d-f796-4396-994a-89c07a59fd9b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
@@ -1954,7 +1671,10 @@ Each time an attack is made with this weapon, the target does not receive the be
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="2a1151b2-5d31-40a7-9f66-862374f9865c" name="New CategoryLink" hidden="false" targetId="34263c4e-9c57-4d67-8787-eae63bb387a6" primary="false"/>
+        <categoryLink id="5549-817f-a4a9-2fea" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="2f6d-2885-605d-403c" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4540-4231-e825-02e2" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+        <categoryLink id="c060-9b44-24a6-5ae3" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="32cf46af-239b-4aab-b7bf-293b0948f853" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b045c368-50a7-4e47-a943-32c266810af1">
@@ -1963,7 +1683,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d80f22-76f0-4883-b3f2-6b24bb20236f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b045c368-50a7-4e47-a943-32c266810af1" name="Galvanic Rifle" hidden="false" collective="false" import="true" targetId="7ba1ab66-e660-4347-bf9b-59de3535b706" type="selectionEntry">
+            <entryLink id="b045c368-50a7-4e47-a943-32c266810af1" name="Galvanic Rifle" hidden="false" collective="false" import="true" targetId="ec8bbadc-cad9-4412-b7c7-46d8f910aff8" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e4d5152-95e0-4c3b-9519-fd2733bbf82a" type="max"/>
               </constraints>
@@ -2006,6 +1726,12 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="674a003f-af50-4a7d-8798-27f1ff3bd405" name="Skitarii Ranger" hidden="false" targetId="040ade3e-cb0f-49af-8953-33afa89a1866" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="000b-1a0c-40e0-34ac" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="1120-5e70-0ddb-558c" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="d45e-e512-a368-fc48" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+        <categoryLink id="3783-e62c-f2e7-daad" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="15f95ff3-77fc-4fde-8b71-33d01f8492ca" name="Galvanic Rifle" hidden="false" collective="false" import="true" targetId="ec8bbadc-cad9-4412-b7c7-46d8f910aff8" type="selectionEntry">
           <constraints>
@@ -2081,19 +1807,9 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec8bbadc-cad9-4412-b7c7-46d8f910aff8" name="Galvanic Rifle" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ec8bbadc-cad9-4412-b7c7-46d8f910aff8" name="Galvanic Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="ebe1c6c5-9cf0-4d79-9cbe-af685cdd75f1" name="Galvanic Rifle" hidden="false" targetId="db571d89-527e-44cd-b170-0b78425c7e50" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7ba1ab66-e660-4347-bf9b-59de3535b706" name="Galvanic Rifle" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="bd15c185-c9a1-49ef-9e03-239057e0991c" name="Galvanic Rifle" hidden="false" targetId="db571d89-527e-44cd-b170-0b78425c7e50" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -2383,25 +2099,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="708a2783-3313-440b-a119-b6edac78ffd9" name="Electroleech Stave" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="7039fe96-5f90-45eb-bd16-459a19656b26" name="Electroleech Stave" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+2</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, on an unmodified wound roll of 6 inflicts 2 mortal wounds on the target and the attack sequence ends.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5c98e430-e677-4225-a332-d59c92a25d8a" name="Smoke Launchers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="418cadc7-f9ad-4af6-9726-069f81aec366" name="Smoke Launchers" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -2413,29 +2110,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="31fb20c4-ec12-4fa1-a228-c2495704bd5c" name="Eradication Beamer" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e209-88a3-b389-e0a2" name="Eradication Beamer (dissipated)" hidden="false" targetId="00ee-ed95-93e3-ec7f" type="profile"/>
-        <infoLink id="0905-9fd7-aba1-b250" name="Eradication Beamer (focused)" hidden="false" targetId="2940-74b4-0a83-6f39" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="348b37a1-0d3e-4a49-b4d2-b6448a958970" name="Icarus Array" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="4993-51a6-d8e6-9314" name="Daedalus Missile Launcher" hidden="false" targetId="9021-74ba-1785-4268" type="profile"/>
-        <infoLink id="5cbf-eab5-2e10-0fd2" name="Gatling Rocket Launcher" hidden="false" targetId="b524-19e9-2e8e-d51b" type="profile"/>
-        <infoLink id="8249-3abe-f109-3562" name="Twin Icarus Autocannon" hidden="false" targetId="38ae-7002-f0ef-67eb" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2489,15 +2163,10 @@ Each time an attack is made with this weapon, the target does not receive the be
       </infoLinks>
       <categoryLinks>
         <categoryLink id="da5b4910-eee7-43ea-9faf-e5a9cfef336e" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="f597e58b-0650-4f7d-810d-e687058b6b7a" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="87e43624-be8c-4824-920e-0ab90bfa6e21" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="3f660a64-f366-47d0-b707-b4faab1f902f" name="Faction: Cult Mechanicus" hidden="false" targetId="f51f127c-1534-4a71-9d76-6bd9c8c66301" primary="false"/>
         <categoryLink id="b21b2511-4398-4224-b5e6-372721b14139" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
         <categoryLink id="a8551a92-54bc-4b84-88f6-7739d045882c" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="a8d038e1-0803-455e-8719-8dfaaa1682eb" name="Tech-Priest" hidden="false" targetId="b4bcbd9b-0d4b-4d59-8fc4-dc762e31792c" primary="false"/>
-        <categoryLink id="da1eb67b-453b-4817-809c-424984c2dd37" name="Manipulus" hidden="false" targetId="eb722a6a-b898-490f-8c73-645bd41758c1" primary="false"/>
-        <categoryLink id="49a3c984-9043-4dcd-bef7-3c016a276886" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
-        <categoryLink id="24559233-e907-4eae-9f64-a1dbb4f9ff3b" name="Doctrina Assembler" hidden="false" targetId="1973516f-3cc8-4643-8bd0-3a4616166e39" primary="false"/>
+        <categoryLink id="3fc3-d140-b75a-8574" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="07b4-d09c-8bcf-60ae" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d7636cdd-4d20-41e8-813b-2b68eaaef8f8" name="Manipulus Mechadendrites" hidden="false" collective="false" import="true" type="upgrade">
@@ -2643,48 +2312,16 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f1f1134a-e020-4c3a-8043-bdb9bd1093fa" name="Ferrumite Cannon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="5eb56e19-9604-4c83-b909-4ebc2d36fe9d" name="Ferrumite Cannon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy 3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">8</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cf03a23a-1a06-47c8-b1a2-6bf19c0b1925" name="Disruptor Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ffab445e-f229-40ef-a092-699016f0d77e" name="Disruptor Missile Launcher" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">7</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">D3</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bae00e30-3599-41a9-bbd9-0c423a1fad94" name="Infiltrator Princeps (Stub/Sword)" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="e724afc9-46c2-4d39-8878-ea4e1b57f9de" name="Infiltrator Princeps" hidden="false" targetId="61f6e97c-7b0e-498b-8409-a1b42fd2cbb8" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2b2f-9213-5ea5-7750" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="802e-6f57-50dd-25cc" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="bfad-eb01-6dde-5582" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="98ce-138c-ae2f-7d5d" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="b1fa4ec1-5dfc-431b-afee-a98b690e6da5" name="Stubcarbine" hidden="false" collective="false" import="true" targetId="9f5b6bc0-81d9-40be-b9f3-c618c6687847" type="selectionEntry">
           <constraints>
@@ -2709,6 +2346,12 @@ Each time an attack is made with this weapon, the target does not receive the be
       <infoLinks>
         <infoLink id="0272374c-23c9-4de2-b08f-951704e9a5c4" name="Ruststalker Princeps" hidden="false" targetId="a13863b0-17a7-4afe-8546-38e405ed8550" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0843-e735-4794-4d71" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
+        <categoryLink id="7f73-7798-f88f-9786" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="51d1-c457-065b-6651" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="0b80-0693-d2c2-3a42" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="20c6f2a6-8fa6-4454-9626-b48caa474c98" name="Chordclaw" hidden="false" collective="false" import="true" targetId="42da7237-936a-446d-98ea-c0e58fc9d464" type="selectionEntry">
           <constraints>
@@ -2726,108 +2369,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b806614e-9fcf-4e56-bc77-84d91f910a5a" name="Chaff Launcher" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="397562ef-b0d2-4229-92aa-94aad629373c" name="Chaff Launcher" hidden="false" targetId="62b17c09-51da-4815-bcd0-d9732c310d29" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="c92558e4-54df-428c-8970-02d3bf647cf6" name="Smokescreen" hidden="false" targetId="b4258861-c042-4dc1-b688-8d8c493ff23b" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="20.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2528cab6-8d0a-4f7c-aae0-6ac03229e7aa" name="Command Uplink" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="347eba14-a73f-40b5-aa30-36bcbcbf2e0b" name="Command Uplink" hidden="false" targetId="cd9b9e2b-8b78-402a-af06-233ccca3daf6" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bb344ebf-dc03-4483-9bb1-9fc54d903d42" name="Data-Tether" hidden="false" targetId="0b4a277f-a566-4031-a903-52e5ec54d04a" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8d0316c8-0aab-4709-8cb0-314c21fec8d2" name="Archeo-revolver" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="731e6355-186c-4ee8-9c1f-d96c40372ca8" name="Archeo-revolver" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol 1</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">5</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0bf07ab6-4f41-417d-98cc-aa72658aa41e" name="Galvanic Carbine" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="4fdfc78e-8199-4397-88df-9e6e8dfe71b3" name="Galvanic Carbine" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;	</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 2</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="db27e2ae-6c1b-4180-a1a1-d1fc32467d2a" name="Clawed Limbs" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="1fe90390-0ef0-42b5-8f3b-249c9a86c3d4" name="Clawed Limbs" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">+1</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">When the bearer fights, it makes 2 additional attacks with this weapon.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f256728f-ce1d-44f1-8ccb-651280b249ef" name="Flechette carbine" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="0ba1713b-82d0-4103-8362-898d2f4729f7" name="Flechette carbine" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">18&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 5</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">3</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2944,14 +2485,10 @@ Each time an attack is made with this weapon, the target does not receive the be
       </profiles>
       <categoryLinks>
         <categoryLink id="8e3373df-0652-470b-be74-2c9078c9c6a4" name="New CategoryLink" hidden="false" targetId="fdb5e149-0265-4fce-8121-22edc2cbab4f" primary="true"/>
-        <categoryLink id="2d5592a4-7532-4df9-8080-32e5ab1a3c7e" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="31d13c9e-da51-4118-928a-23ae7e85db63" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="106a2722-7082-41cd-ba64-2728c39e3b32" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
-        <categoryLink id="ba9d1f9f-454f-4655-a597-2b164a50ff2e" name="Faction: Skitarii" hidden="false" targetId="601a920b-4f80-4b82-aa21-b85800220888" primary="false"/>
         <categoryLink id="b809da0c-a645-4e82-984a-90f0be08a431" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
         <categoryLink id="ebe5e71e-bb0b-4863-a18c-ba2c4230c49a" name="Character" hidden="false" targetId="e85d0ea1-da6b-4b09-bb49-b2467fd9015b" primary="false"/>
-        <categoryLink id="df0bb7f6-852c-49f0-a82d-15e7e613c79c" name="Doctrina Assembler" hidden="false" targetId="1973516f-3cc8-4643-8bd0-3a4616166e39" primary="false"/>
-        <categoryLink id="2b841518-d845-4ae9-b86a-dfa477bcaf22" name="Skitarii Marshal" hidden="false" targetId="95d9ea39-687e-4fd2-b51c-7aaaca73427a" primary="false"/>
+        <categoryLink id="5af8-edb8-8f0e-310b" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="e723-119d-9323-c8e9" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a826e735-f319-4054-ada1-a2a8277ec0e4" name="Radium Serpenta" hidden="false" collective="false" import="true" targetId="7806e0bc-31ba-4d2f-afd1-34bef4b7743e" type="selectionEntry">
@@ -2980,39 +2517,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c87f0c7f-b5f1-4cac-8c3a-08d3cbca037e" name="Genetors" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25885953-4867-4257-8c2d-35ece66c7e68" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="d622dc3b-0ae1-4f94-a467-4950c3f049c1" name="Adaptive Mastery" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">Once per battle, if this model is on the battlefield when you use an Adeptus Mechanicus Battle Tactic Stratagem, reduce the CP cost of that Stratagem by 1 CP. Note that the CP Cost is only reduced by 1 CP for that use of the Stratagem, any future usages of it cost the normal amount of CPs.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoGroups>
-        <infoGroup id="25ca4969-d124-4ceb-b91d-978f665f78c4" name="Learnings of the Genetor" hidden="false">
-          <profiles>
-            <profile id="e610c81e-915c-4df7-8d9e-1b427b2e7abd" name="Genetors Initial - Biochemical Aggression" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, if this part is active for this model, select one friendly &lt;FORGE WORLD&gt; CORE OR &lt;FORGE WORLD&gt; KATAPHRON SERVITORS unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in that unit makes a melee attack, an unmodified of hit roll 6+ automatically wounds the target.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="2cd9c7fe-4aed-4904-bde6-262cf711ea6c" name="Genetors Advanced - Hypercybernetic Physiology" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="3f4d705d-df9c-4c4b-90e5-7517f2257083">In your Command phase, if this part is active for this model, select one friendly &lt; FORGE WORLD &gt; KAPTAPHRON SERVITORS or &lt; FORGE WORLD &gt; SERVITORS unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in that unit would lose a wound, roll one D6. On a 6, that wound is not lost.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
-      </infoGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="25.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="7806e0bc-31ba-4d2f-afd1-34bef4b7743e" name="Radium Serpenta" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="dac4fcdf-5681-407a-b9a5-58f7d480312e" name="Radium Serpenta" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -3034,39 +2538,6 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
             <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon against an enemy unit (excluding VEHICLE units), an unmodified hit roll of 6 automatically wounds the target.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d9304a8d-e473-4622-b3e3-e64668891fbd" name="Eradication pistol" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb963ccb-ecd7-43d6-8f74-b0926179b9f4" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d8c086-84ea-48b6-a343-829a511305a0" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="878bbabb-49cc-4c83-93e5-c20c9e5b4e33" name="Eradication pistol (focused)" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">6&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol D3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-3</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">2</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="29953e6f-21e0-4971-a731-f373fc7949fe" name="Eradication pistol (Dissipated)" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Pistol D3</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">6</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Blast</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3159,11 +2630,10 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
     </selectionEntry>
     <selectionEntry id="f106618e-1fe5-4c49-a211-52bc98f88cde" name="Castellax Battle-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="6e963bb7-a928-402d-962a-5f0fdca2d878" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="05474740-7cd1-49ab-86a7-714f891d57d2" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="57ed6a7c-5d66-462c-920f-6df38a6b11f1" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="928572e7-19b8-42ae-a4b4-1b6f1c86e332" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
         <categoryLink id="becf-a073-11f7-1160" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="2afd-2ce4-f2a4-9b4d" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="7f6d-2b64-a6b9-7949" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c1e62d7c-8356-4034-b761-f6c0c5853657" name="Castellax" hidden="false" collective="false" import="true" type="model">
@@ -3428,28 +2898,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ca007d4-d995-49b8-84e0-9f9ee58810bc" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="f3dabb23-61ca-43c8-a709-6af87c911497" name="Flamer" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Template</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Assault 1</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">4</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-1</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="be2fa749-25cc-4638-94de-2aff76da5e24" name="Template Weapons" hidden="false" targetId="1c594f24-ebfb-4450-bef6-6d9b1950b567" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="77474d87-784c-4251-a212-fddc516cf61e" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="ae71dd78-5349-458a-b392-d4ec41a326d8" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -3510,11 +2958,9 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <infoLink id="2c22-5422-a0f1-f267" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0073c9f7-ea3b-462e-803b-8373be0a81b4" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="8a666057-8cab-4fca-9698-cb06261acd3a" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="0f760230-70c1-4f80-b555-3f674d3e461e" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="9cdc07e1-233f-4505-ba41-b6c379575223" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
         <categoryLink id="c50a3463-8977-49ab-b7ca-d3ef3b9484d0" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+        <categoryLink id="d9fb-4080-6ae4-adab" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7f7e9251-ceea-489c-a543-139d9099ea37" name="Karacnos Mortar Battery (Mounted)" hidden="false" collective="false" import="true" targetId="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" type="selectionEntry">
@@ -3626,10 +3072,10 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
     </selectionEntry>
     <selectionEntry id="63dad36b-29ee-4c46-acd4-4d9756c685d2" name="Domitar-Ferrum Battle-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="33a2cf21-99b7-44c1-9969-3e5944c47990" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="4213ca9a-90e3-4fc8-89a5-50024beed8b5" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="e988e5e7-2951-478b-9923-2eb3a79d2570" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
         <categoryLink id="04a4-112f-7f1a-7e0c" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="afd5-6efd-83df-3afa" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="19bc-e43b-3a9b-736d" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="95b99e7a-47fe-4d41-878c-49b651107783" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
@@ -3740,25 +3186,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="223613eb-f9de-4454-8b87-2110d2ecdc70" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="02df8ced-2d16-4955-9b2b-3ad9bd4c1e34" name="Close Combat Weapon" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="3a9ccd2c-2dfe-4354-9138-1ffe37679d82">Melee</characteristic>
-            <characteristic name="Type" typeId="3d8500c6-97bc-483c-9063-cbc0c3a09954">Melee</characteristic>
-            <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
-            <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">0</characteristic>
-            <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="8855f4cf-7368-4eac-9565-419f15684e26" name="Lightning Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a212585a-82ca-48ee-8bc5-c91859fff764" name="Lightning Gun" publicationId="4a469c26-9989-4da4-8c19-71e7955f9727" page="113" hidden="false" typeId="92b35733-1527-413d-b8ae-69226e4030e5" typeName="Weapon">
@@ -3817,13 +3244,10 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="44c82363-2038-464c-bc1c-525f255e0d11" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="f60011f1-0fee-4246-8e2b-ac95fa6e71c5" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="8c33878b-f354-4e7a-8105-798a5444fa1e" name="Faction: Cult Mechanicus" hidden="false" targetId="f51f127c-1534-4a71-9d76-6bd9c8c66301" primary="false"/>
-        <categoryLink id="2c8e4e93-baf0-48e3-8e9d-55c94d458d7e" name="Faction: Imperium" hidden="false" targetId="5c52e2cd-5387-4ac8-acc5-250d4424afa8" primary="false"/>
         <categoryLink id="bbdb222b-35e4-4aba-8eb8-a17e63dd1ee3" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
         <categoryLink id="a9391468-e49e-48be-9aa5-29b159ed8e74" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
-        <categoryLink id="c5f86ca4-d72e-4b57-8cc5-20b752275ad5" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
+        <categoryLink id="d113-3aef-cd9d-f77a" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="cdf5-3986-27af-8c91" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d8147c7b-c783-4da3-8fe7-124fe6aaeaef" name="Myrmidon Destructor" hidden="false" collective="false" import="true" type="model">
@@ -4062,11 +3486,10 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7aca4842-bc01-4f65-8fb8-608037415d3f" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
-        <categoryLink id="3d9f3c4e-c504-4e57-a760-e32f6889c1e4" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="730e264c-25c7-4031-8319-044c6333b63b" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="4ecab698-81f6-4fb5-b0f4-9213902cd7c5" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="b31291fe-9082-4d40-952c-b56ae7c37161" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
+        <categoryLink id="8fc3-2821-ca8c-b1a2" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="82ff-45cc-22e3-1028" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="d3fb-3a8b-5e98-e6b0" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3f07e39d-ee31-4f53-b55f-d26b03c88d68" name="Thallax" hidden="false" collective="false" import="true" type="model">
@@ -4311,13 +3734,10 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d240c771-3116-445c-9510-82e34c07c98c" name="Core" hidden="false" targetId="37e1f324-6d40-493b-a454-0219ffded2a8" primary="false"/>
-        <categoryLink id="7c167560-8553-4cac-99eb-96c9c1308f7a" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="a9c105ba-d5f1-42e1-862a-e750129e41b2" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="9927fde9-b832-4318-bd9c-516d57f44a46" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="235ba411-d55d-4706-b967-580951a8475b" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
-        <categoryLink id="a9dd7e34-8f11-4922-8dad-1f8cee3ffe1a" name="Faction: Cult Mechanicus" hidden="false" targetId="f51f127c-1534-4a71-9d76-6bd9c8c66301" primary="false"/>
         <categoryLink id="e84baf53-3a44-48b5-8130-fb389aee66d0" name="Infantry" hidden="false" targetId="80299cb3-36fc-4884-8995-0bbb396440b5" primary="false"/>
+        <categoryLink id="35dc-48fe-7f05-e19b" name="Personnel" hidden="false" targetId="5960-8a72-fcd9-7cce" primary="false"/>
+        <categoryLink id="4698-01aa-8d7c-7c94" name="Scale (1)" hidden="false" targetId="7e0b-dcd7-4a24-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="64230c2d-e7d7-490e-b40b-a2d2b9ff7497" name="Myrmidon Secutor Lord" hidden="false" collective="false" import="true" type="model">
@@ -4570,11 +3990,10 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
         <infoLink id="8d34-410c-9aba-d48e" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="45d3-d79d-86fe-2973" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
-        <categoryLink id="4640-88af-4bcf-a793" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="bf5d-bd7a-e395-268e" name="Faction: Imperium" hidden="false" targetId="22b71508-48bb-441c-9b0b-3e49f8779dae" primary="false"/>
         <categoryLink id="72c0-9dd6-3e0a-f6bd" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
         <categoryLink id="743b-bfdb-90bc-d28e" name="Vehicle" hidden="false" targetId="cd620f0d-d3d5-4150-82fc-9d8d54b8f991" primary="false"/>
+        <categoryLink id="6d48-823d-a9a9-de4a" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="ed0d-cfc3-08c6-14d8" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cdff-f5c1-3cb1-587e" name="Armoured Tracks" hidden="false" collective="false" import="true" type="upgrade">
@@ -4833,10 +4252,10 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
     </selectionEntry>
     <selectionEntry id="121f-6654-7db9-557d" name="Thanatar Siege-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="e326-d7fd-e78b-4de9" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="0d42-acb3-444a-61a6" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="dfd7-1910-1848-8fad" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
         <categoryLink id="bb42-9145-c5b0-a229" name="Heavy Support" hidden="false" targetId="c06c80cd-439b-408e-8350-4c28603dc270" primary="true"/>
+        <categoryLink id="1c93-5301-8751-230a" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="1401-05d7-f84e-6225" name="Scale (3)" hidden="false" targetId="52ca-bb57-cb80-2aa2" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bcd3-4edd-5a62-6b02" name="Models" hidden="false" collective="false" import="true">
@@ -5085,6 +4504,8 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
       <categoryLinks>
         <categoryLink id="dfa1-8349-c14a-36e4" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
         <categoryLink id="33dc-eb06-17e5-7630" name="Fast Attack" hidden="false" targetId="09dff0d7-b91a-44ee-b759-f37a33a8748c" primary="true"/>
+        <categoryLink id="66b5-c133-6705-9256" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="5f95-97b1-6741-1931" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2079-94c5-8758-1a82" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="b702-675a-4f50-e79d">
@@ -5217,10 +4638,10 @@ A model with this special rule and the Cybernetica Cortex special rule may ignor
     </selectionEntry>
     <selectionEntry id="6f0a-808f-5bda-e3fa" name="Domitar Battle-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="3bff-b1b9-959c-b085" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="365788fa-6750-4073-b807-583170ed8600" primary="false"/>
-        <categoryLink id="f5aa-7a48-71de-c1d0" name="Faction: Adeptus Mechanicus" hidden="false" targetId="466a3d76-b525-445e-a71d-327d29a9ae8f" primary="false"/>
         <categoryLink id="b0e3-86a8-b3c6-2b4a" name="Elites" hidden="false" targetId="d738af94-65d6-4911-a47f-fefae81f4ae3" primary="true"/>
         <categoryLink id="4e28-db56-7622-bcfb" name="Walker" hidden="false" targetId="2382-363a-9388-4da8" primary="false"/>
+        <categoryLink id="475c-b764-14f2-b10d" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
+        <categoryLink id="a465-275b-8efd-cebe" name="Scale (2)" hidden="false" targetId="47c0-1a6e-7617-f710" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8f41-ea79-3269-be1a" name="Domitar" hidden="false" collective="false" import="true" type="model">
