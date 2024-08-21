@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="323" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="324" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9173,7 +9173,7 @@ Hellstorm Weapons
 Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weapon profile. Hellstorm weapons use the Hellstorm template (see page 152), but otherwise obey the rules for other Template weapons.</description>
     </rule>
     <rule id="c012-20ae-09a9-85c2" name="Ram" hidden="false">
-      <description>A weapon with this special rule does not attack in the Fight Phase. Instead, during any move or charge, for any enemy units this model touches or passes through, it may attack with this weapon. It cannot attack with this weapon if it did not move any distance this turn. </description>
+      <description>A weapon with this special rule does not attack in the Fight Phase. Instead, during any move or charge, for any enemy units this model touches or passes through, it may attack with this weapon. It must split it&apos;s attacks equal among the target models. It cannot attack with this weapon if it did not move any distance this turn. </description>
     </rule>
     <rule id="8878-8945-5054-3a58" name="Mounted (Hull)" hidden="false">
       <description>A weapon with this special trait is mounted on a platform of some kind. It must fire with Line of Sight from the weapon not the model and can only fire in the following arc: 90 degree arc facing from the model side the weapon is attached.</description>

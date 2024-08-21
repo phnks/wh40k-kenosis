@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="289" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="323" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="290" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="323" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -179,7 +179,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
             <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortext Controller</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortex Controller</characteristic>
           </characteristics>
         </profile>
       </profiles>
