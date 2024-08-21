@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="170" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="12633134-3e95-455a-8137-55061f071ba5" name="Chaos - Maggotkin of Nurgle" revision="173" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6f48da15-ba05-43d5-87c9-e809716796ff" name="Dataslate: Be&apos;lakor"/>
   </publications>
@@ -85,11 +85,11 @@
       </constraints>
       <rules>
         <rule id="b4f2-115f-57dc-5c2e" name="&quot;Gifts of the Plaguefather&quot; Army Ability" hidden="false">
-          <description>During deployment, any unit of type daemon or Chaos Spawn and Giant Chaos Spawn units, can set up as reinforcements instead of setting up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can deploy this unit in your deployment zone as normal. 
+          <description>During deployment, any unit in your Maggotkin of Nurgle army of type Daemon or Chaos Spawn, can set up as reinforcements instead of setting up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can deploy this unit in your deployment zone as normal. 
 
 At anytime in a round, if a unit from your army or allied army inflicts a wound on an enemy unit, gain 1 Nurgle Corruption. Gain 2 Nurgle Corruption if the unit from your army or allied army has the Mark of Nurgle special trait. 
 
-Nurgle Corruption can be spent at the start of each round on the Summonings and Mutations effects listed below. 
+Nurgle Corruption can be spent at the start of each round on the Summonings and Mutations effects listed below. Summonings can only be used to deploy units in your Maggotkin of Nurgle army. Mutations can be granted to any unit in your army as long as it has the Mark of Nurgle. 
 
 Each effect has an associated Nurgle Corruption cost. If you do not have enough Nurgle Corruption for a specific effect, you cannot use it. Unless otherwise specified, you can use the same effect multiple times over the course of the battle. Any spent Nurgle Corruption is deducted from your total.
 
@@ -101,7 +101,7 @@ You start the battle with an amount of Nurgle Corruption equal to the points tot
 
 SUMMONINGS 
 
-Manifestation: Use this effect to deploy a unit with the daemon type in one of following ways:
+Manifestation: Use this effect to deploy a unit with the Daemon type in one of following ways:
 
 - More than 1&quot; away from any enemy models and wholly within 6&quot; of a friendly model bearing the Mark of Nurgle.
 
@@ -316,7 +316,7 @@ Bloated Body:
       <profiles>
         <profile id="524db014-fb71-4299-9077-111d1177a932" name="Great Unclean One 1 (12-22)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">7&quot;</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">2+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">3+</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">7</characteristic>
@@ -332,7 +332,7 @@ Bloated Body:
         </profile>
         <profile id="c958117c-a590-4501-8aab-ccc5592d050d" name="Great Unclean One 2 (6-11)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">6&quot;</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">3+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
@@ -348,7 +348,7 @@ Bloated Body:
         </profile>
         <profile id="44a455fa-94b7-4f4b-a306-71c002a38e0c" name="Great Unclean One 3 (1-5)" page="" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
           <characteristics>
-            <characteristic name="M" typeId="3dc1-8120-684f-5650">5&quot;</characteristic>
+            <characteristic name="M" typeId="3dc1-8120-684f-5650">4&quot;</characteristic>
             <characteristic name="WS" typeId="a552-c600-b69b-02dc">4+</characteristic>
             <characteristic name="BS" typeId="b18e-86db-f965-4e00">-</characteristic>
             <characteristic name="S" typeId="3b22-5d40-b30b-c4bc">-</characteristic>
@@ -911,7 +911,7 @@ Bloated Body:
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85d20c20-fe3e-47b7-aaaa-e2d0aa06153f" name="Plaguesword" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="85d20c20-fe3e-47b7-aaaa-e2d0aa06153f" name="Plaguesword" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15fa2c4-59c9-49f6-8114-d07563580920" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d966db-a559-46db-999e-41a4d8902488" type="min"/>
@@ -924,10 +924,17 @@ Bloated Body:
             <characteristic name="S" typeId="f543074e-af3b-46a0-9e60-04bc0d8c069a">User</characteristic>
             <characteristic name="AP" typeId="64d92b78-17e1-4806-b62a-750d8721671f">-2</characteristic>
             <characteristic name="D" typeId="b048d13b-cc00-44d5-84ad-66ddd0a9ed19">1</characteristic>
-            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Each time an attack is made with this weapon, an unmodified hit roll of 6 automatically wounds the target.</characteristic>
+            <characteristic name="Abilities" typeId="ba2bbdcc-046d-4996-ab12-a3003c970106">Poisoned (4+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="afa9-0dc2-3ced-70c3" name="Poisoned (X)" hidden="false" targetId="5e67-a8ae-d3db-779f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <costs>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>

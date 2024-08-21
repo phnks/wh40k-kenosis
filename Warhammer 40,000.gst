@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="322" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" name="Warhammer 40,000 - Kenosis Edition" revision="323" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="c2776225-0756-4632-965d-44cc2ec311ca" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="d566b391-1030-459f-bfc6-588fc3db3d34" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
@@ -9249,7 +9249,7 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
       <description>After a unit shoots or fights, roll one Hazardous test (one D6) for each Hazardous weapon used. For each 1, one model equipped with a Hazardous weapon is destroyed (Characters, Walkers, Monsters and Vehicles suffer 3 mortal wounds instead).</description>
     </rule>
     <rule id="5f40-b900-5742-506d" name="Resilient" hidden="false">
-      <description>Each time an attack is allocated to this model subtrat 1 from the Damage characteristic of that attack (to a minimum of 1).</description>
+      <description>Each time an attack is allocated to this model, unless that attack has a Strength characteristic of 8 or more, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).</description>
     </rule>
     <rule id="319e-ebb8-c599-5c25" name="Graviton Pulse" hidden="false">
       <description>When used against units with a 3+ or better Save the Damage of this weapon becomes D3. </description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="286" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="322" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="289" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="323" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -278,7 +278,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
             <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Battlesmith, Cortext Controller</characteristic>
           </characteristics>
         </profile>
@@ -1058,7 +1058,7 @@ Each time an attack made with this weapon targets a unit within half range, that
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
             <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small)</characteristic>
           </characteristics>
         </profile>
@@ -1665,7 +1665,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
             <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
@@ -1841,8 +1841,8 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Doctrina Imperatives</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
+            <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1903,13 +1903,6 @@ Each time an attack is made with this weapon, the target does not receive the be
       </costs>
     </selectionEntry>
     <selectionEntry id="8742c189-a32d-4f41-b1b1-c61688742ed7" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="increment" field="points" value="2.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8547a63-a769-4239-a5d1-362561e9d9d9" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="94f20d8a-b9b2-451c-8100-5c31ebdeb624" name="Skitarii Vanguard" hidden="false" targetId="0d682d80-75cb-43eb-927d-75681f49e3d1" type="profile"/>
       </infoLinks>
@@ -2473,7 +2466,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
             <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">8</characteristic>
             <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+            <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
             <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
           </characteristics>
         </profile>
@@ -2660,7 +2653,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="f7f9bd23-18b3-4a0d-bf52-2bafe562c361" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+            <infoLink id="f7f9bd23-18b3-4a0d-bf52-2bafe562c361" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
             <infoLink id="d2194fa9-11ca-4cf2-bb80-d2c530ee8ced" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
             <infoLink id="e1d6-b7b1-a871-712f" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
           </infoLinks>
@@ -2963,13 +2956,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="d9fb-4080-6ae4-adab" name="Armour" hidden="false" targetId="6a94-d538-4673-d26f" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="7f7e9251-ceea-489c-a543-139d9099ea37" name="Karacnos Mortar Battery (Mounted)" hidden="false" collective="false" import="true" targetId="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" type="selectionEntry">
+        <entryLink id="7f7e9251-ceea-489c-a543-139d9099ea37" name="Karacnos Mortar Battery (Hull Mounted)" hidden="false" collective="false" import="true" targetId="fa83230d-a114-4ec4-99c9-59ddd50ed2c4" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d7de32-18a0-4d02-b002-0b7877013339" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b622e7-726a-4287-8d63-349d5525ed6c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b5b887a3-dea5-4964-a0eb-a6adf8925969" name="Lightning Lock (Mounted)" hidden="false" collective="false" import="true" targetId="f53e-88cd-f245-994f" type="selectionEntry">
+        <entryLink id="b5b887a3-dea5-4964-a0eb-a6adf8925969" name="Lightning Lock (Sponson Mounted)" hidden="false" collective="false" import="true" targetId="f53e-88cd-f245-994f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef5b7e9-529c-4407-a53d-5326a427e60d" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f5b9ab9-bbb4-46af-8845-b2a689bad355" type="min"/>
@@ -3108,7 +3101,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </profiles>
           <infoLinks>
             <infoLink id="d5fe-643b-7d1e-2206" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
-            <infoLink id="be4e-a434-705c-62c3" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+            <infoLink id="be4e-a434-705c-62c3" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
             <infoLink id="3602-a781-8fce-ea15" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
           </infoLinks>
           <categoryLinks>
@@ -3484,6 +3477,11 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
             <modifier type="set" field="name" value="Bulky (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="e97d-2617-8429-9e51" name="Feel No Pain (X)" hidden="false" targetId="a005-6207-3281-2a56" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (6+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b31291fe-9082-4d40-952c-b56ae7c37161" name="Troops" hidden="false" targetId="78908897-ab7e-4e1c-9923-f53972cd3192" primary="true"/>
@@ -3511,7 +3509,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Canticles of the Omnissiah, Djinn-Sight</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Bulky (2), Djinn-Sight, Feel No Pain (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4540,7 +4538,7 @@ A model with this special rule and the Cybernetica Cortex special rule may ignor
               <infoLinks>
                 <infoLink id="6e26-1b31-35ed-8235" name="Explodes (Large)" hidden="false" targetId="d5cf-648e-9a1d-92ba" type="rule"/>
                 <infoLink id="fc0d-9604-df66-5fe5" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
-                <infoLink id="3161-0438-d2f6-8c98" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+                <infoLink id="3161-0438-d2f6-8c98" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
                 <infoLink id="87d5-5bcf-0cce-6c6f" name="Hover" hidden="false" targetId="cb0b-7772-f25c-b94c" type="rule"/>
               </infoLinks>
               <categoryLinks>
@@ -4669,7 +4667,7 @@ A model with this special rule and the Cybernetica Cortex special rule may ignor
           </profiles>
           <infoLinks>
             <infoLink id="7fde-34fe-3ca7-7325" name="Explodes (Small)" hidden="false" targetId="4966-da5f-c55f-71cf" type="rule"/>
-            <infoLink id="a31c-ed72-3a4f-1dd8" name="Battle Automata" hidden="false" targetId="430012c9-24df-43a2-8dcc-dac47008cba2" type="rule"/>
+            <infoLink id="a31c-ed72-3a4f-1dd8" name="Resilient" hidden="false" targetId="5f40-b900-5742-506d" type="rule"/>
             <infoLink id="9e0a-f54c-8209-f357" name="Cybernetica Cortex" hidden="false" targetId="201c324c-917a-4243-813b-7d9ff6311507" type="rule"/>
             <infoLink id="5c85-4388-1192-5f41" name="Grav Wave" hidden="false" targetId="e975-f187-42bf-f193" type="rule"/>
           </infoLinks>
@@ -4952,7 +4950,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
@@ -4968,7 +4966,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">1</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
@@ -4984,7 +4982,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">2</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Infiltrate</characteristic>
       </characteristics>
     </profile>
@@ -4999,7 +4997,7 @@ Aggressor Imperative: +3&quot; Move characteristic/-1 Save characteristic</descr
         <characteristic name="I" typeId="d745-4fd8-844e-5a45">4</characteristic>
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">6</characteristic>
-        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
+        <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">-</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
@@ -5291,7 +5289,7 @@ During deployment, you can set up this unit in orbit instead of setting it up in
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">3</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
@@ -5307,7 +5305,7 @@ During deployment, you can set up this unit in orbit instead of setting it up in
         <characteristic name="A" typeId="6a70-10f0-93ba-6014">4</characteristic>
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">7</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">4+</characteristic>
-        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
+        <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">-</characteristic>
         <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">-</characteristic>
       </characteristics>
     </profile>
@@ -5832,7 +5830,7 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
         <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
         <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
         <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Graviton Pulse</characteristic>
+        <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Grav Wave</characteristic>
       </characteristics>
     </profile>
     <profile id="bc55-3cba-1ad4-64c4" name="Thanatar 3 (1-3)" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
