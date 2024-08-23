@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="290" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="323" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f749b823-a565-4270-96dd-0beca7362373" name="Imperium - Adeptus Mechanicus" revision="293" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="1bbf1f1a-d4b2-4cba-90e3-6558232ee156" gameSystemRevision="324" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="dc4788af-6bc8-449a-a841-77d2e9595074" name="Codex: Adeptus Mechanicus"/>
     <publication id="4a469c26-9989-4da4-8c19-71e7955f9727" name="Forgeworld Datasheet"/>
@@ -776,9 +776,9 @@ Reduce the Save characteristic of models in this unit by 1.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="15d4aac3-a6a1-46b7-b702-1a2c9f4cf519" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="1036d579-11ce-4142-ad72-ddc5da96c381" name="Neutron Laser and Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="1036d579-11ce-4142-ad72-ddc5da96c381" name="Neutron Laser and Cognis Heavy Stubber (Hull Mounted)" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
-                <entryLink id="12acdfb3-32d2-49f9-b416-ec35b3319228" name="Cognis Heavy Stubber (Mounted)" hidden="false" collective="false" import="true" targetId="6e61-c772-00f6-363b" type="selectionEntry">
+                <entryLink id="12acdfb3-32d2-49f9-b416-ec35b3319228" name="Cognis Heavy Stubber (Hull Mounted)" hidden="false" collective="false" import="true" targetId="6e61-c772-00f6-363b" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9a8bea89-ec91-4348-b991-bbfa55e6dee4" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0a32343-4b72-4103-8fb9-dd2794514365" type="max"/>
@@ -851,16 +851,6 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       <costs>
         <cost name="pts" typeId="points" value="100.0"/>
         <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a3302ba8-d27b-49b9-aad5-9f966a761026" name="Taser Goad" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3a9762bb-5847-4c1e-b3f4-004f8519443d" name="Taser Goad" hidden="false" targetId="073ef59d-ed25-45df-a599-823a0afb5e21" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1412,7 +1402,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="911f9609-2dd7-473d-9674-fb6c76bbb6b6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="f18b5feb-2098-4628-a616-82646e175e11" name="Taser Goad" hidden="false" collective="false" import="true" targetId="a3302ba8-d27b-49b9-aad5-9f966a761026" type="selectionEntry">
+        <entryLink id="f18b5feb-2098-4628-a616-82646e175e11" name="Taser Goad" hidden="false" collective="false" import="true" targetId="76a3a891-06b4-4877-9763-c3274f1804ab" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73af7953-443e-4756-8b86-46220f1bcb09" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b18a995-9236-4a4a-8644-d45ec96a3736" type="max"/>
@@ -1425,7 +1415,7 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76a3a891-06b4-4877-9763-c3274f1804ab" name="Taser Goad" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="76a3a891-06b4-4877-9763-c3274f1804ab" name="Taser Goad" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="4ecd5504-e55a-4446-ab4b-16c7736fed05" name="Taser Goad" hidden="false" targetId="073ef59d-ed25-45df-a599-823a0afb5e21" type="profile"/>
       </infoLinks>
@@ -1557,16 +1547,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="621d2a42-3d49-4c07-b393-75310d2a673b" name="Transonic Blades" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="3cb9a6ce-09a8-4d4a-a7b8-552284ea0c17" name="Transonic Blades" hidden="false" targetId="510c7588-dddb-4188-ad48-ac96e9e60001" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ca6b67cf-75e1-435e-b3cf-3d8c62dc89a5" name="Transonic Razor" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="99f81cd4-81f7-4f91-bd90-8455d38c237f" name="Transonic Razor" hidden="false" targetId="64c5e771-8ff5-45bf-b40c-70e6f18185e3" type="profile"/>
@@ -1631,7 +1611,7 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1de46ab8-d704-41eb-84c4-4dbeb77fa057" name="Transonic Blades" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="1de46ab8-d704-41eb-84c4-4dbeb77fa057" name="Transonic Blades" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9c6fc9d4-7646-46dd-809e-43a7187846dd" name="Transonic Blades" hidden="false" targetId="510c7588-dddb-4188-ad48-ac96e9e60001" type="profile"/>
       </infoLinks>
@@ -1817,16 +1797,6 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f0f6ed1-ec6e-4aba-87b2-521d1aced7dd" name="Radium Carbine" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="b14592ed-61e1-4030-a18d-e8ffc2a97800" name="Radium Carbine" hidden="false" targetId="642a4fbe-1e39-4704-ab94-befe0edbcff5" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="76336ac1-721a-4d6a-8c22-ad5f98dc92e1" value="0.0"/>
-        <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="58b75297-9798-49da-a8a1-e89ead15c968" name="Vanguard Alpha" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="a09bfb67-5035-4121-83c8-cc29eb355ed0" name="Vanguard Alpha" publicationId="dc4788af-6bc8-449a-a841-77d2e9595074" hidden="false" typeId="9b72-1d0c-54f8-f552" typeName="Unit (Kenosis)">
@@ -1871,7 +1841,7 @@ Each time an attack is made with this weapon, the target does not receive the be
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="90d6efca-0245-4988-8509-28229789a5cc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7d25ada0-9664-44e9-979b-a8c5ca18c7e9" name="Radium Carbine" hidden="false" collective="false" import="true" targetId="4f0f6ed1-ec6e-4aba-87b2-521d1aced7dd" type="selectionEntry">
+            <entryLink id="7d25ada0-9664-44e9-979b-a8c5ca18c7e9" name="Radium Carbine" hidden="false" collective="false" import="true" targetId="8124bc41-6205-4aff-8607-9271f8f0535e" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f91cda63-ce94-4988-91b5-d49e4f21a073" type="max"/>
               </constraints>
@@ -1892,7 +1862,7 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name=" PL" typeId="d4d4eb81-3a6a-475b-a944-8c0f25ce3c62" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8124bc41-6205-4aff-8607-9271f8f0535e" name="Radium Carbine" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="8124bc41-6205-4aff-8607-9271f8f0535e" name="Radium Carbine" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="a176926a-6833-4bd9-8550-7142bac696fc" name="Radium Carbine" hidden="false" targetId="642a4fbe-1e39-4704-ab94-befe0edbcff5" type="profile"/>
       </infoLinks>
@@ -2352,7 +2322,7 @@ Each time an attack is made with this weapon, the target does not receive the be
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0eea4e1-5ea6-4f2c-8f8c-7a80d23a3284" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e9f0dcd4-f31d-4be4-8f6d-92aa8406b874" name="Transonic Blades" hidden="false" collective="false" import="true" targetId="621d2a42-3d49-4c07-b393-75310d2a673b" type="selectionEntry">
+        <entryLink id="e9f0dcd4-f31d-4be4-8f6d-92aa8406b874" name="Transonic Blades" hidden="false" collective="false" import="true" targetId="1de46ab8-d704-41eb-84c4-4dbeb77fa057" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d7074bb7-da71-4c34-a954-a0826bb33329" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4679e486-d571-4c67-9def-6d0f36fff26d" type="min"/>
@@ -2648,7 +2618,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Resilient, Cybernetica Cortex</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3090,7 +3060,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">2+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Resilient, Cybernetica Cortex</characteristic>
               </characteristics>
             </profile>
             <profile id="7986-1217-f17d-149e" name="Karceri Battle Shield" hidden="false" typeId="0b226e7f-db6d-461f-990c-5501b9ccc9e8" typeName="Abilities">
@@ -4530,7 +4500,7 @@ A unit composed entirely of models with Incunabulan jet packs may choose to incr
                     <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                     <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                     <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Battle Automata, Cybernetica Cortex, Hover
+                    <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Large), Resilient, Cybernetica Cortex, Hover
 A model with this special rule and the Cybernetica Cortex special rule may ignore the requirement to charge as described as part of that rule during the Charge phase.</characteristic>
                   </characteristics>
                 </profile>
@@ -4661,7 +4631,7 @@ A model with this special rule and the Cybernetica Cortex special rule may ignor
                 <characteristic name="Ld" typeId="c9dd-af78-cad1-74e1">-</characteristic>
                 <characteristic name="Sv" typeId="3c72-e9b6-c098-41ce">3+</characteristic>
                 <characteristic name="Inv" typeId="056a-a2c7-69a0-7701">5+</characteristic>
-                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Battle Automata, Cybernetica Cortex, Grav Wave</characteristic>
+                <characteristic name="Traits" typeId="c0f1-9cc8-8744-933a">Explodes (Small), Resilient, Cybernetica Cortex, Grav Wave</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4777,10 +4747,7 @@ A model with this special rule and the Cybernetica Cortex special rule may ignor
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4687343e-aada-432e-b6f5-7198271828ba" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="d60cabc5-dd78-43fc-9ae5-867723a5d370" name="Taser Goad" hidden="false" collective="false" import="true" targetId="a3302ba8-d27b-49b9-aad5-9f966a761026" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0"/>
-          </modifiers>
+        <entryLink id="d60cabc5-dd78-43fc-9ae5-867723a5d370" name="Taser Goad" hidden="false" collective="false" import="true" targetId="76a3a891-06b4-4877-9763-c3274f1804ab" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0113f08-0b49-4e9b-913d-d1266519f888" type="max"/>
           </constraints>
